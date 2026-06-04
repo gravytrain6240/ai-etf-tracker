@@ -1,4 +1,4 @@
-TICKERS = ["CHAT", "BAI", "TSPA", "AIPI", "XAIX", "AIFD", "ARTY"]
+TICKERS = ["CHAT", "BAI", "TSPA", "AIPI", "XAIX", "AIFD", "ARTY", "PWRD"]
 
 FUND_META = {
     "CHAT": {"name": "Roundhill Generative AI & Technology ETF", "provider": "Roundhill"},
@@ -8,6 +8,7 @@ FUND_META = {
     "XAIX": {"name": "Xtrackers Artificial Intelligence & Big Data ETF", "provider": "DWS"},
     "AIFD": {"name": "TCW Artificial Intelligence ETF", "provider": "TCW"},
     "ARTY": {"name": "iShares Future AI & Tech ETF", "provider": "iShares"},
+    "PWRD": {"name": "TCW Transform Systems ETF", "provider": "TCW"},
 }
 
 DB_PATH = "etf_tracker.db"

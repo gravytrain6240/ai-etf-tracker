@@ -361,10 +361,24 @@ for tab, fund in zip(fund_tabs, selected_funds):
             st.info("No holdings data yet.")
         else:
             meta = FUND_META[fund]
-            st.caption(f"{meta['name']} | {meta['provider']} | {len(h)} holdings | as of {h['date'].iloc[0]}")
+            holdings_date = h["date"].iloc[0]
+            date_label = f"as of {holdings_date}"
+
+            # PWRD uses EDGAR monthly filing — flag it clearly
+            has_edgar = h["symbol"].str.startswith("__edgar__", na=False).any()
+            if has_edgar:
+                st.warning(f"**{fund}** does not publish daily holdings publicly. "
+                           f"Showing most recent EDGAR monthly filing ({holdings_date}). "
+                           f"Holdings may be up to 60 days old.")
+
+            st.caption(f"{meta['name']} | {meta['provider']} | {len(h)} positions | {date_label}")
 
             # Filter out EDGAR placeholder rows for display
             display_h = h[~h["symbol"].str.startswith("__edgar__", na=False)].copy()
+            if has_edgar:
+                # For EDGAR-only funds, use name as the display label
+                display_h = h.copy()
+                display_h["symbol"] = display_h["name"].str[:30]
 
             fig = px.bar(
                 display_h.head(20),

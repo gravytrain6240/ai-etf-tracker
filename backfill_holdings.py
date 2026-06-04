@@ -39,6 +39,7 @@ FUND_EDGAR = {
     "XAIX": ("Xtrackers Artificial Intelligence and Big",  "0001503123"),
     "AIFD": ("TCW Artificial Intelligence ETF",            None),
     "TSPA": ("T. Rowe Price U.S. Equity Research ETF",      "0001795351"),
+    "PWRD": ("TCW Transform Systems ETF",                   None),
 }
 
 
