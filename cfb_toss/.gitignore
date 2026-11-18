@@ -1,2 +1,3 @@
 __pycache__/
 data/games.jsonl
+data/games_fbs.jsonl

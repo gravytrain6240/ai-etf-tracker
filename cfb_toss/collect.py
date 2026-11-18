@@ -16,7 +16,9 @@ from concurrent.futures import ThreadPoolExecutor
 SITE = "https://site.api.espn.com/apis/site/v2/sports/football/college-football"
 CORE = "https://sports.core.api.espn.com/v2/sports/football/leagues/college-football"
 HERE = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(HERE, "data", "games.jsonl")
+# ALL_FBS=1: every game with an FBS team (no power filter, no odds) -> data/games_fbs.jsonl
+ALL_FBS = os.environ.get("ALL_FBS") == "1"
+OUT = os.path.join(HERE, "data", "games_fbs.jsonl" if ALL_FBS else "games.jsonl")
 
 # ESPN conference group ids
 ACC, BIG12, BIG10, SEC, PAC12, IND = "1", "4", "5", "8", "9", "18"
@@ -82,7 +84,7 @@ def list_games(first, last):
                             "home_away": c["homeAway"], "score": int(c.get("score") or 0),
                             "winner": bool(c.get("winner")),
                         })
-                    if not any(is_power(t["conf"], t["id"], season) for t in teams):
+                    if not ALL_FBS and not any(is_power(t["conf"], t["id"], season) for t in teams):
                         continue
                     for t in teams:
                         t["power"] = is_power(t["conf"], t["id"], season)
@@ -152,7 +154,7 @@ def enrich(g):
     try:
         g["toss"] = toss_plays(gid)
         g["drives"] = drives(gid)
-        g["odds"] = odds(gid)
+        g["odds"] = None if ALL_FBS else odds(gid)
     except Exception as e:  # noqa: BLE001
         g["error"] = repr(e)
     return g
