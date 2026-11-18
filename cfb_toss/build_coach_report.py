@@ -10,6 +10,15 @@ cov = pd.read_csv(P("fbs_team_coverage.csv"))
 res = json.load(open(P("coach_vs_school.json")))
 ts = pd.read_csv(P("fbs_team_season.csv"))
 season_rate = ts.groupby("season")[["receives", "tosses_won"]].sum()
+def ncaa_check():
+    n = pd.read_csv(P("ncaa_toss.csv"), dtype={"game_id": str, "ncaa_winner_id": str})
+    c = n[(n.purpose == "check") & (n.ncaa_status == "ok")].merge(
+        g[["game_id", "toss_winner_id", "decision"]].astype({"toss_winner_id": str}), on="game_id")
+    ex = c[c.ncaa_decision.isin(["defer", "receive", "kick"])]
+    return {"n": int(len(c)), "winner_agree": round(100 * float((c.ncaa_winner_id == c.toss_winner_id).mean()), 1),
+            "decision_agree": round(100 * float((ex.ncaa_decision == ex.decision).mean()), 1)}
+
+
 data = {
   "res": res,
   "games": int(len(g)), "verified": int(g.ok.sum()),
@@ -24,6 +33,8 @@ data = {
   "changes": ch.to_dict("records"),
   "low_cov": cov[cov.games >= 20].head(12).to_dict("records"),
   "cov_median": float(cov.coverage_pct.median()),
+  "sources": g[g.ok].source.value_counts().to_dict(),
+  "ncaa_check": ncaa_check(),
   "halves": json.load(open(P("halves_results.json"))),
   "spread": {k: v for k, v in json.load(open(P("spread_results.json"))).items() if k != "coach_splits"},
 }

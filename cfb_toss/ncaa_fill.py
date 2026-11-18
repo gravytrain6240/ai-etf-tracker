@@ -39,22 +39,32 @@ def get_json(url, tries=4):
             time.sleep(1.5 * (i + 1))
 
 
+CONTESTS = ("https://sdataprod.ncaa.com?meta=GetContests_web&extensions="
+            + urllib.parse.quote(json.dumps({"persistedQuery": {"version": 1, "sha256Hash":
+              "4bcb5e6432fa9da365c0c19af01b1f9015cc7eb5c21e7af2dba308784a166df7"}})))
+
+
+def contests(args):
+    """NCAA game list for one season/week/division (11 = FBS, 12 = FCS; weeks 0-20, bowls run through ~week 19)."""
+    year, week, div = args
+    v = {"sportCode": "MFB", "division": div, "seasonYear": year, "contestDate": None, "week": week}
+    d = get_json(CONTESTS + "&" + urllib.parse.urlencode({"queryName": "GetContests_web", "variables": json.dumps(v)}))
+    return ((d or {}).get("data") or {}).get("contests") or []
+
+
 def scoreboards():
-    urls = [f"https://data.ncaa.com/casablanca/scoreboard/football/fbs/{y}/{w}/scoreboard.json"
-            for y in range(2022, 2027) for w in WEEKS]
+    jobs = [(y, w, div) for y in range(2022, 2027) for w in range(0, 21) for div in (11, 12)]
     rows = []
     with ThreadPoolExecutor(6) as ex:
-        for sb in ex.map(get_json, urls):
-            for g in (sb or {}).get("games", []):
-                x = g["game"]
-                try:
-                    hs, as_ = int(x["home"]["score"]), int(x["away"]["score"])
-                except (ValueError, KeyError):
+        for cs in ex.map(contests, jobs):
+            for x in cs:
+                t = {("home" if tm["isHome"] else "away"): tm for tm in x.get("teams") or []}
+                if set(t) != {"home", "away"} or t["home"].get("score") is None:
                     continue
-                rows.append({"contest_id": x["url"].rstrip("/").split("/")[-1],
-                             "date": dt.datetime.strptime(x["startDate"], "%m-%d-%Y").date(),
-                             "n_home": x["home"]["names"]["short"], "n_away": x["away"]["names"]["short"],
-                             "n_home_score": hs, "n_away_score": as_})
+                rows.append({"contest_id": str(x["contestId"]),
+                             "date": dt.datetime.strptime(x["startDate"], "%m/%d/%Y").date(),
+                             "n_home": t["home"]["nameShort"], "n_away": t["away"]["nameShort"],
+                             "n_home_score": int(t["home"]["score"]), "n_away_score": int(t["away"]["score"])})
     return pd.DataFrame(rows).drop_duplicates("contest_id")
 
 
@@ -102,8 +112,9 @@ def winner_side(text, teams):
 def main():
     g = pd.read_csv(P("fbs_toss_games.csv"), dtype={"game_id": str, "home_id": str, "away_id": str})
     g["d"] = pd.to_datetime(g.date).dt.date
-    todo = g[~g.status.str.startswith("verified")]
-    sample = g[g.status.str.startswith("verified")].sample(300, random_state=7)
+    st = g.espn_status if "espn_status" in g else g.status  # ESPN's own verdict, before any NCAA fill
+    todo = g[~st.str.startswith("verified")]
+    sample = g[st.str.startswith("verified")].sample(300, random_state=7)
     targets = pd.concat([todo.assign(purpose="fill"), sample.assign(purpose="check")])
 
     sb = scoreboards()
@@ -113,19 +124,31 @@ def main():
         idx.setdefault((r.n_home_score, r.n_away_score), []).append(r)
         idx.setdefault((r.n_away_score, r.n_home_score), []).append(r)
 
+    def sim(a, b):
+        a, b = parse._norm(a), parse._norm(b)
+        if not a or not b:
+            return 0.0
+        return 0.9 if (a.startswith(b) or b.startswith(a)) else SequenceMatcher(None, a, b).ratio()
+
+    def name_score(c, r):
+        same = (sim(c.n_home, r.home) + sim(c.n_away, r.away)) / 2
+        swap = (sim(c.n_home, r.away) + sim(c.n_away, r.home)) / 2
+        return max(same, swap)
+
     def match(r):
+        # same date (+/- 1 day for UTC vs. Eastern), same final score, and the team names must agree
         cands = [c for c in idx.get((r.home_score, r.away_score), []) if abs((c.date - r.d).days) <= 1]
-        if len(cands) > 1:  # break ties on names
-            cands.sort(key=lambda c: -max(SequenceMatcher(None, parse._norm(c.n_home), parse._norm(r.home)).ratio(),
-                                          SequenceMatcher(None, parse._norm(c.n_away), parse._norm(r.home)).ratio()))
-        return cands[0].contest_id if cands else None
+        cands = [(name_score(c, r), c) for c in cands]
+        cands = [x for x in cands if x[0] >= 0.6]
+        cands.sort(key=lambda x: -x[0])
+        return cands[0][1].contest_id if cands else None
 
     targets["contest_id"] = [match(r) for r in targets.itertuples()]
     print("matched", targets.contest_id.notna().sum(), "of", len(targets), flush=True)
 
     def work(r):
         out = {"game_id": r.game_id, "purpose": r.purpose, "contest_id": r.contest_id}
-        if not r.contest_id:
+        if not isinstance(r.contest_id, str) or not r.contest_id:
             return {**out, "ncaa_status": "no NCAA match"}
         pb = pbp(r.contest_id)
         if not pb:

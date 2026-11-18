@@ -10,6 +10,7 @@ import os
 import re
 from difflib import SequenceMatcher
 
+import numpy as np
 import pandas as pd
 
 import parse
@@ -115,7 +116,51 @@ def build():
             })
             rows.append(r)
     df = pd.DataFrame(rows).sort_values(["date", "game_id"])
+    df["espn_status"] = df.status
+    df["source"] = np.where(df.status.str.startswith("verified"), "ESPN", None)
+    df = apply_ncaa(df)
     df.to_csv(os.path.join(HERE, "data", "fbs_toss_games.csv"), index=False)
+    return df
+
+
+def apply_ncaa(df):
+    """Fill games ESPN couldn't verify from NCAA.com's official play-by-play (ncaa_fill.py)."""
+    path = os.path.join(HERE, "data", "ncaa_toss.csv")
+    if not os.path.exists(path):
+        return df
+    n = pd.read_csv(path, dtype={"game_id": str, "ncaa_winner_id": str})
+    n = n[(n.purpose == "fill") & (n.ncaa_status == "ok")].set_index("game_id")
+    df = df.copy()
+    for i, r in df.iterrows():
+        if r.status.startswith("verified") or r.game_id not in n.index:
+            continue
+        x = n.loc[r.game_id]
+        w, dec, rcv = x.ncaa_winner_id, x.ncaa_decision, r.opening_receiver_id
+        teams = [{"id": r.home_id, "name": r.home, "abbr": None}, {"id": r.away_id, "name": r.away, "abbr": None}]
+        status = None
+        if dec in ("defer", "receive", "kick"):
+            if isinstance(rcv, str) and rcv:
+                ok = (w == rcv) == (dec == "receive")
+                if ok:
+                    status = "verified (NCAA)"
+                else:
+                    # official text names the receiver consistently -> trust text over drive log
+                    nr = named_receiver(x.ncaa_text, teams)
+                    if nr and ((dec == "receive" and nr == w) or (dec != "receive" and nr != w)):
+                        status = "verified (NCAA text only)"
+                    else:
+                        status = "NCAA conflicts with kickoff"
+            else:
+                status = "verified (NCAA text only)"
+        elif isinstance(rcv, str) and rcv:  # ambiguous wording -> settle with the actual kickoff
+            dec = "receive" if w == rcv else "defer"
+            status = "verified (NCAA + kickoff)"
+        if status:
+            df.at[i, "toss_winner_id"], df.at[i, "decision"], df.at[i, "status"] = w, dec, status
+            df.at[i, "toss_winner"] = r.home if w == r.home_id else r.away
+            df.at[i, "toss_text"] = x.ncaa_text
+            if status.startswith("verified"):
+                df.at[i, "source"] = "NCAA"
     return df
 
 

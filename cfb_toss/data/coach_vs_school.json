@@ -1,21 +1,21 @@
 {
- "decisions": 3437,
- "receive_pct": 17.7,
- "coaches": 242,
+ "decisions": 4070,
+ "receive_pct": 17.4,
+ "coaches": 250,
  "schools": 139,
  "movers": 45,
  "schools_with_change": 94,
  "cv_logloss_lower_is_better": {
-  "school": 0.3915,
-  "coach": 0.3839,
-  "coach_at_school": 0.3791,
-  "no_info_baseline": 0.4667
+  "school": 0.3844,
+  "coach": 0.3767,
+  "coach_at_school": 0.3741,
+  "no_info_baseline": 0.4625
  },
  "head_to_head_within_changed_schools": {
-  "n": 2049,
-  "logloss_coach_history": 0.3922,
-  "logloss_school_under_other_coaches": 0.5248,
-  "corr_coach": 0.416,
-  "corr_school": 0.132
+  "n": 2553,
+  "logloss_coach_history": 0.3744,
+  "logloss_school_under_other_coaches": 0.5042,
+  "corr_coach": 0.447,
+  "corr_school": 0.187
  }
 }

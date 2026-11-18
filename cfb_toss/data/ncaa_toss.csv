@@ -1,0 +1,1016 @@
+game_id,purpose,contest_id,ncaa_text,ncaa_decision,ncaa_winner_id,ncaa_status
+401405059,fill,6005567,Northwestern wins toss and defers; NEB will receive; NU will defend end-zone.,defer,77,ok
+401411090,fill,6043430,Duquesne wins toss and defers; FSU will receive; DUQ will defend South end-zone.,defer,2184,ok
+401413213,fill,6005570,Stephen F. Austin wins toss and defers; JSU will receive; SFA will defend North end-zone.,defer,2617,ok
+401413256,fill,6005568,Idaho St. wins toss and defers; NLV will receive; ISU will defend South end-zone.,defer,304,ok
+401409235,fill,6005565,Nevada wins toss and defers; NMS will receive; NEV will defend South end-zone.,defer,2440,ok
+401411091,fill,6005576,Florida A&M wins toss; FAM will receive; UNC will defend end-zone.,ambiguous,50,ok
+401403864,fill,6005580,Ball State wins toss and will receive; TEN will defend South end-zone.,receive,2050,ok
+401411092,fill,6005587,Pitt wins toss and defers; WVU will receive; PIT will defend South end-zone.,defer,221,ok
+401411093,fill,6005590,Wake Forest wins toss and defers; VMI will receive; WFU will defend North end-zone.,defer,154,ok
+401416568,fill,6005577,Saint Francis (PA) wins toss and defers; AKR will defend South end-zone; SFU will kickoff.,defer,2598,ok
+401416569,fill,6005578,Oklahoma St. wins toss and defers; CMU will receive; OSU will defend East end-zone.,defer,197,ok
+401418645,fill,6006432,,,,no toss line
+401403965,fill,6005586,Arizona St. wins toss and defers; NAU will receive; ASU will defend North end-zone.,defer,9,ok
+401405064,fill,6005591,Purdue wins toss and defers; PSU will receive; PUR will defend North end-zone.,defer,2509,ok
+401411094,fill,6005598,Temple wins toss and defers; DUK will receive; TEM will defend end-zone.,defer,218,ok
+401416591,fill,6005597,Western Mich. wins toss and defers; MSU will receive; WMU will defend end-zone.,defer,2711,ok
+401426330,fill,6005595,Old Dominion wins toss and defers; VTU will receive; ODU will defend South end-zone.,defer,295,ok
+401426537,fill,6005585,Louisiana Tech wins toss and will receive; MIZ will defend South end-zone.,receive,2348,ok
+401403854,fill,6005648,Alabama wins toss and defers; USU will receive; Ala will defend North end-zone.,defer,333,ok
+401403855,fill,6005623,Cincinnati wins toss and defers; ARK will receive; CIN will defend end-zone.,defer,2132,ok
+401403857,fill,6005649,Utah wins toss and defers; UFL will receive; UTA will defend North end-zone.,defer,254,ok
+401403858,fill,6005628,Georgia wins toss and defers; UOR will receive; UGA will defend end-zone.,defer,61,ok
+401403860,fill,6005625,Ole Miss wins toss and defers; TRO will receive; OLE will defend end-zone.,defer,145,ok
+401403865,fill,6005603,Sam Houston wins toss; SAM will receive; TAM will defend end-zone.,ambiguous,2534,ok
+401403966,fill,6005600,TCU wins toss and defers; COL will receive; TCU will defend end-zone.,defer,2628,ok
+401404124,fill,6005655,Ohio State wins toss and defers; UND will receive; OSU will defend end-zone.,defer,194,ok
+401405061,fill,6005599,Illinois wins toss and will receive; IND will defend South end-zone.,receive,356,ok
+401405067,fill,6005609,Colorado St. wins toss and defers; MIC will receive; CSU will defend end-zone.,defer,36,ok
+401411096,fill,6005612,NC State wins toss and defers; ECU will receive; NCS will defend East end-zone.,defer,152,ok
+401411097,fill,6005626,Miami (FL) wins toss and defers; BCU will receive; MIA will defend end-zone.,defer,2390,ok
+401414778,fill,6005636,Massachusetts wins toss; UMA will receive; TLN will defend end-zone.,ambiguous,113,ok
+401415015,fill,6005627,Norfolk St. wins toss and defers; MAR will receive; NSU will defend end-zone.,defer,2450,ok
+401415212,fill,6005619,Texas St. wins toss; TSU will receive; NEV will defend end-zone.,ambiguous,326,ok
+401415612,fill,6005630,South Fla. wins toss and defers; BYU will receive; USF will defend South end-zone.,defer,58,ok
+401424416,fill,6005639,UAlbany wins toss and will receive; BAY will defend North end-zone.,receive,399,ok
+401426540,fill,6005624,#14 USC wins toss and will receive; RIC will defend West end-zone.,receive,30,ok
+401403867,fill,6005659,LSU wins toss and will receive; FSU will defend North end-zone.,receive,99,ok
+401403969,fill,6005656,Oregon St. wins toss and defers; BSU will receive; OSU will defend South end-zone.,defer,204,ok
+401411101,fill,6005660,Clemson wins toss and defers; GT  will receive; CU  will defend East end-zone.,defer,228,ok
+401415613,fill,6005662,Louisville wins toss and will receive; UCF will defend South end-zone.,receive,97,ok
+401403868,fill,6005666,Alabama wins toss; will receive; will defend end-zone.,ambiguous,333,ok
+401403869,fill,6005665,Arkansas wins toss and defers; USC will receive; ARK will defend North end-zone.,defer,8,ok
+401403871,fill,6005731,Kentucky wins toss and defers; UFL will receive; UK will defend end-zone.,defer,96,ok
+401403872,fill,6005703,Samford wins toss; SAM will receive; UGA will defend end-zone.,ambiguous,2535,ok
+401403877,fill,6005697,Pitt wins toss and defers; TEN will receive; PIT will defend end-zone.,defer,221,ok
+401403878,fill,6005688,Texas A&M wins toss and defers; APP will receive; A&M will defend South end-zone.,defer,245,ok
+401403975,fill,6005730,Arizona St. wins toss and defers; OSU will receive; ASU will defend end-zone.,defer,9,ok
+401403977,fill,6005681,Colorado wins toss and will receive; AF will defend South end-zone.,receive,38,ok
+401403980,fill,6005705,Stanford wins toss; STA will receive; USC will defend end-zone.,ambiguous,24,ok
+401403984,fill,6005689,Wisconsin wins toss; UW will receive; WS will defend end-zone.,ambiguous,275,ok
+401404125,fill,6005690,Marshall wins toss and defers; UND will receive; MAR will defend end-zone.,defer,276,ok
+401405079,fill,6005674,Ohio State wins toss and defers; ASU will receive; OSU will defend end-zone.,defer,194,ok
+401405080,fill,6005675,wins toss; will receive; will defend end-zone.,ambiguous,,winner unclear
+401411102,fill,6005695,Furman wins toss and defers; CLE will receive; FUR will defend end-zone.,defer,231,ok
+401411105,fill,6005673,Southern Miss. wins toss and defers; MIA will receive; USM will defend end-zone.,defer,2572,ok
+401415170,fill,6005713,,,,no toss line
+401415619,fill,6005698,Cincinnati wins toss and defers; will receive; CIN will defend end-zone.,defer,2132,ok
+401426545,fill,6005694,Charlotte wins toss; will receive; will defend end-zone.,ambiguous,2429,ok
+401404062,fill,6005744,Baylor wins toss and defers; BYU will receive; BAY will defend North end-zone.,defer,239,ok
+401405077,fill,6005742,Hawaii wins toss and will receive; MIC will defend South end-zone.,receive,62,ok
+401411109,fill,6005746,Florida St. wins toss and defers; LOU will receive; FSU will defend South end-zone.,defer,52,ok
+401403880,fill,6005782,ULM wins toss and defers; ALA will receive; ULM will defend South end-zone.,defer,2433,ok
+401403882,fill,6005777,Auburn wins toss and defers; PSU will receive; AUB will defend North end-zone.,defer,2,ok
+401403885,fill,6005786,LSU wins toss and will receive; MSU will defend North end-zone.,receive,99,ok
+401403886,fill,6005784,Ole Miss wins toss and will receive; GT  will defend North end-zone.,receive,145,ok
+401403888,fill,6005755,South Carolina wins toss and will receive; UGA will defend South end-zone.,receive,2579,ok
+401403994,fill,6005785,Michigan St. wins toss and defers; UW  will receive; MSU will defend West end-zone.,defer,127,ok
+401404072,fill,6005806,NC State wins toss and defers; TTU will receive; NCS will defend end-zone.,defer,152,ok
+401404075,fill,6005797,Ark.-Pine Bluff wins toss and defers; OSU will receive; APB will defend North end-zone.,defer,2029,ok
+401404149,fill,6005759,Michigan wins toss and will receive; UCT will defend South end-zone.,receive,130,ok
+401404159,fill,6005788,Wake Forest wins toss and will kickoff; LIB will defend North end-zone.,kick,154,ok
+401411112,fill,,,,,no NCAA match
+401415029,fill,6005787,Bowling Green wins toss and defers; MAR will receive; BG  will defend South end-zone.,defer,189,ok
+401415623,fill,6005763,Miami (OH) wins toss and will receive; CIN will defend South end-zone.,receive,193,ok
+401420869,fill,6005791,,,,no toss line
+401403890,fill,6005815,Miami (FL) wins toss and defers; A&M will receive; MIA will defend South end-zone.,defer,2390,ok
+401403986,fill,6005817,Eastern Mich. wins toss; EMU will receive; ASU will defend end-zone.,ambiguous,2199,ok
+401403993,fill,6005813,San Diego St. wins toss and defers; Uta will receive; SDS will defend North end-zone.,defer,21,ok
+401426556,fill,6005814,Louisiana Tech wins toss and defers; CLE will receive; LAT will defend West end-zone.,defer,2348,ok
+401426562,fill,6005804,UTSA wins toss and defers; TEX will receive; UTS will defend South end-zone.,defer,2636,ok
+401411116,fill,6005818,Virginia Tech won the toss and has deferred to the second half. WVU will receive and VT will defend the south goal.,defer,259,ok
+401426334,fill,6005819,Georgia St. wins toss and defers; CCU will receive; GSU will defend North end-zone.,defer,2247,ok
+401411117,fill,6005823,Virginia wins toss and defers; SYR will receive; UVA will defend East end-zone.,defer,258,ok
+401403892,fill,6005869,Vanderbilt wins toss and defers; ALA will receive; VAN will defend North end-zone.,defer,238,ok
+401403893,fill,6005870,Texas AM wins toss and defers; ARK will receive; AM will defend West end-zone.,defer,245,ok
+401403894,fill,6005848,Auburn won the toss and has deferred to the second half. MIZ will receive and AUB will defend the south goal.,defer,2,ok
+401403895,fill,6005872,Kent St. wins toss and defers; UGA will receive; KSU will defend East end-zone.,defer,2309,ok
+401403896,fill,,,,,no NCAA match
+401403898,fill,6005868,Tulsa won the toss and has deferred to the second half. OLE will receive and TUL will defend the south goal.,defer,202,ok
+401403901,fill,6005839,Tennessee wins toss and will receive; AKR will defend North end-zone.,receive,2633,ok
+401404080,fill,6005825,Iowa State won the toss and has deferred to the second half. BAY will receive and ISU will defend the north goal.,defer,66,ok
+401404082,fill,6005827,Texas Tech wins toss and defers; TEX will receive; TTU will defend North end-zone.,defer,2641,ok
+401404126,fill,6005835,Notre Dame wins toss and defers; UNC will receive; UND will defend East end-zone.,defer,87,ok
+401405095,fill,6005830,Wisconsin wins toss and defers; OSU will receive; WIS will defend North end-zone.,defer,275,ok
+401405097,fill,6005871,Michigan won the toss and has deferred to the second half. MAR will receive and MIC will defend the south goal.,defer,130,ok
+401411123,fill,6005864,Clemson won the toss and has deferred to the second half. WFU will receive and CLE will defend the south goal.,defer,228,ok
+401415222,fill,6005877,Utah St. wins toss and defers; VEG will receive; USU will defend North end-zone.,defer,328,ok
+401415624,fill,6005854,Navy wins toss and defers; ECU will receive; NAV will defend West end-zone.,defer,2426,ok
+401426568,fill,6005826,Miami (FL) wins toss and defers; MTN will receive; MIA will defend West end-zone.,defer,2390,ok
+401403997,fill,6005858,Arizona St. wins toss and defers; UTA will receive; ASU will defend North end-zone.,defer,9,ok
+401415226,fill,6005885,BYU wins toss and defers; USU will receive; BYU will defend North end-zone.,defer,252,ok
+401415625,fill,6005886,Houston won the toss and has deferred to the second half. TLN will receive and HOU will defend the east goal.,defer,248,ok
+401403902,fill,6005929,Arkansas won the toss and has deferred to the second half. ALA will receive and ARK will defend the north goal.,defer,8,ok
+401403903,fill,6005912,LSU wins toss and defers; AUB will receive; LSU will defend North end-zone.,defer,99,ok
+401403905,fill,6005930,#7 Kentucky wins toss and defers; OLE will receive; KEN will defend North end-zone.,defer,96,ok
+401403906,fill,6005918,Texas A&M wins toss and defers; MSU will receive; TAM will defend South end-zone.,defer,245,ok
+401403907,fill,6005919,Missouri won the toss and has deferred to the second half. UGA will receive and MIZ will defend the south goal.,defer,142,ok
+401404007,fill,6005890,UCLA won the toss and has deferred to the second half. UW will receive and UCL will defend the south goal.,defer,26,ok
+401404083,fill,6005914,Oklahoma State wins toss and defers; BAY will receive; OSU will defend North end-zone.,defer,197,ok
+401404086,fill,6005892,Oklahoma wins toss and will receive; TCU will defend North end-zone.,receive,201,ok
+401405100,fill,6005922,Iowa wins toss and defers; U-M will receive; IOW will defend North end-zone.,defer,2294,ok
+401405104,fill,6005941,Rutgers wins toss and will receive; OSU will defend South end-zone.,receive,164,ok
+401405105,fill,6005900,Northwestern won the toss. NOR will receive and PSU will defend the south goal.,ambiguous,77,ok
+401411125,fill,6005905,NC State wins toss and defers; CLE will receive; NCS will defend West end-zone.,defer,152,ok
+401411127,fill,6005897,Wake Forest wins toss and defers; FSU will receive; WFU will defend North end-zone.,defer,154,ok
+401415626,fill,6005928,South Fla. wins toss and defers; ECU will receive; USF will defend North end-zone.,defer,58,ok
+401416608,fill,,,,,no NCAA match
+401420870,fill,6005932,,,,no toss line
+401404003,fill,6005916,Arizona State won the toss and has deferred to the second half. USC will receive and ASU will defend the west goal.,defer,9,ok
+401413227,fill,6006669,Cal Poly wins toss and will receive; SAC will defend North end-zone.,receive,13,ok
+401405111,fill,6005952,Nebraska wins toss and defers; RUT will receive; NEB will defend North end-zone.,defer,158,ok
+401415630,fill,6005951,Memphis wins toss and defers; HOU will receive; MEM will defend North end-zone.,defer,235,ok
+401403911,fill,6005978,Georgia won the toss and has deferred to the second half. AUB will receive and UGA will defend the east goal.,defer,61,ok
+401403912,fill,6005972,South Carolina wins toss and defers; UKY will receive; USC will defend East end-zone.,defer,2579,ok
+401403913,fill,6005959,LSU wins toss and will receive; TEN will defend North end-zone.,receive,99,ok
+401404011,fill,6005964,UCLA wins toss and defers; UTA will receive; UCL will defend South end-zone.,defer,26,ok
+401404012,fill,6005974,Washington State wins toss and will receive; USC will defend West end-zone.,receive,265,ok
+401404090,fill,6005990,Oklahoma wins toss and defers; will receive; will defend end-zone.,defer,201,ok
+401405108,fill,6005991,Indiana wins toss and defers; UMI will receive; IND will defend South end-zone.,defer,84,ok
+401405110,fill,6005980,Ohio St. wins toss and defers; MSU will receive; OSU will defend North end-zone.,defer,194,ok
+401411131,fill,6005965,Boston College wins toss and defers; CLE will receive; BC  will defend North end-zone.,defer,103,ok
+401411133,fill,6005960,North Carolina wins toss and defers; MIA will receive; UNC will defend West end-zone.,defer,153,ok
+401415233,fill,6005953,Nevada wins toss and defers; CSU will receive; NEV will defend South end-zone.,defer,2440,ok
+401416618,fill,6005995,Miami (OH) wins toss and will receive; KSU will defend South end-zone.,receive,193,ok
+401418839,fill,6006700,North Dakota St. wins toss and defers; INS will receive; NDS will defend West end-zone.,defer,2449,ok
+401426342,fill,6005957,Georgia St. wins toss and defers; GSO will receive; GSU will defend North end-zone.,defer,2247,ok
+401403909,fill,6005989,Alabama wins toss and defers; TAM will receive; ALA will defend South end-zone.,defer,333,ok
+401404010,fill,6005985,Oregon St. wins toss and will receive; STA will defend North end-zone.,ambiguous,204,ok
+401426347,fill,6006007,Marshall wins toss and defers; LA  will receive; MAR will defend North end-zone.,defer,276,ok
+401404092,fill,6006009,West Virginia won the toss and has deferred to the second half. BAY will receive and WVU will defend the south goal.,defer,277,ok
+401415634,fill,6006008,UCF wins toss and defers; TEM will receive; UCF will defend North end-zone.,defer,2116,ok
+401415635,fill,6006010,Navy wins toss and defers; SMU will receive; Nav will defend South end-zone.,defer,2426,ok
+401403916,fill,6006044,Arkansas wins toss and will receive; BYU will defend North end-zone.,receive,8,ok
+401403917,fill,6006013,LSU wins toss and defers; UFL will receive; LSU will defend South end-zone.,defer,99,ok
+401403918,fill,6006040,Vanderbilt wins toss and defers; UGA will receive; VAN will defend West end-zone.,defer,238,ok
+401403919,fill,6006033,Mississippi St. wins toss and will receive; UKY will defend West end-zone.,ambiguous,344,ok
+401403920,fill,6006046,Ole Miss wins toss and will receive; AUB will defend South end-zone.,receive,145,ok
+401403921,fill,6006028,Tennessee wins toss and defers; ALA will receive; TEN will defend North end-zone.,defer,2633,ok
+401404093,fill,6006027,Texas wins toss and defers; ISU will receive; TEX will defend South end-zone.,defer,251,ok
+401404094,fill,6006035,Kansas wins toss and defers; OKL will receive; KAN will defend South end-zone.,defer,2305,ok
+401404095,fill,6006016,Oklahoma St. wins toss and defers; TCU will receive; OSU will defend North end-zone.,defer,197,ok
+401405115,fill,6006034,Penn St. wins toss and defers; MIC will receive; PSU will defend South end-zone.,defer,213,ok
+401411138,fill,6006018,Clemson wins toss and defers; FSU will receive; CLE will defend South end-zone.,defer,228,ok
+401411139,fill,6006039,NC State wins toss and defers; SYR will receive; NCS will defend East end-zone.,defer,152,ok
+401416619,fill,6006023,Central Mich. wins toss and defers; AKR will receive; CMU will defend South end-zone.,defer,2117,ok
+401426585,fill,6006058,Fla. Atlantic wins toss and defers; RIC will receive; FAU will defend end-zone.,defer,2226,ok
+401404017,fill,6006017,Southern California wins toss and will receive; Ute will defend North end-zone.,receive,30,ok
+401426353,fill,6006062,Georgia St. wins toss and defers; APP will receive; GSU will defend North end-zone.,defer,2247,ok
+401411141,fill,6006064,Virginia wins toss and defers; GT  will receive; UVA will defend North end-zone.,defer,258,ok
+401415638,fill,6006066,Tulsa wins toss and defers; TEM will receive; TUL will defend North end-zone.,defer,202,ok
+401403922,fill,6006100,Mississippi St. wins toss and will receive; ALA will defend North end-zone.,ambiguous,344,ok
+401403923,fill,6006070,Ole Miss wins toss and will receive; LSU will defend North end-zone.,receive,145,ok
+401403926,fill,6006085,Tennessee wins toss and defers; UTM will receive; TEN will defend North end-zone.,defer,2633,ok
+401404021,fill,6006084,UCLA wins toss and defers; ORE will receive; UCL will defend West end-zone.,defer,26,ok
+401404098,fill,6006094,Oklahoma St. wins toss and defers; Tex will receive; OSU will defend East end-zone.,defer,197,ok
+401405120,fill,6006117,Minnesota wins toss and defers; PSU will receive; MIN will defend North end-zone.,defer,135,ok
+401405121,fill,6006102,Rutgers wins toss and defers; IND will receive; RUT will defend North end-zone.,defer,164,ok
+401411142,fill,6006083,Clemson wins toss and defers; SYR will receive; CLE will defend West end-zone.,defer,228,ok
+401416626,fill,6006076,Buffalo wins toss and defers; TOL will receive; BUF will defend South end-zone.,defer,2084,ok
+401420811,fill,,,,,no NCAA match
+401404019,fill,6006092,California wins toss and defers; UW will receive; Cal will defend South end-zone.,defer,25,ok
+401404097,fill,6006069,TCU wins toss and defers; KSU will receive; TCU will defend South end-zone.,defer,2628,ok
+401411146,fill,6006120,Virginia Tech wins toss and defers; NCS will receive; VAT will defend North end-zone.,defer,259,ok
+401403928,fill,6006163,Florida wins toss and defers; UGA will receive; UFL will defend South end-zone.,defer,57,ok
+401403930,fill,6006140,Kentucky wins toss and defers; TEN will receive; UK  will defend South end-zone.,defer,96,ok
+401403931,fill,6006139,Ole Miss wins toss and will receive; A&M will defend South end-zone.,receive,145,ok
+401404022,fill,6006148,Arizona wins toss and defers; USC will receive; ARI will defend South end-zone.,defer,12,ok
+401404024,fill,6006150,Oregon wins toss and defers; CAL will defend North end-zone; UO  will kickoff.,defer,2483,ok
+401404101,fill,6006126,Texas Tech wins toss and defers; BAY will receive; TTU will defend South end-zone.,defer,2641,ok
+401404102,fill,6006141,Kansas State wins toss and will receive; OSU will defend South end-zone.,receive,2306,ok
+401404103,fill,6006153,West Virginia wins toss and defers; TCU will receive; WVU will defend South end-zone.,defer,277,ok
+401404129,fill,6006152,Notre Dame wins toss and defers; SYR will receive; UND will defend East end-zone.,defer,87,ok
+401405124,fill,6006143,Nebraska wins toss and defers; ILL will receive; NEB will defend South end-zone.,defer,158,ok
+401405125,fill,6006147,Michigan wins toss and defers; MSU will receive; MIC will defend South end-zone.,defer,130,ok
+401405126,fill,6006135,Penn State wins toss and defers; OSU will receive; PSU will defend South end-zone.,defer,213,ok
+401411148,fill,6006155,Wake Forest wins toss and defers; LOU will receive; WFU will defend South end-zone.,defer,154,ok
+401415644,fill,6006142,Cincinnati wins toss and defers; UCF will receive; CIN will defend North end-zone.,defer,2132,ok
+401415645,fill,6006121,BYU wins toss and defers; ECU will receive; BYU will defend South end-zone.,defer,252,ok
+401426362,fill,6006154,Marshall wins toss and defers; CCU will receive; MAR will defend South end-zone.,defer,276,ok
+401426597,fill,6006160,North Texas wins toss and will kickoff; WKU will defend North end-zone.,kick,249,ok
+401404025,fill,6006132,UCLA wins toss and defers; STA will receive; UCL will defend South end-zone.,defer,26,ok
+401411149,fill,6006133,North Carolina wins toss and defers; PIT will receive; UNC will defend West end-zone.,defer,153,ok
+401416635,fill,6006171,Bowling Green wins toss and defers; WMU will receive; BG  will defend South end-zone.,defer,189,ok
+401426364,fill,6006173,App State wins toss and will receive; CCU will defend East end-zone.,receive,2026,ok
+401404155,fill,6006175,UConn wins toss and defers; UMA will receive; UCO will defend East end-zone.,defer,41,ok
+401411151,fill,6006174,Boston College wins toss and defers; DU  will receive; BC  will defend North end-zone.,defer,103,ok
+401403933,fill,6006206,Tennessee wins toss and defers; UGA will receive; TEN will defend East end-zone.,defer,2633,ok
+401403934,fill,6006182,Alabama wins toss and defers; LSU will receive; ALA will defend South end-zone.,defer,333,ok
+401403937,fill,6006193,Texas A&M wins toss and defers; Fla will receive; A&M will defend South end-zone.,defer,245,ok
+401404030,fill,6006199,Colorado wins toss and defers; ORE will receive; COL will defend North end-zone.,defer,38,ok
+401404031,fill,6006176,Washington wins toss and defers; OSU will receive; UW  will defend West end-zone.,defer,264,ok
+401404107,fill,6006194,Kansas State wins toss and defers; TEX will receive; KSU will defend South end-zone.,defer,2306,ok
+401404108,fill,6006181,TCU wins toss and defers; TTU will receive; TCU will defend North end-zone.,defer,2628,ok
+401404130,fill,6006227,Clemson wins toss and defers; UND will receive; CLE will defend South end-zone.,defer,228,ok
+401405127,fill,6006190,Illinois wins toss and defers; MSU will receive; ILL will defend South end-zone.,defer,356,ok
+401405129,fill,6006208,Northwestern won the toss and has deferred to the second half. OSU will receive and NW will defend the north goal.,defer,77,ok
+401405132,fill,6006192,Indiana wins toss and defers; PSU will receive; IND will defend North end-zone.,defer,84,ok
+401405133,fill,6006195,Rutgers wins toss and defers; U-M will receive; RUT will defend South end-zone.,defer,164,ok
+401411153,fill,6006183,Miami (FL) wins toss and will kickoff; FSU will defend East end-zone.,kick,2390,ok
+401411156,fill,6006184,Virginia wins toss and defers; MIA will receive; UVA will defend South end-zone.,defer,258,ok
+401415250,fill,6006214,Boise St. wins toss and defers; BYU will receive; BOI will defend North end-zone.,defer,68,ok
+401415651,fill,6006198,UCF wins toss and will receive; MEM will defend South end-zone.,receive,2116,ok
+401411154,fill,6006197,Wake Forest wins toss and defers; NCS will receive; WFU will defend South end-zone.,defer,154,ok
+401416637,fill,6006230,Akron wins toss and defers; EMU will receive; AKR will defend North end-zone.,defer,2006,ok
+401416638,fill,6006228,Ohio wins toss and defers; MIA will receive; OHI will defend North end-zone.,defer,195,ok
+401416641,fill,6006233,Kent State wins toss and defers; BG  will receive; KSU will defend South end-zone.,defer,2309,ok
+401415653,fill,6006235,Memphis wins toss and will receive; TUL will defend North end-zone.,receive,235,ok
+401426370,fill,6006234,Louisiana won the toss and has deferred to the second half. GS will receive and LA will defend the south goal.,defer,309,ok
+401403939,fill,6006279,Arkansas wins toss and defers; LSU will receive; ARK will defend North end-zone.,defer,8,ok
+401403945,fill,6006256,Missouri wins toss and will receive; TEN will defend North end-zone.,receive,142,ok
+401404131,fill,6006285,Navy wins toss and defers; UND will receive; Nav will defend East end-zone.,defer,2426,ok
+401405137,fill,6006265,Michigan wins toss and defers; NEB will receive; MIC will defend North end-zone.,defer,130,ok
+401405139,fill,6006244,Indiana wins toss and defers; OSU will receive; IND will defend South end-zone.,defer,84,ok
+401409241,fill,6006260,NM State wins toss and will kickoff; LU will defend South end-zone.,kick,166,ok
+401411158,fill,6006254,Louisville wins toss and defers; CLE will receive; LOU will defend West end-zone.,defer,97,ok
+401415654,fill,6006236,East Carolina wins toss and defers; CIN will receive; ECU will defend North end-zone.,defer,151,ok
+401415657,fill,6006257,Tulane wins toss and defers; UCF will receive; will defend end-zone.,defer,2655,ok
+401418790,fill,6006283,,,,no toss line
+401424447,fill,6006987,Delaware wins toss and defers; RIC will receive; DEL will defend South end-zone.,defer,48,ok
+401403944,fill,6006269,Mississippi St. wins toss and will receive; UGA will defend North end-zone.,ambiguous,344,ok
+401404113,fill,6006252,Texas wins toss and defers; TCU will receive; Tex will defend South end-zone.,defer,251,ok
+401416643,fill,6006296,Ohio wins toss and defers; BSU will receive; OHI will defend North end-zone.,defer,195,ok
+401415658,fill,6006300,wins toss; will receive; will defend end-zone.,ambiguous,,winner unclear
+401403946,fill,6006349,Alabama wins toss and will receive; APU will defend North end-zone.,receive,333,ok
+401403949,fill,6006330,Georgia wins toss and defers; UKY will receive; UGA will defend West end-zone.,defer,61,ok
+401404114,fill,6006333,TCU wins toss and defers; BAY will receive; TCU will defend North end-zone.,defer,2628,ok
+401405142,fill,6006324,Wisconsin wins toss and defers; NEB will receive; WIS will defend North end-zone.,defer,275,ok
+401405144,fill,6006329,Maryland won the toss and has deferred to the second half. OSU will receive and UMD will defend the east goal.,defer,120,ok
+401405145,fill,6006331,Illinois wins toss and defers; MIC will receive; ILL will defend South end-zone.,defer,356,ok
+401405147,fill,6006323,Rutgers wins toss and defers; PSU will receive; RUT will defend South end-zone.,defer,164,ok
+401411165,fill,6006319,Miami (FL) wins toss and defers; CLE will receive; MIA will defend East end-zone.,defer,2390,ok
+401415659,fill,6006302,Tulsa wins toss and defers; USF will receive; TLS will defend North end-zone.,defer,202,ok
+401420872,fill,6006350,,,,no toss line
+401403953,fill,6006308,Tennessee wins toss and defers; USC will receive; TEN will defend North end-zone.,defer,2633,ok
+401404043,fill,6006321,Utah wins toss and defers; ORE will receive; UTA will defend East end-zone.,defer,254,ok
+401404044,fill,6006313,UCLA wins toss and defers; USC will receive; UCL will defend South end-zone.,defer,26,ok
+401404118,fill,6006332,Oklahoma St. wins toss and defers; OKL will receive; OSU will defend South end-zone.,defer,197,ok
+401416648,fill,6006364,Miami (OH) wins toss and will receive; BSU will defend South end-zone.,receive,193,ok
+401416649,fill,6006365,Ohio wins toss and defers; BGS will receive; OHI will defend South end-zone.,defer,195,ok
+401403956,fill,6006366,Ole Miss wins toss and will receive; MSU will defend North end-zone.,receive,145,ok
+401404119,fill,6006368,Texas wins toss and defers; BAY will receive; TEX will defend South end-zone.,defer,251,ok
+401411172,fill,6006367,NC State wins toss and defers; UNC will receive; NCS will defend West end-zone.,defer,152,ok
+401415665,fill,6006414,Tulane won the toss and has deferred to the second half. CIN will receive and TUL will defend the north goal.,defer,2655,ok
+401403957,fill,6006417,Alabama wins toss and defers; AUB will receive; Ala will defend North end-zone.,defer,333,ok
+401403958,fill,6006379,Florida wins toss and defers; FSU will receive; FLA will defend North end-zone.,defer,57,ok
+401403959,fill,6006408,Georgia wins toss and defers; GAT will receive; UGA will defend West end-zone.,defer,61,ok
+401403962,fill,6006396,South Carolina wins toss and will receive; CLE will defend East end-zone.,receive,2579,ok
+401404047,fill,6006392,Oregon wins toss and defers; OSU will receive; ORE will defend North end-zone.,defer,2483,ok
+401404120,fill,6006383,Iowa St. wins toss and defers; TCU will receive; ISU will defend North end-zone.,defer,66,ok
+401405150,fill,6006411,Wisconsin wins toss and will receive; MIN will defend South end-zone.,receive,275,ok
+401405153,fill,6006418,Michigan wins toss and defers; OSU will receive; MIC will defend South end-zone.,defer,130,ok
+401505430,fill,6079630,Delaware won the toss. DEL will receive and SFU will defend the south goal.,ambiguous,48,ok
+401403963,fill,6006397,Texas A&M wins toss and defers; LSU will receive; A&M will defend South end-zone.,defer,245,ok
+401403964,fill,6006416,Tennessee wins toss and will receive; VAN will defend South end-zone.,receive,2633,ok
+401404133,fill,6006405,Notre Dame wins toss and defers; USC will receive; UND will defend West end-zone.,defer,87,ok
+401415667,fill,6006369,UCF wins toss and will receive; USF will defend North end-zone.,receive,2116,ok
+401506450,fill,6006358,Buffalo wins toss and defers; AKN will receive; BUF will defend South end-zone.,defer,2084,ok
+401437008,fill,6082524,Tulane wins toss and defers; UCF will receive; TLN will defend North end-zone.,defer,2655,ok
+401437030,fill,6082073,TCU wins toss and defers; KSU will receive; TCU will defend East end-zone.,defer,2628,ok
+401437032,fill,6082314,North Texas wins toss and defers; TSA will receive; UNT will defend North end-zone.,defer,249,ok
+401437033,fill,6082074,Ohio wins toss and defers; TOL will receive; OHI will defend West end-zone.,defer,195,ok
+401437034,fill,6082315,Fresno St. wins toss and defers; BST will receive; FST will defend North end-zone.,defer,278,ok
+401437035,fill,6082558,Southern California wins toss and will receive; UU  will defend North end-zone.,receive,30,ok
+401437036,fill,6082075,LSU wins toss and will receive; UGA will defend North end-zone.,receive,99,ok
+401437037,fill,6082545,Coastal Carolina wins toss and defers; TRO will receive; CCU will defend South end-zone.,defer,324,ok
+401506577,fill,6079652,Sacramento St. won the toss and has deferred to the second half. UR will receive and SAC will defend the north goal.,defer,16,ok
+401506578,fill,6079645,South Dakota St. won the toss and has deferred to the second half. DEL will receive and SDS will defend the south goal.,defer,2571,ok
+401437009,fill,6081898,North Carolina wins toss and defers; CLE will receive; UNC will defend East end-zone.,defer,153,ok
+401437031,fill,6082538,Michigan wins toss and defers; PUR will receive; UM  will defend North end-zone.,defer,130,ok
+401404145,fill,6006428,Army West Point wins toss and defers; NAV will receive; AWP will defend end-zone.,defer,349,ok
+401507650,fill,6079655,North Dakota St. won the toss and has deferred to the second half. SAM will receive and NDS will defend the north goal.,defer,2449,ok
+401441993,fill,6082559,UAB wins toss and defers; MIA will receive; UAB will defend South end-zone.,defer,5,ok
+401441994,fill,6082667,UTSA wins toss and defers; TRO will receive; UTS will defend end-zone.,defer,2636,ok
+401441995,fill,6082668,Cincinnati wins toss and defers; LOU will receive; CIN will defend North end-zone.,defer,2132,ok
+401441999,fill,6082658,Oregon St. wins toss and defers; FLA will receive; OSU will defend North end-zone.,defer,204,ok
+401442038,fill,6082670,Fresno St. wins toss and will receive; WSU will defend South end-zone.,ambiguous,278,ok
+401442041,fill,6082675,Rice wins toss and defers; USM will receive; RU  will defend North end-zone.,defer,242,ok
+401508850,fill,,,,,no NCAA match
+401441997,fill,6082674,wins toss; will receive; will defend end-zone.,ambiguous,,winner unclear
+401442001,fill,6082671,North Texas wins toss and will receive; BSU will defend North end-zone.,receive,249,ok
+401442003,fill,6082672,UConn wins toss and defers; MAR will receive; CON will defend end-zone.,defer,41,ok
+401442004,fill,6082676,Eastern Mich. wins toss and defers; SJS will receive; EMU will defend end-zone.,defer,2199,ok
+401442006,fill,6082673,Toledo wins toss and defers; LIB will receive; TOL will defend South end-zone.,defer,2649,ok
+401442039,fill,6082677,South Alabama wins toss and defers; WKU will receive; will defend end-zone.,defer,6,ok
+401442007,fill,6082680,Wake Forest wins toss and defers; MIZ will receive; WFU will defend West end-zone.,defer,154,ok
+401442040,fill,6082678,Air Force wins toss and defers; B U will receive; A F will defend North end-zone.,defer,2005,ok
+401442042,fill,6082679,Houston wins toss and defers; ULa will receive; HOU will defend South end-zone.,defer,248,ok
+401442009,fill,6082681,San Diego St. wins toss and defers; will receive; will defend end-zone.,defer,21,ok
+401442037,fill,6082682,New Mexico St. wins toss and defers; BGS will receive; NMS will defend East end-zone.,defer,166,ok
+401441998,fill,6082683,Ga. Southern wins toss and will receive; BUF will defend South end-zone.,ambiguous,290,ok
+401442000,fill,6082684,Memphis wins toss and will receive; USU will defend South end-zone.,receive,235,ok
+401442002,fill,6082685,East Carolina wins toss and will receive; CCU will defend South end-zone.,receive,151,ok
+401442005,fill,6082686,Wisconsin wins toss and defers; OSU will receive; WIS will defend South end-zone.,defer,275,ok
+401442008,fill,6082687,UCF wins toss and will receive; Duk will defend South end-zone.,receive,2116,ok
+401442030,fill,6082688,Kansas wins toss and defers; ARK will receive; KAN will defend South end-zone.,defer,2305,ok
+401442031,fill,6082690,Ole Miss wins toss and will receive; TXT will defend North end-zone.,receive,145,ok
+401442032,fill,6082691,Syracuse wins toss and defers; MIN will receive; SYR will defend South end-zone.,defer,183,ok
+401442033,fill,6082692,Oklahoma wins toss and will kickoff; FSU will defend North end-zone.,kick,201,ok
+401470891,fill,6082689,Oregon wins toss and defers; UNC will receive; ORE will defend West end-zone.,defer,2483,ok
+401442034,fill,6082693,Texas wins toss and defers; U W will receive; U T will defend North end-zone.,defer,251,ok
+401442035,fill,6082694,NC State wins toss and defers; Mar will receive; NCS will defend East end-zone.,defer,152,ok
+401442036,fill,6082696,South Carolina wins toss and will receive; UND will defend North end-zone.,receive,2579,ok
+401443542,fill,6082695,UCLA wins toss and defers; PIT will receive; CLA will defend North end-zone.,defer,26,ok
+401443543,fill,6082697,Ohio wins toss and defers; WYO will receive; OHI will defend South end-zone.,defer,195,ok
+401442016,fill,6082659,TCU wins toss and defers; UMI will receive; TCU will defend North end-zone.,defer,2628,ok
+401442017,fill,6082698,Iowa wins toss and defers; KEN will receive; IOW will defend South end-zone.,defer,2294,ok
+401442018,fill,6082699,Alabama wins toss and defers; KSU will receive; ALA will defend South end-zone.,defer,333,ok
+401442019,fill,6082654,Clemson wins toss and defers; Ten will receive; Cle will defend end-zone.,defer,228,ok
+401442015,fill,6082660,Georgia wins toss and defers; OSU will receive; UGA will defend East end-zone.,defer,61,ok
+401442011,fill,6082704,Mississippi St. wins toss and will receive; ILL will defend North end-zone.,ambiguous,344,ok
+401442012,fill,6082706,wins toss; will receive; will defend end-zone.,ambiguous,,winner unclear
+401442013,fill,6082705,Tulane wins toss and defers; USC will receive; TLN will defend East end-zone.,defer,2655,ok
+401442014,fill,6082656,#8 Utah wins toss and defers; PSU will receive; UU will defend South end-zone.,defer,254,ok
+401445817,fill,6079659,South Dakota St. won the toss and has deferred to the second half. NDS will receive and SDS will defend the north goal.,defer,2571,ok
+401442010,fill,6082945,wins toss; will receive; will defend end-zone.,ambiguous,,winner unclear
+401495504,fill,,,,,no NCAA match
+401525434,fill,6154183,Navy wins toss and defers; UND will receive; UNA will defend North end-zone.,defer,2426,ok
+401525450,fill,6154186,New Mexico St. wins toss and will kickoff; MAS will defend North end-zone.,ambiguous,166,ok
+401520176,fill,6154190,Utah wins toss and defers; FLO will receive; UTA will defend North end-zone.,defer,254,ok
+401525462,fill,6154204,Louisville wins toss and defers; GT  will receive; LOU will defend East end-zone.,defer,97,ok
+401520151,fill,6154221,Massachusetts wins toss and defers; AUB will receive; MAS will defend North end-zone.,defer,113,ok
+401520154,fill,6154257,UT Martin wins toss and will receive; UGA will defend West end-zone.,receive,2630,ok
+401520167,fill,6154260,South Carolina wins toss and will receive; UNC will defend West end-zone.,receive,2579,ok
+401520169,fill,6154942,Penn St. wins toss and defers; WVU will receive; PSU will defend North end-zone.,defer,213,ok
+401520173,fill,6154237,New Mexico wins toss and will receive; A&M will defend South end-zone.,receive,167,ok
+401520179,fill,6154213,Virginia wins toss and defers; TEN will receive; UVA will defend North end-zone.,defer,258,ok
+401523997,fill,6154214,Boise St. wins toss and defers; UW  will receive; BSU will defend East end-zone.,defer,68,ok
+401525464,fill,,,,,no NCAA match
+401525822,fill,6154208,Oklahoma wins toss and will receive; ASU will defend North end-zone.,receive,201,ok
+401520182,fill,6154264,Florida St. wins toss and defers; LSU will receive; FSU will defend North end-zone.,defer,52,ok
+401523995,fill,6154259,Coastal Carolina wins toss and defers; UCL will receive; CCU will defend South end-zone.,defer,324,ok
+401525468,fill,6154265,Duke wins toss and defers; CLE will receive; DU  will defend South end-zone.,defer,150,ok
+401520183,fill,6154314,wins toss; will receive; will defend end-zone.,ambiguous,,winner unclear
+401520191,fill,6154275,Georgia wins toss and will receive; BSU will defend East end-zone.,receive,61,ok
+401520201,fill,6154293,Texas A&M wins toss and defers; MIA will receive; TAM will defend West end-zone.,defer,245,ok
+401520217,fill,6154126,Wisconsin wins toss and defers; WSU will receive; WIS will defend East end-zone.,defer,275,ok
+401523999,fill,6154271,Baylor wins toss and defers; UTA will receive; BAY will defend South end-zone.,defer,239,ok
+401525436,fill,6154277,NC State wins toss and defers; UND will receive; NCS will defend North end-zone.,defer,152,ok
+401532401,fill,6154306,Fordham wins toss and defers; BUF will receive; FOR will defend South end-zone.,defer,2230,ok
+401532576,fill,6154295,Nevada wins toss and defers; UID will receive; NEV will defend North end-zone.,defer,2440,ok
+401525493,fill,6154336,Southern Miss. wins toss and defers; FSU will receive; USM will defend North end-zone.,defer,2572,ok
+401525499,fill,6154338,Bethune-Cookman wins toss and defers; MIA will receive; BCU will defend East end-zone.,defer,2065,ok
+401531396,fill,6154340,UTSA wins toss and defers; AWP will receive; TSA will defend South end-zone.,defer,2636,ok
+401520224,fill,6154386,Tennessee wins toss and defers; UFL will receive; TEN will defend South end-zone.,defer,2633,ok
+401520235,fill,6154342,Mississippi St. wins toss and will receive; LSU will defend South end-zone.,ambiguous,344,ok
+401520239,fill,6154130,Minnesota wins toss and defers; UNC will receive; MIN will defend West end-zone.,defer,135,ok
+401520241,fill,6154384,Ole Miss wins toss and will receive; GAT will defend South end-zone.,receive,145,ok
+401520244,fill,6154365,South Fla. wins toss and defers; Ala will receive; USF will defend South end-zone.,defer,58,ok
+401525500,fill,6154349,Florida St. wins toss and defers; BOS will receive; FSU will defend North end-zone.,defer,52,ok
+401525503,fill,6154395,Pitt wins toss and defers; WVU will receive; Pit will defend South end-zone.,defer,221,ok
+401525504,fill,6154347,Wake Forest wins toss and defers; ODU will receive; WFU will defend South end-zone.,defer,154,ok
+401525842,fill,6154359,Oklahoma wins toss and will receive; TLS will defend North end-zone.,receive,201,ok
+401524007,fill,6154398,Colorado wins toss and defers; CSU will receive; COL will defend North end-zone.,defer,38,ok
+401524010,fill,6154369,Stanford wins toss; will receive; SAC will defend end-zone.,ambiguous,24,ok
+401520258,fill,6154406,LSU wins toss and defers; ARK will receive; LSU will defend North end-zone.,defer,99,ok
+401520270,fill,6154413,Auburn wins toss and defers; A&M will receive; AUB will defend North end-zone.,defer,2,ok
+401524015,fill,6154431,Colorado wins toss and defers; Ore will receive; Col will defend West end-zone.,defer,38,ok
+401525507,fill,6154409,Florida St. wins toss and defers; CLE will receive; FSU will defend West end-zone.,defer,52,ok
+401525509,fill,6154407,Miami (FL) wins toss and defers; TEM will receive; MIA will defend end-zone.,defer,2390,ok
+401525511,fill,6154423,Marshall wins toss and defers; VT  will receive; MAR will defend North end-zone.,defer,276,ok
+401525844,fill,6154416,Texas wins toss and defers; BAY will receive; TEX will defend South end-zone.,defer,251,ok
+401525847,fill,6154437,BYU wins toss and defers; KAN will receive; BYU will defend South end-zone.,defer,252,ok
+401540324,fill,6155128,Delaware wins toss and will kickoff; UNH will defend South end-zone.,kick,48,ok
+401524018,fill,6154456,Washington wins toss and defers; CAL will receive; UW  will defend East end-zone.,defer,264,ok
+401525512,fill,6154462,NC State wins toss and defers; LOU will receive; NCS will defend North end-zone.,defer,152,ok
+401520282,fill,6154477,Kentucky wins toss and defers; UFL will receive; UKY will defend West end-zone.,defer,96,ok
+401520288,fill,6154469,LSU wins toss and defers; OLE will receive; LSU will defend end-zone.,defer,99,ok
+401520293,fill,6154485,Missouri wins toss and defers; VAN will receive; MIZ will defend end-zone.,defer,142,ok
+401524022,fill,6154508,California wins toss and defers; ASU will defend South end-zone; Cal will kickoff.,defer,25,ok
+401525438,fill,6154488,Duke wins toss and defers; ND will receive; will defend end-zone.,defer,150,ok
+401525514,fill,6154471,Clemson wins toss and defers; SYR will receive; CLE will defend East end-zone.,defer,228,ok
+401525854,fill,6154483,Texas wins toss and defers; KAN will receive; TEX will defend end-zone.,defer,251,ok
+401532412,fill,6154465,Buffalo wins toss and defers; AKR will receive;  UB will defend South end-zone.,defer,2084,ok
+401520285,fill,6154470,Mississippi St. wins toss and defers; ALA will receive; MSU will defend end-zone.,defer,344,ok
+401525857,fill,6154513,Kansas St. wins toss and will receive; OSU will defend West end-zone.,ambiguous,2306,ok
+401520300,fill,6154534,Kentucky wins toss and defers; UGA will receive; UKY will defend West end-zone.,defer,96,ok
+401520301,fill,6154150,Nebraska wins toss and defers; ILL will receive; NEB will defend North end-zone.,defer,158,ok
+401520305,fill,6154532,LSU wins toss and will receive; MIZ will defend North end-zone.,receive,99,ok
+401520310,fill,6154523,Alabama wins toss and defers; A&M will receive; ALA will defend South end-zone.,defer,333,ok
+401525439,fill,6154525,#25 Louisville wins toss and defers; ND. will receive; LOU will defend North end-zone.,defer,97,ok
+401525518,fill,6154527,Virginia Tech wins toss and defers; FSU will receive; VT  will defend North end-zone.,defer,259,ok
+401525520,fill,6154530,Syracuse wins toss and defers; UNC will receive; SYR will defend West end-zone.,defer,183,ok
+401525861,fill,6154545,Oklahoma wins toss and defers; TEX will receive; OKL will defend North end-zone.,defer,201,ok
+401524025,fill,6154540,Arizona wins toss and defers; USC will receive; ARZ will defend East end-zone.,defer,12,ok
+401525519,fill,6154533,Miami (FL) wins toss and defers; GAT will receive; MIA will defend East end-zone.,defer,2390,ok
+401531888,fill,6154556,App State wins toss and defers; CCU will receive; will defend end-zone.,defer,2026,ok
+401531415,fill,6154560,East Carolina wins toss and defers; SMU will receive; ECU will defend West end-zone.,defer,151,ok
+401531371,fill,6154561,Memphis wins toss and defers; TUL will receive; MEM will defend South end-zone.,defer,235,ok
+401520316,fill,6154584,Alabama wins toss; will receive; will defend end-zone.,ambiguous,333,ok
+401520319,fill,6154564,Auburn wins toss and defers; LSU will receive; AUB will defend North end-zone.,defer,2,ok
+401520326,fill,6154577,Texas A&M wins toss; TAM will receive; TEN will defend end-zone.,ambiguous,245,ok
+401524029,fill,6154563,Colorado wins toss and defers; STA will receive; COL will defend South end-zone.,defer,38,ok
+401524034,fill,6154580,Oregon wins toss and defers; UW  will receive; ORE will defend East end-zone.,defer,2483,ok
+401525524,fill,6154574,Florida St. wins toss and defers; SYR will receive; FSU will defend North end-zone.,defer,52,ok
+401525526,fill,6154581,North Carolina wins toss and defers; MIA will receive; UNC will defend West end-zone.,defer,153,ok
+401525865,fill,6154571,TCU wins toss and defers; BYU will receive; TCU will defend North end-zone.,defer,2628,ok
+401520334,fill,6154612,Arkansas wins toss and defers; MSU will receive; Ark will defend North end-zone.,defer,8,ok
+401520335,fill,6154623,Auburn wins toss and will receive; OM  will defend North end-zone.,receive,2,ok
+401520343,fill,6154121,Ohio State wins toss and defers; PSU will receive; OSU will defend South end-zone.,defer,194,ok
+401524035,fill,6154636,Oregon wins toss and defers; WSU will receive; ORE will defend West end-zone.,defer,2483,ok
+401525530,fill,6154617,Duke wins toss and defers; FSU will receive;  DU will defend North end-zone.,defer,150,ok
+401525871,fill,6154641,UCF wins toss and will receive; OKL will defend North end-zone.,receive,2116,ok
+401525872,fill,6154643,Oklahoma State wins toss and defers; WVU will receive; OSU will defend South end-zone.,defer,197,ok
+401540326,fill,6155330,Delaware wins toss and will kickoff; HU  will defend West end-zone.,kick,48,ok
+401524036,fill,6154640,Stanford wins toss and will kickoff; UCL will defend North end-zone.,kick,24,ok
+401520348,fill,6154653,UTEP wins toss and defers; SAM will receive; TEP will defend South end-zone.,defer,2638,ok
+401520352,fill,6154695,Georgia wins toss and defers; UFL will receive; UGA will defend North end-zone.,defer,61,ok
+401520353,fill,6154671,Tennessee wins toss and defers; UKY will receive; TEN will defend East end-zone.,defer,2633,ok
+401520359,fill,6154665,South Carolina wins toss and defers; A&M will receive; USC will defend North end-zone.,defer,2579,ok
+401524043,fill,6154678,UCLA wins toss; UCL will receive; COL will defend end-zone.,ambiguous,26,ok
+401525535,fill,6154668,#18 Louisville wins toss and defers; DUK will receive; LOU will defend South end-zone.,defer,97,ok
+401525536,fill,6154662,Wake Forest wins toss and defers; FSU will receive; WFU will defend end-zone.,defer,154,ok
+401525877,fill,6154676,BYU wins toss and defers; TEX will receive; BYU will defend South end-zone.,defer,252,ok
+401524039,fill,6154659,Arizona wins toss and defers; OSU will receive; ARI will defend South end-zone.,defer,12,ok
+401520370,fill,6154135,Illinois wins toss and defers; UMN will receive; ILL will defend West end-zone.,defer,356,ok
+401520374,fill,6154712,Texas A&M wins toss and defers; OLE will receive; TAM will defend North end-zone.,defer,245,ok
+401524048,fill,6154740,USC wins toss and will receive; UW  will defend West end-zone.,receive,30,ok
+401525441,fill,6154716,Clemson wins toss and defers; UND will receive; CLE will defend West end-zone.,defer,228,ok
+401525541,fill,6154725,Pitt wins toss and defers; FSU will receive; PIT will defend South end-zone.,defer,221,ok
+401525882,fill,6154710,#22 Kansas wins toss and defers; ISU will receive; KAN will defend South end-zone.,defer,2305,ok
+401525883,fill,6154719,Oklahoma wins toss and defers; OSU will receive; Okl will defend West end-zone.,defer,201,ok
+401531343,fill,6154728,Tulsa wins toss and defers; CLT will receive; TLS will defend South end-zone.,defer,202,ok
+401524046,fill,6154745,Colorado wins toss and defers; OSU will receive; will defend end-zone.,defer,38,ok
+401525546,fill,6154764,Virginia wins toss and defers; LOU will receive; UVA will defend South end-zone.,defer,258,ok
+401520387,fill,6154808,Louisiana Tech wins toss and defers; SAM will receive; LAT will defend North end-zone.,defer,2348,ok
+401525550,fill,6154777,Miami (FL) wins toss and defers; FSU will receive; MIA will defend North end-zone.,defer,2390,ok
+401525551,fill,6154771,NC State wins toss and defers; WFU will receive; NCS will defend North end-zone.,defer,152,ok
+401520397,fill,6154774,Texas A&M wins toss and defers; MSU will receive; A&M will defend North end-zone.,defer,245,ok
+401531914,fill,6154787,Ga. Southern wins toss and defers; MAR will receive; GS  will defend South end-zone.,defer,290,ok
+401525556,fill,6154838,North Ala. wins toss; UNA will receive; will defend end-zone.,ambiguous,2453,ok
+401520424,fill,6154879,Mississippi St. wins toss and will receive; OM  will defend South end-zone.,ambiguous,344,ok
+401525560,fill,6154885,Miami (FL) wins toss and defers; BOS will receive; MIA will defend South end-zone.,defer,2390,ok
+401531376,fill,6154881,Tulane wins toss and defers; TSA will receive; will defend end-zone.,defer,2655,ok
+401525901,fill,6154890,Texas wins toss and defers; TTU will receive; TEX will defend South end-zone.,defer,251,ok
+401532626,fill,6154932,Hawaii wins toss and defers; CSU will receive; HAW will defend East end-zone.,defer,62,ok
+401539475,fill,6229360,Oregon wins toss and defers; UW  will receive; ORE will defend South end-zone.,defer,2483,ok
+401539477,fill,6229424,SMU wins toss and will receive; TLN will defend South end-zone.,receive,2567,ok
+401539479,fill,6229423,Texas wins toss and defers; OSU will receive; TEX will defend West end-zone.,defer,251,ok
+401539481,fill,6229251,Miami (OH) wins toss and will receive; TOL will defend East end-zone.,receive,193,ok
+401539483,fill,6229252,Georgia wins toss and defers; ALA will receive; UGA will defend South end-zone.,defer,61,ok
+401539484,fill,6229253,App State wins toss and defers; TRO will receive; APP will defend North end-zone.,defer,2026,ok
+401539478,fill,6229254,Florida St. wins toss and defers; LOU will receive; FSU will defend West end-zone.,defer,52,ok
+401539480,fill,6229361,Michigan wins toss and defers; IOW will receive; UM  will defend South end-zone.,defer,130,ok
+401520445,fill,6154935,Army West Point wins toss and defers; Nav will receive; Arm will defend South end-zone.,defer,349,ok
+401551731,fill,6229535,App State wins toss and will receive; MIA will defend North end-zone.,receive,2026,ok
+401551732,fill,6229537,Fresno St. wins toss and defers; NMS will receive; FSU will defend North end-zone.,defer,278,ok
+401551733,fill,6229533,Ohio wins toss and defers; GS  will receive; OU  will defend North end-zone.,defer,195,ok
+401551751,fill,6229534,Louisiana wins toss and defers; JSU will receive; UL  will defend South end-zone.,defer,309,ok
+401618099,fill,6191696,North Dakota St. wins toss; NDS will receive; UM will defend end-zone.,ambiguous,2449,ok
+401551752,fill,6229538,Boise St. wins toss and defers; UCL will receive; BSU will defend North end-zone.,defer,68,ok
+401551753,fill,6229539,California wins toss and defers; TTU will receive; CAL will defend North end-zone.,defer,25,ok
+401551469,fill,6229541,Western Ky. wins toss and defers; ODU will receive; WKU will defend East end-zone.,defer,98,ok
+401551735,fill,6229542,Marshall wins toss and defers; UTS will receive; MAR will defend South end-zone.,defer,276,ok
+401551737,fill,6229543,South Fla. wins toss and will receive; SYR will defend North end-zone.,ambiguous,58,ok
+401551754,fill,6229544,UCF wins toss and will receive; GAT will defend East end-zone.,receive,2116,ok
+401551739,fill,6229545,Duke wins toss and defers; TRY will receive; DUK will defend North end-zone.,defer,150,ok
+401551741,fill,,,,,no NCAA match
+401551742,fill,6229547,Air Force wins toss and defers; JMU will receive; AF  will defend North end-zone.,defer,2005,ok
+401551743,fill,6229548,Georgia St. wins toss and defers; USU will receive; GSU will defend North end-zone.,defer,2247,ok
+401551744,fill,6229550,Utah wins toss and defers; NU  will receive; UTA will defend East end-zone.,defer,254,ok
+401551746,fill,6229514,San Jose St. wins toss and defers; CCU will receive; SJS will defend East end-zone.,defer,23,ok
+401551755,fill,6229549,Eastern Mich. wins toss and defers; USA will receive; EMU will defend North end-zone.,defer,2199,ok
+401551748,fill,6229552,Rice wins toss and defers; TSU will receive;  RU will defend South end-zone.,defer,242,ok
+401551756,fill,6229551,Minnesota wins toss and defers; BGS will receive; MIN will defend West end-zone.,defer,135,ok
+401551757,fill,6229553,Kansas wins toss and defers; UNL will receive; KAN will defend North end-zone.,defer,2305,ok
+401551758,fill,6229554,Virginia Tech wins toss and defers; Tul will receive; VT  will defend South end-zone.,defer,259,ok
+401551761,fill,6229555,North Carolina wins toss and defers; WVU will receive; UNC will defend East end-zone.,defer,153,ok
+401551749,fill,6229557,Oklahoma St. wins toss and defers; TAM will receive; OSU will defend South end-zone.,defer,197,ok
+401551750,fill,6229558,Boston College wins toss and defers; SMU will receive; BOS will defend South end-zone.,defer,103,ok
+401551762,fill,6229559,Miami (FL) wins toss and defers; RUT will receive; MIA will defend West end-zone.,defer,2390,ok
+401551764,fill,6229560,NC State wins toss and defers; KSU will receive; NCS will defend South end-zone.,defer,152,ok
+401581109,fill,6229556,Southern California wins toss and will receive; LOU will defend South end-zone.,receive,30,ok
+401551765,fill,6229561,Oklahoma wins toss and defers; ARZ will receive; OKL will defend South end-zone.,defer,201,ok
+401551766,fill,6229536,Kentucky wins toss and will kickoff; CU  will defend North end-zone.,kick,96,ok
+401551767,fill,6229563,Iowa St. wins toss and defers; MEM will receive; ISU will defend North end-zone.,defer,66,ok
+401551798,fill,6229562,Notre Dame wins toss and defers; OSU will receive; UND will defend South end-zone.,defer,87,ok
+401551768,fill,6229540,Missouri wins toss and defers; OSU will receive; MIZ will defend West end-zone.,defer,142,ok
+401551769,fill,6229564,Ole Miss wins toss and will receive; PSU will defend East end-zone.,receive,145,ok
+401551770,fill,6229565,Auburn wins toss and defers; UMD will receive; AUB will defend South end-zone.,defer,2,ok
+401551773,fill,6229566,Georgia wins toss and defers; FSU will receive; UGA will defend West end-zone.,defer,61,ok
+401554566,fill,6229567,Wyoming wins toss and defers; TOL will receive; WYO will defend South end-zone.,defer,2751,ok
+401551780,fill,6229570,Tennessee wins toss and defers; IOW will receive; TEN will defend North end-zone.,defer,2633,ok
+401551782,fill,6229569,Liberty wins toss and will receive; ORE will defend North end-zone.,receive,2335,ok
+401551786,fill,6229530,#4 Alabama wins toss and defers; UM  will receive; UA  will defend South end-zone.,defer,333,ok
+401551788,fill,6229531,Washington wins toss and defers; TEX will receive; WAS will defend North end-zone.,defer,264,ok
+401551789,fill,6229713,#2 Washington wins toss and defers; UM  will receive; UW  will defend North end-zone.,defer,264,ok
+401635525,fill,6306042,Georgia Tech wins toss and defers; FSU will receive; GT will defend South end-zone.,defer,59,ok
+401644729,fill,6306268,Fordham wins toss and defers; BG will receive; FOR will defend South end-zone.,defer,2230,ok
+401628328,fill,6306229,Temple wins toss and will receive; OKL will defend South end-zone.,receive,218,ok
+401634206,fill,6306533,Colorado wins toss and defers; NDS will receive; COL will defend North end-zone.,defer,38,ok
+401636387,fill,6306320,Jackson St. wins toss and defers; ULM will receive; JSU will defend South end-zone.,defer,2296,ok
+401628319,fill,6306374,Alabama wins toss and defers; WKU will receive; ALA will defend South end-zone.,defer,333,ok
+401628322,fill,6305956,Miami wins toss and defers; UFL will receive; MIA will defend North end-zone.,defer,2390,ok
+401628323,fill,6306369,Clemson wins toss and will receive; UGA will defend East end-zone.,receive,228,ok
+401628331,fill,6306214,Colorado St. wins toss and defers; TEX will receive; CSU will defend South end-zone.,defer,36,ok
+401628332,fill,6305925,Notre Dame wins toss and defers; A&M will receive; UND will defend South end-zone.,defer,87,ok
+401628333,fill,6306111,Virginia Tech wins toss and defers; VU will receive; VT will defend North end-zone.,defer,259,ok
+401634300,fill,6306473,Stanford wins toss and will receive; TCU will defend North end-zone.,receive,24,ok
+401634301,fill,6306486,California wins toss and will receive; UCD will defend South end-zone.,receive,25,ok
+401628334,fill,6305936,LSU wins toss and will receive; USC will defend South end-zone.,receive,99,ok
+401636608,fill,6306444,Arizona wins toss and defers; UNM will receive; ARI will defend North end-zone.,defer,12,ok
+401634306,fill,6306043,Florida St. wins toss and defers; BC will receive; FSU will defend South end-zone.,defer,52,ok
+401628335,fill,6306375,Alabama wins toss and defers; USF will receive; ALA will defend South end-zone.,defer,333,ok
+401628336,fill,6305948,Arkansas wins toss and defers; OSU will receive; ARK will defend East end-zone.,defer,8,ok
+401628340,fill,6306057,South Carolina wins toss and defers; UKY will receive; USC will defend West end-zone.,defer,2579,ok
+401628346,fill,6306365,Tennessee wins toss and defers; NCS will receive; TEN will defend South end-zone.,defer,2633,ok
+401629040,fill,6305914,Toledo wins toss and defers; MAS will receive; TOL will defend North end-zone.,defer,2649,ok
+401636616,fill,6306540,Kansas St. wins toss and defers; TLN will receive; KSU will defend North end-zone.,defer,2306,ok
+401636867,fill,6306248,Texas St. wins toss and will receive; ASU will defend North end-zone.,ambiguous,326,ok
+401628353,fill,6305927,Florida wins toss and defers; A&M will receive; UFL will defend South end-zone.,defer,57,ok
+401628354,fill,6306359,Kentucky wins toss and defers; UGA will receive; UKY will defend East end-zone.,defer,96,ok
+401628358,fill,6306231,Oklahoma wins toss and defers; TLN will receive; OKL will defend North end-zone.,defer,201,ok
+401628359,fill,6305938,LSU wins toss and defers; USC will receive; LSU will defend South end-zone.,defer,99,ok
+401628361,fill,6306215,Texas wins toss and defers; UTS will receive; TEX will defend South end-zone.,defer,251,ok
+401635542,fill,6306044,Memphis wins toss and defers; FSU will receive; MEM will defend North end-zone.,defer,235,ok
+401636866,fill,6306510,TCU wins toss and defers; UCF will receive; TCU will defend North end-zone.,defer,2628,ok
+401635541,fill,6306487,California wins toss and will receive; SDS will defend South end-zone.,receive,25,ok
+401634766,fill,6306475,Stanford wins toss and defers; SYR will kickoff; STA will defend East end-zone.,defer,24,ok
+401628365,fill,6305939,LSU wins toss and will receive; UCL will defend North end-zone.,receive,99,ok
+401628367,fill,6305958,Florida wins toss and defers; MSU will receive; UF will defend North end-zone.,defer,57,ok
+401628369,fill,6306232,Tennessee wins toss and defers; OKL will receive; TEN will defend South end-zone.,defer,2633,ok
+401628492,fill,6305893,wins toss; will receive; will defend end-zone.,ambiguous,,winner unclear
+401635552,fill,6306386,NC State wins toss and defers; CLE will receive; NCS will defend East end-zone.,defer,152,ok
+401641034,fill,6306644,NM State wins toss and defers; SAM will receive; NMS will defend South end-zone.,defer,166,ok
+401644736,fill,,,,,no NCAA match
+401645328,fill,6306573,Rice wins toss and defers; AWP will receive; RIC will defend North end-zone.,defer,242,ok
+401636872,fill,6306541,Kansas St. wins toss and defers; BYU will receive; KSU will defend South end-zone.,defer,2306,ok
+401645331,fill,6306574,Army West Point wins toss and defers; TEM will receive; ARM will defend North end-zone.,defer,349,ok
+401634767,fill,6306116,Virginia Tech wins toss and defers; MIA will receive; VAT will defend East end-zone.,defer,259,ok
+401628373,fill,6305929,Texas A&M wins toss and defers; ARK will receive; A&M will defend North end-zone.,defer,245,ok
+401628374,fill,6306371,Georgia wins toss and defers; ALA will receive; UGA will defend South end-zone.,defer,61,ok
+401628375,fill,6306233,Oklahoma wins toss and defers; AUB will receive; OU will defend North end-zone.,defer,201,ok
+401628377,fill,6306070,Kentucky wins toss and defers; OLE will receive; KEN will defend South end-zone.,defer,96,ok
+401629043,fill,6306281,Massachusetts wins toss and defers; MIA will receive; UMA will defend North end-zone.,defer,113,ok
+401634050,fill,6306953,Sacramento St. wins toss and will receive; NAU will defend North end-zone.,ambiguous,16,ok
+401635561,fill,6306387,Clemson wins toss and defers; STA will receive; CLE will defend West end-zone.,defer,228,ok
+401635564,fill,,,,,no NCAA match
+401636883,fill,6306542,Oklahoma State wins toss and defers; KSU will receive; OSU will defend South end-zone.,defer,197,ok
+401645335,fill,6306702,Wagner wins toss and defers; FAU will receive; WAG will defend South end-zone.,defer,2681,ok
+401636891,fill,6306511,TCU wins toss and defers; HOU will receive; TCU will defend South end-zone.,defer,2628,ok
+401628379,fill,6305951,Tennessee wins toss and defers; ARK will receive; UTN will defend South end-zone.,defer,2633,ok
+401628381,fill,6306372,Georgia wins toss and defers; AUB will receive; UGA will defend East end-zone.,defer,61,ok
+401628383,fill,6306170,Texas A&M wins toss and defers; UM will receive; A&M will defend South end-zone.,defer,245,ok
+401628504,fill,6305895,Ohio State wins toss and defers; IOW will receive; OSU will defend North end-zone.,defer,194,ok
+401628508,fill,6306183,Nebraska wins toss and will receive; RUG will defend South end-zone.,receive,158,ok
+401635568,fill,6306416,California wins toss and defers; MIA will receive; CAL will defend South end-zone.,defer,25,ok
+401628385,fill,6306060,South Carolina wins toss and defers; ALA will receive; USC will defend North end-zone.,defer,2579,ok
+401628388,fill,6305941,LSU wins toss and will receive; OLE will defend North end-zone.,receive,99,ok
+401628390,fill,6306217,Texas wins toss and will receive; OKL will defend North end-zone.,receive,251,ok
+401628391,fill,6305960,Florida wins toss and defers; TEN will receive; FLA will defend North end-zone.,defer,57,ok
+401635575,fill,6305995,Pitt wins toss and will receive; CAL will defend South end-zone.,receive,221,ok
+401636892,fill,6306523,Arizona St. wins toss and defers; UU will receive; ASU will defend North end-zone.,defer,9,ok
+401643730,fill,6306565,Fresno St. wins toss and defers; WSU will receive; FST will defend end-zone.,defer,278,ok
+401643807,fill,6306029,Southern Miss. wins toss and will kickoff; ULM will defend North end-zone.,ambiguous,2572,ok
+401634768,fill,6306118,Virginia Tech wins toss and defers; BC will receive; VT will defend North end-zone.,defer,259,ok
+401628396,fill,6306061,South Carolina wins toss and defers; OKL will receive; USC will defend North end-zone.,defer,2579,ok
+401628397,fill,6306366,Alabama wins toss and will receive; TEN will defend South end-zone.,receive,333,ok
+401628398,fill,6306218,Texas wins toss and defers; UGA will receive; TEX will defend North end-zone.,defer,251,ok
+401635589,fill,6306394,Miami (FL) wins toss and defers; LOU will receive; MIA will defend North end-zone.,defer,2390,ok
+401636898,fill,6306548,Oklahoma St. wins toss and defers; BYU will receive; OSU will defend North end-zone.,defer,197,ok
+401643813,fill,6306252,Texas St. wins toss and defers; ODU will receive; TSU will defend North end-zone.,defer,326,ok
+401634770,fill,6305996,Pitt wins toss and will receive; SYR will defend South end-zone.,receive,221,ok
+401628400,fill,6306172,Alabama wins toss and defers; MIZ will receive; ALA will defend North end-zone.,defer,333,ok
+401628404,fill,6305932,Texas A&M wins toss and defers; LSU will receive; A&M will defend South end-zone.,defer,245,ok
+401628983,fill,6306306,Navy wins toss and defers; ND will receive; Nav will defend South end-zone.,defer,2426,ok
+401645356,fill,6306709,Tulane wins toss and defers; CLT will receive; TUL will defend North end-zone.,defer,2655,ok
+401628408,fill,6305962,Florida wins toss and defers; UGA will receive; FLA will defend South end-zone.,defer,57,ok
+401628411,fill,6306062,Texas A&M wins toss and defers; USC will receive; TAM will defend South end-zone.,defer,245,ok
+401628539,fill,6305898,Ohio St. wins toss and defers; PSU will receive; OSU will defend North end-zone.,defer,194,ok
+401635600,fill,6306389,Louisville wins toss and defers; CLE will receive; LOU will defend East end-zone.,defer,97,ok
+401635601,fill,6306410,Duke wins toss and defers; MIA will receive; DUK will defend West end-zone.,defer,150,ok
+401628414,fill,6306072,Georgia wins toss and defers; OLE will receive; UGA will defend South end-zone.,defer,61,ok
+401628417,fill,6305963,Florida wins toss and defers; TEX will receive; Fla will defend North end-zone.,defer,57,ok
+401628413,fill,6305943,LSU wins toss and defers; ALA will receive; LSU will defend North end-zone.,defer,99,ok
+401636922,fill,6306553,BYU wins toss and defers; Ute will receive; BYU will defend South end-zone.,defer,252,ok
+401628419,fill,6305954,Texas wins toss and will receive; ARK will defend North end-zone.,receive,251,ok
+401628420,fill,6305944,Florida wins toss and defers; LSU will receive; FLA will defend South end-zone.,defer,57,ok
+401645369,fill,6306677,Fla. Atlantic wins toss and defers; TEM will receive; FAU will defend North end-zone.,defer,2226,ok
+401628421,fill,6306367,Tennessee wins toss and defers; UGA will receive; TEN will defend East end-zone.,defer,2633,ok
+401634772,fill,6306401,NC State wins toss and defers; GT will receive; NCS will defend North end-zone.,defer,152,ok
+401628429,fill,6305964,Florida wins toss and defers; OLE will receive; UFL will defend North end-zone.,defer,57,ok
+401628555,fill,6305878,Indiana wins toss and defers; OSU will receive; IND will defend North end-zone.,defer,84,ok
+401628433,fill,6306235,Alabama wins toss and defers; OKL will receive; ALA will defend North end-zone.,defer,333,ok
+401640959,fill,6306308,Notre Dame wins toss and defers; ARM will receive; UND will defend West end-zone.,defer,87,ok
+401628442,fill,6306073,Mississippi St wins toss and will receive; OLE will defend South end-zone.,receive,344,ok
+401636938,fill,6306538,Colorado wins toss and defers; OKS will receive; COL will defend South end-zone.,defer,38,ok
+401645376,fill,6306729,Tulane wins toss and defers; MEM will receive; TUL will defend North end-zone.,defer,2655,ok
+401628437,fill,6306377,Alabama wins toss and defers; AUB will receive; ALA will defend South end-zone.,defer,333,ok
+401628439,fill,6306373,Georgia wins toss and defers; GT will receive; UGA will defend West end-zone.,defer,61,ok
+401628446,fill,6306358,Tennessee wins toss and defers; VU will receive; UTK will defend South end-zone.,defer,2633,ok
+401644780,fill,6306228,Eastern Michigan wins toss and defers; WMU will receive; EMU will defend North end-zone.,defer,2199,ok
+401628445,fill,6305935,Texas wins toss and defers; A&M will receive; TEX will defend North end-zone.,defer,251,ok
+401636944,fill,6306024,#17 Iowa State wins toss and defers; KSU will receive; ISU will defend North end-zone.,defer,66,ok
+401673465,fill,6382502,Iowa St. wins toss and defers; ASU will receive; ISU will defend West end-zone.,defer,66,ok
+401673467,fill,6382503,Ohio wins toss and defers; MIA will receive; OHI will defend West end-zone.,defer,195,ok
+401673469,fill,6382504,Georgia wins toss and defers; TEX will receive; UGA will defend West end-zone.,defer,61,ok
+401673463,fill,6382579,SMU wins toss and will receive; CL will defend East end-zone.,receive,2567,ok
+401673464,fill,6382489,Penn St. wins toss and defers; ORE will receive; PSU will defend South end-zone.,defer,213,ok
+401673470,fill,6382505,Marshall wins toss and defers; UL will receive; MAR will defend South end-zone.,defer,276,ok
+401729785,fill,6348318,North Dakota St. wins toss and defers; MER will receive; NDS will defend end-zone.,defer,2449,ok
+401677081,fill,6382601,California wins toss and defers; UNL will receive; CAL will defend North end-zone.,defer,25,ok
+401677082,fill,6382602,Sam Houston wins toss and will receive; GSU will defend North end-zone.,receive,2534,ok
+401677083,fill,6382603,Jacksonville St. wins toss and defers; OHU will receive; JAX will defend North end-zone.,defer,55,ok
+401677084,fill,6382587,Tulane wins toss and defers; FLA will receive; TUL will defend West end-zone.,defer,2655,ok
+401677176,fill,6382583,Texas wins toss and defers; CLM will receive; TEX will defend North end-zone.,defer,251,ok
+401677178,fill,6382584,SMU wins toss and defers; PSU will receive; SMU will defend South end-zone.,defer,2567,ok
+401677179,fill,6382594,Notre Dame wins toss and defers; IND will receive; UND will defend North end-zone.,defer,87,ok
+401677177,fill,6382600,Tennessee wins toss and defers; OSU will receive; TEN will defend South end-zone.,defer,2633,ok
+401677085,fill,6382604,Coastal Carolina wins toss; CCU will receive; TSA will defend end-zone.,ambiguous,324,ok
+401677086,fill,,,,,no NCAA match
+401677180,fill,6382606,Pittsburgh wins toss and defers; TOL will receive; PIT will defend East end-zone.,defer,221,ok
+401677090,fill,6382609,Navy wins toss and defers; OU will receive; NA will defend North end-zone.,defer,2426,ok
+401677091,fill,6382610,Vanderbilt wins toss and defers; GAT will receive; will defend end-zone.,defer,238,ok
+401677092,fill,6382611,Arkansas wins toss and defers; TTU will receive; ARK will defend South end-zone.,defer,8,ok
+401677093,fill,6382643,Southern California wins toss and will receive; TAM will defend South end-zone.,receive,30,ok
+401677094,fill,6382612,North Carolina wins toss and defers; CON will receive; UNC will defend East end-zone.,defer,153,ok
+401677095,fill,6382613,Nebraska wins toss and will receive; BOS will defend North end-zone.,receive,158,ok
+401677096,fill,6382614,Louisiana wins toss and defers; TCU will receive; UL will defend South end-zone.,defer,309,ok
+401677097,fill,6382615,Iowa St. wins toss and defers; MIA will receive; ISU will defend North end-zone.,defer,66,ok
+401677098,fill,6382617,East Carolina wins toss and defers; NCS will receive; ECU will defend South end-zone.,defer,151,ok
+401677188,fill,6382616,Colorado State wins toss and will receive; MIA will defend North end-zone.,receive,36,ok
+401677099,fill,6382618,Colorado wins toss and defers; BYU will receive; COL will defend South end-zone.,defer,38,ok
+401677103,fill,6382623,South Carolina wins toss and defers; ILL will receive; USC will defend North end-zone.,defer,2579,ok
+401677181,fill,6382592,Penn St. wins toss and defers; BSU will receive; PSU will defend North end-zone.,defer,213,ok
+401677182,fill,6382590,Texas wins toss and defers; ASU will receive; UTX will defend West end-zone.,defer,251,ok
+401677183,fill,6382591,#1 Oregon wins toss and defers; OSU will receive; will defend end-zone.,defer,2483,ok
+401677105,fill,6382625,Ole Miss wins toss and will receive; DUK will defend South end-zone.,receive,145,ok
+401677106,fill,6382626,Texas St. wins toss and defers; UNT will receive; TSU will defend North end-zone.,defer,326,ok
+401677107,fill,6382627,Minnesota wins toss and will kickoff; VT will defend West end-zone.,kick,135,ok
+401680057,fill,6348322,Montana St. wins toss and defers; NDS will receive; MSU will defend end-zone.,defer,147,ok
+401677189,fill,6382588,Notre Dame wins toss and defers; PSU will receive; UND will defend West end-zone.,defer,87,ok
+401677191,fill,6382589,Ohio St. wins toss and defers; TEX will receive; OSU will defend West end-zone.,defer,194,ok
+401677192,fill,6384676,#8 Ohio State wins toss and defers; UND will receive; OSU will defend West end-zone.,defer,194,ok
+401756846,fill,6458983,Kansas State wins toss and defers; ISU will receive; KSU will defend South end-zone.,defer,2306,ok
+401762522,fill,6458875,South Fla. wins toss and defers; BSU will receive; USF will defend South end-zone.,defer,58,ok
+401762432,fill,6458910,Tarleton St. wins toss and defers; AWP will receive; TAR will defend North end-zone.,defer,2627,ok
+401752665,fill,6459216,Florida St. wins toss and defers; ALA will receive; FSU will defend North end-zone.,defer,52,ok
+401752671,fill,6458846,Clemson wins toss and defers; LSU will receive; CLE will defend West end-zone.,defer,228,ok
+401752676,fill,6459397,Syracuse wins toss and defers; TEN will receive; SYR will defend East end-zone.,defer,183,ok
+401752678,fill,6459066,UTSA wins toss and defers; A&M will receive; SAN will defend South end-zone.,defer,2636,ok
+401752680,fill,6458958,Virginia Tech wins toss and defers; USC will receive; VAT will defend East end-zone.,defer,259,ok
+401752936,fill,6459373,Oregon St. wins toss and defers; CAL will receive; OSU will defend North end-zone.,defer,204,ok
+401754522,fill,6459624,#10/#10 Miami (FL) wins toss and defers; ND will receive; MIA will defend West end-zone.,defer,2390,ok
+401754523,fill,6459035,TCU wins toss and defers; UNC will receive; TCU will defend West end-zone.,defer,2628,ok
+401752817,fill,6459312,Western Ill. wins toss and defers; NU will receive; WIU will defend South end-zone.,defer,2710,ok
+401754528,fill,6458827,James Madison wins toss and defers; LOU will receive; JMU will defend North end-zone.,defer,256,ok
+401752686,fill,6459179,Kentucky wins toss and defers; MIS will receive; UKY will defend West end-zone.,defer,96,ok
+401752688,fill,6459076,Mississippi St. wins toss and will receive; ASU will defend South end-zone.,ambiguous,344,ok
+401752690,fill,6459563,Michigan wins toss and defers; OKL will receive; UM will defend North end-zone.,defer,130,ok
+401752693,fill,6459339,San Jose St. wins toss and defers; TEX will receive; SJS will defend South end-zone.,defer,23,ok
+401752694,fill,6459067,Utah St. wins toss and defers; A&M will receive; USU will defend North end-zone.,defer,328,ok
+401752811,fill,,,,,no NCAA match
+401752825,fill,6458920,Illinois wins toss and defers; DU will receive; ILL will defend North end-zone.,defer,356,ok
+401754621,fill,6459023,Florida St. wins toss and defers; ETA will receive; FSU will defend South end-zone.,defer,52,ok
+401754622,fill,6459615,Georgia Tech wins toss and defers; GWU will receive; GT will defend North end-zone.,defer,59,ok
+401756882,fill,6458911,Army West Point wins toss and defers; KSU will receive; AWP will defend South end-zone.,defer,349,ok
+401756887,fill,6459186,Cal Poly wins toss and defers; UTA will receive; CAP will defend South end-zone.,defer,13,ok
+401754526,fill,6459493,BYU wins toss and defers; CAR will receive; BYU will defend South end-zone.,defer,252,ok
+401754531,fill,6459194,NC State wins toss and defers; WFU will receive; NCS will defend North end-zone.,defer,152,ok
+401752696,fill,6459303,Alabama wins toss and defers; WIS will receive; ALA will defend North end-zone.,defer,333,ok
+401752699,fill,6458804,Florida wins toss and defers; LSU will receive; FLA will defend North end-zone.,defer,57,ok
+401752705,fill,6459399,Georgia wins toss and defers; TEN will receive; UGA will defend South end-zone.,defer,61,ok
+401752707,fill,6459068,Notre Dame wins toss and defers; TAM will receive; UND will defend South end-zone.,defer,87,ok
+401752835,fill,6459633,Villanova wins toss and defers; PSU will receive; VIL will defend South end-zone.,defer,222,ok
+401754623,fill,6459482,Clemson wins toss and defers; GT will receive; CU will defend South end-zone.,defer,228,ok
+401756895,fill,6459187,Utah wins toss and defers; WYO will receive; UTA will defend North end-zone.,defer,254,ok
+401762468,fill,6459056,Rice wins toss and defers; CLT will receive; RIC will defend North end-zone.,defer,242,ok
+401752708,fill,6459247,Arkansas wins toss and will receive; MEM will defend South end-zone.,receive,8,ok
+401752709,fill,6458805,#4/#6 Miami (FL) wins toss and defers; FLA will receive; MIA will defend West end-zone.,defer,2390,ok
+401752711,fill,6458817,Ole Miss wins toss and will receive; TUL will defend South end-zone.,receive,145,ok
+401752714,fill,6459151,Oklahoma wins toss and defers; AUB will receive; OKL will defend North end-zone.,defer,201,ok
+401752843,fill,6459521,Indiana wins toss and defers; ILL will receive; IND will defend North end-zone.,defer,84,ok
+401762471,fill,6458913,Army West Point wins toss and defers; ECU will receive; ARM will defend East end-zone.,defer,349,ok
+401752717,fill,6459248,Arkansas wins toss and will receive; NDU will defend North end-zone.,receive,8,ok
+401752718,fill,6459415,Alabama wins toss and defers; UGA will receive; ALA will defend East end-zone.,defer,333,ok
+401752719,fill,6458847,Ole Miss wins toss and will receive; LSU will defend South end-zone.,receive,145,ok
+401752854,fill,6459289,Penn St. wins toss and defers; ORE will receive; PSU will defend North end-zone.,defer,213,ok
+401757275,fill,6459454,New Mexico St. wins toss and defers; SAM will receive; NMS will defend South end-zone.,defer,166,ok
+401762475,fill,6458877,Charlotte wins toss and defers; USF will receive; CLT will defend North end-zone.,defer,2429,ok
+401752726,fill,6459558,Vanderbilt wins toss and defers; ALA will receive; VU will defend South end-zone.,defer,238,ok
+401752728,fill,6459350,Kentucky wins toss and defers; UGA will receive; UKY will defend East end-zone.,defer,96,ok
+401754553,fill,6459219,Miami (FL) wins toss and defers; FSU will receive; MIA will defend South end-zone.,defer,2390,ok
+401754554,fill,6459513,Louisville wins toss and defers; UVA will receive; LOU will defend North end-zone.,defer,97,ok
+401762831,fill,6459282,Buffalo wins toss and defers; EMU will receive; BUF will defend South end-zone.,defer,2084,ok
+401754551,fill,6458923,Duke wins toss and defers; CAL will receive; DU will defend North end-zone.,defer,150,ok
+401757280,fill,6459517,Louisiana Tech wins toss and defers; KSU will receive; LAT will defend South end-zone.,defer,2348,ok
+401752731,fill,6459152,Georgia wins toss and defers; AUB will receive; UGA will defend North end-zone.,defer,61,ok
+401752734,fill,6459234,Alabama wins toss and defers; MIZ will receive; ALA will defend North end-zone.,defer,333,ok
+401752736,fill,6459561,Texas wins toss and defers; OU will receive; UT will defend South end-zone.,defer,251,ok
+401762486,fill,6458796,Tulsa wins toss and will receive; ECU will defend East end-zone.,receive,202,ok
+401752738,fill,6459402,Alabama wins toss and defers; UT will receive; ALA will defend North end-zone.,defer,333,ok
+401752740,fill,6459153,Missouri wins toss and defers; AUB will receive; MIZ will defend South end-zone.,defer,142,ok
+401752742,fill,6459182,Ole Miss wins toss and defers; UGA will receive; MIS will defend West end-zone.,defer,145,ok
+401752745,fill,6458848,Vanderbilt wins toss and defers; LSU will receive; VU will defend South end-zone.,defer,238,ok
+401754371,fill,6459119,California wins toss and defers; UNC will receive; CAL will defend South end-zone.,defer,25,ok
+401752748,fill,6458843,Texas A&M wins toss and defers; LSU will receive; TAM will defend North end-zone.,defer,245,ok
+401752750,fill,6459183,Oklahoma wins toss and defers; UM will receive; OKL will defend South end-zone.,defer,201,ok
+401752751,fill,6458997,South Carolina wins toss and will receive; ALA will defend North end-zone.,receive,2579,ok
+401778314,fill,6534507,Minnesota wins toss and defers; UNM will receive; MIN will defend North end-zone.,defer,135,ok
+401778325,fill,6534517,Coastal Carolina wins toss and defers; LTU will receive; CCU will defend South end-zone.,defer,324,ok
+401769073,fill,6531851,Georgia won the toss and has deferred to the second half. MIS will receive and UGA will defend the north goal.,defer,61,ok
+401856797,fill,6604253,Miami (OH) wins toss and will receive; CIN will defend South end-zone.,receive,193,ok
+401860921,fill,6640657,Washington St. wins toss and defers; FSU will receive; WSU will defend West end-zone.,defer,265,ok
+401864520,fill,6604130,North Dakota St. wins toss and defers; NEV will receive; NDS will defend North end-zone.,defer,2449,ok
+401858286,fill,6603675,NC State wins toss and defers; DUK will receive; NCS will defend North end-zone.,defer,152,ok
+401532428,check,6154618,Ohio wins toss and defers; WMU will receive; OHI will defend North end-zone.,defer,195,ok
+401520396,check,6154773,Vanderbilt wins toss and defers; USC will receive; VAN will defend North end-zone.,defer,238,ok
+401531394,check,6154880,Memphis wins toss; MEM will receive; will defend end-zone.,ambiguous,235,ok
+401628443,check,6306052,Missouri wins toss and defers; ARK will receive; MIZ will defend North end-zone.,defer,142,ok
+401532573,check,6154263,Oregon St. wins toss and defers; SJS will receive; OSU will defend North end-zone.,defer,204,ok
+401643779,check,6306332,Tulsa wins toss and defers; ASU will receive; TLS will defend North end-zone.,defer,202,ok
+401403951,check,,,,,no NCAA match
+401635573,check,6306117,Virginia Tech wins toss and defers; STA will receive; VTU will defend South end-zone.,defer,259,ok
+401628980,check,6306303,Louisville wins toss and defers; UND will receive; LVL will defend North end-zone.,defer,97,ok
+401628978,check,6305881,wins toss; will receive; will defend end-zone.,ambiguous,,winner unclear
+401628497,check,6306005,Michigan wins toss and defers; MIN will receive; UoM will defend South end-zone.,defer,130,ok
+401866460,check,6603991,Miami (OH) wins toss and defers; Ohi will receive; MIA will defend North end-zone.,defer,193,ok
+401754520,check,6459527,Pitt wins toss and defers; DUQ will receive; PIT will defend North end-zone.,defer,221,ok
+401403870,check,6005729,Auburn wins toss and defers; SJS will receive; will defend end-zone.,defer,2,ok
+401756956,check,6459507,Colorado wins toss and defers; ASU will receive; COL will defend North end-zone.,defer,38,ok
+401757226,check,6458970,North Ala. wins toss and will kickoff; WKU will defend South end-zone.,ambiguous,2453,ok
+401752859,check,6458947,Minnesota wins toss and will receive; OSU will defend North end-zone.,receive,135,ok
+401871047,check,6604184,Marshall wins toss and defers; MSU will receive; MAR will defend South end-zone.,defer,276,ok
+401643754,check,6306603,San Diego State wins toss and defers; UNM will receive; SDS will defend South end-zone.,defer,21,ok
+401756944,check,6458989,TCU wins toss and defers; ISU will receive; TCU will defend North end-zone.,defer,2628,ok
+401540387,check,6155526,North Dakota St. wins toss and will receive; SIU will defend North end-zone.,ambiguous,2449,ok
+401752883,check,6459596,Nebraska wins toss and defers; NU will receive; NEB will defend South end-zone.,defer,158,ok
+401416611,check,6005945,Kent St. wins toss and defers; OUB will receive; KSU will defend South end-zone.,defer,2309,ok
+401628389,check,6305930,Massachusetts wins toss and defers; MIZ will receive; UMA will defend North end-zone.,defer,113,ok
+401643728,check,6306597,Boise St. wins toss and defers; HAW will receive; BSU will defend East end-zone.,defer,68,ok
+401858271,check,6603672,Duke wins toss and defers; UVA will receive; DUK will defend South end-zone.,defer,150,ok
+401628415,check,6306173,Missouri wins toss and defers; OKL will receive; MIZ will defend North end-zone.,defer,142,ok
+401520298,check,6154546,Army West Point wins toss and defers; BC  will receive; AWP will defend South end-zone.,defer,349,ok
+401628525,check,6306159,Illinois wins toss and defers; ORE will receive; ILL will defend East end-zone.,defer,356,ok
+401635556,check,6306132,North Carolina wins toss and defers; JMU will receive; will defend end-zone.,defer,153,ok
+401520269,check,6154420,Texas San Antonio wins toss and defers; TEN will receive; TSA will defend North end-zone.,defer,2636,ok
+401426332,check,6005718,Gardner-Webb wins toss and defers; CCU will receive; GWU will defend East end-zone.,defer,2241,ok
+401858446,check,6640756,Washington wins toss and defers; USU will receive; UW will defend West end-zone.,defer,264,ok
+401762845,check,,,,,no NCAA match
+401524065,check,6154924,Notre Dame wins toss and will kickoff; STA will defend North end-zone.,kick,87,ok
+401426344,check,6006004,ULM wins toss and defers; CCU will receive; ULM will defend North end-zone.,defer,2433,ok
+401762864,check,,,,,no NCAA match
+401762869,check,6459034,Eastern Michigan wins toss and will receive; WMU will defend South end-zone.,receive,2199,ok
+401643762,check,6306594,San Diego St. wins toss and defers; NLV will receive; SDS will defend South end-zone.,defer,21,ok
+401756955,check,6459663,Cincinnati wins toss and defers; BYU will receive; CIN will defend North end-zone.,defer,2132,ok
+401757314,check,6459436,Louisiana Tech wins toss and defers; MSU will receive; LTU will defend South end-zone.,defer,2348,ok
+401866457,check,6603979,Sacramento St. wins toss and defers; TOL will receive; SAC will defend North end-zone.,defer,16,ok
+401858430,check,6604332,Nebraska wins toss and defers; OHI will receive; NEB will defend South end-zone.,defer,158,ok
+401413223,check,6006360,"UCA won toss, will defer.  UCA will defend north goal.",defer,,winner unclear
+401635583,check,6306405,Wake Forest wins toss and defers; UNC will receive; WAK will defend West end-zone.,defer,154,ok
+401628640,check,6307003,Monmouth wins toss and will receive; Del will defend West end-zone.,receive,2405,ok
+401532399,check,6154303,Akron wins toss and defers; MSU will receive; AKR will defend South end-zone.,defer,2006,ok
+401756893,check,6458853,Houston wins toss and defers; COL will receive; HOU will defend East end-zone.,defer,248,ok
+401634169,check,6305880,Purdue wins toss and defers; ISU will receive; PUR will defend North end-zone.,defer,2509,ok
+401752904,check,6458952,Oregon wins toss and will receive; MIN will defend West end-zone.,receive,2483,ok
+401628474,check,6306194,South Dakota wins toss and defers; WIS will receive; USD will defend North end-zone.,defer,233,ok
+401762791,check,6459137,Wisconsin wins toss and defers; MOH will receive; WIS will defend North end-zone.,defer,275,ok
+401635560,check,6306175,Western Ky. wins toss and will receive; BCE will defend South end-zone.,ambiguous,98,ok
+401752799,check,6459369,Iowa wins toss and will receive; UA will defend North end-zone.,receive,2294,ok
+401862783,check,6603745,North Texas wins toss and will receive; HCU will defend North end-zone.,receive,249,ok
+401862798,check,6603718,Memphis wins toss and defers; UAB will receive; MEM will defend North end-zone.,defer,235,ok
+401540607,check,6154963,Kennesaw St. wins toss and defers; TUS will receive; KSU will defend North end-zone.,defer,338,ok
+401862700,check,6604272,UTSA wins toss and defers; RGV will receive; TSA will defend South end-zone.,defer,2636,ok
+401411150,check,6006127,Virginia wins toss and defers; MIA will receive; UVA will defend South end-zone.,defer,258,ok
+401645324,check,6306673,Navy wins toss and defers; Tem will receive; Nav will defend North end-zone.,defer,2426,ok
+401520166,check,6154256,Western Illinois wins toss and will kickoff; NMS will defend North end-zone.,kick,2710,ok
+401628529,check,6306086,Michigan wins toss and defers; MSU will receive; UOM will defend North end-zone.,defer,130,ok
+401644740,check,6306258,Bowling Green wins toss and defers; AKR will receive; BG will defend South end-zone.,defer,189,ok
+401858484,check,6604120,Oregon wins toss and defers; UCL will receive; ORE will defend West end-zone.,defer,2483,ok
+401415655,check,6006263,Houston wins toss and defers; TEM will receive; HOU will defend West end-zone.,defer,248,ok
+401628418,check,6306063,South Carolina wins toss and defers; VU will receive; SC will defend South end-zone.,defer,2579,ok
+401531339,check,6154457,Tulsa wins toss and defers; TEM will receive; TLS will defend South end-zone.,defer,202,ok
+401532444,check,,,,,no NCAA match
+401756881,check,6459576,Colorado wins toss and defers; DEL will receive; COL will defend North end-zone.,defer,38,ok
+401867796,check,6603813,LSU wins toss and will receive; LAT will defend North end-zone.,receive,99,ok
+401520199,check,6154322,Grambling wins toss and defers; LSU will receive; GSU will defend North end-zone.,defer,2755,ok
+401752879,check,6459630,Maryland wins toss and defers; UCL will receive; UMD will defend South end-zone.,defer,120,ok
+401418643,check,6007083,Kennesaw St. wins toss and defers; EKU will receive; KSU will defend East end-zone.,defer,338,ok
+401540352,check,,,,,no NCAA match
+401635615,check,6306122,Duke wins toss and defers; VT will receive; DU will defend North end-zone.,defer,150,ok
+401404016,check,6006061,Stanford won the toss and has deferred to the second half. STA will receive and UND will defend the  goal.,defer,24,ok
+401415656,check,6006278,SMU wins toss and will receive; USF will defend South end-zone.,receive,2567,ok
+401856810,check,6640760,BYU wins toss and defers; UOA will receive; BYU will defend North end-zone.,defer,252,ok
+401426369,check,6006216,Southern Miss wins toss and defers; GSU will receive; USM will defend South end-zone.,defer,2572,ok
+401757301,check,,,,,no NCAA match
+401760397,check,6459393,Boise State wins toss and defers; NEV will receive; BSU will defend South end-zone.,defer,68,ok
+401628348,check,6305926,McNeese wins toss and defers; A&M will receive; MCN will defend North end-zone.,defer,2377,ok
+401752683,check,6459149,Auburn wins toss and defers; BSU will receive; AUB will defend North end-zone.,defer,2,ok
+401641004,check,6306463,Louisiana Tech wins toss and defers; JSU will receive; LAT will defend South end-zone.,defer,2348,ok
+401640989,check,6306650,New Mexico St. wins toss and defers; LIB will receive; NMS will defend South end-zone.,defer,166,ok
+401864503,check,,,,,no NCAA match
+401869965,check,6603750,Louisiana Tech wins toss and defers; ULL will receive; LAT will defend North end-zone.,defer,2348,ok
+401426542,check,6005622,Houston wins toss and defers; UTS will receive; HOU will defend end-zone.,defer,248,ok
+401525528,check,6154630,Boston College wins toss and defers; GT  will receive; BC  will defend North end-zone.,defer,103,ok
+401757277,check,6459325,Liberty wins toss and defers; TEP will receive; LIB will defend North end-zone.,defer,2335,ok
+401520267,check,6154411,South Carolina wins toss and defers; MSU will receive; USC will defend North end-zone.,defer,2579,ok
+401520358,check,6154161,Penn St. wins toss and defers; IND will receive; PSU will defend North end-zone.,defer,213,ok
+401754641,check,6459215,#5/#7 Miami (FL) wins toss and defers; BCU will receive; MIA will defend East end-zone.,defer,2390,ok
+401752755,check,6458809,Florida wins toss and defers; UGA will receive; FLA will defend South end-zone.,defer,57,ok
+401756951,check,6459464,Arizona wins toss and defers; CIN will receive; ARZ will defend South end-zone.,defer,12,ok
+401416613,check,6005996,Central Michigan wins toss and defers; will receive; will defend end-zone.,defer,2117,ok
+401426361,check,6006124,Old Dominion wins toss and defers; GSU will receive; ODU will defend South end-zone.,defer,295,ok
+401523996,check,6154229,Nevada wins toss and defers; USC will receive; NEV will defend West end-zone.,defer,2440,ok
+401532601,check,6154626,Nevada wins toss and defers; SDS will receive; NEV will defend North end-zone.,defer,2440,ok
+401752813,check,6458942,Minnesota wins toss and defers; NSU will receive; UMN will defend West end-zone.,defer,135,ok
+401531337,check,6154193,Ark.-Pine Bluff wins toss and defers; TLS will receive; APB will defend North end-zone.,defer,2029,ok
+401520429,check,6154891,Florida St. wins toss and defers; UFL will receive; FSU will defend North end-zone.,defer,52,ok
+401636943,check,6306514,TCU wins toss and will receive; CIN will defend South end-zone.,receive,2628,ok
+401641007,check,6306456,Nicholls wins toss and defers; LAT will receive; NIC will defend South end-zone.,defer,2447,ok
+401856743,check,6640614,Missouri wins toss and defers; TEX will receive; MIZ will defend North end-zone.,defer,142,ok
+401752837,check,6459421,New Mexico wins toss and will receive; UCL will defend South end-zone.,receive,167,ok
+401532395,check,,,,,no NCAA match
+401404100,check,6006123,Iowa State wins toss and defers; OKL will receive; ISU will defend North end-zone.,defer,66,ok
+401426566,check,6005884,Fla. Atlantic won the toss and has deferred to the second half. PUR will receive and FAU will defend the south goal.,defer,2226,ok
+401636925,check,6306537,Utah wins toss and defers; COL will receive; UTA will defend North end-zone.,defer,254,ok
+401415238,check,6006056,Colorado St. wins toss and defers; USU will receive; CSU will defend North end-zone.,defer,36,ok
+401643812,check,6305984,Georgia Southern wins toss and defers; JMU will receive; GS will defend South end-zone.,defer,290,ok
+401778334,check,6534528,Mississippi St. wins toss and will receive; WFU will defend South end-zone.,ambiguous,344,ok
+401520149,check,6154252,Alabama wins toss and defers; MT  will receive; ALA will defend South end-zone.,defer,333,ok
+401643849,check,6306035,Troy wins toss and defers; USM will receive; TRO will defend South end-zone.,defer,2653,ok
+401871057,check,6604178,New Mexico St. wins toss and defers; JAX will receive; NMS will defend South end-zone.,defer,166,ok
+401754544,check,6459644,California wins toss and defers; BCE will receive; CAL will defend South end-zone.,defer,25,ok
+401754577,check,6458925,Duke wins toss and defers; CLE will receive; DUK will defend West end-zone.,defer,150,ok
+401628326,check,6306074,Mississippi St. wins toss and will receive; EKU will defend South end-zone.,ambiguous,344,ok
+401754638,check,6459528,West Virginia wins toss and defers; PIT will receive; WVU will defend North end-zone.,defer,277,ok
+401404096,check,6006089,Baylor wins toss and defers; KAN will receive; BAY will defend South end-zone.,defer,239,ok
+401767449,check,6460065,Indiana St. wins toss and defers; NDS will receive; INS will defend East end-zone.,defer,282,ok
+401414779,check,6005732,Toledo wins toss and defers; MAS will receive; TOL will defend end-zone.,defer,2649,ok
+401860897,check,6603826,Western Michigan wins toss and will kickoff; BSU will defend South end-zone.,kick,2711,ok
+401778327,check,6534519,TCU wins toss and defers; USC will receive; TCU will defend South end-zone.,defer,2628,ok
+401641008,check,6306457,Tulsa wins toss and defers; LAT will receive; TLS will defend South end-zone.,defer,202,ok
+401752788,check,6459083,Ole Miss wins toss and will receive; MSU will defend North end-zone.,receive,145,ok
+401752822,check,6458981,Iowa wins toss and will receive; ISU will defend North end-zone.,receive,2294,ok
+401520323,check,6154103,Ohio St. wins toss and defers; PUR will receive; OSU will defend North end-zone.,defer,194,ok
+401752939,check,6458854,Houston wins toss and defers; OSU will receive; HOU will defend North end-zone.,defer,248,ok
+401856858,check,6604043,#10 BYU wins toss and defers; BAY will receive; BYU will defend South end-zone.,defer,252,ok
+401628554,check,6306160,Rutgers wins toss and defers; ILL will receive; RU will defend North end-zone.,defer,164,ok
+401426587,check,6006050,Western Ky. wins toss and defers; MTS will receive; WKU will defend South end-zone.,defer,98,ok
+401858206,check,6604107,Miami (FL) wins toss and defers; STA will receive; MIA will defend North end-zone.,defer,2390,ok
+401752712,check,,,,,no NCAA match
+401645322,check,6306719,Navy wins toss and defers; Buc will receive; Nav will defend South end-zone.,defer,2426,ok
+401634305,check,6305990,Kent St. wins toss and defers; PIT will receive; KSU will defend North end-zone.,defer,2309,ok
+401531346,check,6154920,East Carolina wins toss and defers; TLS will receive; ECU will defend West end-zone.,defer,151,ok
+401525876,check,6154664,Cincinnati wins toss and defers; OSU will receive; Cin will defend East end-zone.,defer,2132,ok
+401757295,check,6459518,Delaware wins toss and defers; LAT will receive; DEL will defend North end-zone.,defer,48,ok
+401870795,check,6640469,Liberty wins toss and defers; NMS will receive; LIB will defend South end-zone.,defer,2335,ok
+401866427,check,6603679,Eastern Michigan wins toss and defers; LIN will receive; EMU will defend North end-zone.,defer,2199,ok
+401870763,check,6603878,Troy wins toss and will receive; SH will defend South end-zone.,receive,2653,ok
+401415259,check,6006238,UNLV wins toss and will receive; FSU will defend South end-zone.,receive,2439,ok
+401767129,check,6459990,Portland State wins toss and defers; SAC will receive; PSU will defend South end-zone.,defer,2502,ok
+401856727,check,6604261,Texas A&M wins toss and defers; ALA will receive; TAM will defend South end-zone.,defer,245,ok
+401858301,check,6604159,SMU wins toss and will receive; WF will defend South end-zone.,receive,2567,ok
+401643780,check,6306321,ULM wins toss and defers; UAB will receive; ULM will defend North end-zone.,defer,2433,ok
+401525840,check,6154389,Texas wins toss and defers; WYO will receive; TEX will defend South end-zone.,defer,251,ok
+401628471,check,6306188,Akron wins toss and defers; RU will receive; AKR will defend North end-zone.,defer,2006,ok
+401415616,check,6005708,Lamar University wins toss and will receive; SMU will defend North end-zone.,receive,2320,ok
+401762478,check,6458795,Memphis wins toss and defers; TUL will receive; MEM will defend South end-zone.,defer,235,ok
+401520329,check,6154603,Jacksonville St. wins toss and defers; WKU will receive; JSU will defend West end-zone.,defer,55,ok
+401756847,check,6459012,Fresno St. wins toss and defers; KAN will receive; FS will defend North end-zone.,defer,278,ok
+401405093,check,6005860,Miami (OH) wins toss and will receive; NWU will defend North end-zone.,receive,193,ok
+401520193,check,6154155,Indiana wins toss and defers; ISU will receive; IND will defend North end-zone.,defer,84,ok
+401641041,check,6306249,Texas State wins toss and will receive; SAM will defend South end-zone.,receive,326,ok
+401415620,check,,,,,no NCAA match
+401858247,check,6640499,California wins toss and will receive; NLV will defend South end-zone.,receive,25,ok
+401420839,check,6007005,North Dakota St. wins toss and defers; SIU will receive; NDS will defend South end-zone.,defer,2449,ok
+401858262,check,6603923,Stanford wins toss and defers; ELO will receive; STA will defend North end-zone.,defer,24,ok
+401413251,check,6006906,Idaho wins toss and will kickoff; SAC will defend North end-zone.,kick,70,ok
+401866455,check,6603874,Ball St. wins toss and defers; UMA will receive; BSU will defend South end-zone.,defer,2050,ok
+401762868,check,6459301,Massachusetts wins toss and defers; BGS will receive; UMA will defend South end-zone.,defer,113,ok
+401858218,check,,,,,no NCAA match
+401426581,check,6005993,Middle Tenn. wins toss and defers; UAB will receive; MTS will defend North end-zone.,defer,2393,ok
+401404015,check,6006024,Washington St. wins toss and defers; OSU will receive; WSU will defend North end-zone.,defer,265,ok
+401628522,check,6306147,Wisconsin wins toss and defers; NU will receive; WIS will defend South end-zone.,defer,275,ok
+401525835,check,6154391,Miami (OH) wins toss and will receive; CIN will defend South end-zone.,receive,193,ok
+401866423,check,6604346,Ohio wins toss and defers; USA will receive; OHI will defend North end-zone.,defer,195,ok
+401643741,check,6306624,New Mexico wins toss and defers; CSU will receive; UNM will defend South end-zone.,defer,167,ok
+401760364,check,6459384,Northern Colo. wins toss and defers; CSU will receive; UNC will defend South end-zone.,defer,2458,ok
+401856851,check,6604070,Cincinnati wins toss and defers; HOU will receive; CIN will defend East end-zone.,defer,2132,ok
+401856780,check,6604281,Coastal Carolina wins toss and defers; WVU will receive; CCU will defend North end-zone.,defer,324,ok
+401531904,check,6154705,South Alabama wins toss and defers; TRO will receive; USA will defend North end-zone.,defer,6,ok
+401415260,check,6006280,San Diego State wins toss and defers; SJS will receive; SDS will defend North end-zone.,defer,21,ok
+401404148,check,6005737,UConn wins toss and defers; SYR will receive; UCN will defend East end-zone.,defer,41,ok
+401645361,check,6306700,Florida Atlantic wins toss and defers; ECU will receive; FAU will defend West end-zone.,defer,2226,ok
+401644731,check,,,,,no NCAA match
+401643711,check,6306628,New Mexico wins toss and defers; FST will receive; UNM will defend South end-zone.,defer,167,ok
+401752741,check,6458808,Mississippi St. wins toss and will receive; UFL will defend South end-zone.,ambiguous,344,ok
+401520192,check,6154329,Georgia St. wins toss and will receive; UCO will defend North end-zone.,ambiguous,2247,ok
+401520204,check,6154128,Eastern Mich. wins toss and will receive; UMN will defend West end-zone.,ambiguous,2199,ok
+401643817,check,6306031,James Madison wins toss and defers; USM will receive; JMU will defend North end-zone.,defer,256,ok
+401645326,check,6306712,Rice wins toss and defers; TSU will receive; RIC will defend North end-zone.,defer,242,ok
+401752732,check,6458842,South Carolina wins toss and defers; LSU will receive; USC will defend North end-zone.,defer,2579,ok
+401866428,check,6604246,Stonehill wins toss and defers; OU will receive; STH will defend North end-zone.,defer,284,ok
+401858226,check,6604314,Wake Forest wins toss and defers; MIA will receive; WFU will defend North end-zone.,defer,154,ok
+401532429,check,6154616,Akron wins toss and defers; BG  will receive; AKR will defend North end-zone.,defer,2006,ok
+401862771,check,,,,,no NCAA match
+401856698,check,6640740,Vanderbilt wins toss and defers; AUB will receive; VAN will defend North end-zone.,defer,238,ok
+401520398,check,6154111,Northwestern wins toss and defers; WIS will receive; NWU will defend South end-zone.,defer,77,ok
+401866410,check,6604282,Tarleton St. wins toss and defers; BG will receive; TSU will defend North end-zone.,defer,2627,ok
+401856821,check,6640617,Texas Tech wins toss and defers; COL will receive; TTU will defend North end-zone.,defer,2641,ok
+401524049,check,6154718,Arizona St. wins toss and defers; Ute will receive; ASU will defend North end-zone.,defer,9,ok
+401636888,check,6306424,Kansas wins toss and defers; ASU will receive; KAN will defend North end-zone.,defer,2305,ok
+401762865,check,6459146,Buffalo wins toss and defers; MIA will receive; BUF will defend South end-zone.,defer,2084,ok
+401628337,check,6306379,California wins toss and defers; AUB will receive; CAL will defend North end-zone.,defer,25,ok
+401405098,check,6005836,Penn State won the toss and has deferred to the second half. CMU will receive and PSU will defend the south goal.,defer,213,ok
+401858254,check,6603966,Louisville wins toss and defers; FSU will receive; LOU will defend South end-zone.,defer,97,ok
+401866461,check,6604358,Buffalo wins toss and defers; BSU will receive; UB will defend North end-zone.,defer,2084,ok
+401404122,check,6006385,Oklahoma wins toss and defers; TTU will receive; OOU will defend North end-zone.,defer,201,ok
+401860882,check,6603943,Southern Utah wins toss and defers; CSU will receive; SUU will defend South end-zone.,defer,253,ok
+401752924,check,6459092,Indiana wins toss and defers; PUR will receive; IND will defend South end-zone.,defer,84,ok
+401628566,check,6305900,Ohio State wins toss and defers; MIC will receive; OSU will defend South end-zone.,defer,194,ok
+401531915,check,6154798,ULM wins toss and defers; TRO will receive; ULM will defend North end-zone.,defer,2433,ok
+401540347,check,6155178,Missouri St. wins toss and defers; SIU will receive; MSU will defend North end-zone.,defer,2623,ok
+401404104,check,6006201,Baylor wins toss and defers; OKL will receive; BAY will defend South end-zone.,defer,239,ok
+401756888,check,6459241,Kansas State wins toss and defers; ARI will receive; KSU will defend North end-zone.,defer,2306,ok
+401411168,check,6006314,North Carolina wins toss and defers; GT  will receive; UNC will defend West end-zone.,defer,153,ok
+401404099,check,6006072,West Virginia wins toss and defers; TTU will receive; WVU will defend South end-zone.,defer,277,ok
+401856888,check,6604031,Texas A&M wins toss and defers; TEN will receive; A&M will defend North end-zone.,defer,245,ok
+401520157,check,6191259,Iowa wins toss and will receive; USU will defend South end-zone.,receive,2294,ok
+401856778,check,6604065,Houston wins toss and defers; OSU will receive; HOU will defend East end-zone.,defer,248,ok
+401752805,check,6459588,Washington wins toss and defers; CSU will receive; UW will defend East end-zone.,defer,264,ok
+401531418,check,6154246,Monmouth wins toss and will receive; FAU will defend South end-zone.,receive,2405,ok
+401752908,check,6459599,Penn St. wins toss and defers; NEB will receive; PSU will defend North end-zone.,defer,213,ok
+401752796,check,6459593,Cincinnati wins toss and will receive; NEB will defend West end-zone.,receive,2132,ok
+401404115,check,6006303,Iowa State wins toss and defers; TTU will receive; ISU will defend North end-zone.,defer,66,ok
+401752716,check,6459264,Vanderbilt wins toss and defers; GSU will receive; VAN will defend South end-zone.,defer,238,ok
+401404106,check,6006200,Kansas wins toss and defers; OSU will receive; Kan will defend South end-zone.,defer,2305,ok
+401752910,check,6459607,UCLA wins toss and defers; WAS will receive; UCL will defend North end-zone.,defer,26,ok
+401520417,check,6154936,Rutgers wins toss and defers; PSU will receive; RUT will defend North end-zone.,defer,164,ok
+401628520,check,6306053,Iowa wins toss and defers; MSU will receive; IOW will defend South end-zone.,defer,2294,ok
+401752806,check,6459519,Indiana wins toss and defers; ODU will receive; IND will defend North end-zone.,defer,84,ok
+401862809,check,6640767,Rice wins toss and will receive; FAU will defend South end-zone.,receive,242,ok
+401856804,check,6640761,Washington St. wins toss and defers; ARI will receive; WSU will defend West end-zone.,defer,265,ok
+401867909,check,,,,,no NCAA match
+401525889,check,6154781,Baylor wins toss and defers; KSU will receive; BAY will defend North end-zone.,defer,239,ok
+401416607,check,6005940,Toledo won the toss and has deferred to the second half. CMU will receive and TOL will defend the north goal.,defer,2649,ok
+401864499,check,6603888,Fordham wins toss and defers; NDS will receive; FOR will defend North end-zone.,defer,2230,ok
+401761610,check,6458901,Eastern Mich. wins toss and defers; ULL will receive; EMU will defend South end-zone.,defer,2199,ok
+401426371,check,6006258,Southern Miss. wins toss and defers; CCU will receive; USM will defend North end-zone.,defer,2572,ok
+401629045,check,6306579,Army West Point wins toss and defers; UNT will receive; Arm will defend North end-zone.,defer,349,ok
+401636941,check,6306432,Baylor wins toss and defers; KAN will receive; BAY will defend South end-zone.,defer,239,ok
+401416633,check,6006168,Ohio wins toss and defers; BUF will receive; OHI will defend South end-zone.,defer,195,ok
+401520260,check,6154175,Michigan wins toss and defers; RU  will receive; MIC will defend North end-zone.,defer,130,ok
+401403998,check,6005846,UCLA wins toss and defers; COL will receive; UCL will defend North end-zone.,defer,26,ok
+401523987,check,6154191,Arizona St. wins toss and defers; SUU will receive; ASU will defend North end-zone.,defer,9,ok
+401520390,check,,,,,no NCAA match
+401520259,check,6154440,Missouri wins toss and defers; MEM will receive; MIZ will defend South end-zone.,defer,142,ok
+401524003,check,6154335,USC wins toss and will receive; STA will defend West end-zone.,receive,30,ok
+401754563,check,6459365,Oregon St. wins toss and defers; WFU will receive; OSU will defend North end-zone.,defer,204,ok
+401762839,check,6459163,Bowling Green wins toss and will receive; CMU will defend South end-zone.,receive,189,ok
+401868170,check,6603778,Charleston So. wins toss and will kickoff; GS will defend East end-zone.,ambiguous,2127,ok
+401403929,check,6006128,South Carolina wins toss and defers; MIZ will receive; USC will defend North end-zone.,defer,2579,ok
+401862819,check,6603740,UAB wins toss and defers; CLT will receive; UAB will defend North end-zone.,defer,5,ok
+401404157,check,6005643,Liberty wins toss and defers; USM will receive; LU  will defend South end-zone.,defer,2335,ok
+401856710,check,6604026,Auburn wins toss and defers; TEN will receive; AUB will defend South end-zone.,defer,2,ok
+401754599,check,6459500,Stanford wins toss and defers; CAL will receive; STA will defend South end-zone.,defer,24,ok
+401754571,check,6459616,Syracuse wins toss and defers; GT will receive; SYR will defend South end-zone.,defer,183,ok
+401858434,check,6603756,Marshall wins toss and defers; PSU will receive; MAR will defend South end-zone.,defer,276,ok
+401767515,check,6459864,North Dakota St. wins toss and defers; UST will receive; NDS will defend North end-zone.,defer,2449,ok
+401858470,check,6603684,Washington wins toss and defers; UMN will receive; UW will defend West end-zone.,defer,264,ok
+401761603,check,6459205,Texas St. wins toss and will receive; TSA will defend South end-zone.,ambiguous,326,ok
+401424430,check,6006662,Delaware wins toss and defers; TOW will receive; DEL will defend North end-zone.,defer,48,ok
+401635624,check,6306406,North Carolina wins toss and defers; NCS will receive; UNC will defend West end-zone.,defer,153,ok
+401645349,check,6306683,North Texas wins toss and defers; MEM will receive; UNT will defend South end-zone.,defer,249,ok
+401614604,check,6191678,North Dakota St. wins toss; NDS will receive; DRA will defend end-zone.,ambiguous,2449,ok
+401856841,check,6604320,TCU wins toss and defers; WVU will receive; TCU will defend North end-zone.,defer,2628,ok
+401756913,check,6458855,Houston wins toss and defers; TTU will receive; HOU will defend East end-zone.,defer,248,ok
+401643795,check,6306269,Bowling Green wins toss and defers; ODU will receive; BG will defend South end-zone.,defer,189,ok
+401860902,check,6604302,San Diego St. wins toss and defers; OSU will receive; SDS will defend North end-zone.,defer,21,ok
+401403940,check,6006262,Auburn wins toss and defers; TAM will receive; AUB will defend North end-zone.,defer,2,ok
+401856682,check,6640723,Ohio St. wins toss and defers; TEX will receive; OSU will defend North end-zone.,defer,194,ok
+401856842,check,6640762,Texas Tech wins toss and defers; ARI will receive; TTU will defend South end-zone.,defer,2641,ok
+401866451,check,6603978,Kent St. wins toss and defers; SAC will receive; KSU will defend South end-zone.,defer,2309,ok
+401762518,check,6458824,Charlotte wins toss and defers; TLN will receive; CLT will defend North end-zone.,defer,2429,ok
+401645318,check,6306693,Northwestern St. wins toss and will receive; TLS will defend South end-zone.,ambiguous,2466,ok
+401777325,check,6534363,Kennesaw St. wins toss and defers; JSU will receive; KSU will defend West end-zone.,defer,338,ok
+401856667,check,6604218,Texas St. wins toss and will receive; TEX will defend South end-zone.,ambiguous,326,ok
+401860922,check,6640773,Washington St. wins toss and defers; USU will receive; WSU will defend North end-zone.,defer,265,ok
+401615900,check,6191688,Montana St. wins toss; MSU will receive; NDS will defend end-zone.,ambiguous,147,ok
+401403889,check,6005805,Tennessee wins toss and will receive; AKR will defend North end-zone.,receive,2633,ok
+401767438,check,6460058,North Dakota State wins toss and defers; ILS will receive; NDS will defend North end-zone.,defer,2449,ok
+401525878,check,6154690,UCF wins toss and defers; will receive; will defend end-zone.,defer,2116,ok
+401426550,check,6005727,McNeese wins toss and defers; RIC will receive; MCN will defend South end-zone.,defer,2377,ok
+401520177,check,,,,,no NCAA match
+401762828,check,6459027,Western Michigan wins toss and will kickoff; URI will defend East end-zone.,kick,2711,ok
+401413257,check,6005664,San Diego State wins toss and defers; ISU will receive; will defend end-zone.,defer,21,ok
+401754530,check,6459643,California wins toss and will receive; TSU will defend South end-zone.,receive,25,ok
+401754537,check,6459483,Clemson wins toss and defers; SYR will receive; CLE will defend West end-zone.,defer,228,ok
+401856840,check,6604256,Texas Tech wins toss and defers; CIN will receive; TTU will defend North end-zone.,defer,2641,ok
+401403983,check,6005679,wins toss; will receive; will defend end-zone.,ambiguous,,winner unclear
+401760358,check,6459159,San Jose St. wins toss and defers; CMU will receive; SJS will defend North end-zone.,defer,23,ok
+401767123,check,6459997,Northern Colo. wins toss and will receive; SAC will defend North end-zone.,ambiguous,2458,ok
+401415248,check,6006149,Fresno St. wins toss and will receive; SDS will defend North end-zone.,ambiguous,278,ok
+401752818,check,6459139,Rutgers wins toss and defers; MOH will receive; RU will defend South end-zone.,defer,164,ok
+401862773,check,6603825,Rice wins toss and defers; WMU will receive; RIC will defend North end-zone.,defer,242,ok
+401520180,check,6154105,Buffalo wins toss and defers; WIS will receive; BUF will defend South end-zone.,defer,2084,ok
+401643790,check,6306328,App State wins toss and defers; USA will receive; APP will defend North end-zone.,defer,2026,ok
+401532595,check,6154599,San Diego St. wins toss and defers; HAW will receive; SDS will defend West end-zone.,defer,21,ok
+401520364,check,6154734,Missouri wins toss and defers; UGA will receive; MIZ will defend East end-zone.,defer,142,ok
+401858525,check,6604035,Nebraska wins toss and defers; RU will receive; NEB will defend North end-zone.,defer,158,ok
+401864424,check,6604072,Delaware wins toss and defers; MER will receive; DEL will defend North end-zone.,defer,48,ok
+401762816,check,6459573,Massachusetts wins toss and defers; BRY will receive; UMA will defend South end-zone.,defer,113,ok
+401636890,check,6306494,West Virginia wins toss and will receive; OSU will defend East end-zone.,receive,277,ok
+401760396,check,6459172,Utah St. wins toss and defers; SJS will receive; USU will defend North end-zone.,defer,328,ok
+401405118,check,6006112,Northwestern wins toss and defers; UMD will receive; NOR will defend East end-zone.,defer,77,ok
+401425457,check,6006934,Sacramento State wins toss and defers; WSU will receive; SAC will defend North end-zone.,defer,16,ok

@@ -155,7 +155,7 @@ svg .val { fill: var(--ink); font-family: var(--font-data); font-size: 11px; }
 
 <section>
   <div class="sec-head"><span class="sec-num">10</span><h2>How complete the data is</h2></div>
-  <p>Every toss comes from ESPN's play-by-play, which logs the referee's call, for example <q>Michigan won the toss and has deferred to the second half</q>. Each call is checked against which team actually took the opening kickoff. Head coaches come from CollegeFootballData.com.</p>
+  <p>Toss calls come from ESPN's play-by-play, which logs the referee's call, for example <q>Michigan won the toss and has deferred to the second half</q>. About one game in seven was logged by ESPN in a stat-crew format that names the <em>receiving</em> team as the toss winner. Those games, mostly SEC and ACC home games and bowls from 2022–2024, were filled from the NCAA's official stat-crew play-by-play on NCAA.com. Every call is checked against which team actually took the opening kickoff. Head coaches come from CollegeFootballData.com.</p>
   <div class="tbl"><table id="t-seasons"></table></div>
   <div class="callout" id="gap-callout"></div>
   <div class="tbl"><table id="t-lowcov"></table></div>
@@ -183,13 +183,13 @@ const never = D.never;
 [
   `<b>Taking the ball is rare.</b> Across ${R.decisions.toLocaleString()} verified decisions by FBS teams, toss winners chose to receive ${fmt(R.receive_pct)}% of the time. The rate has held between ${fmt(Math.min(...D.by_season.map(s => s.receive_pct)))}% and ${fmt(Math.max(...D.by_season.map(s => s.receive_pct)))}% every season.`,
   `<b>It is the head coach's call.</b> At the ${R.schools_with_change} schools that changed coaches, a coach's own record predicts his next decision about three times better than the school's record under other coaches (correlation ${fmt(H.corr_coach, 2)} vs. ${fmt(H.corr_school, 2)}).`,
-  `<b>A small group takes the ball almost every time:</b> Jeff Lebby, G.J. Kinne, Rhett Lashlee and Lincoln Riley all receive in 83–89% of tosses won.`,
-  `<b>Many never do.</b> ${never.length} of ${D.coaches_n15} coaches with 15+ decisions never chose to receive, including Curt Cignetti, Kyle Whittingham, Jeff Brohm and Troy Calhoun.`,
-  `<b>Programs flip with the coach.</b> Mississippi State went from 1 of 3 to 16 of 18 when Jeff Lebby arrived. West Virginia went from 12 of 14 under Neal Brown to 0 of 8 under Rich Rodriguez. Texas State went from 2 of 5 to 23 of 26 under G.J. Kinne.`,
-  `<b>Habits mostly travel, but not always.</b> Lane Kiffin took the ball 11 of 11 times at Ole Miss but 1 of 5 so far at LSU. His former defensive coordinator, Pete Golding, kept receiving at Ole Miss after he left (4 of 5).`,
+  `<b>A small group takes the ball almost every time:</b> Jeff Lebby (18 of 20), Lincoln Riley (25 of 29), Rhett Lashlee (27 of 32) and G.J. Kinne (23 of 28) all receive in 82–90% of tosses won.`,
+  `<b>Many never do.</b> ${never.length} of ${D.coaches_n15} coaches with 15+ decisions never chose to receive, including Mario Cristobal (0 of 34), Kyle Whittingham, Jeff Brohm and Curt Cignetti. Kirby Smart (2 of 33) and Kalen DeBoer (2 of 38) almost never do.`,
+  `<b>Programs flip with the coach.</b> West Virginia went from 12 of 16 under Neal Brown to 0 of 8 under Rich Rodriguez. Texas State went from 2 of 5 under Jake Spavital to 23 of 28 under G.J. Kinne.`,
+  `<b>Habits mostly travel, but not always.</b> Lane Kiffin took the ball 22 of 24 times at Ole Miss but 1 of 5 so far at LSU. His former defensive coordinator, Pete Golding, kept receiving at Ole Miss after he left (4 of 5).`,
   `<b>Taking the ball pays off in the first half only.</b> Toss winners who receive cover the estimated first-half spread ${fmt(D.halves.receive.h1_cover_pct)}% of the time vs. ${fmt(D.halves.defer.h1_cover_pct)}% for those who defer. Across all games, the team that takes the opening kickoff covers the first half ${fmt(D.halves.opening_receiver_all_games.first_half.cover_pct)}% of the time, but only ${fmt(D.halves.opening_receiver_all_games.full_game.cover_pct)}% for the full game.`,
   `<b>The point spread doesn't change the choice.</b> Toss winners take the ball 16–20% of the time whether they are big favorites or big underdogs, and the same coach decides the same way either way.`,
-  `<b>Coverage gap:</b> about 15% of games, mostly 2022–2024 home games at Georgia, Alabama, Texas, Texas A&M, LSU and Tennessee, lack a trustworthy toss record. See section 10.`,
+  `<b>Nearly every game is covered.</b> ${fmt(100 * D.verified / D.games)}% of games have a verified toss winner and decision, from ESPN's play-by-play or, where ESPN's record was unreliable, the NCAA's official stat-crew play-by-play. See section 10.`,
 ].forEach(h => { const li = document.createElement("li"); li.innerHTML = h; $("#findings").appendChild(li); });
 
 $("#h2h-text").innerHTML = `For each of ${H.n.toLocaleString()} decisions at schools that changed head coaches, I compared two predictions: the coach's receive rate in his other games, and the school's receive rate under its other coaches. The coach's record is far more predictive. Knowing the coach and the school together adds little beyond knowing the coach.`;
@@ -303,11 +303,11 @@ transitions(D.changes, "team", "coach", $("#changes"),
 $("#t-seasons").innerHTML = `<thead><tr><th>Season</th><th>FBS games</th><th>Verified</th><th>Coverage</th><th>Receive rate</th></tr></thead><tbody>${
   D.by_season.map(s => `<tr><td>${s.season}${s.season === 2026 ? " (to Nov 17)" : ""}</td><td class="num">${s.games}</td><td class="num">${s.verified}</td><td class="num">${fmt(100 * s.verified / s.games)}%</td><td class="num">${fmt(s.receive_pct)}%</td></tr>`).join("")}</tbody>`;
 const gp = D.gaps;
-$("#gap-callout").innerHTML = `<b>${(D.games - D.verified).toLocaleString()} games lack a verified record.</b> ${gp["unreliable format"] || 0} use a stat-crew format that names the <em>receiving</em> team as the toss winner (the same coaches who never receive elsewhere appear to receive ~70% of the time under it), ${gp["no toss record"] || 0} have no toss logged, and ${(gp["undetermined"] || 0) + (gp["conflicts with kickoff"] || 0)} are ambiguous or conflict with the kickoff. That format is used by a few home stat crews and has nearly disappeared since 2025, so the gaps cluster at specific schools:`;
+$("#gap-callout").innerHTML = `<b>${D.verified.toLocaleString()} of ${D.games.toLocaleString()} games verified (${fmt(100 * D.verified / D.games)}%).</b> ${(D.sources.ESPN || 0).toLocaleString()} from ESPN and ${(D.sources.NCAA || 0).toLocaleString()} from NCAA official play-by-play. Where both sources were checked on the same ${D.ncaa_check.n} games, they named the same toss winner ${fmt(D.ncaa_check.winner_agree)}% of the time and the same decision ${fmt(D.ncaa_check.decision_agree)}%. The ${(D.games - D.verified).toLocaleString()} games still unresolved have no toss line in either source or a call that conflicts with the opening kickoff. Lowest team coverage:`;
 $("#t-lowcov").innerHTML = `<thead><tr><th>Lowest coverage</th><th>Games</th><th>Verified</th><th>Coverage</th></tr></thead><tbody>${
   D.low_cov.map(t => `<tr><td>${esc(t.team)}</td><td class="num">${t.games}</td><td class="num">${t.verified}</td><td class="num">${fmt(t.coverage_pct)}%</td></tr>`).join("")}</tbody>`;
 [
-  `Median team coverage is ${fmt(D.cov_median)}%. Official NCAA stat-crew play-by-play could fill most of the gaps; it was not used here.`,
+  `Median team coverage is ${fmt(D.cov_median)}%. NCAA records were matched to ESPN games by date, final score and team names.`,
   `Head coaches by season come from CollegeFootballData. For the 68 team-seasons with a mid-season change, games are assigned in date order using each coach's game count; ESPN's schedule matched CollegeFootballData's game counts for every team-season.`,
   `Credit goes to the official head coach. Where a head coach was suspended (for example Jim Harbaugh for six Michigan games in 2023), the decision is still credited to him.`,
   `Only FBS teams' decisions are counted. Games against FCS opponents are included when the FBS team won the toss.`,

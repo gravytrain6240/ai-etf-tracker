@@ -1,77 +1,95 @@
 coach,sum_Favorite,sum_Underdog,size_Favorite,size_Underdog,fav_pct,dog_pct,dog_minus_fav,schools
-Brent Brennan,0,3,8,7,0.0,42.9,42.9,"Arizona, San José State"
-Chris Creighton,0,4,6,10,0.0,40.0,40.0,Eastern Michigan
-Scott Satterfield,0,4,7,10,0.0,40.0,40.0,"Cincinnati, Louisville"
-Brian Newberry,1,3,13,7,7.7,42.9,35.2,Navy
-Shawn Clark,0,2,10,6,0.0,33.3,33.3,"Appalachian State, App State"
-Sonny Cumbie,1,5,13,13,7.7,38.5,30.8,Louisiana Tech
-Chuck Martin,3,5,9,8,33.3,62.5,29.2,Miami (OH)
-Lincoln Riley,11,6,15,6,73.3,100.0,26.7,USC
-Sean Lewis,0,2,5,8,0.0,25.0,25.0,"San Diego State, Kent State"
-Joey McGuire,3,2,17,5,17.6,40.0,22.4,Texas Tech
-Dave Doeren,2,3,13,8,15.4,37.5,22.1,NC State
-Eli Drinkwitz,1,2,14,7,7.1,28.6,21.5,Missouri
+Brent Brennan,0,3,10,7,0.0,42.9,42.9,"Arizona, San José State"
+Scott Satterfield,0,5,7,12,0.0,41.7,41.7,"Cincinnati, Louisville"
+Chuck Martin,3,8,9,11,33.3,72.7,39.4,Miami (OH)
+Sonny Cumbie,1,6,15,15,6.7,40.0,33.3,Louisiana Tech
+Chris Creighton,0,4,6,13,0.0,30.8,30.8,Eastern Michigan
+Brian Newberry,1,3,13,9,7.7,33.3,25.6,Navy
+Lincoln Riley,13,9,17,9,76.5,100.0,23.5,USC
+Eli Drinkwitz,1,3,15,10,6.7,30.0,23.3,Missouri
+Timmy Chang,0,3,7,13,0.0,23.1,23.1,Hawai'i
+Sean Lewis,0,2,5,9,0.0,22.2,22.2,"San Diego State, Kent State"
+Hugh Freeze,1,2,14,7,7.1,28.6,21.5,"Auburn, Liberty"
 Barry Odom,1,3,6,8,16.7,37.5,20.8,"UNLV, Purdue"
-Timmy Chang,0,2,7,11,0.0,18.2,18.2,Hawai'i
-Luke Fickell,0,1,12,6,0.0,16.7,16.7,"Cincinnati, Wisconsin"
+Shawn Clark,1,2,12,7,8.3,28.6,20.3,"Appalachian State, App State"
 K.C. Keeler,2,7,8,17,25.0,41.2,16.2,"Temple, Sam Houston"
-Jedd Fisch,3,3,13,8,23.1,37.5,14.4,"Arizona, Washington"
-Joe Moorhead,0,3,5,23,0.0,13.0,13.0,Akron
-Jay Norvell,3,3,8,6,37.5,50.0,12.5,Colorado State
-Dave Aranda,1,2,10,9,10.0,22.2,12.2,Baylor
+Joey McGuire,3,2,17,6,17.6,33.3,15.7,Texas Tech
+Shane Beamer,4,7,14,16,28.6,43.8,15.2,South Carolina
+Luke Fickell,0,1,14,7,0.0,14.3,14.3,"Cincinnati, Wisconsin"
+Tre Lamb,1,2,5,6,20.0,33.3,13.3,Tulsa
+Joe Moorhead,0,3,5,24,0.0,12.5,12.5,Akron
 Eric Morris,2,2,12,7,16.7,28.6,11.9,"Oklahoma State, North Texas"
-Lance Leipold,0,1,10,9,0.0,11.1,11.1,Kansas
-Jonathan Smith,0,1,15,10,0.0,10.0,10.0,"Michigan State, Oregon State"
-Bronco Mendenhall,2,4,5,8,40.0,50.0,10.0,"New Mexico, Utah State"
-Kirk Ferentz,13,5,21,7,61.9,71.4,9.5,Iowa
-Ricky Rahne,0,1,5,14,0.0,7.1,7.1,Old Dominion
-Deion Sanders,0,1,5,14,0.0,7.1,7.1,Colorado
-Shane Beamer,4,3,13,8,30.8,37.5,6.7,South Carolina
+Dave Aranda,1,2,10,10,10.0,20.0,10.0,Baylor
+Lance Leipold,0,1,11,10,0.0,10.0,10.0,Kansas
+Billy Napier,0,1,18,11,0.0,9.1,9.1,"James Madison, Florida"
+Dave Doeren,2,3,17,15,11.8,20.0,8.2,NC State
+Jedd Fisch,3,3,13,10,23.1,30.0,6.9,"Arizona, Washington"
+Ricky Rahne,0,1,5,15,0.0,6.7,6.7,Old Dominion
+Deion Sanders,0,1,9,16,0.0,6.2,6.2,Colorado
 Thomas Hammock,1,1,12,7,8.3,14.3,6.0,Northern Illinois
-Matt Rhule,2,2,10,8,20.0,25.0,5.0,Nebraska
-P.J. Fleck,3,2,15,9,20.0,22.2,2.2,Minnesota
-Will Hall,0,0,6,10,0.0,0.0,0.0,"Southern Miss, Tulane"
-Scott Frost,0,0,6,8,0.0,0.0,0.0,"Nebraska, UCF"
-Charles Kelly,0,0,5,5,0.0,0.0,0.0,Jacksonville State
-Charles Huff,0,0,14,5,0.0,0.0,0.0,"Memphis, Southern Miss, Marshall"
-Tre Lamb,1,1,5,5,20.0,20.0,0.0,Tulsa
-Willie Fritz,0,0,15,9,0.0,0.0,0.0,"Houston, Tulane"
+Tim Beck,1,2,6,9,16.7,22.2,5.5,Coastal Carolina
+Bronco Mendenhall,2,4,5,9,40.0,44.4,4.4,"New Mexico, Utah State"
+Jonathan Smith,1,1,17,10,5.9,10.0,4.1,"Michigan State, Oregon State"
+Kirk Ferentz,13,5,21,8,61.9,62.5,0.6,Iowa
 Troy Calhoun,0,0,16,8,0.0,0.0,0.0,Air Force
-Jerry Mack,1,1,6,6,16.7,16.7,0.0,Kennesaw State
-Jeff Choate,0,0,7,10,0.0,0.0,0.0,Nevada
-Kyle Whittingham,0,0,17,7,0.0,0.0,0.0,"Michigan, Utah"
-Kenny Dillingham,0,0,10,11,0.0,0.0,0.0,Arizona State
-Jason Candle,0,0,18,5,0.0,0.0,0.0,"Toledo, UConn"
-Clark Lea,0,0,9,8,0.0,0.0,0.0,Vanderbilt
-Scot Loeffler,0,0,8,8,0.0,0.0,0.0,Bowling Green
-Dana Holgorsen,0,0,6,6,0.0,0.0,0.0,Houston
-Michael Desormeaux,0,0,16,9,0.0,0.0,0.0,Louisiana
+Michael Desormeaux,0,0,17,10,0.0,0.0,0.0,Louisiana
+Scott Frost,0,0,6,8,0.0,0.0,0.0,"Nebraska, UCF"
+Scot Loeffler,0,0,9,9,0.0,0.0,0.0,Bowling Green
+Will Hall,0,0,6,13,0.0,0.0,0.0,"Southern Miss, Tulane"
+Kalani Sitake,0,0,16,6,0.0,0.0,0.0,BYU
+Maurice Linguist,0,0,5,5,0.0,0.0,0.0,Buffalo
+Brent Pry,0,0,6,6,0.0,0.0,0.0,Virginia Tech
+Brent Key,2,4,6,12,33.3,33.3,0.0,Georgia Tech
+Charles Huff,0,0,16,8,0.0,0.0,0.0,"Memphis, Southern Miss, Marshall"
+Clark Lea,0,0,9,11,0.0,0.0,0.0,Vanderbilt
+Jason Candle,0,0,20,5,0.0,0.0,0.0,"Toledo, UConn"
+Dave Clawson,0,0,11,6,0.0,0.0,0.0,Wake Forest
+Dana Holgorsen,0,0,8,6,0.0,0.0,0.0,Houston
+Charles Kelly,0,0,5,5,0.0,0.0,0.0,Jacksonville State
+Willie Fritz,0,0,17,9,0.0,0.0,0.0,"Houston, Tulane"
+Rich Rodriguez,0,0,11,8,0.0,0.0,0.0,"West Virginia, Jacksonville State"
+Mario Cristobal,0,0,23,6,0.0,0.0,0.0,Miami
+Mack Brown,0,0,5,5,0.0,0.0,0.0,North Carolina
+Kenny Dillingham,0,0,10,12,0.0,0.0,0.0,Arizona State
 Major Applewhite,0,0,8,6,0.0,0.0,0.0,South Alabama
-Rich Rodriguez,0,0,11,7,0.0,0.0,0.0,"West Virginia, Jacksonville State"
-Bret Bielema,1,1,11,12,9.1,8.3,-0.8,Illinois
-Clay Helton,1,1,8,9,12.5,11.1,-1.4,Georgia Southern
-Tim Beck,1,1,6,7,16.7,14.3,-2.4,Coastal Carolina
-Tyson Helton,9,4,15,7,60.0,57.1,-2.9,Western Kentucky
-Jim Mora,1,1,11,16,9.1,6.2,-2.9,"Colorado State, UConn"
-Sam Pittman,3,2,7,5,42.9,40.0,-2.9,Arkansas
-Brent Key,2,4,5,11,40.0,36.4,-3.6,Georgia Tech
-Justin Wilcox,1,1,6,11,16.7,9.1,-7.6,California
-Tony Elliott,1,0,12,10,8.3,0.0,-8.3,Virginia
+Jeff Choate,0,0,7,10,0.0,0.0,0.0,Nevada
+Jeff Traylor,0,0,18,6,0.0,0.0,0.0,UTSA
+Jerry Mack,1,1,6,6,16.7,16.7,0.0,Kennesaw State
+Jeff Monken,0,0,23,5,0.0,0.0,0.0,Army
+Kyle Whittingham,0,0,21,7,0.0,0.0,0.0,"Michigan, Utah"
+Jeff Brohm,0,0,21,7,0.0,0.0,0.0,"Purdue, Louisville"
+Jay Norvell,3,3,8,8,37.5,37.5,0.0,Colorado State
+Bret Bielema,1,1,12,13,8.3,7.7,-0.6,Illinois
+P.J. Fleck,3,2,16,11,18.8,18.2,-0.6,Minnesota
+Greg Schiano,1,1,10,12,10.0,8.3,-1.7,Rutgers
+Jim Mora,1,1,12,17,8.3,5.9,-2.4,"Colorado State, UConn"
+Sam Pittman,4,3,11,9,36.4,33.3,-3.1,Arkansas
+Sonny Dykes,3,1,19,8,15.8,12.5,-3.3,TCU
+Matt Campbell,1,0,17,5,5.9,0.0,-5.9,"Penn State, Iowa State"
+Mike Norvell,1,0,13,5,7.7,0.0,-7.7,Florida State
 Lance Taylor,3,2,9,8,33.3,25.0,-8.3,Western Michigan
-Neal Brown,4,4,6,7,66.7,57.1,-9.6,"North Texas, West Virginia"
-Greg Schiano,1,0,10,9,10.0,0.0,-10.0,Rutgers
-Sonny Dykes,3,1,12,7,25.0,14.3,-10.7,TCU
+Tony Elliott,1,0,12,13,8.3,0.0,-8.3,Virginia
+Tyson Helton,9,4,15,8,60.0,50.0,-10.0,Western Kentucky
+Matt Rhule,4,2,12,9,33.3,22.2,-11.1,Nebraska
+Clay Helton,2,1,9,9,22.2,11.1,-11.1,Georgia Southern
 Eddie George,2,2,5,7,40.0,28.6,-11.4,Bowling Green
-Mark Stoops,2,1,7,6,28.6,16.7,-11.9,Kentucky
-Alex Golesh,1,0,8,8,12.5,0.0,-12.5,"Auburn, South Florida"
-Mike Locksley,2,1,10,14,20.0,7.1,-12.9,Maryland
-Tim Albin,2,0,13,14,15.4,0.0,-15.4,"Ohio, Charlotte"
-Ryan Silverfield,8,3,12,6,66.7,50.0,-16.7,"Memphis, Arkansas"
-Mike Elko,2,0,12,7,16.7,0.0,-16.7,"Duke, Texas A&M"
-Jeff Hafley,1,0,5,5,20.0,0.0,-20.0,Boston College
-Bryant Vincent,2,0,8,18,25.0,0.0,-25.0,"UL Monroe, UAB"
-Brent Venables,3,0,12,5,25.0,0.0,-25.0,Oklahoma
-Ken Niumatalolo,4,2,8,10,50.0,20.0,-30.0,"San José State, Navy"
-Jake Dickert,5,0,16,5,31.2,0.0,-31.2,"Wake Forest, Washington State"
+Alex Golesh,1,0,8,10,12.5,0.0,-12.5,"Auburn, South Florida"
+Mike Locksley,2,1,10,15,20.0,6.7,-13.3,Maryland
+Tim Albin,2,0,15,16,13.3,0.0,-13.3,"Ohio, Charlotte"
+Mike Elko,2,0,14,10,14.3,0.0,-14.3,"Duke, Texas A&M"
+Jake Dickert,5,1,16,6,31.2,16.7,-14.5,"Wake Forest, Washington State"
+Josh Heupel,3,0,20,5,15.0,0.0,-15.0,Tennessee
+Jeff Hafley,1,0,6,7,16.7,0.0,-16.7,Boston College
+Mike Houston,2,1,5,5,40.0,20.0,-20.0,East Carolina
+Mark Stoops,2,1,7,15,28.6,6.7,-21.9,Kentucky
+Bryant Vincent,2,0,9,18,22.2,0.0,-22.2,"UL Monroe, UAB"
+Neal Brown,4,4,6,9,66.7,44.4,-22.3,"North Texas, West Virginia"
+Justin Wilcox,3,1,10,14,30.0,7.1,-22.9,California
+Pat Narduzzi,5,0,21,5,23.8,0.0,-23.8,Pittsburgh
+Rhett Lashlee,18,3,21,5,85.7,60.0,-25.7,SMU
+Brent Venables,5,0,18,8,27.8,0.0,-27.8,Oklahoma
+Ken Niumatalolo,4,2,9,13,44.4,15.4,-29.0,"San José State, Navy"
+Ryan Silverfield,10,3,14,8,71.4,37.5,-33.9,"Memphis, Arkansas"
 Gerad Parker,6,2,9,8,66.7,25.0,-41.7,Troy
-Jim McElwain,5,1,8,8,62.5,12.5,-50.0,Central Michigan
+Jim McElwain,5,1,9,8,55.6,12.5,-43.1,Central Michigan
+Mike Gundy,3,0,6,8,50.0,0.0,-50.0,Oklahoma State
