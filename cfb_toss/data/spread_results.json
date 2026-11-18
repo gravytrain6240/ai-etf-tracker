@@ -1,89 +1,89 @@
 {
- "decisions": 3437,
- "with_spread": 3430,
+ "decisions": 4070,
+ "with_spread": 4063,
  "overall_by_bucket": [
   {
    "bucket": "Favored by 14+",
-   "n": 706,
-   "receives": 140,
-   "receive_pct": 19.8
+   "n": 800,
+   "receives": 156,
+   "receive_pct": 19.5
   },
   {
    "bucket": "Favored by 3.5\u201313.5",
-   "n": 842,
-   "receives": 134,
+   "n": 999,
+   "receives": 159,
    "receive_pct": 15.9
   },
   {
    "bucket": "Within a field goal",
-   "n": 637,
-   "receives": 107,
-   "receive_pct": 16.8
+   "n": 769,
+   "receives": 126,
+   "receive_pct": 16.4
   },
   {
    "bucket": "Underdog by 3.5\u201313.5",
-   "n": 795,
-   "receives": 145,
-   "receive_pct": 18.2
+   "n": 954,
+   "receives": 167,
+   "receive_pct": 17.5
   },
   {
    "bucket": "Underdog by 14+",
-   "n": 450,
-   "receives": 81,
-   "receive_pct": 18.0
+   "n": 541,
+   "receives": 100,
+   "receive_pct": 18.5
   }
  ],
  "overall_by_role": [
   {
    "role": "Favorite",
-   "n": 1548,
-   "receives": 274,
-   "receive_pct": 17.7
+   "n": 1799,
+   "receives": 315,
+   "receive_pct": 17.5
   },
   {
    "role": "Close (\u00b13)",
-   "n": 637,
-   "receives": 107,
-   "receive_pct": 16.8
+   "n": 769,
+   "receives": 126,
+   "receive_pct": 16.4
   },
   {
    "role": "Underdog",
-   "n": 1245,
-   "receives": 226,
-   "receive_pct": 18.2
+   "n": 1495,
+   "receives": 267,
+   "receive_pct": 17.9
   }
  ],
  "within_coach_underdog_vs_favorite": {
-  "odds_ratio": 0.995,
+  "odds_ratio": 0.96,
   "ci95": [
-   0.877,
-   1.128
+   0.855,
+   1.078
   ],
-  "p": 0.9343,
-  "coaches_used": 149,
-  "decisions_used": 2522
+  "p": 0.4873,
+  "coaches_used": 155,
+  "decisions_used": 3031
  },
  "within_coach_per_point_of_spread": {
-  "odds_ratio": 0.964,
+  "odds_ratio": 0.96,
   "ci95": [
    0.917,
-   1.013
+   1.006
   ],
-  "p": 0.1456,
-  "coaches_used": 149,
-  "decisions_used": 2522
+  "p": 0.0844,
+  "coaches_used": 155,
+  "decisions_used": 3031
  },
  "mixed_coaches_fav_vs_dog": {
-  "coaches": 136,
-  "avg_rate_as_favorite": 24.4,
-  "avg_rate_as_underdog": 24.2
+  "coaches": 143,
+  "avg_rate_as_favorite": 24.2,
+  "avg_rate_as_underdog": 23.2
  },
  "coach_splits": [
   {
    "coach": "Brent Brennan",
    "sum_Favorite": 0,
    "sum_Underdog": 3,
-   "size_Favorite": 8,
+   "size_Favorite": 10,
    "size_Underdog": 7,
    "fav_pct": 0.0,
    "dog_pct": 42.9,
@@ -91,117 +91,106 @@
    "schools": "Arizona, San Jos\u00e9 State"
   },
   {
+   "coach": "Scott Satterfield",
+   "sum_Favorite": 0,
+   "sum_Underdog": 5,
+   "size_Favorite": 7,
+   "size_Underdog": 12,
+   "fav_pct": 0.0,
+   "dog_pct": 41.7,
+   "dog_minus_fav": 41.7,
+   "schools": "Cincinnati, Louisville"
+  },
+  {
+   "coach": "Chuck Martin",
+   "sum_Favorite": 3,
+   "sum_Underdog": 8,
+   "size_Favorite": 9,
+   "size_Underdog": 11,
+   "fav_pct": 33.3,
+   "dog_pct": 72.7,
+   "dog_minus_fav": 39.4,
+   "schools": "Miami (OH)"
+  },
+  {
+   "coach": "Sonny Cumbie",
+   "sum_Favorite": 1,
+   "sum_Underdog": 6,
+   "size_Favorite": 15,
+   "size_Underdog": 15,
+   "fav_pct": 6.7,
+   "dog_pct": 40.0,
+   "dog_minus_fav": 33.3,
+   "schools": "Louisiana Tech"
+  },
+  {
    "coach": "Chris Creighton",
    "sum_Favorite": 0,
    "sum_Underdog": 4,
    "size_Favorite": 6,
-   "size_Underdog": 10,
+   "size_Underdog": 13,
    "fav_pct": 0.0,
-   "dog_pct": 40.0,
-   "dog_minus_fav": 40.0,
+   "dog_pct": 30.8,
+   "dog_minus_fav": 30.8,
    "schools": "Eastern Michigan"
-  },
-  {
-   "coach": "Scott Satterfield",
-   "sum_Favorite": 0,
-   "sum_Underdog": 4,
-   "size_Favorite": 7,
-   "size_Underdog": 10,
-   "fav_pct": 0.0,
-   "dog_pct": 40.0,
-   "dog_minus_fav": 40.0,
-   "schools": "Cincinnati, Louisville"
   },
   {
    "coach": "Brian Newberry",
    "sum_Favorite": 1,
    "sum_Underdog": 3,
    "size_Favorite": 13,
-   "size_Underdog": 7,
+   "size_Underdog": 9,
    "fav_pct": 7.7,
-   "dog_pct": 42.9,
-   "dog_minus_fav": 35.2,
+   "dog_pct": 33.3,
+   "dog_minus_fav": 25.6,
    "schools": "Navy"
   },
   {
-   "coach": "Shawn Clark",
-   "sum_Favorite": 0,
-   "sum_Underdog": 2,
-   "size_Favorite": 10,
-   "size_Underdog": 6,
-   "fav_pct": 0.0,
-   "dog_pct": 33.3,
-   "dog_minus_fav": 33.3,
-   "schools": "Appalachian State, App State"
-  },
-  {
-   "coach": "Sonny Cumbie",
-   "sum_Favorite": 1,
-   "sum_Underdog": 5,
-   "size_Favorite": 13,
-   "size_Underdog": 13,
-   "fav_pct": 7.7,
-   "dog_pct": 38.5,
-   "dog_minus_fav": 30.8,
-   "schools": "Louisiana Tech"
-  },
-  {
-   "coach": "Chuck Martin",
-   "sum_Favorite": 3,
-   "sum_Underdog": 5,
-   "size_Favorite": 9,
-   "size_Underdog": 8,
-   "fav_pct": 33.3,
-   "dog_pct": 62.5,
-   "dog_minus_fav": 29.2,
-   "schools": "Miami (OH)"
-  },
-  {
    "coach": "Lincoln Riley",
-   "sum_Favorite": 11,
-   "sum_Underdog": 6,
-   "size_Favorite": 15,
-   "size_Underdog": 6,
-   "fav_pct": 73.3,
+   "sum_Favorite": 13,
+   "sum_Underdog": 9,
+   "size_Favorite": 17,
+   "size_Underdog": 9,
+   "fav_pct": 76.5,
    "dog_pct": 100.0,
-   "dog_minus_fav": 26.7,
+   "dog_minus_fav": 23.5,
    "schools": "USC"
+  },
+  {
+   "coach": "Eli Drinkwitz",
+   "sum_Favorite": 1,
+   "sum_Underdog": 3,
+   "size_Favorite": 15,
+   "size_Underdog": 10,
+   "fav_pct": 6.7,
+   "dog_pct": 30.0,
+   "dog_minus_fav": 23.3,
+   "schools": "Missouri"
+  },
+  {
+   "coach": "Timmy Chang",
+   "sum_Favorite": 0,
+   "sum_Underdog": 3,
+   "size_Favorite": 7,
+   "size_Underdog": 13,
+   "fav_pct": 0.0,
+   "dog_pct": 23.1,
+   "dog_minus_fav": 23.1,
+   "schools": "Hawai'i"
   },
   {
    "coach": "Sean Lewis",
    "sum_Favorite": 0,
    "sum_Underdog": 2,
    "size_Favorite": 5,
-   "size_Underdog": 8,
+   "size_Underdog": 9,
    "fav_pct": 0.0,
-   "dog_pct": 25.0,
-   "dog_minus_fav": 25.0,
+   "dog_pct": 22.2,
+   "dog_minus_fav": 22.2,
    "schools": "San Diego State, Kent State"
   },
   {
-   "coach": "Joey McGuire",
-   "sum_Favorite": 3,
-   "sum_Underdog": 2,
-   "size_Favorite": 17,
-   "size_Underdog": 5,
-   "fav_pct": 17.6,
-   "dog_pct": 40.0,
-   "dog_minus_fav": 22.4,
-   "schools": "Texas Tech"
-  },
-  {
-   "coach": "Dave Doeren",
-   "sum_Favorite": 2,
-   "sum_Underdog": 3,
-   "size_Favorite": 13,
-   "size_Underdog": 8,
-   "fav_pct": 15.4,
-   "dog_pct": 37.5,
-   "dog_minus_fav": 22.1,
-   "schools": "NC State"
-  },
-  {
-   "coach": "Eli Drinkwitz",
+   "coach": "Hugh Freeze",
    "sum_Favorite": 1,
    "sum_Underdog": 2,
    "size_Favorite": 14,
@@ -209,7 +198,7 @@
    "fav_pct": 7.1,
    "dog_pct": 28.6,
    "dog_minus_fav": 21.5,
-   "schools": "Missouri"
+   "schools": "Auburn, Liberty"
   },
   {
    "coach": "Barry Odom",
@@ -223,26 +212,15 @@
    "schools": "UNLV, Purdue"
   },
   {
-   "coach": "Timmy Chang",
-   "sum_Favorite": 0,
+   "coach": "Shawn Clark",
+   "sum_Favorite": 1,
    "sum_Underdog": 2,
-   "size_Favorite": 7,
-   "size_Underdog": 11,
-   "fav_pct": 0.0,
-   "dog_pct": 18.2,
-   "dog_minus_fav": 18.2,
-   "schools": "Hawai'i"
-  },
-  {
-   "coach": "Luke Fickell",
-   "sum_Favorite": 0,
-   "sum_Underdog": 1,
    "size_Favorite": 12,
-   "size_Underdog": 6,
-   "fav_pct": 0.0,
-   "dog_pct": 16.7,
-   "dog_minus_fav": 16.7,
-   "schools": "Cincinnati, Wisconsin"
+   "size_Underdog": 7,
+   "fav_pct": 8.3,
+   "dog_pct": 28.6,
+   "dog_minus_fav": 20.3,
+   "schools": "Appalachian State, App State"
   },
   {
    "coach": "K.C. Keeler",
@@ -256,48 +234,59 @@
    "schools": "Temple, Sam Houston"
   },
   {
-   "coach": "Jedd Fisch",
+   "coach": "Joey McGuire",
    "sum_Favorite": 3,
-   "sum_Underdog": 3,
-   "size_Favorite": 13,
-   "size_Underdog": 8,
-   "fav_pct": 23.1,
-   "dog_pct": 37.5,
-   "dog_minus_fav": 14.4,
-   "schools": "Arizona, Washington"
+   "sum_Underdog": 2,
+   "size_Favorite": 17,
+   "size_Underdog": 6,
+   "fav_pct": 17.6,
+   "dog_pct": 33.3,
+   "dog_minus_fav": 15.7,
+   "schools": "Texas Tech"
+  },
+  {
+   "coach": "Shane Beamer",
+   "sum_Favorite": 4,
+   "sum_Underdog": 7,
+   "size_Favorite": 14,
+   "size_Underdog": 16,
+   "fav_pct": 28.6,
+   "dog_pct": 43.8,
+   "dog_minus_fav": 15.2,
+   "schools": "South Carolina"
+  },
+  {
+   "coach": "Luke Fickell",
+   "sum_Favorite": 0,
+   "sum_Underdog": 1,
+   "size_Favorite": 14,
+   "size_Underdog": 7,
+   "fav_pct": 0.0,
+   "dog_pct": 14.3,
+   "dog_minus_fav": 14.3,
+   "schools": "Cincinnati, Wisconsin"
+  },
+  {
+   "coach": "Tre Lamb",
+   "sum_Favorite": 1,
+   "sum_Underdog": 2,
+   "size_Favorite": 5,
+   "size_Underdog": 6,
+   "fav_pct": 20.0,
+   "dog_pct": 33.3,
+   "dog_minus_fav": 13.3,
+   "schools": "Tulsa"
   },
   {
    "coach": "Joe Moorhead",
    "sum_Favorite": 0,
    "sum_Underdog": 3,
    "size_Favorite": 5,
-   "size_Underdog": 23,
+   "size_Underdog": 24,
    "fav_pct": 0.0,
-   "dog_pct": 13.0,
-   "dog_minus_fav": 13.0,
-   "schools": "Akron"
-  },
-  {
-   "coach": "Jay Norvell",
-   "sum_Favorite": 3,
-   "sum_Underdog": 3,
-   "size_Favorite": 8,
-   "size_Underdog": 6,
-   "fav_pct": 37.5,
-   "dog_pct": 50.0,
+   "dog_pct": 12.5,
    "dog_minus_fav": 12.5,
-   "schools": "Colorado State"
-  },
-  {
-   "coach": "Dave Aranda",
-   "sum_Favorite": 1,
-   "sum_Underdog": 2,
-   "size_Favorite": 10,
-   "size_Underdog": 9,
-   "fav_pct": 10.0,
-   "dog_pct": 22.2,
-   "dog_minus_fav": 12.2,
-   "schools": "Baylor"
+   "schools": "Akron"
   },
   {
    "coach": "Eric Morris",
@@ -311,81 +300,81 @@
    "schools": "Oklahoma State, North Texas"
   },
   {
+   "coach": "Dave Aranda",
+   "sum_Favorite": 1,
+   "sum_Underdog": 2,
+   "size_Favorite": 10,
+   "size_Underdog": 10,
+   "fav_pct": 10.0,
+   "dog_pct": 20.0,
+   "dog_minus_fav": 10.0,
+   "schools": "Baylor"
+  },
+  {
    "coach": "Lance Leipold",
    "sum_Favorite": 0,
    "sum_Underdog": 1,
-   "size_Favorite": 10,
-   "size_Underdog": 9,
-   "fav_pct": 0.0,
-   "dog_pct": 11.1,
-   "dog_minus_fav": 11.1,
-   "schools": "Kansas"
-  },
-  {
-   "coach": "Jonathan Smith",
-   "sum_Favorite": 0,
-   "sum_Underdog": 1,
-   "size_Favorite": 15,
+   "size_Favorite": 11,
    "size_Underdog": 10,
    "fav_pct": 0.0,
    "dog_pct": 10.0,
    "dog_minus_fav": 10.0,
-   "schools": "Michigan State, Oregon State"
+   "schools": "Kansas"
   },
   {
-   "coach": "Bronco Mendenhall",
+   "coach": "Billy Napier",
+   "sum_Favorite": 0,
+   "sum_Underdog": 1,
+   "size_Favorite": 18,
+   "size_Underdog": 11,
+   "fav_pct": 0.0,
+   "dog_pct": 9.1,
+   "dog_minus_fav": 9.1,
+   "schools": "James Madison, Florida"
+  },
+  {
+   "coach": "Dave Doeren",
    "sum_Favorite": 2,
-   "sum_Underdog": 4,
-   "size_Favorite": 5,
-   "size_Underdog": 8,
-   "fav_pct": 40.0,
-   "dog_pct": 50.0,
-   "dog_minus_fav": 10.0,
-   "schools": "New Mexico, Utah State"
+   "sum_Underdog": 3,
+   "size_Favorite": 17,
+   "size_Underdog": 15,
+   "fav_pct": 11.8,
+   "dog_pct": 20.0,
+   "dog_minus_fav": 8.2,
+   "schools": "NC State"
   },
   {
-   "coach": "Kirk Ferentz",
-   "sum_Favorite": 13,
-   "sum_Underdog": 5,
-   "size_Favorite": 21,
-   "size_Underdog": 7,
-   "fav_pct": 61.9,
-   "dog_pct": 71.4,
-   "dog_minus_fav": 9.5,
-   "schools": "Iowa"
+   "coach": "Jedd Fisch",
+   "sum_Favorite": 3,
+   "sum_Underdog": 3,
+   "size_Favorite": 13,
+   "size_Underdog": 10,
+   "fav_pct": 23.1,
+   "dog_pct": 30.0,
+   "dog_minus_fav": 6.9,
+   "schools": "Arizona, Washington"
   },
   {
    "coach": "Ricky Rahne",
    "sum_Favorite": 0,
    "sum_Underdog": 1,
    "size_Favorite": 5,
-   "size_Underdog": 14,
+   "size_Underdog": 15,
    "fav_pct": 0.0,
-   "dog_pct": 7.1,
-   "dog_minus_fav": 7.1,
+   "dog_pct": 6.7,
+   "dog_minus_fav": 6.7,
    "schools": "Old Dominion"
   },
   {
    "coach": "Deion Sanders",
    "sum_Favorite": 0,
    "sum_Underdog": 1,
-   "size_Favorite": 5,
-   "size_Underdog": 14,
+   "size_Favorite": 9,
+   "size_Underdog": 16,
    "fav_pct": 0.0,
-   "dog_pct": 7.1,
-   "dog_minus_fav": 7.1,
+   "dog_pct": 6.2,
+   "dog_minus_fav": 6.2,
    "schools": "Colorado"
-  },
-  {
-   "coach": "Shane Beamer",
-   "sum_Favorite": 4,
-   "sum_Underdog": 3,
-   "size_Favorite": 13,
-   "size_Underdog": 8,
-   "fav_pct": 30.8,
-   "dog_pct": 37.5,
-   "dog_minus_fav": 6.7,
-   "schools": "South Carolina"
   },
   {
    "coach": "Thomas Hammock",
@@ -399,92 +388,48 @@
    "schools": "Northern Illinois"
   },
   {
-   "coach": "Matt Rhule",
-   "sum_Favorite": 2,
+   "coach": "Tim Beck",
+   "sum_Favorite": 1,
    "sum_Underdog": 2,
-   "size_Favorite": 10,
-   "size_Underdog": 8,
-   "fav_pct": 20.0,
-   "dog_pct": 25.0,
-   "dog_minus_fav": 5.0,
-   "schools": "Nebraska"
-  },
-  {
-   "coach": "P.J. Fleck",
-   "sum_Favorite": 3,
-   "sum_Underdog": 2,
-   "size_Favorite": 15,
+   "size_Favorite": 6,
    "size_Underdog": 9,
-   "fav_pct": 20.0,
+   "fav_pct": 16.7,
    "dog_pct": 22.2,
-   "dog_minus_fav": 2.2,
-   "schools": "Minnesota"
+   "dog_minus_fav": 5.5,
+   "schools": "Coastal Carolina"
   },
   {
-   "coach": "Will Hall",
-   "sum_Favorite": 0,
-   "sum_Underdog": 0,
-   "size_Favorite": 6,
-   "size_Underdog": 10,
-   "fav_pct": 0.0,
-   "dog_pct": 0.0,
-   "dog_minus_fav": 0.0,
-   "schools": "Southern Miss, Tulane"
-  },
-  {
-   "coach": "Scott Frost",
-   "sum_Favorite": 0,
-   "sum_Underdog": 0,
-   "size_Favorite": 6,
-   "size_Underdog": 8,
-   "fav_pct": 0.0,
-   "dog_pct": 0.0,
-   "dog_minus_fav": 0.0,
-   "schools": "Nebraska, UCF"
-  },
-  {
-   "coach": "Charles Kelly",
-   "sum_Favorite": 0,
-   "sum_Underdog": 0,
+   "coach": "Bronco Mendenhall",
+   "sum_Favorite": 2,
+   "sum_Underdog": 4,
    "size_Favorite": 5,
-   "size_Underdog": 5,
-   "fav_pct": 0.0,
-   "dog_pct": 0.0,
-   "dog_minus_fav": 0.0,
-   "schools": "Jacksonville State"
+   "size_Underdog": 9,
+   "fav_pct": 40.0,
+   "dog_pct": 44.4,
+   "dog_minus_fav": 4.4,
+   "schools": "New Mexico, Utah State"
   },
   {
-   "coach": "Charles Huff",
-   "sum_Favorite": 0,
-   "sum_Underdog": 0,
-   "size_Favorite": 14,
-   "size_Underdog": 5,
-   "fav_pct": 0.0,
-   "dog_pct": 0.0,
-   "dog_minus_fav": 0.0,
-   "schools": "Memphis, Southern Miss, Marshall"
-  },
-  {
-   "coach": "Tre Lamb",
+   "coach": "Jonathan Smith",
    "sum_Favorite": 1,
    "sum_Underdog": 1,
-   "size_Favorite": 5,
-   "size_Underdog": 5,
-   "fav_pct": 20.0,
-   "dog_pct": 20.0,
-   "dog_minus_fav": 0.0,
-   "schools": "Tulsa"
+   "size_Favorite": 17,
+   "size_Underdog": 10,
+   "fav_pct": 5.9,
+   "dog_pct": 10.0,
+   "dog_minus_fav": 4.1,
+   "schools": "Michigan State, Oregon State"
   },
   {
-   "coach": "Willie Fritz",
-   "sum_Favorite": 0,
-   "sum_Underdog": 0,
-   "size_Favorite": 15,
-   "size_Underdog": 9,
-   "fav_pct": 0.0,
-   "dog_pct": 0.0,
-   "dog_minus_fav": 0.0,
-   "schools": "Houston, Tulane"
+   "coach": "Kirk Ferentz",
+   "sum_Favorite": 13,
+   "sum_Underdog": 5,
+   "size_Favorite": 21,
+   "size_Underdog": 8,
+   "fav_pct": 61.9,
+   "dog_pct": 62.5,
+   "dog_minus_fav": 0.6,
+   "schools": "Iowa"
   },
   {
    "coach": "Troy Calhoun",
@@ -498,54 +443,120 @@
    "schools": "Air Force"
   },
   {
-   "coach": "Jerry Mack",
-   "sum_Favorite": 1,
-   "sum_Underdog": 1,
-   "size_Favorite": 6,
-   "size_Underdog": 6,
-   "fav_pct": 16.7,
-   "dog_pct": 16.7,
-   "dog_minus_fav": 0.0,
-   "schools": "Kennesaw State"
-  },
-  {
-   "coach": "Jeff Choate",
+   "coach": "Michael Desormeaux",
    "sum_Favorite": 0,
    "sum_Underdog": 0,
-   "size_Favorite": 7,
+   "size_Favorite": 17,
    "size_Underdog": 10,
    "fav_pct": 0.0,
    "dog_pct": 0.0,
    "dog_minus_fav": 0.0,
-   "schools": "Nevada"
+   "schools": "Louisiana"
   },
   {
-   "coach": "Kyle Whittingham",
+   "coach": "Scott Frost",
    "sum_Favorite": 0,
    "sum_Underdog": 0,
-   "size_Favorite": 17,
-   "size_Underdog": 7,
+   "size_Favorite": 6,
+   "size_Underdog": 8,
    "fav_pct": 0.0,
    "dog_pct": 0.0,
    "dog_minus_fav": 0.0,
-   "schools": "Michigan, Utah"
+   "schools": "Nebraska, UCF"
   },
   {
-   "coach": "Kenny Dillingham",
+   "coach": "Scot Loeffler",
    "sum_Favorite": 0,
    "sum_Underdog": 0,
-   "size_Favorite": 10,
+   "size_Favorite": 9,
+   "size_Underdog": 9,
+   "fav_pct": 0.0,
+   "dog_pct": 0.0,
+   "dog_minus_fav": 0.0,
+   "schools": "Bowling Green"
+  },
+  {
+   "coach": "Will Hall",
+   "sum_Favorite": 0,
+   "sum_Underdog": 0,
+   "size_Favorite": 6,
+   "size_Underdog": 13,
+   "fav_pct": 0.0,
+   "dog_pct": 0.0,
+   "dog_minus_fav": 0.0,
+   "schools": "Southern Miss, Tulane"
+  },
+  {
+   "coach": "Kalani Sitake",
+   "sum_Favorite": 0,
+   "sum_Underdog": 0,
+   "size_Favorite": 16,
+   "size_Underdog": 6,
+   "fav_pct": 0.0,
+   "dog_pct": 0.0,
+   "dog_minus_fav": 0.0,
+   "schools": "BYU"
+  },
+  {
+   "coach": "Maurice Linguist",
+   "sum_Favorite": 0,
+   "sum_Underdog": 0,
+   "size_Favorite": 5,
+   "size_Underdog": 5,
+   "fav_pct": 0.0,
+   "dog_pct": 0.0,
+   "dog_minus_fav": 0.0,
+   "schools": "Buffalo"
+  },
+  {
+   "coach": "Brent Pry",
+   "sum_Favorite": 0,
+   "sum_Underdog": 0,
+   "size_Favorite": 6,
+   "size_Underdog": 6,
+   "fav_pct": 0.0,
+   "dog_pct": 0.0,
+   "dog_minus_fav": 0.0,
+   "schools": "Virginia Tech"
+  },
+  {
+   "coach": "Brent Key",
+   "sum_Favorite": 2,
+   "sum_Underdog": 4,
+   "size_Favorite": 6,
+   "size_Underdog": 12,
+   "fav_pct": 33.3,
+   "dog_pct": 33.3,
+   "dog_minus_fav": 0.0,
+   "schools": "Georgia Tech"
+  },
+  {
+   "coach": "Charles Huff",
+   "sum_Favorite": 0,
+   "sum_Underdog": 0,
+   "size_Favorite": 16,
+   "size_Underdog": 8,
+   "fav_pct": 0.0,
+   "dog_pct": 0.0,
+   "dog_minus_fav": 0.0,
+   "schools": "Memphis, Southern Miss, Marshall"
+  },
+  {
+   "coach": "Clark Lea",
+   "sum_Favorite": 0,
+   "sum_Underdog": 0,
+   "size_Favorite": 9,
    "size_Underdog": 11,
    "fav_pct": 0.0,
    "dog_pct": 0.0,
    "dog_minus_fav": 0.0,
-   "schools": "Arizona State"
+   "schools": "Vanderbilt"
   },
   {
    "coach": "Jason Candle",
    "sum_Favorite": 0,
    "sum_Underdog": 0,
-   "size_Favorite": 18,
+   "size_Favorite": 20,
    "size_Underdog": 5,
    "fav_pct": 0.0,
    "dog_pct": 0.0,
@@ -553,32 +564,21 @@
    "schools": "Toledo, UConn"
   },
   {
-   "coach": "Clark Lea",
+   "coach": "Dave Clawson",
    "sum_Favorite": 0,
    "sum_Underdog": 0,
-   "size_Favorite": 9,
-   "size_Underdog": 8,
+   "size_Favorite": 11,
+   "size_Underdog": 6,
    "fav_pct": 0.0,
    "dog_pct": 0.0,
    "dog_minus_fav": 0.0,
-   "schools": "Vanderbilt"
-  },
-  {
-   "coach": "Scot Loeffler",
-   "sum_Favorite": 0,
-   "sum_Underdog": 0,
-   "size_Favorite": 8,
-   "size_Underdog": 8,
-   "fav_pct": 0.0,
-   "dog_pct": 0.0,
-   "dog_minus_fav": 0.0,
-   "schools": "Bowling Green"
+   "schools": "Wake Forest"
   },
   {
    "coach": "Dana Holgorsen",
    "sum_Favorite": 0,
    "sum_Underdog": 0,
-   "size_Favorite": 6,
+   "size_Favorite": 8,
    "size_Underdog": 6,
    "fav_pct": 0.0,
    "dog_pct": 0.0,
@@ -586,15 +586,70 @@
    "schools": "Houston"
   },
   {
-   "coach": "Michael Desormeaux",
+   "coach": "Charles Kelly",
    "sum_Favorite": 0,
    "sum_Underdog": 0,
-   "size_Favorite": 16,
+   "size_Favorite": 5,
+   "size_Underdog": 5,
+   "fav_pct": 0.0,
+   "dog_pct": 0.0,
+   "dog_minus_fav": 0.0,
+   "schools": "Jacksonville State"
+  },
+  {
+   "coach": "Willie Fritz",
+   "sum_Favorite": 0,
+   "sum_Underdog": 0,
+   "size_Favorite": 17,
    "size_Underdog": 9,
    "fav_pct": 0.0,
    "dog_pct": 0.0,
    "dog_minus_fav": 0.0,
-   "schools": "Louisiana"
+   "schools": "Houston, Tulane"
+  },
+  {
+   "coach": "Rich Rodriguez",
+   "sum_Favorite": 0,
+   "sum_Underdog": 0,
+   "size_Favorite": 11,
+   "size_Underdog": 8,
+   "fav_pct": 0.0,
+   "dog_pct": 0.0,
+   "dog_minus_fav": 0.0,
+   "schools": "West Virginia, Jacksonville State"
+  },
+  {
+   "coach": "Mario Cristobal",
+   "sum_Favorite": 0,
+   "sum_Underdog": 0,
+   "size_Favorite": 23,
+   "size_Underdog": 6,
+   "fav_pct": 0.0,
+   "dog_pct": 0.0,
+   "dog_minus_fav": 0.0,
+   "schools": "Miami"
+  },
+  {
+   "coach": "Mack Brown",
+   "sum_Favorite": 0,
+   "sum_Underdog": 0,
+   "size_Favorite": 5,
+   "size_Underdog": 5,
+   "fav_pct": 0.0,
+   "dog_pct": 0.0,
+   "dog_minus_fav": 0.0,
+   "schools": "North Carolina"
+  },
+  {
+   "coach": "Kenny Dillingham",
+   "sum_Favorite": 0,
+   "sum_Underdog": 0,
+   "size_Favorite": 10,
+   "size_Underdog": 12,
+   "fav_pct": 0.0,
+   "dog_pct": 0.0,
+   "dog_minus_fav": 0.0,
+   "schools": "Arizona State"
   },
   {
    "coach": "Major Applewhite",
@@ -608,114 +663,169 @@
    "schools": "South Alabama"
   },
   {
-   "coach": "Rich Rodriguez",
+   "coach": "Jeff Choate",
    "sum_Favorite": 0,
    "sum_Underdog": 0,
-   "size_Favorite": 11,
+   "size_Favorite": 7,
+   "size_Underdog": 10,
+   "fav_pct": 0.0,
+   "dog_pct": 0.0,
+   "dog_minus_fav": 0.0,
+   "schools": "Nevada"
+  },
+  {
+   "coach": "Jeff Traylor",
+   "sum_Favorite": 0,
+   "sum_Underdog": 0,
+   "size_Favorite": 18,
+   "size_Underdog": 6,
+   "fav_pct": 0.0,
+   "dog_pct": 0.0,
+   "dog_minus_fav": 0.0,
+   "schools": "UTSA"
+  },
+  {
+   "coach": "Jerry Mack",
+   "sum_Favorite": 1,
+   "sum_Underdog": 1,
+   "size_Favorite": 6,
+   "size_Underdog": 6,
+   "fav_pct": 16.7,
+   "dog_pct": 16.7,
+   "dog_minus_fav": 0.0,
+   "schools": "Kennesaw State"
+  },
+  {
+   "coach": "Jeff Monken",
+   "sum_Favorite": 0,
+   "sum_Underdog": 0,
+   "size_Favorite": 23,
+   "size_Underdog": 5,
+   "fav_pct": 0.0,
+   "dog_pct": 0.0,
+   "dog_minus_fav": 0.0,
+   "schools": "Army"
+  },
+  {
+   "coach": "Kyle Whittingham",
+   "sum_Favorite": 0,
+   "sum_Underdog": 0,
+   "size_Favorite": 21,
    "size_Underdog": 7,
    "fav_pct": 0.0,
    "dog_pct": 0.0,
    "dog_minus_fav": 0.0,
-   "schools": "West Virginia, Jacksonville State"
+   "schools": "Michigan, Utah"
+  },
+  {
+   "coach": "Jeff Brohm",
+   "sum_Favorite": 0,
+   "sum_Underdog": 0,
+   "size_Favorite": 21,
+   "size_Underdog": 7,
+   "fav_pct": 0.0,
+   "dog_pct": 0.0,
+   "dog_minus_fav": 0.0,
+   "schools": "Purdue, Louisville"
+  },
+  {
+   "coach": "Jay Norvell",
+   "sum_Favorite": 3,
+   "sum_Underdog": 3,
+   "size_Favorite": 8,
+   "size_Underdog": 8,
+   "fav_pct": 37.5,
+   "dog_pct": 37.5,
+   "dog_minus_fav": 0.0,
+   "schools": "Colorado State"
   },
   {
    "coach": "Bret Bielema",
    "sum_Favorite": 1,
    "sum_Underdog": 1,
-   "size_Favorite": 11,
-   "size_Underdog": 12,
-   "fav_pct": 9.1,
-   "dog_pct": 8.3,
-   "dog_minus_fav": -0.8,
+   "size_Favorite": 12,
+   "size_Underdog": 13,
+   "fav_pct": 8.3,
+   "dog_pct": 7.7,
+   "dog_minus_fav": -0.6,
    "schools": "Illinois"
   },
   {
-   "coach": "Clay Helton",
-   "sum_Favorite": 1,
-   "sum_Underdog": 1,
-   "size_Favorite": 8,
-   "size_Underdog": 9,
-   "fav_pct": 12.5,
-   "dog_pct": 11.1,
-   "dog_minus_fav": -1.4,
-   "schools": "Georgia Southern"
+   "coach": "P.J. Fleck",
+   "sum_Favorite": 3,
+   "sum_Underdog": 2,
+   "size_Favorite": 16,
+   "size_Underdog": 11,
+   "fav_pct": 18.8,
+   "dog_pct": 18.2,
+   "dog_minus_fav": -0.6,
+   "schools": "Minnesota"
   },
   {
-   "coach": "Tim Beck",
+   "coach": "Greg Schiano",
    "sum_Favorite": 1,
    "sum_Underdog": 1,
-   "size_Favorite": 6,
-   "size_Underdog": 7,
-   "fav_pct": 16.7,
-   "dog_pct": 14.3,
-   "dog_minus_fav": -2.4,
-   "schools": "Coastal Carolina"
-  },
-  {
-   "coach": "Tyson Helton",
-   "sum_Favorite": 9,
-   "sum_Underdog": 4,
-   "size_Favorite": 15,
-   "size_Underdog": 7,
-   "fav_pct": 60.0,
-   "dog_pct": 57.1,
-   "dog_minus_fav": -2.9,
-   "schools": "Western Kentucky"
+   "size_Favorite": 10,
+   "size_Underdog": 12,
+   "fav_pct": 10.0,
+   "dog_pct": 8.3,
+   "dog_minus_fav": -1.7,
+   "schools": "Rutgers"
   },
   {
    "coach": "Jim Mora",
    "sum_Favorite": 1,
    "sum_Underdog": 1,
-   "size_Favorite": 11,
-   "size_Underdog": 16,
-   "fav_pct": 9.1,
-   "dog_pct": 6.2,
-   "dog_minus_fav": -2.9,
+   "size_Favorite": 12,
+   "size_Underdog": 17,
+   "fav_pct": 8.3,
+   "dog_pct": 5.9,
+   "dog_minus_fav": -2.4,
    "schools": "Colorado State, UConn"
   },
   {
    "coach": "Sam Pittman",
-   "sum_Favorite": 3,
-   "sum_Underdog": 2,
-   "size_Favorite": 7,
-   "size_Underdog": 5,
-   "fav_pct": 42.9,
-   "dog_pct": 40.0,
-   "dog_minus_fav": -2.9,
+   "sum_Favorite": 4,
+   "sum_Underdog": 3,
+   "size_Favorite": 11,
+   "size_Underdog": 9,
+   "fav_pct": 36.4,
+   "dog_pct": 33.3,
+   "dog_minus_fav": -3.1,
    "schools": "Arkansas"
   },
   {
-   "coach": "Brent Key",
-   "sum_Favorite": 2,
-   "sum_Underdog": 4,
-   "size_Favorite": 5,
-   "size_Underdog": 11,
-   "fav_pct": 40.0,
-   "dog_pct": 36.4,
-   "dog_minus_fav": -3.6,
-   "schools": "Georgia Tech"
-  },
-  {
-   "coach": "Justin Wilcox",
-   "sum_Favorite": 1,
+   "coach": "Sonny Dykes",
+   "sum_Favorite": 3,
    "sum_Underdog": 1,
-   "size_Favorite": 6,
-   "size_Underdog": 11,
-   "fav_pct": 16.7,
-   "dog_pct": 9.1,
-   "dog_minus_fav": -7.6,
-   "schools": "California"
+   "size_Favorite": 19,
+   "size_Underdog": 8,
+   "fav_pct": 15.8,
+   "dog_pct": 12.5,
+   "dog_minus_fav": -3.3,
+   "schools": "TCU"
   },
   {
-   "coach": "Tony Elliott",
+   "coach": "Matt Campbell",
    "sum_Favorite": 1,
    "sum_Underdog": 0,
-   "size_Favorite": 12,
-   "size_Underdog": 10,
-   "fav_pct": 8.3,
+   "size_Favorite": 17,
+   "size_Underdog": 5,
+   "fav_pct": 5.9,
    "dog_pct": 0.0,
-   "dog_minus_fav": -8.3,
-   "schools": "Virginia"
+   "dog_minus_fav": -5.9,
+   "schools": "Penn State, Iowa State"
+  },
+  {
+   "coach": "Mike Norvell",
+   "sum_Favorite": 1,
+   "sum_Underdog": 0,
+   "size_Favorite": 13,
+   "size_Underdog": 5,
+   "fav_pct": 7.7,
+   "dog_pct": 0.0,
+   "dog_minus_fav": -7.7,
+   "schools": "Florida State"
   },
   {
    "coach": "Lance Taylor",
@@ -729,37 +839,48 @@
    "schools": "Western Michigan"
   },
   {
-   "coach": "Neal Brown",
-   "sum_Favorite": 4,
-   "sum_Underdog": 4,
-   "size_Favorite": 6,
-   "size_Underdog": 7,
-   "fav_pct": 66.7,
-   "dog_pct": 57.1,
-   "dog_minus_fav": -9.6,
-   "schools": "North Texas, West Virginia"
-  },
-  {
-   "coach": "Greg Schiano",
+   "coach": "Tony Elliott",
    "sum_Favorite": 1,
    "sum_Underdog": 0,
-   "size_Favorite": 10,
-   "size_Underdog": 9,
-   "fav_pct": 10.0,
+   "size_Favorite": 12,
+   "size_Underdog": 13,
+   "fav_pct": 8.3,
    "dog_pct": 0.0,
-   "dog_minus_fav": -10.0,
-   "schools": "Rutgers"
+   "dog_minus_fav": -8.3,
+   "schools": "Virginia"
   },
   {
-   "coach": "Sonny Dykes",
-   "sum_Favorite": 3,
-   "sum_Underdog": 1,
+   "coach": "Tyson Helton",
+   "sum_Favorite": 9,
+   "sum_Underdog": 4,
+   "size_Favorite": 15,
+   "size_Underdog": 8,
+   "fav_pct": 60.0,
+   "dog_pct": 50.0,
+   "dog_minus_fav": -10.0,
+   "schools": "Western Kentucky"
+  },
+  {
+   "coach": "Matt Rhule",
+   "sum_Favorite": 4,
+   "sum_Underdog": 2,
    "size_Favorite": 12,
-   "size_Underdog": 7,
-   "fav_pct": 25.0,
-   "dog_pct": 14.3,
-   "dog_minus_fav": -10.7,
-   "schools": "TCU"
+   "size_Underdog": 9,
+   "fav_pct": 33.3,
+   "dog_pct": 22.2,
+   "dog_minus_fav": -11.1,
+   "schools": "Nebraska"
+  },
+  {
+   "coach": "Clay Helton",
+   "sum_Favorite": 2,
+   "sum_Underdog": 1,
+   "size_Favorite": 9,
+   "size_Underdog": 9,
+   "fav_pct": 22.2,
+   "dog_pct": 11.1,
+   "dog_minus_fav": -11.1,
+   "schools": "Georgia Southern"
   },
   {
    "coach": "Eddie George",
@@ -773,22 +894,11 @@
    "schools": "Bowling Green"
   },
   {
-   "coach": "Mark Stoops",
-   "sum_Favorite": 2,
-   "sum_Underdog": 1,
-   "size_Favorite": 7,
-   "size_Underdog": 6,
-   "fav_pct": 28.6,
-   "dog_pct": 16.7,
-   "dog_minus_fav": -11.9,
-   "schools": "Kentucky"
-  },
-  {
    "coach": "Alex Golesh",
    "sum_Favorite": 1,
    "sum_Underdog": 0,
    "size_Favorite": 8,
-   "size_Underdog": 8,
+   "size_Underdog": 10,
    "fav_pct": 12.5,
    "dog_pct": 0.0,
    "dog_minus_fav": -12.5,
@@ -799,99 +909,176 @@
    "sum_Favorite": 2,
    "sum_Underdog": 1,
    "size_Favorite": 10,
-   "size_Underdog": 14,
+   "size_Underdog": 15,
    "fav_pct": 20.0,
-   "dog_pct": 7.1,
-   "dog_minus_fav": -12.9,
+   "dog_pct": 6.7,
+   "dog_minus_fav": -13.3,
    "schools": "Maryland"
   },
   {
    "coach": "Tim Albin",
    "sum_Favorite": 2,
    "sum_Underdog": 0,
-   "size_Favorite": 13,
-   "size_Underdog": 14,
-   "fav_pct": 15.4,
+   "size_Favorite": 15,
+   "size_Underdog": 16,
+   "fav_pct": 13.3,
    "dog_pct": 0.0,
-   "dog_minus_fav": -15.4,
+   "dog_minus_fav": -13.3,
    "schools": "Ohio, Charlotte"
-  },
-  {
-   "coach": "Ryan Silverfield",
-   "sum_Favorite": 8,
-   "sum_Underdog": 3,
-   "size_Favorite": 12,
-   "size_Underdog": 6,
-   "fav_pct": 66.7,
-   "dog_pct": 50.0,
-   "dog_minus_fav": -16.7,
-   "schools": "Memphis, Arkansas"
   },
   {
    "coach": "Mike Elko",
    "sum_Favorite": 2,
    "sum_Underdog": 0,
-   "size_Favorite": 12,
-   "size_Underdog": 7,
-   "fav_pct": 16.7,
+   "size_Favorite": 14,
+   "size_Underdog": 10,
+   "fav_pct": 14.3,
    "dog_pct": 0.0,
-   "dog_minus_fav": -16.7,
+   "dog_minus_fav": -14.3,
    "schools": "Duke, Texas A&M"
+  },
+  {
+   "coach": "Jake Dickert",
+   "sum_Favorite": 5,
+   "sum_Underdog": 1,
+   "size_Favorite": 16,
+   "size_Underdog": 6,
+   "fav_pct": 31.2,
+   "dog_pct": 16.7,
+   "dog_minus_fav": -14.5,
+   "schools": "Wake Forest, Washington State"
+  },
+  {
+   "coach": "Josh Heupel",
+   "sum_Favorite": 3,
+   "sum_Underdog": 0,
+   "size_Favorite": 20,
+   "size_Underdog": 5,
+   "fav_pct": 15.0,
+   "dog_pct": 0.0,
+   "dog_minus_fav": -15.0,
+   "schools": "Tennessee"
   },
   {
    "coach": "Jeff Hafley",
    "sum_Favorite": 1,
    "sum_Underdog": 0,
+   "size_Favorite": 6,
+   "size_Underdog": 7,
+   "fav_pct": 16.7,
+   "dog_pct": 0.0,
+   "dog_minus_fav": -16.7,
+   "schools": "Boston College"
+  },
+  {
+   "coach": "Mike Houston",
+   "sum_Favorite": 2,
+   "sum_Underdog": 1,
    "size_Favorite": 5,
    "size_Underdog": 5,
-   "fav_pct": 20.0,
-   "dog_pct": 0.0,
+   "fav_pct": 40.0,
+   "dog_pct": 20.0,
    "dog_minus_fav": -20.0,
-   "schools": "Boston College"
+   "schools": "East Carolina"
+  },
+  {
+   "coach": "Mark Stoops",
+   "sum_Favorite": 2,
+   "sum_Underdog": 1,
+   "size_Favorite": 7,
+   "size_Underdog": 15,
+   "fav_pct": 28.6,
+   "dog_pct": 6.7,
+   "dog_minus_fav": -21.9,
+   "schools": "Kentucky"
   },
   {
    "coach": "Bryant Vincent",
    "sum_Favorite": 2,
    "sum_Underdog": 0,
-   "size_Favorite": 8,
+   "size_Favorite": 9,
    "size_Underdog": 18,
-   "fav_pct": 25.0,
+   "fav_pct": 22.2,
    "dog_pct": 0.0,
-   "dog_minus_fav": -25.0,
+   "dog_minus_fav": -22.2,
    "schools": "UL Monroe, UAB"
   },
   {
-   "coach": "Brent Venables",
+   "coach": "Neal Brown",
+   "sum_Favorite": 4,
+   "sum_Underdog": 4,
+   "size_Favorite": 6,
+   "size_Underdog": 9,
+   "fav_pct": 66.7,
+   "dog_pct": 44.4,
+   "dog_minus_fav": -22.3,
+   "schools": "North Texas, West Virginia"
+  },
+  {
+   "coach": "Justin Wilcox",
    "sum_Favorite": 3,
+   "sum_Underdog": 1,
+   "size_Favorite": 10,
+   "size_Underdog": 14,
+   "fav_pct": 30.0,
+   "dog_pct": 7.1,
+   "dog_minus_fav": -22.9,
+   "schools": "California"
+  },
+  {
+   "coach": "Pat Narduzzi",
+   "sum_Favorite": 5,
    "sum_Underdog": 0,
-   "size_Favorite": 12,
+   "size_Favorite": 21,
    "size_Underdog": 5,
-   "fav_pct": 25.0,
+   "fav_pct": 23.8,
    "dog_pct": 0.0,
-   "dog_minus_fav": -25.0,
+   "dog_minus_fav": -23.8,
+   "schools": "Pittsburgh"
+  },
+  {
+   "coach": "Rhett Lashlee",
+   "sum_Favorite": 18,
+   "sum_Underdog": 3,
+   "size_Favorite": 21,
+   "size_Underdog": 5,
+   "fav_pct": 85.7,
+   "dog_pct": 60.0,
+   "dog_minus_fav": -25.7,
+   "schools": "SMU"
+  },
+  {
+   "coach": "Brent Venables",
+   "sum_Favorite": 5,
+   "sum_Underdog": 0,
+   "size_Favorite": 18,
+   "size_Underdog": 8,
+   "fav_pct": 27.8,
+   "dog_pct": 0.0,
+   "dog_minus_fav": -27.8,
    "schools": "Oklahoma"
   },
   {
    "coach": "Ken Niumatalolo",
    "sum_Favorite": 4,
    "sum_Underdog": 2,
-   "size_Favorite": 8,
-   "size_Underdog": 10,
-   "fav_pct": 50.0,
-   "dog_pct": 20.0,
-   "dog_minus_fav": -30.0,
+   "size_Favorite": 9,
+   "size_Underdog": 13,
+   "fav_pct": 44.4,
+   "dog_pct": 15.4,
+   "dog_minus_fav": -29.0,
    "schools": "San Jos\u00e9 State, Navy"
   },
   {
-   "coach": "Jake Dickert",
-   "sum_Favorite": 5,
-   "sum_Underdog": 0,
-   "size_Favorite": 16,
-   "size_Underdog": 5,
-   "fav_pct": 31.2,
-   "dog_pct": 0.0,
-   "dog_minus_fav": -31.2,
-   "schools": "Wake Forest, Washington State"
+   "coach": "Ryan Silverfield",
+   "sum_Favorite": 10,
+   "sum_Underdog": 3,
+   "size_Favorite": 14,
+   "size_Underdog": 8,
+   "fav_pct": 71.4,
+   "dog_pct": 37.5,
+   "dog_minus_fav": -33.9,
+   "schools": "Memphis, Arkansas"
   },
   {
    "coach": "Gerad Parker",
@@ -908,19 +1095,30 @@
    "coach": "Jim McElwain",
    "sum_Favorite": 5,
    "sum_Underdog": 1,
-   "size_Favorite": 8,
+   "size_Favorite": 9,
    "size_Underdog": 8,
-   "fav_pct": 62.5,
+   "fav_pct": 55.6,
    "dog_pct": 12.5,
-   "dog_minus_fav": -50.0,
+   "dog_minus_fav": -43.1,
    "schools": "Central Michigan"
+  },
+  {
+   "coach": "Mike Gundy",
+   "sum_Favorite": 3,
+   "sum_Underdog": 0,
+   "size_Favorite": 6,
+   "size_Underdog": 8,
+   "fav_pct": 50.0,
+   "dog_pct": 0.0,
+   "dog_minus_fav": -50.0,
+   "schools": "Oklahoma State"
   }
  ],
  "coach_heterogeneity_permutation": {
-  "coaches": 60,
-  "decisions": 1119,
-  "observed": 70.3,
-  "expected_by_chance": 63.3,
-  "p": 0.224
+  "coaches": 69,
+  "decisions": 1476,
+  "observed": 87.9,
+  "expected_by_chance": 72.9,
+  "p": 0.095
  }
 }

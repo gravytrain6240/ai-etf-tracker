@@ -2,7 +2,7 @@
 import json, os
 import pandas as pd
 H = os.path.dirname(os.path.abspath(__file__)); P = lambda f: os.path.join(H, "data", f)
-g = pd.read_csv(P("fbs_toss_games.csv"))
+g = pd.read_csv(P("fbs_toss_games.csv"), dtype={"game_id": str, "toss_winner_id": str, "home_id": str, "away_id": str})
 g["ok"] = g.status.str.startswith("verified")
 cs = pd.read_csv(P("coach_summary.csv"))
 mv = pd.read_csv(P("coach_movers.csv")); ch = pd.read_csv(P("school_coach_changes.csv"))
