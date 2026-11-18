@@ -114,7 +114,14 @@ svg .val { fill: var(--ink); font-family: var(--font-data); font-size: 11px; }
 </section>
 
 <section>
-  <div class="sec-head"><span class="sec-num">06</span><h2>How complete the data is</h2></div>
+  <div class="sec-head"><span class="sec-num">06</span><h2>Favorite or underdog makes no difference</h2></div>
+  <p id="spread-text"></p>
+  <div class="chart"><div class="chart-title">Share of toss winners choosing to receive, by the toss winner's point spread</div><svg id="c-spread" viewBox="0 0 720 230" role="img" aria-label="Receive rate by point spread"></svg></div>
+  <p class="note" id="spread-note"></p>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">07</span><h2>How complete the data is</h2></div>
   <p>Every toss comes from ESPN's play-by-play, which logs the referee's call, for example <q>Michigan won the toss and has deferred to the second half</q>. Each call is checked against which team actually took the opening kickoff. Head coaches come from CollegeFootballData.com.</p>
   <div class="tbl"><table id="t-seasons"></table></div>
   <div class="callout" id="gap-callout"></div>
@@ -147,7 +154,8 @@ const never = D.never;
   `<b>Many never do.</b> ${never.length} of ${D.coaches_n15} coaches with 15+ decisions never chose to receive, including Curt Cignetti, Kyle Whittingham, Jeff Brohm and Troy Calhoun.`,
   `<b>Programs flip with the coach.</b> Mississippi State went from 1 of 3 to 16 of 18 when Jeff Lebby arrived. West Virginia went from 12 of 14 under Neal Brown to 0 of 8 under Rich Rodriguez. Texas State went from 2 of 5 to 23 of 26 under G.J. Kinne.`,
   `<b>Habits mostly travel, but not always.</b> Lane Kiffin took the ball 11 of 11 times at Ole Miss but 1 of 5 so far at LSU. His former defensive coordinator, Pete Golding, kept receiving at Ole Miss after he left (4 of 5).`,
-  `<b>Coverage gap:</b> about 15% of games, mostly 2022–2024 home games at Georgia, Alabama, Texas, Texas A&M, LSU and Tennessee, lack a trustworthy toss record. See section 06.`,
+  `<b>The point spread doesn't matter.</b> Toss winners take the ball 16–20% of the time whether they are big favorites or big underdogs, and the same coach decides the same way either way.`,
+  `<b>Coverage gap:</b> about 15% of games, mostly 2022–2024 home games at Georgia, Alabama, Texas, Texas A&M, LSU and Tennessee, lack a trustworthy toss record. See section 07.`,
 ].forEach(h => { const li = document.createElement("li"); li.innerHTML = h; $("#findings").appendChild(li); });
 
 $("#h2h-text").innerHTML = `For each of ${H.n.toLocaleString()} decisions at schools that changed head coaches, I compared two predictions: the coach's receive rate in his other games, and the school's receive rate under its other coaches. The coach's record is far more predictive. Knowing the coach and the school together adds little beyond knowing the coach.`;
@@ -186,6 +194,22 @@ transitions(D.movers, "coach", "team", $("#movers"),
    "Curt Cignetti", "Kalen DeBoer", "Kyle Whittingham", "Jeff Brohm", "Luke Fickell", "Rich Rodriguez", "Jason Candle", "Matt Campbell"]);
 transitions(D.changes, "team", "coach", $("#changes"),
   ["Mississippi State", "West Virginia", "Texas State", "Ole Miss", "Temple", "Memphis", "Cincinnati", "Arizona", "Purdue", "LSU", "Michigan"]);
+
+(function () {
+  const S = D.spread, rows = S.overall_by_bucket, s = $("#c-spread"), W = 720, H = 230, m = { l: 40, r: 10, t: 16, b: 40 }, ymax = 25;
+  const iw = W - m.l - m.r, ih = H - m.t - m.b, y = v => m.t + ih - v / ymax * ih, bw = iw / rows.length;
+  [0, 5, 10, 15, 20, 25].forEach(v => { el("line", { x1: m.l, x2: W - m.r, y1: y(v), y2: y(v), stroke: "var(--grid)" }, s); el("text", { x: m.l - 8, y: y(v) + 4, "text-anchor": "end" }, s, v + "%"); });
+  rows.forEach((r, i) => {
+    const x = m.l + i * bw + bw * 0.22, w = bw * 0.56, h = y(0) - y(r.receive_pct);
+    el("path", { d: `M${x},${y(0)}V${y(r.receive_pct) + 4}Q${x},${y(r.receive_pct)} ${x + 4},${y(r.receive_pct)}H${x + w - 4}Q${x + w},${y(r.receive_pct)} ${x + w},${y(r.receive_pct) + 4}V${y(0)}Z`, fill: "var(--receive)" }, s);
+    el("text", { x: x + w / 2, y: y(r.receive_pct) - 6, "text-anchor": "middle", class: "val" }, s, fmt(r.receive_pct) + "%");
+    el("text", { x: x + w / 2, y: H - m.b + 16, "text-anchor": "middle" }, s, r.bucket.replace(/ by .*/, ""));
+    el("text", { x: x + w / 2, y: H - m.b + 30, "text-anchor": "middle" }, s, (r.bucket.match(/ by (.*)/) || ["", "±3"])[1] + " · n=" + r.n);
+  });
+  const W2 = S.within_coach_underdog_vs_favorite, M = S.mixed_coaches_fav_vs_dog, PT = S.coach_heterogeneity_permutation;
+  $("#spread-text").innerHTML = `Across ${S.with_spread.toLocaleString()} decisions with a betting line, toss winners received ${fmt(S.overall_by_role[0].receive_pct)}% of the time as favorites and ${fmt(S.overall_by_role[2].receive_pct)}% as underdogs. Comparing each coach only with himself gives the same answer: among the ${M.coaches} coaches who sometimes receive and sometimes defer and were both a favorite and an underdog, the receive rate was ${fmt(M.avg_rate_as_favorite)}% as a favorite and ${fmt(M.avg_rate_as_underdog)}% as an underdog.`;
+  $("#spread-note").innerHTML = `Within-coach model (coach fixed effects): underdog vs. favorite odds ratio ${fmt(W2.odds_ratio, 2)} (95% interval ${fmt(W2.ci95[0], 2)}–${fmt(W2.ci95[1], 2)}, p = ${W2.p}). Some individual coaches show large favorite/underdog splits, but with 5–20 games per side those are consistent with chance: across ${PT.coaches} coaches, the spread of splits (${fmt(PT.observed)}) is close to what random shuffling produces (${fmt(PT.expected_by_chance)}; p = ${PT.p}). Spreads are ESPN's betting line, available for ${fmt(100 * S.with_spread / S.decisions)}% of decisions.`;
+})();
 
 $("#t-seasons").innerHTML = `<thead><tr><th>Season</th><th>FBS games</th><th>Verified</th><th>Coverage</th><th>Receive rate</th></tr></thead><tbody>${
   D.by_season.map(s => `<tr><td>${s.season}${s.season === 2026 ? " (to Nov 17)" : ""}</td><td class="num">${s.games}</td><td class="num">${s.verified}</td><td class="num">${fmt(100 * s.verified / s.games)}%</td><td class="num">${fmt(s.receive_pct)}%</td></tr>`).join("")}</tbody>`;

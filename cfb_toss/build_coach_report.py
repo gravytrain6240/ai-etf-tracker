@@ -24,6 +24,7 @@ data = {
   "changes": ch.to_dict("records"),
   "low_cov": cov[cov.games >= 20].head(12).to_dict("records"),
   "cov_median": float(cov.coverage_pct.median()),
+  "spread": {k: v for k, v in json.load(open(P("spread_results.json"))).items() if k != "coach_splits"},
 }
 html = open(os.path.join(H, "coach_report_template.html")).read().replace("__DATA__", json.dumps(data, default=str))
 open(os.path.join(H, "report.html"), "w").write(html)

@@ -92,6 +92,28 @@ cs = cs.sort_values("dog_minus_fav", ascending=False)
 cs.to_csv(P("coach_spread_splits.csv"))
 res["coach_splits"] = cs.reset_index().to_dict("records")
 
+# Do individual coaches differ in how the spread affects them, beyond chance? Permutation
+# test: shuffle favorite/underdog labels within each coach and compare heterogeneity.
+k = s[(s.spread.abs() > 3)].assign(dog=lambda x: (x.spread > 3).astype(int))
+k = k.groupby("coach").filter(lambda x: x.dog.sum() >= 5 and (1 - x.dog).sum() >= 5 and 0 < x.receive.mean() < 1)
+
+
+def hetero(df):
+    t = 0.0
+    for _, x in df.groupby("coach"):
+        a, b, p = x[x.dog == 1].receive, x[x.dog == 0].receive, x.receive.mean()
+        t += (a.mean() - b.mean()) ** 2 / (p * (1 - p) * (1 / len(a) + 1 / len(b)))
+    return t
+
+
+obs = hetero(k)
+rng = np.random.default_rng(1)
+sims = np.array([hetero(k.assign(dog=k.groupby("coach").dog.transform(lambda v: rng.permutation(v.values))))
+                 for _ in range(2000)])
+res["coach_heterogeneity_permutation"] = {"coaches": int(k.coach.nunique()), "decisions": int(len(k)),
+                                          "observed": round(obs, 1), "expected_by_chance": round(float(sims.mean()), 1),
+                                          "p": round(float((sims >= obs).mean()), 3)}
+
 json.dump(res, open(P("spread_results.json"), "w"), indent=1, default=float)
 
 if __name__ == "__main__":
