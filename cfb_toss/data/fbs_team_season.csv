@@ -1,0 +1,666 @@
+team,season,receives,tosses_won
+Air Force,2022,0,3
+Air Force,2023,0,9
+Air Force,2024,0,5
+Air Force,2025,0,6
+Air Force,2026,0,8
+Akron,2022,0,3
+Akron,2023,0,8
+Akron,2024,1,9
+Akron,2025,1,9
+Akron,2026,2,5
+Alabama,2022,0,1
+Alabama,2023,0,3
+Alabama,2024,0,3
+Alabama,2025,0,4
+Alabama,2026,0,5
+App State,2022,0,6
+App State,2023,0,7
+App State,2024,2,7
+App State,2025,0,6
+App State,2026,0,7
+Arizona,2022,2,4
+Arizona,2023,3,6
+Arizona,2024,1,6
+Arizona,2025,0,5
+Arizona,2026,0,2
+Arizona State,2022,1,4
+Arizona State,2023,0,7
+Arizona State,2024,0,5
+Arizona State,2025,0,7
+Arizona State,2026,0,5
+Arkansas,2022,1,3
+Arkansas,2023,0,6
+Arkansas,2024,2,3
+Arkansas,2025,5,6
+Arkansas,2026,1,3
+Arkansas State,2022,0,3
+Arkansas State,2023,0,6
+Arkansas State,2024,0,2
+Arkansas State,2025,0,5
+Arkansas State,2026,0,2
+Army,2022,0,7
+Army,2023,0,5
+Army,2024,0,7
+Army,2025,0,6
+Army,2026,0,3
+Auburn,2022,0,3
+Auburn,2023,1,4
+Auburn,2024,1,5
+Auburn,2025,0,4
+Auburn,2026,0,4
+BYU,2023,0,3
+BYU,2024,0,3
+BYU,2025,0,7
+BYU,2026,0,6
+Ball State,2022,0,3
+Ball State,2023,0,4
+Ball State,2024,1,6
+Ball State,2025,0,6
+Ball State,2026,0,4
+Baylor,2022,0,3
+Baylor,2023,0,4
+Baylor,2024,0,8
+Baylor,2025,3,7
+Baylor,2026,0,5
+Boise State,2022,1,5
+Boise State,2023,0,4
+Boise State,2024,0,8
+Boise State,2025,0,6
+Boise State,2026,0,5
+Boston College,2022,0,6
+Boston College,2023,1,4
+Boston College,2024,0,4
+Boston College,2025,0,5
+Boston College,2026,0,4
+Bowling Green,2022,0,6
+Bowling Green,2023,0,5
+Bowling Green,2024,1,8
+Bowling Green,2025,4,8
+Bowling Green,2026,0,6
+Buffalo,2022,0,4
+Buffalo,2023,0,7
+Buffalo,2024,2,7
+Buffalo,2025,0,4
+Buffalo,2026,0,4
+California,2022,0,5
+California,2023,0,6
+California,2024,0,3
+California,2025,2,6
+California,2026,3,6
+Central Michigan,2022,0,6
+Central Michigan,2023,5,8
+Central Michigan,2024,1,6
+Central Michigan,2025,0,6
+Central Michigan,2026,1,5
+Charlotte,2022,0,4
+Charlotte,2023,1,4
+Charlotte,2024,0,6
+Charlotte,2025,0,4
+Charlotte,2026,1,6
+Cincinnati,2022,0,3
+Cincinnati,2023,1,4
+Cincinnati,2024,1,4
+Cincinnati,2025,4,7
+Cincinnati,2026,0,4
+Clemson,2023,0,5
+Clemson,2024,0,5
+Clemson,2025,4,6
+Clemson,2026,2,5
+Coastal Carolina,2022,0,3
+Coastal Carolina,2023,0,3
+Coastal Carolina,2024,3,8
+Coastal Carolina,2025,1,6
+Coastal Carolina,2026,1,6
+Colorado,2022,1,4
+Colorado,2023,0,4
+Colorado,2024,0,4
+Colorado,2025,1,10
+Colorado,2026,0,7
+Colorado State,2022,1,5
+Colorado State,2023,3,6
+Colorado State,2024,2,3
+Colorado State,2025,2,6
+Colorado State,2026,1,6
+Delaware,2025,1,5
+Delaware,2026,2,9
+Duke,2022,0,3
+Duke,2023,0,6
+Duke,2024,0,6
+Duke,2025,0,8
+Duke,2026,2,7
+East Carolina,2022,1,2
+East Carolina,2023,0,4
+East Carolina,2024,4,7
+East Carolina,2025,5,6
+East Carolina,2026,1,3
+Eastern Michigan,2022,1,4
+Eastern Michigan,2023,1,4
+Eastern Michigan,2024,0,6
+Eastern Michigan,2025,3,6
+Eastern Michigan,2026,0,4
+Florida,2022,0,4
+Florida,2023,0,5
+Florida,2024,0,2
+Florida,2025,2,6
+Florida,2026,0,4
+Florida Atlantic,2022,1,6
+Florida Atlantic,2023,0,8
+Florida Atlantic,2024,1,6
+Florida Atlantic,2025,2,5
+Florida Atlantic,2026,5,5
+Florida International,2022,1,6
+Florida International,2023,0,5
+Florida International,2024,0,4
+Florida International,2025,1,8
+Florida International,2026,1,5
+Florida State,2022,0,1
+Florida State,2023,0,1
+Florida State,2024,1,6
+Florida State,2025,1,6
+Florida State,2026,1,4
+Fresno State,2022,3,7
+Fresno State,2023,0,5
+Fresno State,2024,1,5
+Fresno State,2025,2,6
+Fresno State,2026,2,3
+Georgia,2023,0,4
+Georgia,2024,0,3
+Georgia,2025,1,3
+Georgia,2026,0,6
+Georgia Southern,2022,1,4
+Georgia Southern,2023,1,4
+Georgia Southern,2024,2,9
+Georgia Southern,2025,2,5
+Georgia Southern,2026,0,4
+Georgia State,2022,0,2
+Georgia State,2023,7,7
+Georgia State,2024,1,6
+Georgia State,2025,2,7
+Georgia State,2026,0,4
+Georgia Tech,2022,2,4
+Georgia Tech,2023,2,4
+Georgia Tech,2024,1,5
+Georgia Tech,2025,0,1
+Georgia Tech,2026,1,6
+Hawai'i,2022,2,3
+Hawai'i,2023,0,4
+Hawai'i,2024,0,5
+Hawai'i,2025,0,7
+Hawai'i,2026,0,7
+Houston,2022,0,8
+Houston,2023,1,7
+Houston,2024,0,8
+Houston,2025,0,9
+Houston,2026,0,5
+Illinois,2022,0,2
+Illinois,2023,1,4
+Illinois,2024,1,7
+Illinois,2025,0,7
+Illinois,2026,0,5
+Indiana,2022,0,2
+Indiana,2023,0,4
+Indiana,2024,0,2
+Indiana,2025,0,9
+Indiana,2026,0,5
+Iowa,2022,2,7
+Iowa,2023,7,8
+Iowa,2024,0,7
+Iowa,2025,8,8
+Iowa,2026,2,2
+Iowa State,2022,0,4
+Iowa State,2023,0,8
+Iowa State,2024,0,6
+Iowa State,2025,1,5
+Iowa State,2026,0,6
+Jacksonville State,2023,0,8
+Jacksonville State,2024,0,8
+Jacksonville State,2025,0,8
+Jacksonville State,2026,0,5
+James Madison,2022,0,6
+James Madison,2023,0,5
+James Madison,2024,0,3
+James Madison,2025,0,8
+James Madison,2026,0,7
+Kansas,2022,0,5
+Kansas,2023,0,6
+Kansas,2024,0,4
+Kansas,2025,1,7
+Kansas,2026,0,4
+Kansas State,2022,4,7
+Kansas State,2023,3,6
+Kansas State,2024,0,5
+Kansas State,2025,1,4
+Kansas State,2026,3,6
+Kennesaw State,2024,1,5
+Kennesaw State,2025,0,8
+Kennesaw State,2026,2,6
+Kent State,2022,2,4
+Kent State,2023,0,2
+Kent State,2024,1,6
+Kent State,2025,3,8
+Kent State,2026,2,6
+Kentucky,2022,0,2
+Kentucky,2023,2,5
+Kentucky,2024,0,2
+Kentucky,2025,1,6
+Kentucky,2026,0,6
+LSU,2023,2,3
+LSU,2025,0,3
+LSU,2026,1,5
+Liberty,2022,0,10
+Liberty,2023,0,3
+Liberty,2024,0,5
+Liberty,2025,2,9
+Liberty,2026,0,5
+Louisiana,2022,0,8
+Louisiana,2023,0,4
+Louisiana,2024,0,7
+Louisiana,2025,0,5
+Louisiana,2026,0,4
+Louisiana Tech,2022,3,5
+Louisiana Tech,2023,3,9
+Louisiana Tech,2024,1,7
+Louisiana Tech,2025,0,7
+Louisiana Tech,2026,0,5
+Louisville,2022,0,3
+Louisville,2023,0,7
+Louisville,2024,0,5
+Louisville,2025,0,7
+Louisville,2026,0,3
+Marshall,2022,0,3
+Marshall,2023,1,5
+Marshall,2024,0,3
+Marshall,2025,1,5
+Marshall,2026,0,5
+Maryland,2022,1,5
+Maryland,2023,0,4
+Maryland,2024,2,7
+Maryland,2025,0,7
+Maryland,2026,0,4
+Massachusetts,2022,0,3
+Massachusetts,2023,1,8
+Massachusetts,2024,0,3
+Massachusetts,2025,0,3
+Massachusetts,2026,0,2
+Memphis,2022,4,5
+Memphis,2023,3,4
+Memphis,2024,1,3
+Memphis,2025,2,4
+Memphis,2026,0,8
+Miami,2022,0,2
+Miami,2023,0,2
+Miami,2024,0,3
+Miami,2025,0,5
+Miami,2026,0,7
+Miami (OH),2022,4,5
+Miami (OH),2023,3,6
+Miami (OH),2024,1,2
+Miami (OH),2025,0,4
+Miami (OH),2026,1,5
+Michigan,2023,0,8
+Michigan,2024,0,9
+Michigan,2025,0,7
+Michigan,2026,0,7
+Michigan State,2022,0,3
+Michigan State,2023,0,5
+Michigan State,2024,0,8
+Michigan State,2025,1,7
+Michigan State,2026,2,7
+Middle Tennessee,2022,0,5
+Middle Tennessee,2023,1,5
+Middle Tennessee,2024,3,6
+Middle Tennessee,2025,1,5
+Middle Tennessee,2026,2,7
+Minnesota,2022,1,5
+Minnesota,2023,1,4
+Minnesota,2024,0,6
+Minnesota,2025,1,6
+Minnesota,2026,2,6
+Mississippi State,2022,1,1
+Mississippi State,2023,0,2
+Mississippi State,2024,5,5
+Mississippi State,2025,6,6
+Mississippi State,2026,5,7
+Missouri,2022,0,3
+Missouri,2023,1,3
+Missouri,2024,2,7
+Missouri,2025,1,4
+Missouri,2026,0,6
+Missouri State,2025,1,5
+Missouri State,2026,3,5
+NC State,2022,0,3
+NC State,2023,0,7
+NC State,2024,0,5
+NC State,2025,5,7
+NC State,2026,0,4
+Navy,2022,2,6
+Navy,2023,2,6
+Navy,2024,0,6
+Navy,2025,2,6
+Navy,2026,1,4
+Nebraska,2022,0,5
+Nebraska,2023,0,5
+Nebraska,2024,0,4
+Nebraska,2025,1,4
+Nebraska,2026,3,8
+Nevada,2022,1,7
+Nevada,2023,2,8
+Nevada,2024,0,7
+Nevada,2025,0,7
+Nevada,2026,0,6
+New Mexico,2022,6,6
+New Mexico,2023,0,4
+New Mexico,2024,5,8
+New Mexico,2025,1,5
+New Mexico,2026,0,3
+New Mexico State,2022,0,6
+New Mexico State,2023,0,5
+New Mexico State,2024,0,5
+New Mexico State,2025,3,7
+New Mexico State,2026,1,4
+North Carolina,2022,0,3
+North Carolina,2023,0,2
+North Carolina,2024,0,8
+North Carolina,2025,0,6
+North Carolina,2026,0,6
+North Dakota State,2026,1,3
+North Texas,2022,0,6
+North Texas,2023,2,4
+North Texas,2024,2,7
+North Texas,2025,1,6
+North Texas,2026,1,8
+Northern Illinois,2022,0,4
+Northern Illinois,2023,1,5
+Northern Illinois,2024,0,7
+Northern Illinois,2025,1,6
+Northern Illinois,2026,1,4
+Northwestern,2022,0,7
+Northwestern,2023,0,8
+Northwestern,2024,0,1
+Northwestern,2025,0,6
+Northwestern,2026,0,4
+Notre Dame,2022,0,1
+Notre Dame,2023,0,3
+Notre Dame,2024,0,3
+Notre Dame,2025,0,4
+Notre Dame,2026,0,6
+Ohio,2022,2,5
+Ohio,2023,0,8
+Ohio,2024,0,7
+Ohio,2025,0,6
+Ohio,2026,1,5
+Ohio State,2022,1,1
+Ohio State,2023,2,4
+Ohio State,2024,0,4
+Ohio State,2025,1,11
+Ohio State,2026,0,3
+Oklahoma,2022,2,3
+Oklahoma,2023,1,6
+Oklahoma,2024,0,2
+Oklahoma,2025,0,5
+Oklahoma,2026,0,4
+Oklahoma State,2023,3,4
+Oklahoma State,2024,0,4
+Oklahoma State,2025,0,2
+Oklahoma State,2026,0,6
+Old Dominion,2022,0,4
+Old Dominion,2023,0,8
+Old Dominion,2024,0,5
+Old Dominion,2025,0,4
+Old Dominion,2026,1,5
+Ole Miss,2022,3,3
+Ole Miss,2023,2,2
+Ole Miss,2024,3,3
+Ole Miss,2025,5,5
+Ole Miss,2026,2,3
+Oregon,2022,0,4
+Oregon,2023,0,2
+Oregon,2024,1,4
+Oregon,2025,3,6
+Oregon,2026,0,4
+Oregon State,2022,0,4
+Oregon State,2023,0,9
+Oregon State,2024,0,7
+Oregon State,2025,2,7
+Oregon State,2026,0,3
+Penn State,2022,0,3
+Penn State,2023,0,5
+Penn State,2024,0,5
+Penn State,2025,0,6
+Penn State,2026,0,4
+Pittsburgh,2022,0,7
+Pittsburgh,2023,0,4
+Pittsburgh,2024,2,5
+Pittsburgh,2025,0,6
+Pittsburgh,2026,1,3
+Purdue,2022,0,3
+Purdue,2023,0,5
+Purdue,2024,2,8
+Purdue,2025,0,3
+Purdue,2026,4,5
+Rice,2022,0,5
+Rice,2023,0,7
+Rice,2024,0,6
+Rice,2025,4,8
+Rice,2026,4,6
+Rutgers,2022,0,3
+Rutgers,2023,0,10
+Rutgers,2024,0,5
+Rutgers,2025,2,5
+Rutgers,2026,0,3
+SMU,2022,3,3
+SMU,2023,4,5
+SMU,2024,8,9
+SMU,2025,4,6
+SMU,2026,6,6
+Sacramento State,2026,0,6
+Sam Houston,2023,0,6
+Sam Houston,2024,0,6
+Sam Houston,2025,0,5
+Sam Houston,2026,0,4
+San Diego State,2022,0,7
+San Diego State,2023,0,5
+San Diego State,2024,0,4
+San Diego State,2025,0,7
+San Diego State,2026,0,7
+San José State,2022,0,1
+San José State,2023,2,6
+San José State,2024,0,4
+San José State,2025,3,6
+San José State,2026,3,6
+South Alabama,2022,1,4
+South Alabama,2023,0,7
+South Alabama,2024,0,7
+South Alabama,2025,1,6
+South Alabama,2026,0,5
+South Carolina,2022,1,5
+South Carolina,2023,1,6
+South Carolina,2024,0,4
+South Carolina,2025,2,6
+South Carolina,2026,5,5
+South Florida,2022,2,3
+South Florida,2023,0,4
+South Florida,2024,0,6
+South Florida,2025,1,4
+South Florida,2026,0,4
+Southern Miss,2022,0,6
+Southern Miss,2023,0,6
+Southern Miss,2024,1,5
+Southern Miss,2025,0,7
+Southern Miss,2026,0,4
+Stanford,2022,0,5
+Stanford,2023,1,4
+Stanford,2024,1,3
+Stanford,2025,0,5
+Stanford,2026,0,3
+Syracuse,2022,3,3
+Syracuse,2023,1,5
+Syracuse,2024,1,5
+Syracuse,2025,0,4
+Syracuse,2026,0,6
+TCU,2022,2,2
+TCU,2023,1,4
+TCU,2024,4,5
+TCU,2025,1,8
+TCU,2026,0,7
+Temple,2022,1,6
+Temple,2023,1,5
+Temple,2024,1,5
+Temple,2025,5,9
+Temple,2026,4,6
+Tennessee,2022,1,1
+Tennessee,2023,0,2
+Tennessee,2024,0,3
+Tennessee,2025,1,2
+Tennessee,2026,0,5
+Texas,2022,1,2
+Texas,2023,0,1
+Texas,2024,1,2
+Texas,2025,0,4
+Texas,2026,1,3
+Texas A&M,2022,0,1
+Texas A&M,2023,0,4
+Texas A&M,2024,0,1
+Texas A&M,2025,2,7
+Texas A&M,2026,0,6
+Texas State,2022,2,5
+Texas State,2023,4,6
+Texas State,2024,5,6
+Texas State,2025,7,7
+Texas State,2026,7,7
+Texas Tech,2022,1,1
+Texas Tech,2023,1,9
+Texas Tech,2024,3,6
+Texas Tech,2025,0,7
+Texas Tech,2026,0,6
+Toledo,2022,0,6
+Toledo,2023,0,7
+Toledo,2024,0,6
+Toledo,2025,0,6
+Toledo,2026,0,5
+Troy,2022,1,5
+Troy,2023,0,3
+Troy,2024,2,5
+Troy,2025,2,7
+Troy,2026,4,8
+Tulane,2022,0,3
+Tulane,2023,0,5
+Tulane,2024,0,6
+Tulane,2025,0,7
+Tulane,2026,0,5
+Tulsa,2022,0,4
+Tulsa,2023,0,3
+Tulsa,2024,2,7
+Tulsa,2025,2,7
+Tulsa,2026,0,6
+UAB,2022,2,8
+UAB,2023,6,9
+UAB,2024,1,3
+UAB,2025,5,7
+UAB,2026,1,4
+UCF,2022,0,3
+UCF,2023,3,6
+UCF,2024,4,7
+UCF,2025,0,7
+UCF,2026,0,8
+UCLA,2022,0,4
+UCLA,2023,1,4
+UCLA,2024,3,7
+UCLA,2025,1,5
+UCLA,2026,0,3
+UConn,2022,1,6
+UConn,2023,0,6
+UConn,2024,0,7
+UConn,2025,0,6
+UConn,2026,0,2
+UL Monroe,2022,1,5
+UL Monroe,2023,0,7
+UL Monroe,2024,0,5
+UL Monroe,2025,1,10
+UL Monroe,2026,0,6
+UNLV,2022,4,5
+UNLV,2023,0,7
+UNLV,2024,0,5
+UNLV,2025,0,4
+UNLV,2026,0,1
+USC,2022,1,1
+USC,2023,3,4
+USC,2024,5,7
+USC,2025,5,6
+USC,2026,5,5
+UTEP,2022,1,6
+UTEP,2023,0,5
+UTEP,2024,2,6
+UTEP,2025,2,6
+UTEP,2026,1,8
+UTSA,2022,0,3
+UTSA,2023,0,7
+UTSA,2024,0,6
+UTSA,2025,0,5
+UTSA,2026,0,4
+Utah,2022,0,3
+Utah,2023,0,6
+Utah,2024,0,7
+Utah,2025,0,4
+Utah,2026,0,4
+Utah State,2022,0,5
+Utah State,2023,0,5
+Utah State,2024,0,5
+Utah State,2025,2,6
+Utah State,2026,2,5
+Vanderbilt,2022,0,3
+Vanderbilt,2023,0,4
+Vanderbilt,2024,0,5
+Vanderbilt,2025,0,7
+Vanderbilt,2026,0,3
+Virginia,2022,1,6
+Virginia,2023,0,6
+Virginia,2024,0,6
+Virginia,2025,0,6
+Virginia,2026,0,4
+Virginia Tech,2022,0,4
+Virginia Tech,2023,0,4
+Virginia Tech,2024,0,1
+Virginia Tech,2025,0,5
+Virginia Tech,2026,1,3
+Wake Forest,2022,0,5
+Wake Forest,2023,0,6
+Wake Forest,2024,0,6
+Wake Forest,2025,0,3
+Wake Forest,2026,1,8
+Washington,2022,1,6
+Washington,2023,0,6
+Washington,2024,0,6
+Washington,2025,0,5
+Washington,2026,3,7
+Washington State,2022,3,7
+Washington State,2023,2,3
+Washington State,2024,0,5
+Washington State,2025,0,8
+Washington State,2026,0,5
+West Virginia,2022,1,3
+West Virginia,2023,5,5
+West Virginia,2024,7,7
+West Virginia,2025,0,4
+West Virginia,2026,0,4
+Western Kentucky,2022,4,6
+Western Kentucky,2023,4,5
+Western Kentucky,2024,5,7
+Western Kentucky,2025,0,4
+Western Kentucky,2026,0,5
+Western Michigan,2022,0,7
+Western Michigan,2023,1,5
+Western Michigan,2024,1,4
+Western Michigan,2025,1,8
+Western Michigan,2026,2,7
+Wisconsin,2022,1,5
+Wisconsin,2023,0,6
+Wisconsin,2024,1,9
+Wisconsin,2025,0,4
+Wisconsin,2026,0,4
+Wyoming,2022,0,8
+Wyoming,2023,0,4
+Wyoming,2024,0,6
+Wyoming,2025,0,5
+Wyoming,2026,0,3
