@@ -1,0 +1,387 @@
+team,season,n,receive_pct
+Alabama,2022,1,0.0
+Alabama,2023,3,0.0
+Alabama,2024,3,0.0
+Alabama,2025,4,0.0
+Alabama,2026,5,0.0
+Arizona,2021,4,25.0
+Arizona,2022,4,50.0
+Arizona,2023,6,50.0
+Arizona,2024,6,16.7
+Arizona,2025,5,0.0
+Arizona,2026,2,0.0
+Arizona State,2021,3,0.0
+Arizona State,2022,4,25.0
+Arizona State,2023,7,0.0
+Arizona State,2024,5,0.0
+Arizona State,2025,7,0.0
+Arizona State,2026,5,0.0
+Arkansas,2021,4,25.0
+Arkansas,2022,3,33.3
+Arkansas,2023,6,0.0
+Arkansas,2024,3,66.7
+Arkansas,2025,6,83.3
+Arkansas,2026,3,33.3
+Auburn,2022,3,0.0
+Auburn,2023,4,25.0
+Auburn,2024,5,20.0
+Auburn,2025,4,0.0
+Auburn,2026,4,0.0
+BYU,2023,3,0.0
+BYU,2024,3,0.0
+BYU,2025,7,0.0
+BYU,2026,6,0.0
+Baylor,2021,2,0.0
+Baylor,2022,3,0.0
+Baylor,2023,4,0.0
+Baylor,2024,8,0.0
+Baylor,2025,7,42.9
+Baylor,2026,5,0.0
+Boston College,2021,2,0.0
+Boston College,2022,6,0.0
+Boston College,2023,5,20.0
+Boston College,2024,4,0.0
+Boston College,2025,5,0.0
+Boston College,2026,4,0.0
+California,2021,4,0.0
+California,2022,5,0.0
+California,2023,6,0.0
+California,2024,3,0.0
+California,2025,6,33.3
+California,2026,6,50.0
+Cincinnati,2023,4,25.0
+Cincinnati,2024,4,25.0
+Cincinnati,2025,7,57.1
+Cincinnati,2026,4,0.0
+Clemson,2021,1,0.0
+Clemson,2023,5,0.0
+Clemson,2024,5,0.0
+Clemson,2025,6,66.7
+Clemson,2026,5,40.0
+Colorado,2021,5,0.0
+Colorado,2022,4,25.0
+Colorado,2023,4,0.0
+Colorado,2024,4,0.0
+Colorado,2025,10,10.0
+Colorado,2026,7,0.0
+Duke,2021,3,0.0
+Duke,2022,3,0.0
+Duke,2023,6,0.0
+Duke,2024,6,0.0
+Duke,2025,8,0.0
+Duke,2026,7,28.6
+Florida,2021,1,100.0
+Florida,2022,4,0.0
+Florida,2023,5,0.0
+Florida,2024,2,0.0
+Florida,2025,6,33.3
+Florida,2026,4,0.0
+Florida State,2021,3,0.0
+Florida State,2022,1,0.0
+Florida State,2023,1,0.0
+Florida State,2024,6,16.7
+Florida State,2025,6,16.7
+Florida State,2026,4,25.0
+Georgia,2023,4,0.0
+Georgia,2024,3,0.0
+Georgia,2025,3,33.3
+Georgia,2026,6,0.0
+Georgia Tech,2021,6,33.3
+Georgia Tech,2022,4,50.0
+Georgia Tech,2023,4,50.0
+Georgia Tech,2024,5,20.0
+Georgia Tech,2025,1,0.0
+Georgia Tech,2026,6,16.7
+Houston,2023,7,14.3
+Houston,2024,8,0.0
+Houston,2025,9,0.0
+Houston,2026,5,0.0
+Illinois,2021,4,0.0
+Illinois,2022,2,0.0
+Illinois,2023,5,20.0
+Illinois,2024,7,14.3
+Illinois,2025,7,0.0
+Illinois,2026,5,0.0
+Indiana,2021,3,0.0
+Indiana,2022,2,0.0
+Indiana,2023,4,0.0
+Indiana,2024,2,0.0
+Indiana,2025,9,0.0
+Indiana,2026,5,0.0
+Iowa,2021,4,25.0
+Iowa,2022,7,28.6
+Iowa,2023,8,87.5
+Iowa,2024,7,0.0
+Iowa,2025,9,100.0
+Iowa,2026,2,100.0
+Iowa State,2021,3,0.0
+Iowa State,2022,4,0.0
+Iowa State,2023,8,0.0
+Iowa State,2024,6,0.0
+Iowa State,2025,5,20.0
+Iowa State,2026,6,0.0
+Kansas,2021,5,40.0
+Kansas,2022,5,0.0
+Kansas,2023,6,0.0
+Kansas,2024,4,0.0
+Kansas,2025,7,14.3
+Kansas,2026,4,0.0
+Kansas State,2021,4,0.0
+Kansas State,2022,7,57.1
+Kansas State,2023,6,50.0
+Kansas State,2024,5,0.0
+Kansas State,2025,4,25.0
+Kansas State,2026,6,50.0
+Kentucky,2021,2,50.0
+Kentucky,2022,2,0.0
+Kentucky,2023,5,40.0
+Kentucky,2024,2,0.0
+Kentucky,2025,6,16.7
+Kentucky,2026,6,0.0
+LSU,2021,2,0.0
+LSU,2023,3,66.7
+LSU,2025,3,0.0
+LSU,2026,5,20.0
+Louisville,2021,3,0.0
+Louisville,2022,3,0.0
+Louisville,2023,7,0.0
+Louisville,2024,5,0.0
+Louisville,2025,7,0.0
+Louisville,2026,3,0.0
+Maryland,2021,5,40.0
+Maryland,2022,5,20.0
+Maryland,2023,4,0.0
+Maryland,2024,7,28.6
+Maryland,2025,7,0.0
+Maryland,2026,4,0.0
+Miami,2021,4,0.0
+Miami,2022,2,0.0
+Miami,2023,2,0.0
+Miami,2024,3,0.0
+Miami,2025,5,0.0
+Miami,2026,7,0.0
+Michigan,2021,1,0.0
+Michigan,2023,8,0.0
+Michigan,2024,9,0.0
+Michigan,2025,7,0.0
+Michigan,2026,7,0.0
+Michigan State,2022,3,0.0
+Michigan State,2023,5,0.0
+Michigan State,2024,8,0.0
+Michigan State,2025,7,14.3
+Michigan State,2026,7,28.6
+Minnesota,2021,5,20.0
+Minnesota,2022,5,20.0
+Minnesota,2023,4,25.0
+Minnesota,2024,6,0.0
+Minnesota,2025,6,16.7
+Minnesota,2026,6,33.3
+Mississippi State,2021,3,33.3
+Mississippi State,2022,1,100.0
+Mississippi State,2023,2,0.0
+Mississippi State,2024,5,100.0
+Mississippi State,2025,6,100.0
+Mississippi State,2026,7,71.4
+Missouri,2021,3,0.0
+Missouri,2022,3,0.0
+Missouri,2023,3,33.3
+Missouri,2024,7,28.6
+Missouri,2025,4,25.0
+Missouri,2026,6,0.0
+NC State,2021,2,0.0
+NC State,2022,3,0.0
+NC State,2023,7,0.0
+NC State,2024,5,0.0
+NC State,2025,7,71.4
+NC State,2026,4,0.0
+Nebraska,2021,3,0.0
+Nebraska,2022,5,0.0
+Nebraska,2023,5,0.0
+Nebraska,2024,4,0.0
+Nebraska,2025,4,25.0
+Nebraska,2026,8,37.5
+North Carolina,2021,1,0.0
+North Carolina,2022,3,0.0
+North Carolina,2023,2,0.0
+North Carolina,2024,8,0.0
+North Carolina,2025,6,0.0
+North Carolina,2026,6,0.0
+Northwestern,2021,7,14.3
+Northwestern,2022,7,0.0
+Northwestern,2023,8,0.0
+Northwestern,2024,1,0.0
+Northwestern,2025,6,0.0
+Northwestern,2026,4,0.0
+Notre Dame,2021,1,100.0
+Notre Dame,2022,1,0.0
+Notre Dame,2023,3,0.0
+Notre Dame,2024,3,0.0
+Notre Dame,2025,4,0.0
+Notre Dame,2026,6,0.0
+Ohio State,2022,1,100.0
+Ohio State,2023,4,50.0
+Ohio State,2024,4,0.0
+Ohio State,2025,11,9.1
+Ohio State,2026,3,0.0
+Oklahoma,2021,1,100.0
+Oklahoma,2022,4,75.0
+Oklahoma,2023,6,16.7
+Oklahoma,2024,2,0.0
+Oklahoma,2025,5,0.0
+Oklahoma,2026,4,0.0
+Oklahoma State,2021,2,0.0
+Oklahoma State,2023,4,75.0
+Oklahoma State,2024,4,0.0
+Oklahoma State,2025,2,0.0
+Oklahoma State,2026,6,0.0
+Ole Miss,2021,1,0.0
+Ole Miss,2022,3,100.0
+Ole Miss,2023,2,100.0
+Ole Miss,2024,3,100.0
+Ole Miss,2025,5,100.0
+Ole Miss,2026,3,66.7
+Oregon,2022,4,0.0
+Oregon,2023,2,0.0
+Oregon,2024,4,25.0
+Oregon,2025,6,50.0
+Oregon,2026,4,0.0
+Oregon State,2021,4,0.0
+Oregon State,2022,4,0.0
+Oregon State,2023,9,0.0
+Penn State,2021,2,0.0
+Penn State,2022,3,0.0
+Penn State,2023,5,0.0
+Penn State,2024,5,0.0
+Penn State,2025,6,0.0
+Penn State,2026,4,0.0
+Pittsburgh,2021,4,0.0
+Pittsburgh,2022,7,0.0
+Pittsburgh,2023,4,0.0
+Pittsburgh,2024,5,40.0
+Pittsburgh,2025,6,0.0
+Pittsburgh,2026,3,33.3
+Purdue,2022,3,0.0
+Purdue,2023,5,0.0
+Purdue,2024,8,25.0
+Purdue,2025,3,0.0
+Purdue,2026,5,80.0
+Rutgers,2021,6,0.0
+Rutgers,2022,4,0.0
+Rutgers,2023,10,0.0
+Rutgers,2024,5,0.0
+Rutgers,2025,4,25.0
+Rutgers,2026,3,0.0
+SMU,2024,9,88.9
+SMU,2025,6,66.7
+SMU,2026,6,100.0
+South Carolina,2021,2,0.0
+South Carolina,2022,5,20.0
+South Carolina,2023,6,16.7
+South Carolina,2024,4,0.0
+South Carolina,2025,6,33.3
+South Carolina,2026,5,100.0
+Stanford,2022,5,0.0
+Stanford,2023,4,25.0
+Stanford,2024,3,33.3
+Stanford,2025,5,0.0
+Stanford,2026,3,0.0
+Syracuse,2021,5,80.0
+Syracuse,2022,3,100.0
+Syracuse,2023,5,20.0
+Syracuse,2024,5,20.0
+Syracuse,2025,4,0.0
+Syracuse,2026,6,0.0
+TCU,2021,4,0.0
+TCU,2022,2,100.0
+TCU,2023,4,25.0
+TCU,2024,5,80.0
+TCU,2025,8,12.5
+TCU,2026,7,0.0
+Tennessee,2021,5,0.0
+Tennessee,2022,1,100.0
+Tennessee,2023,2,0.0
+Tennessee,2024,3,0.0
+Tennessee,2025,2,50.0
+Tennessee,2026,5,0.0
+Texas,2021,3,0.0
+Texas,2022,2,50.0
+Texas,2023,1,0.0
+Texas,2024,2,50.0
+Texas,2025,4,0.0
+Texas,2026,3,33.3
+Texas A&M,2022,1,0.0
+Texas A&M,2023,5,0.0
+Texas A&M,2024,1,0.0
+Texas A&M,2025,7,28.6
+Texas A&M,2026,6,0.0
+Texas Tech,2021,4,50.0
+Texas Tech,2022,1,100.0
+Texas Tech,2023,9,11.1
+Texas Tech,2024,6,50.0
+Texas Tech,2025,7,0.0
+Texas Tech,2026,6,0.0
+UCF,2023,6,50.0
+UCF,2024,7,57.1
+UCF,2025,7,0.0
+UCF,2026,8,0.0
+UCLA,2021,4,0.0
+UCLA,2022,4,0.0
+UCLA,2023,4,25.0
+UCLA,2024,7,42.9
+UCLA,2025,5,20.0
+UCLA,2026,3,0.0
+USC,2022,1,100.0
+USC,2023,4,75.0
+USC,2024,7,71.4
+USC,2025,6,83.3
+USC,2026,5,100.0
+Utah,2021,5,60.0
+Utah,2022,3,0.0
+Utah,2023,6,0.0
+Utah,2024,7,0.0
+Utah,2025,4,0.0
+Utah,2026,4,0.0
+Vanderbilt,2021,5,0.0
+Vanderbilt,2022,3,0.0
+Vanderbilt,2023,4,0.0
+Vanderbilt,2024,5,0.0
+Vanderbilt,2025,7,0.0
+Vanderbilt,2026,3,0.0
+Virginia,2022,6,16.7
+Virginia,2023,6,0.0
+Virginia,2024,6,0.0
+Virginia,2025,6,0.0
+Virginia,2026,4,0.0
+Virginia Tech,2021,1,100.0
+Virginia Tech,2022,4,0.0
+Virginia Tech,2023,4,0.0
+Virginia Tech,2024,1,0.0
+Virginia Tech,2025,5,0.0
+Virginia Tech,2026,3,33.3
+Wake Forest,2021,1,0.0
+Wake Forest,2022,5,0.0
+Wake Forest,2023,6,0.0
+Wake Forest,2024,6,0.0
+Wake Forest,2025,3,0.0
+Wake Forest,2026,8,12.5
+Washington,2021,3,0.0
+Washington,2022,6,16.7
+Washington,2023,6,0.0
+Washington,2024,6,0.0
+Washington,2025,5,0.0
+Washington,2026,7,42.9
+Washington State,2021,3,66.7
+Washington State,2022,7,42.9
+Washington State,2023,3,66.7
+West Virginia,2021,3,33.3
+West Virginia,2022,3,33.3
+West Virginia,2023,5,100.0
+West Virginia,2024,7,100.0
+West Virginia,2025,4,0.0
+West Virginia,2026,4,0.0
+Wisconsin,2021,2,0.0
+Wisconsin,2022,5,20.0
+Wisconsin,2023,6,0.0
+Wisconsin,2024,9,11.1
+Wisconsin,2025,4,0.0
+Wisconsin,2026,4,0.0

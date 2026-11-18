@@ -1,0 +1,3614 @@
+{
+ "coverage": {
+  "games": 2977,
+  "games_with_toss_text": 2886,
+  "decided": 2882,
+  "consistency_check_pct": 98.9,
+  "inconsistent_games": 32,
+  "seasons": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "by_season_games": {
+   "2021": 496,
+   "2022": 497,
+   "2023": 526,
+   "2024": 526,
+   "2025": 524,
+   "2026": 408
+  },
+  "decision_text_breakdown": {
+   "defer": 1878,
+   "receive": 760,
+   "ambiguous": 179,
+   "no toss record": 91,
+   "endzone": 64,
+   "kick": 5
+  }
+ },
+ "overall_power_teams": {
+  "n": 1780,
+  "receive_pct": 17.9,
+  "defer_pct": 81.8,
+  "kick_pct": 0.3
+ },
+ "overall_all_toss_winners": {
+  "n": 2157,
+  "receive_pct": 18.2
+ },
+ "non_power_vs_power": {
+  "n": 377,
+  "receive_pct": 19.6
+ },
+ "by_season": [
+  {
+   "season": 2021,
+   "n": 173,
+   "receive_pct": 16.8
+  },
+  {
+   "season": 2022,
+   "n": 215,
+   "receive_pct": 18.6
+  },
+  {
+   "season": 2023,
+   "n": 336,
+   "receive_pct": 15.8
+  },
+  {
+   "season": 2024,
+   "n": 333,
+   "receive_pct": 18.9
+  },
+  {
+   "season": 2025,
+   "n": 386,
+   "receive_pct": 19.9
+  },
+  {
+   "season": 2026,
+   "n": 337,
+   "receive_pct": 16.9
+  }
+ ],
+ "by_conf": [
+  {
+   "conf": "ACC",
+   "n": 412,
+   "receive_pct": 15.8
+  },
+  {
+   "conf": "Big 12",
+   "n": 409,
+   "receive_pct": 17.6
+  },
+  {
+   "conf": "Big Ten",
+   "n": 479,
+   "receive_pct": 16.9
+  },
+  {
+   "conf": "Notre Dame",
+   "n": 18,
+   "receive_pct": 5.6
+  },
+  {
+   "conf": "Pac-12",
+   "n": 147,
+   "receive_pct": 17.0
+  },
+  {
+   "conf": "SEC",
+   "n": 315,
+   "receive_pct": 23.8
+  }
+ ],
+ "by_conf_season": [
+  {
+   "conf": "ACC",
+   "season": 2021,
+   "n": 36,
+   "receive_pct": 19.4
+  },
+  {
+   "conf": "ACC",
+   "season": 2022,
+   "n": 50,
+   "receive_pct": 12.0
+  },
+  {
+   "conf": "ACC",
+   "season": 2023,
+   "n": 64,
+   "receive_pct": 6.2
+  },
+  {
+   "conf": "ACC",
+   "season": 2024,
+   "n": 85,
+   "receive_pct": 16.5
+  },
+  {
+   "conf": "ACC",
+   "season": 2025,
+   "n": 92,
+   "receive_pct": 17.4
+  },
+  {
+   "conf": "ACC",
+   "season": 2026,
+   "n": 85,
+   "receive_pct": 21.2
+  },
+  {
+   "conf": "Big 12",
+   "season": 2021,
+   "n": 31,
+   "receive_pct": 19.4
+  },
+  {
+   "conf": "Big 12",
+   "season": 2022,
+   "n": 31,
+   "receive_pct": 38.7
+  },
+  {
+   "conf": "Big 12",
+   "season": 2023,
+   "n": 73,
+   "receive_pct": 26.0
+  },
+  {
+   "conf": "Big 12",
+   "season": 2024,
+   "n": 89,
+   "receive_pct": 22.5
+  },
+  {
+   "conf": "Big 12",
+   "season": 2025,
+   "n": 100,
+   "receive_pct": 12.0
+  },
+  {
+   "conf": "Big 12",
+   "season": 2026,
+   "n": 85,
+   "receive_pct": 3.5
+  },
+  {
+   "conf": "Big Ten",
+   "season": 2021,
+   "n": 42,
+   "receive_pct": 11.9
+  },
+  {
+   "conf": "Big Ten",
+   "season": 2022,
+   "n": 52,
+   "receive_pct": 11.5
+  },
+  {
+   "conf": "Big Ten",
+   "season": 2023,
+   "n": 81,
+   "receive_pct": 13.6
+  },
+  {
+   "conf": "Big Ten",
+   "season": 2024,
+   "n": 106,
+   "receive_pct": 14.2
+  },
+  {
+   "conf": "Big Ten",
+   "season": 2025,
+   "n": 112,
+   "receive_pct": 20.5
+  },
+  {
+   "conf": "Big Ten",
+   "season": 2026,
+   "n": 86,
+   "receive_pct": 24.4
+  },
+  {
+   "conf": "Notre Dame",
+   "season": 2021,
+   "n": 1,
+   "receive_pct": 100.0
+  },
+  {
+   "conf": "Notre Dame",
+   "season": 2022,
+   "n": 1,
+   "receive_pct": 0.0
+  },
+  {
+   "conf": "Notre Dame",
+   "season": 2023,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "conf": "Notre Dame",
+   "season": 2024,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "conf": "Notre Dame",
+   "season": 2025,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "conf": "Notre Dame",
+   "season": 2026,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "conf": "Pac-12",
+   "season": 2021,
+   "n": 35,
+   "receive_pct": 17.1
+  },
+  {
+   "conf": "Pac-12",
+   "season": 2022,
+   "n": 51,
+   "receive_pct": 17.6
+  },
+  {
+   "conf": "Pac-12",
+   "season": 2023,
+   "n": 61,
+   "receive_pct": 16.4
+  },
+  {
+   "conf": "SEC",
+   "season": 2021,
+   "n": 28,
+   "receive_pct": 14.3
+  },
+  {
+   "conf": "SEC",
+   "season": 2022,
+   "n": 30,
+   "receive_pct": 23.3
+  },
+  {
+   "conf": "SEC",
+   "season": 2023,
+   "n": 54,
+   "receive_pct": 16.7
+  },
+  {
+   "conf": "SEC",
+   "season": 2024,
+   "n": 50,
+   "receive_pct": 28.0
+  },
+  {
+   "conf": "SEC",
+   "season": 2025,
+   "n": 78,
+   "receive_pct": 33.3
+  },
+  {
+   "conf": "SEC",
+   "season": 2026,
+   "n": 75,
+   "receive_pct": 20.0
+  }
+ ],
+ "by_site": [
+  {
+   "site": "Away",
+   "n": 738,
+   "receive_pct": 17.1
+  },
+  {
+   "site": "Home",
+   "n": 984,
+   "receive_pct": 18.7
+  },
+  {
+   "site": "Neutral",
+   "n": 58,
+   "receive_pct": 15.5
+  }
+ ],
+ "by_spread": [
+  {
+   "fav_bucket": "Fav 21+",
+   "n": 311,
+   "receive_pct": 23.5
+  },
+  {
+   "fav_bucket": "Fav 10-21",
+   "n": 269,
+   "receive_pct": 14.5
+  },
+  {
+   "fav_bucket": "Fav 3-10",
+   "n": 358,
+   "receive_pct": 16.8
+  },
+  {
+   "fav_bucket": "Pick'em (\u00b13)",
+   "n": 279,
+   "receive_pct": 15.8
+  },
+  {
+   "fav_bucket": "Dog 3-10",
+   "n": 298,
+   "receive_pct": 19.5
+  },
+  {
+   "fav_bucket": "Dog 10+",
+   "n": 259,
+   "receive_pct": 17.0
+  }
+ ],
+ "by_opponent": [
+  {
+   "opp_type": "vs Non-power",
+   "n": 384,
+   "receive_pct": 23.2
+  },
+  {
+   "opp_type": "vs Power",
+   "n": 1396,
+   "receive_pct": 16.5
+  }
+ ],
+ "by_phase": [
+  {
+   "phase": "Bowls / CFP",
+   "n": 35,
+   "receive_pct": 22.9
+  },
+  {
+   "phase": "Conf. championships",
+   "n": 13,
+   "receive_pct": 0.0
+  },
+  {
+   "phase": "Regular season",
+   "n": 1732,
+   "receive_pct": 18.0
+  }
+ ],
+ "by_family": [
+  {
+   "toss_family": "B",
+   "n": 646,
+   "receive_pct": 0.0
+  },
+  {
+   "toss_family": "C",
+   "n": 665,
+   "receive_pct": 17.0
+  },
+  {
+   "toss_family": "D",
+   "n": 159,
+   "receive_pct": 95.0
+  },
+  {
+   "toss_family": "E",
+   "n": 616,
+   "receive_pct": 18.7
+  },
+  {
+   "toss_family": "F",
+   "n": 70,
+   "receive_pct": 18.6
+  },
+  {
+   "toss_family": "other",
+   "n": 1,
+   "receive_pct": 100.0
+  }
+ ],
+ "by_month": [
+  {
+   "month": "Aug",
+   "n": 51,
+   "receive_pct": 21.6
+  },
+  {
+   "month": "Dec",
+   "n": 35,
+   "receive_pct": 11.4
+  },
+  {
+   "month": "Jan",
+   "n": 11,
+   "receive_pct": 36.4
+  },
+  {
+   "month": "Nov",
+   "n": 593,
+   "receive_pct": 17.7
+  },
+  {
+   "month": "Oct",
+   "n": 525,
+   "receive_pct": 16.8
+  },
+  {
+   "month": "Sep",
+   "n": 565,
+   "receive_pct": 18.9
+  }
+ ],
+ "outcomes": [
+  {
+   "decision": "defer",
+   "n": 1433,
+   "win_pct": 56.7,
+   "n_with_spread": 1428,
+   "avg_spread": -5.2,
+   "expected_win_pct": 57.7,
+   "actual_win_pct_with_spread": 56.6,
+   "win_over_expected": -1.1,
+   "avg_ats_margin": -0.68,
+   "cover_pct": 49.6,
+   "avg_ht_margin": 2.24,
+   "avg_2h_margin": 2.35,
+   "h1_vs_exp": -0.43,
+   "h1_vs_exp_se": 0.3,
+   "h2_vs_exp": -0.26,
+   "h2_vs_exp_se": 0.28,
+   "ats_margin_se": 0.4
+  },
+  {
+   "decision": "receive",
+   "n": 316,
+   "win_pct": 58.9,
+   "n_with_spread": 315,
+   "avg_spread": -7.1,
+   "expected_win_pct": 59.5,
+   "actual_win_pct_with_spread": 58.7,
+   "win_over_expected": -0.7,
+   "avg_ats_margin": -0.05,
+   "cover_pct": 49.8,
+   "avg_ht_margin": 5.63,
+   "avg_2h_margin": 1.59,
+   "h1_vs_exp": 1.93,
+   "h1_vs_exp_se": 0.68,
+   "h2_vs_exp": -1.98,
+   "h2_vs_exp_se": 0.54,
+   "ats_margin_se": 0.84
+  }
+ ],
+ "regression": {
+  "ols_receive_coef": 0.62,
+  "ols_receive_ci": [
+   -1.19,
+   2.43
+  ],
+  "ols_receive_p": 0.505,
+  "logit_receive_odds_ratio": 1.023,
+  "logit_receive_p": 0.886,
+  "n": 1743
+ },
+ "drives": {
+  "Received after opponent deferred": {
+   "n": 1736,
+   "score_pct": 32.5,
+   "td_pct": 24.2,
+   "avg_pts": 1.94
+  },
+  "Toss winner chose to receive": {
+   "n": 388,
+   "score_pct": 37.4,
+   "td_pct": 27.8,
+   "avg_pts": 2.23
+  },
+  "second_half_opener_all": {
+   "n": 2123,
+   "score_pct": 34.3,
+   "avg_pts": 2.01
+  },
+  "first_half_opener_all": {
+   "n": 2124,
+   "score_pct": 33.4,
+   "avg_pts": 1.99
+  },
+  "second_half_opener_deferrer": {
+   "n": 1730,
+   "score_pct": 34.2,
+   "avg_pts": 1.99
+  },
+  "double_dip": {
+   "opportunities": 1059,
+   "hits": 39,
+   "pct_of_opportunities": 3.7,
+   "pct_of_all_games": 1.8
+  }
+ },
+ "teams": [
+  {
+   "team": "Ole Miss",
+   "n": 17,
+   "receives": 15,
+   "receive_pct": 88.2,
+   "conf": "SEC",
+   "ats_when_receive": 3.8,
+   "ats_when_defer": -9.8
+  },
+  {
+   "team": "SMU",
+   "n": 21,
+   "receives": 18,
+   "receive_pct": 85.7,
+   "conf": "ACC",
+   "ats_when_receive": -0.5,
+   "ats_when_defer": -8.8
+  },
+  {
+   "team": "USC",
+   "n": 23,
+   "receives": 19,
+   "receive_pct": 82.6,
+   "conf": "Big Ten",
+   "ats_when_receive": -1.5,
+   "ats_when_defer": -5.0
+  },
+  {
+   "team": "Mississippi State",
+   "n": 24,
+   "receives": 18,
+   "receive_pct": 75.0,
+   "conf": "SEC",
+   "ats_when_receive": -0.5,
+   "ats_when_defer": -6.2
+  },
+  {
+   "team": "Iowa",
+   "n": 37,
+   "receives": 21,
+   "receive_pct": 56.8,
+   "conf": "Big Ten",
+   "ats_when_receive": 1.3,
+   "ats_when_defer": 1.8
+  },
+  {
+   "team": "West Virginia",
+   "n": 26,
+   "receives": 14,
+   "receive_pct": 53.8,
+   "conf": "Big 12",
+   "ats_when_receive": -2.1,
+   "ats_when_defer": -3.8
+  },
+  {
+   "team": "Washington State",
+   "n": 13,
+   "receives": 7,
+   "receive_pct": 53.8,
+   "conf": "Pac-12",
+   "ats_when_receive": -11.4,
+   "ats_when_defer": 15.1
+  },
+  {
+   "team": "Arkansas",
+   "n": 25,
+   "receives": 10,
+   "receive_pct": 40.0,
+   "conf": "SEC",
+   "ats_when_receive": -2.4,
+   "ats_when_defer": -7.9
+  },
+  {
+   "team": "Kansas State",
+   "n": 32,
+   "receives": 11,
+   "receive_pct": 34.4,
+   "conf": "Big 12",
+   "ats_when_receive": 2.9,
+   "ats_when_defer": -2.6
+  },
+  {
+   "team": "South Carolina",
+   "n": 28,
+   "receives": 9,
+   "receive_pct": 32.1,
+   "conf": "SEC",
+   "ats_when_receive": -2.3,
+   "ats_when_defer": -4.8
+  },
+  {
+   "team": "Syracuse",
+   "n": 28,
+   "receives": 9,
+   "receive_pct": 32.1,
+   "conf": "ACC",
+   "ats_when_receive": 1.2,
+   "ats_when_defer": -0.1
+  },
+  {
+   "team": "Cincinnati",
+   "n": 19,
+   "receives": 6,
+   "receive_pct": 31.6,
+   "conf": "Big 12",
+   "ats_when_receive": -6.8,
+   "ats_when_defer": -1.7
+  },
+  {
+   "team": "Georgia Tech",
+   "n": 26,
+   "receives": 8,
+   "receive_pct": 30.8,
+   "conf": "ACC",
+   "ats_when_receive": -1.1,
+   "ats_when_defer": -3.7
+  },
+  {
+   "team": "Clemson",
+   "n": 22,
+   "receives": 6,
+   "receive_pct": 27.3,
+   "conf": "ACC",
+   "ats_when_receive": 0.2,
+   "ats_when_defer": -4.1
+  },
+  {
+   "team": "TCU",
+   "n": 30,
+   "receives": 8,
+   "receive_pct": 26.7,
+   "conf": "Big 12",
+   "ats_when_receive": 1.6,
+   "ats_when_defer": -6.2
+  },
+  {
+   "team": "Arizona",
+   "n": 27,
+   "receives": 7,
+   "receive_pct": 25.9,
+   "conf": "Big 12",
+   "ats_when_receive": -6.6,
+   "ats_when_defer": 0.1
+  },
+  {
+   "team": "Purdue",
+   "n": 24,
+   "receives": 6,
+   "receive_pct": 25.0,
+   "conf": "Big Ten",
+   "ats_when_receive": -4.0,
+   "ats_when_defer": -5.9
+  },
+  {
+   "team": "UCF",
+   "n": 28,
+   "receives": 7,
+   "receive_pct": 25.0,
+   "conf": "Big 12",
+   "ats_when_receive": 7.9,
+   "ats_when_defer": -5.7
+  },
+  {
+   "team": "LSU",
+   "n": 13,
+   "receives": 3,
+   "receive_pct": 23.1,
+   "conf": "SEC",
+   "ats_when_receive": 6.7,
+   "ats_when_defer": -9.3
+  },
+  {
+   "team": "Oklahoma",
+   "n": 22,
+   "receives": 5,
+   "receive_pct": 22.7,
+   "conf": "SEC",
+   "ats_when_receive": -6.2,
+   "ats_when_defer": 1.8
+  },
+  {
+   "team": "Texas Tech",
+   "n": 33,
+   "receives": 7,
+   "receive_pct": 21.2,
+   "conf": "Big 12",
+   "ats_when_receive": 1.1,
+   "ats_when_defer": -1.4
+  },
+  {
+   "team": "Texas",
+   "n": 15,
+   "receives": 3,
+   "receive_pct": 20.0,
+   "conf": "SEC",
+   "ats_when_receive": 10.2,
+   "ats_when_defer": -6.8
+  },
+  {
+   "team": "Oregon",
+   "n": 20,
+   "receives": 4,
+   "receive_pct": 20.0,
+   "conf": "Big Ten",
+   "ats_when_receive": 10.5,
+   "ats_when_defer": 3.5
+  },
+  {
+   "team": "Minnesota",
+   "n": 32,
+   "receives": 6,
+   "receive_pct": 18.8,
+   "conf": "Big Ten",
+   "ats_when_receive": 1.5,
+   "ats_when_defer": 0.7
+  },
+  {
+   "team": "UCLA",
+   "n": 27,
+   "receives": 5,
+   "receive_pct": 18.5,
+   "conf": "Big Ten",
+   "ats_when_receive": 10.9,
+   "ats_when_defer": -0.3
+  },
+  {
+   "team": "NC State",
+   "n": 28,
+   "receives": 5,
+   "receive_pct": 17.9,
+   "conf": "ACC",
+   "ats_when_receive": 8.9,
+   "ats_when_defer": -0.9
+  },
+  {
+   "team": "Ohio State",
+   "n": 23,
+   "receives": 4,
+   "receive_pct": 17.4,
+   "conf": "Big Ten",
+   "ats_when_receive": 12.2,
+   "ats_when_defer": -0.9
+  },
+  {
+   "team": "Kentucky",
+   "n": 23,
+   "receives": 4,
+   "receive_pct": 17.4,
+   "conf": "SEC",
+   "ats_when_receive": -7.9,
+   "ats_when_defer": 2.7
+  },
+  {
+   "team": "California",
+   "n": 30,
+   "receives": 5,
+   "receive_pct": 16.7,
+   "conf": "ACC",
+   "ats_when_receive": -7.5,
+   "ats_when_defer": 3.0
+  },
+  {
+   "team": "Oklahoma State",
+   "n": 18,
+   "receives": 3,
+   "receive_pct": 16.7,
+   "conf": "Big 12",
+   "ats_when_receive": -5.2,
+   "ats_when_defer": -5.7
+  },
+  {
+   "team": "Maryland",
+   "n": 32,
+   "receives": 5,
+   "receive_pct": 15.6,
+   "conf": "Big Ten",
+   "ats_when_receive": -4.3,
+   "ats_when_defer": -2.2
+  },
+  {
+   "team": "Missouri",
+   "n": 26,
+   "receives": 4,
+   "receive_pct": 15.4,
+   "conf": "SEC",
+   "ats_when_receive": 5.5,
+   "ats_when_defer": 2.5
+  },
+  {
+   "team": "Florida State",
+   "n": 21,
+   "receives": 3,
+   "receive_pct": 14.3,
+   "conf": "ACC",
+   "ats_when_receive": -20.2,
+   "ats_when_defer": -1.0
+  },
+  {
+   "team": "Nebraska",
+   "n": 29,
+   "receives": 4,
+   "receive_pct": 13.8,
+   "conf": "Big Ten",
+   "ats_when_receive": -6.8,
+   "ats_when_defer": -0.9
+  },
+  {
+   "team": "Florida",
+   "n": 22,
+   "receives": 3,
+   "receive_pct": 13.6,
+   "conf": "SEC",
+   "ats_when_receive": -3.3,
+   "ats_when_defer": -5.6
+  },
+  {
+   "team": "Washington",
+   "n": 33,
+   "receives": 4,
+   "receive_pct": 12.1,
+   "conf": "Big Ten",
+   "ats_when_receive": 7.0,
+   "ats_when_defer": -3.7
+  },
+  {
+   "team": "Tennessee",
+   "n": 18,
+   "receives": 2,
+   "receive_pct": 11.1,
+   "conf": "SEC",
+   "ats_when_receive": 1.2,
+   "ats_when_defer": 1.8
+  },
+  {
+   "team": "Virginia Tech",
+   "n": 18,
+   "receives": 2,
+   "receive_pct": 11.1,
+   "conf": "ACC",
+   "ats_when_receive": 2.2,
+   "ats_when_defer": -1.8
+  },
+  {
+   "team": "Utah",
+   "n": 29,
+   "receives": 3,
+   "receive_pct": 10.3,
+   "conf": "Big 12",
+   "ats_when_receive": 3.8,
+   "ats_when_defer": 4.2
+  },
+  {
+   "team": "Pittsburgh",
+   "n": 29,
+   "receives": 3,
+   "receive_pct": 10.3,
+   "conf": "ACC",
+   "ats_when_receive": 5.8,
+   "ats_when_defer": 2.6
+  },
+  {
+   "team": "Baylor",
+   "n": 29,
+   "receives": 3,
+   "receive_pct": 10.3,
+   "conf": "Big 12",
+   "ats_when_receive": -3.8,
+   "ats_when_defer": -1.2
+  },
+  {
+   "team": "Auburn",
+   "n": 20,
+   "receives": 2,
+   "receive_pct": 10.0,
+   "conf": "SEC",
+   "ats_when_receive": -3.5,
+   "ats_when_defer": -1.8
+  },
+  {
+   "team": "Michigan State",
+   "n": 30,
+   "receives": 3,
+   "receive_pct": 10.0,
+   "conf": "Big Ten",
+   "ats_when_receive": -1.5,
+   "ats_when_defer": -7.1
+  },
+  {
+   "team": "Texas A&M",
+   "n": 20,
+   "receives": 2,
+   "receive_pct": 10.0,
+   "conf": "SEC",
+   "ats_when_receive": 4.5,
+   "ats_when_defer": -2.6
+  },
+  {
+   "team": "Stanford",
+   "n": 20,
+   "receives": 2,
+   "receive_pct": 10.0,
+   "conf": "ACC",
+   "ats_when_receive": 0.0,
+   "ats_when_defer": -0.9
+  },
+  {
+   "team": "Kansas",
+   "n": 31,
+   "receives": 3,
+   "receive_pct": 9.7,
+   "conf": "Big 12",
+   "ats_when_receive": -2.8,
+   "ats_when_defer": 0.2
+  },
+  {
+   "team": "Illinois",
+   "n": 30,
+   "receives": 2,
+   "receive_pct": 6.7,
+   "conf": "Big Ten",
+   "ats_when_receive": 6.8,
+   "ats_when_defer": 1.4
+  },
+  {
+   "team": "Wisconsin",
+   "n": 30,
+   "receives": 2,
+   "receive_pct": 6.7,
+   "conf": "Big Ten",
+   "ats_when_receive": -10.0,
+   "ats_when_defer": 0.7
+  },
+  {
+   "team": "Georgia",
+   "n": 16,
+   "receives": 1,
+   "receive_pct": 6.2,
+   "conf": "SEC",
+   "ats_when_receive": -24.5,
+   "ats_when_defer": 0.9
+  },
+  {
+   "team": "Duke",
+   "n": 33,
+   "receives": 2,
+   "receive_pct": 6.1,
+   "conf": "ACC",
+   "ats_when_receive": 21.2,
+   "ats_when_defer": 1.3
+  },
+  {
+   "team": "Colorado",
+   "n": 34,
+   "receives": 2,
+   "receive_pct": 5.9,
+   "conf": "Big 12",
+   "ats_when_receive": -2.0,
+   "ats_when_defer": -0.9
+  },
+  {
+   "team": "Notre Dame",
+   "n": 18,
+   "receives": 1,
+   "receive_pct": 5.6,
+   "conf": "Notre Dame",
+   "ats_when_receive": 37.0,
+   "ats_when_defer": 5.5
+  },
+  {
+   "team": "Boston College",
+   "n": 26,
+   "receives": 1,
+   "receive_pct": 3.8,
+   "conf": "ACC",
+   "ats_when_receive": -7.0,
+   "ats_when_defer": -4.9
+  },
+  {
+   "team": "Virginia",
+   "n": 28,
+   "receives": 1,
+   "receive_pct": 3.6,
+   "conf": "ACC",
+   "ats_when_receive": -6.5,
+   "ats_when_defer": -4.8
+  },
+  {
+   "team": "Houston",
+   "n": 29,
+   "receives": 1,
+   "receive_pct": 3.4,
+   "conf": "Big 12",
+   "ats_when_receive": 5.0,
+   "ats_when_defer": -1.9
+  },
+  {
+   "team": "Wake Forest",
+   "n": 29,
+   "receives": 1,
+   "receive_pct": 3.4,
+   "conf": "ACC",
+   "ats_when_receive": -5.5,
+   "ats_when_defer": 4.3
+  },
+  {
+   "team": "Arizona State",
+   "n": 31,
+   "receives": 1,
+   "receive_pct": 3.2,
+   "conf": "Big 12",
+   "ats_when_receive": 1.0,
+   "ats_when_defer": -2.4
+  },
+  {
+   "team": "Rutgers",
+   "n": 32,
+   "receives": 1,
+   "receive_pct": 3.1,
+   "conf": "Big Ten",
+   "ats_when_receive": -12.5,
+   "ats_when_defer": 0.5
+  },
+  {
+   "team": "Iowa State",
+   "n": 32,
+   "receives": 1,
+   "receive_pct": 3.1,
+   "conf": "Big 12",
+   "ats_when_receive": -12.5,
+   "ats_when_defer": 1.9
+  },
+  {
+   "team": "Northwestern",
+   "n": 33,
+   "receives": 1,
+   "receive_pct": 3.0,
+   "conf": "Big Ten",
+   "ats_when_receive": 16.5,
+   "ats_when_defer": -1.6
+  },
+  {
+   "team": "BYU",
+   "n": 19,
+   "receives": 0,
+   "receive_pct": 0.0,
+   "conf": "Big 12",
+   "ats_when_receive": NaN,
+   "ats_when_defer": 3.1
+  },
+  {
+   "team": "Alabama",
+   "n": 16,
+   "receives": 0,
+   "receive_pct": 0.0,
+   "conf": "SEC",
+   "ats_when_receive": NaN,
+   "ats_when_defer": 1.0
+  },
+  {
+   "team": "North Carolina",
+   "n": 26,
+   "receives": 0,
+   "receive_pct": 0.0,
+   "conf": "ACC",
+   "ats_when_receive": NaN,
+   "ats_when_defer": -3.9
+  },
+  {
+   "team": "Louisville",
+   "n": 28,
+   "receives": 0,
+   "receive_pct": 0.0,
+   "conf": "ACC",
+   "ats_when_receive": NaN,
+   "ats_when_defer": 1.1
+  },
+  {
+   "team": "Miami",
+   "n": 23,
+   "receives": 0,
+   "receive_pct": 0.0,
+   "conf": "ACC",
+   "ats_when_receive": NaN,
+   "ats_when_defer": 1.8
+  },
+  {
+   "team": "Michigan",
+   "n": 32,
+   "receives": 0,
+   "receive_pct": 0.0,
+   "conf": "Big Ten",
+   "ats_when_receive": NaN,
+   "ats_when_defer": -2.0
+  },
+  {
+   "team": "Indiana",
+   "n": 25,
+   "receives": 0,
+   "receive_pct": 0.0,
+   "conf": "Big Ten",
+   "ats_when_receive": NaN,
+   "ats_when_defer": 1.1
+  },
+  {
+   "team": "Penn State",
+   "n": 25,
+   "receives": 0,
+   "receive_pct": 0.0,
+   "conf": "Big Ten",
+   "ats_when_receive": NaN,
+   "ats_when_defer": 0.5
+  },
+  {
+   "team": "Oregon State",
+   "n": 17,
+   "receives": 0,
+   "receive_pct": 0.0,
+   "conf": "Pac-12",
+   "ats_when_receive": NaN,
+   "ats_when_defer": 6.0
+  },
+  {
+   "team": "Vanderbilt",
+   "n": 27,
+   "receives": 0,
+   "receive_pct": 0.0,
+   "conf": "SEC",
+   "ats_when_receive": NaN,
+   "ats_when_defer": 6.0
+  }
+ ],
+ "team_seasons": [
+  {
+   "team": "Alabama",
+   "season": 2022,
+   "n": 1,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Alabama",
+   "season": 2023,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Alabama",
+   "season": 2024,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Alabama",
+   "season": 2025,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Alabama",
+   "season": 2026,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Arizona",
+   "season": 2021,
+   "n": 4,
+   "receive_pct": 25.0
+  },
+  {
+   "team": "Arizona",
+   "season": 2022,
+   "n": 4,
+   "receive_pct": 50.0
+  },
+  {
+   "team": "Arizona",
+   "season": 2023,
+   "n": 6,
+   "receive_pct": 50.0
+  },
+  {
+   "team": "Arizona",
+   "season": 2024,
+   "n": 6,
+   "receive_pct": 16.7
+  },
+  {
+   "team": "Arizona",
+   "season": 2025,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Arizona",
+   "season": 2026,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Arizona State",
+   "season": 2021,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Arizona State",
+   "season": 2022,
+   "n": 4,
+   "receive_pct": 25.0
+  },
+  {
+   "team": "Arizona State",
+   "season": 2023,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Arizona State",
+   "season": 2024,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Arizona State",
+   "season": 2025,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Arizona State",
+   "season": 2026,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Arkansas",
+   "season": 2021,
+   "n": 4,
+   "receive_pct": 25.0
+  },
+  {
+   "team": "Arkansas",
+   "season": 2022,
+   "n": 3,
+   "receive_pct": 33.3
+  },
+  {
+   "team": "Arkansas",
+   "season": 2023,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Arkansas",
+   "season": 2024,
+   "n": 3,
+   "receive_pct": 66.7
+  },
+  {
+   "team": "Arkansas",
+   "season": 2025,
+   "n": 6,
+   "receive_pct": 83.3
+  },
+  {
+   "team": "Arkansas",
+   "season": 2026,
+   "n": 3,
+   "receive_pct": 33.3
+  },
+  {
+   "team": "Auburn",
+   "season": 2022,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Auburn",
+   "season": 2023,
+   "n": 4,
+   "receive_pct": 25.0
+  },
+  {
+   "team": "Auburn",
+   "season": 2024,
+   "n": 5,
+   "receive_pct": 20.0
+  },
+  {
+   "team": "Auburn",
+   "season": 2025,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Auburn",
+   "season": 2026,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "BYU",
+   "season": 2023,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "BYU",
+   "season": 2024,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "BYU",
+   "season": 2025,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "BYU",
+   "season": 2026,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Baylor",
+   "season": 2021,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Baylor",
+   "season": 2022,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Baylor",
+   "season": 2023,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Baylor",
+   "season": 2024,
+   "n": 8,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Baylor",
+   "season": 2025,
+   "n": 7,
+   "receive_pct": 42.9
+  },
+  {
+   "team": "Baylor",
+   "season": 2026,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Boston College",
+   "season": 2021,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Boston College",
+   "season": 2022,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Boston College",
+   "season": 2023,
+   "n": 5,
+   "receive_pct": 20.0
+  },
+  {
+   "team": "Boston College",
+   "season": 2024,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Boston College",
+   "season": 2025,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Boston College",
+   "season": 2026,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "California",
+   "season": 2021,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "California",
+   "season": 2022,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "California",
+   "season": 2023,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "California",
+   "season": 2024,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "California",
+   "season": 2025,
+   "n": 6,
+   "receive_pct": 33.3
+  },
+  {
+   "team": "California",
+   "season": 2026,
+   "n": 6,
+   "receive_pct": 50.0
+  },
+  {
+   "team": "Cincinnati",
+   "season": 2023,
+   "n": 4,
+   "receive_pct": 25.0
+  },
+  {
+   "team": "Cincinnati",
+   "season": 2024,
+   "n": 4,
+   "receive_pct": 25.0
+  },
+  {
+   "team": "Cincinnati",
+   "season": 2025,
+   "n": 7,
+   "receive_pct": 57.1
+  },
+  {
+   "team": "Cincinnati",
+   "season": 2026,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Clemson",
+   "season": 2021,
+   "n": 1,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Clemson",
+   "season": 2023,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Clemson",
+   "season": 2024,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Clemson",
+   "season": 2025,
+   "n": 6,
+   "receive_pct": 66.7
+  },
+  {
+   "team": "Clemson",
+   "season": 2026,
+   "n": 5,
+   "receive_pct": 40.0
+  },
+  {
+   "team": "Colorado",
+   "season": 2021,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Colorado",
+   "season": 2022,
+   "n": 4,
+   "receive_pct": 25.0
+  },
+  {
+   "team": "Colorado",
+   "season": 2023,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Colorado",
+   "season": 2024,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Colorado",
+   "season": 2025,
+   "n": 10,
+   "receive_pct": 10.0
+  },
+  {
+   "team": "Colorado",
+   "season": 2026,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Duke",
+   "season": 2021,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Duke",
+   "season": 2022,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Duke",
+   "season": 2023,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Duke",
+   "season": 2024,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Duke",
+   "season": 2025,
+   "n": 8,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Duke",
+   "season": 2026,
+   "n": 7,
+   "receive_pct": 28.6
+  },
+  {
+   "team": "Florida",
+   "season": 2021,
+   "n": 1,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "Florida",
+   "season": 2022,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Florida",
+   "season": 2023,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Florida",
+   "season": 2024,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Florida",
+   "season": 2025,
+   "n": 6,
+   "receive_pct": 33.3
+  },
+  {
+   "team": "Florida",
+   "season": 2026,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Florida State",
+   "season": 2021,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Florida State",
+   "season": 2022,
+   "n": 1,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Florida State",
+   "season": 2023,
+   "n": 1,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Florida State",
+   "season": 2024,
+   "n": 6,
+   "receive_pct": 16.7
+  },
+  {
+   "team": "Florida State",
+   "season": 2025,
+   "n": 6,
+   "receive_pct": 16.7
+  },
+  {
+   "team": "Florida State",
+   "season": 2026,
+   "n": 4,
+   "receive_pct": 25.0
+  },
+  {
+   "team": "Georgia",
+   "season": 2023,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Georgia",
+   "season": 2024,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Georgia",
+   "season": 2025,
+   "n": 3,
+   "receive_pct": 33.3
+  },
+  {
+   "team": "Georgia",
+   "season": 2026,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Georgia Tech",
+   "season": 2021,
+   "n": 6,
+   "receive_pct": 33.3
+  },
+  {
+   "team": "Georgia Tech",
+   "season": 2022,
+   "n": 4,
+   "receive_pct": 50.0
+  },
+  {
+   "team": "Georgia Tech",
+   "season": 2023,
+   "n": 4,
+   "receive_pct": 50.0
+  },
+  {
+   "team": "Georgia Tech",
+   "season": 2024,
+   "n": 5,
+   "receive_pct": 20.0
+  },
+  {
+   "team": "Georgia Tech",
+   "season": 2025,
+   "n": 1,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Georgia Tech",
+   "season": 2026,
+   "n": 6,
+   "receive_pct": 16.7
+  },
+  {
+   "team": "Houston",
+   "season": 2023,
+   "n": 7,
+   "receive_pct": 14.3
+  },
+  {
+   "team": "Houston",
+   "season": 2024,
+   "n": 8,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Houston",
+   "season": 2025,
+   "n": 9,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Houston",
+   "season": 2026,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Illinois",
+   "season": 2021,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Illinois",
+   "season": 2022,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Illinois",
+   "season": 2023,
+   "n": 5,
+   "receive_pct": 20.0
+  },
+  {
+   "team": "Illinois",
+   "season": 2024,
+   "n": 7,
+   "receive_pct": 14.3
+  },
+  {
+   "team": "Illinois",
+   "season": 2025,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Illinois",
+   "season": 2026,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Indiana",
+   "season": 2021,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Indiana",
+   "season": 2022,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Indiana",
+   "season": 2023,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Indiana",
+   "season": 2024,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Indiana",
+   "season": 2025,
+   "n": 9,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Indiana",
+   "season": 2026,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Iowa",
+   "season": 2021,
+   "n": 4,
+   "receive_pct": 25.0
+  },
+  {
+   "team": "Iowa",
+   "season": 2022,
+   "n": 7,
+   "receive_pct": 28.6
+  },
+  {
+   "team": "Iowa",
+   "season": 2023,
+   "n": 8,
+   "receive_pct": 87.5
+  },
+  {
+   "team": "Iowa",
+   "season": 2024,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Iowa",
+   "season": 2025,
+   "n": 9,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "Iowa",
+   "season": 2026,
+   "n": 2,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "Iowa State",
+   "season": 2021,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Iowa State",
+   "season": 2022,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Iowa State",
+   "season": 2023,
+   "n": 8,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Iowa State",
+   "season": 2024,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Iowa State",
+   "season": 2025,
+   "n": 5,
+   "receive_pct": 20.0
+  },
+  {
+   "team": "Iowa State",
+   "season": 2026,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Kansas",
+   "season": 2021,
+   "n": 5,
+   "receive_pct": 40.0
+  },
+  {
+   "team": "Kansas",
+   "season": 2022,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Kansas",
+   "season": 2023,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Kansas",
+   "season": 2024,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Kansas",
+   "season": 2025,
+   "n": 7,
+   "receive_pct": 14.3
+  },
+  {
+   "team": "Kansas",
+   "season": 2026,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Kansas State",
+   "season": 2021,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Kansas State",
+   "season": 2022,
+   "n": 7,
+   "receive_pct": 57.1
+  },
+  {
+   "team": "Kansas State",
+   "season": 2023,
+   "n": 6,
+   "receive_pct": 50.0
+  },
+  {
+   "team": "Kansas State",
+   "season": 2024,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Kansas State",
+   "season": 2025,
+   "n": 4,
+   "receive_pct": 25.0
+  },
+  {
+   "team": "Kansas State",
+   "season": 2026,
+   "n": 6,
+   "receive_pct": 50.0
+  },
+  {
+   "team": "Kentucky",
+   "season": 2021,
+   "n": 2,
+   "receive_pct": 50.0
+  },
+  {
+   "team": "Kentucky",
+   "season": 2022,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Kentucky",
+   "season": 2023,
+   "n": 5,
+   "receive_pct": 40.0
+  },
+  {
+   "team": "Kentucky",
+   "season": 2024,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Kentucky",
+   "season": 2025,
+   "n": 6,
+   "receive_pct": 16.7
+  },
+  {
+   "team": "Kentucky",
+   "season": 2026,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "LSU",
+   "season": 2021,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "LSU",
+   "season": 2023,
+   "n": 3,
+   "receive_pct": 66.7
+  },
+  {
+   "team": "LSU",
+   "season": 2025,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "LSU",
+   "season": 2026,
+   "n": 5,
+   "receive_pct": 20.0
+  },
+  {
+   "team": "Louisville",
+   "season": 2021,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Louisville",
+   "season": 2022,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Louisville",
+   "season": 2023,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Louisville",
+   "season": 2024,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Louisville",
+   "season": 2025,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Louisville",
+   "season": 2026,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Maryland",
+   "season": 2021,
+   "n": 5,
+   "receive_pct": 40.0
+  },
+  {
+   "team": "Maryland",
+   "season": 2022,
+   "n": 5,
+   "receive_pct": 20.0
+  },
+  {
+   "team": "Maryland",
+   "season": 2023,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Maryland",
+   "season": 2024,
+   "n": 7,
+   "receive_pct": 28.6
+  },
+  {
+   "team": "Maryland",
+   "season": 2025,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Maryland",
+   "season": 2026,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Miami",
+   "season": 2021,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Miami",
+   "season": 2022,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Miami",
+   "season": 2023,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Miami",
+   "season": 2024,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Miami",
+   "season": 2025,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Miami",
+   "season": 2026,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Michigan",
+   "season": 2021,
+   "n": 1,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Michigan",
+   "season": 2023,
+   "n": 8,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Michigan",
+   "season": 2024,
+   "n": 9,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Michigan",
+   "season": 2025,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Michigan",
+   "season": 2026,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Michigan State",
+   "season": 2022,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Michigan State",
+   "season": 2023,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Michigan State",
+   "season": 2024,
+   "n": 8,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Michigan State",
+   "season": 2025,
+   "n": 7,
+   "receive_pct": 14.3
+  },
+  {
+   "team": "Michigan State",
+   "season": 2026,
+   "n": 7,
+   "receive_pct": 28.6
+  },
+  {
+   "team": "Minnesota",
+   "season": 2021,
+   "n": 5,
+   "receive_pct": 20.0
+  },
+  {
+   "team": "Minnesota",
+   "season": 2022,
+   "n": 5,
+   "receive_pct": 20.0
+  },
+  {
+   "team": "Minnesota",
+   "season": 2023,
+   "n": 4,
+   "receive_pct": 25.0
+  },
+  {
+   "team": "Minnesota",
+   "season": 2024,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Minnesota",
+   "season": 2025,
+   "n": 6,
+   "receive_pct": 16.7
+  },
+  {
+   "team": "Minnesota",
+   "season": 2026,
+   "n": 6,
+   "receive_pct": 33.3
+  },
+  {
+   "team": "Mississippi State",
+   "season": 2021,
+   "n": 3,
+   "receive_pct": 33.3
+  },
+  {
+   "team": "Mississippi State",
+   "season": 2022,
+   "n": 1,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "Mississippi State",
+   "season": 2023,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Mississippi State",
+   "season": 2024,
+   "n": 5,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "Mississippi State",
+   "season": 2025,
+   "n": 6,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "Mississippi State",
+   "season": 2026,
+   "n": 7,
+   "receive_pct": 71.4
+  },
+  {
+   "team": "Missouri",
+   "season": 2021,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Missouri",
+   "season": 2022,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Missouri",
+   "season": 2023,
+   "n": 3,
+   "receive_pct": 33.3
+  },
+  {
+   "team": "Missouri",
+   "season": 2024,
+   "n": 7,
+   "receive_pct": 28.6
+  },
+  {
+   "team": "Missouri",
+   "season": 2025,
+   "n": 4,
+   "receive_pct": 25.0
+  },
+  {
+   "team": "Missouri",
+   "season": 2026,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "NC State",
+   "season": 2021,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "NC State",
+   "season": 2022,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "NC State",
+   "season": 2023,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "NC State",
+   "season": 2024,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "NC State",
+   "season": 2025,
+   "n": 7,
+   "receive_pct": 71.4
+  },
+  {
+   "team": "NC State",
+   "season": 2026,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Nebraska",
+   "season": 2021,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Nebraska",
+   "season": 2022,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Nebraska",
+   "season": 2023,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Nebraska",
+   "season": 2024,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Nebraska",
+   "season": 2025,
+   "n": 4,
+   "receive_pct": 25.0
+  },
+  {
+   "team": "Nebraska",
+   "season": 2026,
+   "n": 8,
+   "receive_pct": 37.5
+  },
+  {
+   "team": "North Carolina",
+   "season": 2021,
+   "n": 1,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "North Carolina",
+   "season": 2022,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "North Carolina",
+   "season": 2023,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "North Carolina",
+   "season": 2024,
+   "n": 8,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "North Carolina",
+   "season": 2025,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "North Carolina",
+   "season": 2026,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Northwestern",
+   "season": 2021,
+   "n": 7,
+   "receive_pct": 14.3
+  },
+  {
+   "team": "Northwestern",
+   "season": 2022,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Northwestern",
+   "season": 2023,
+   "n": 8,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Northwestern",
+   "season": 2024,
+   "n": 1,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Northwestern",
+   "season": 2025,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Northwestern",
+   "season": 2026,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Notre Dame",
+   "season": 2021,
+   "n": 1,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "Notre Dame",
+   "season": 2022,
+   "n": 1,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Notre Dame",
+   "season": 2023,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Notre Dame",
+   "season": 2024,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Notre Dame",
+   "season": 2025,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Notre Dame",
+   "season": 2026,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Ohio State",
+   "season": 2022,
+   "n": 1,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "Ohio State",
+   "season": 2023,
+   "n": 4,
+   "receive_pct": 50.0
+  },
+  {
+   "team": "Ohio State",
+   "season": 2024,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Ohio State",
+   "season": 2025,
+   "n": 11,
+   "receive_pct": 9.1
+  },
+  {
+   "team": "Ohio State",
+   "season": 2026,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Oklahoma",
+   "season": 2021,
+   "n": 1,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "Oklahoma",
+   "season": 2022,
+   "n": 4,
+   "receive_pct": 75.0
+  },
+  {
+   "team": "Oklahoma",
+   "season": 2023,
+   "n": 6,
+   "receive_pct": 16.7
+  },
+  {
+   "team": "Oklahoma",
+   "season": 2024,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Oklahoma",
+   "season": 2025,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Oklahoma",
+   "season": 2026,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Oklahoma State",
+   "season": 2021,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Oklahoma State",
+   "season": 2023,
+   "n": 4,
+   "receive_pct": 75.0
+  },
+  {
+   "team": "Oklahoma State",
+   "season": 2024,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Oklahoma State",
+   "season": 2025,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Oklahoma State",
+   "season": 2026,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Ole Miss",
+   "season": 2021,
+   "n": 1,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Ole Miss",
+   "season": 2022,
+   "n": 3,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "Ole Miss",
+   "season": 2023,
+   "n": 2,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "Ole Miss",
+   "season": 2024,
+   "n": 3,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "Ole Miss",
+   "season": 2025,
+   "n": 5,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "Ole Miss",
+   "season": 2026,
+   "n": 3,
+   "receive_pct": 66.7
+  },
+  {
+   "team": "Oregon",
+   "season": 2022,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Oregon",
+   "season": 2023,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Oregon",
+   "season": 2024,
+   "n": 4,
+   "receive_pct": 25.0
+  },
+  {
+   "team": "Oregon",
+   "season": 2025,
+   "n": 6,
+   "receive_pct": 50.0
+  },
+  {
+   "team": "Oregon",
+   "season": 2026,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Oregon State",
+   "season": 2021,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Oregon State",
+   "season": 2022,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Oregon State",
+   "season": 2023,
+   "n": 9,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Penn State",
+   "season": 2021,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Penn State",
+   "season": 2022,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Penn State",
+   "season": 2023,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Penn State",
+   "season": 2024,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Penn State",
+   "season": 2025,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Penn State",
+   "season": 2026,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Pittsburgh",
+   "season": 2021,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Pittsburgh",
+   "season": 2022,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Pittsburgh",
+   "season": 2023,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Pittsburgh",
+   "season": 2024,
+   "n": 5,
+   "receive_pct": 40.0
+  },
+  {
+   "team": "Pittsburgh",
+   "season": 2025,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Pittsburgh",
+   "season": 2026,
+   "n": 3,
+   "receive_pct": 33.3
+  },
+  {
+   "team": "Purdue",
+   "season": 2022,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Purdue",
+   "season": 2023,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Purdue",
+   "season": 2024,
+   "n": 8,
+   "receive_pct": 25.0
+  },
+  {
+   "team": "Purdue",
+   "season": 2025,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Purdue",
+   "season": 2026,
+   "n": 5,
+   "receive_pct": 80.0
+  },
+  {
+   "team": "Rutgers",
+   "season": 2021,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Rutgers",
+   "season": 2022,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Rutgers",
+   "season": 2023,
+   "n": 10,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Rutgers",
+   "season": 2024,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Rutgers",
+   "season": 2025,
+   "n": 4,
+   "receive_pct": 25.0
+  },
+  {
+   "team": "Rutgers",
+   "season": 2026,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "SMU",
+   "season": 2024,
+   "n": 9,
+   "receive_pct": 88.9
+  },
+  {
+   "team": "SMU",
+   "season": 2025,
+   "n": 6,
+   "receive_pct": 66.7
+  },
+  {
+   "team": "SMU",
+   "season": 2026,
+   "n": 6,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "South Carolina",
+   "season": 2021,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "South Carolina",
+   "season": 2022,
+   "n": 5,
+   "receive_pct": 20.0
+  },
+  {
+   "team": "South Carolina",
+   "season": 2023,
+   "n": 6,
+   "receive_pct": 16.7
+  },
+  {
+   "team": "South Carolina",
+   "season": 2024,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "South Carolina",
+   "season": 2025,
+   "n": 6,
+   "receive_pct": 33.3
+  },
+  {
+   "team": "South Carolina",
+   "season": 2026,
+   "n": 5,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "Stanford",
+   "season": 2022,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Stanford",
+   "season": 2023,
+   "n": 4,
+   "receive_pct": 25.0
+  },
+  {
+   "team": "Stanford",
+   "season": 2024,
+   "n": 3,
+   "receive_pct": 33.3
+  },
+  {
+   "team": "Stanford",
+   "season": 2025,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Stanford",
+   "season": 2026,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Syracuse",
+   "season": 2021,
+   "n": 5,
+   "receive_pct": 80.0
+  },
+  {
+   "team": "Syracuse",
+   "season": 2022,
+   "n": 3,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "Syracuse",
+   "season": 2023,
+   "n": 5,
+   "receive_pct": 20.0
+  },
+  {
+   "team": "Syracuse",
+   "season": 2024,
+   "n": 5,
+   "receive_pct": 20.0
+  },
+  {
+   "team": "Syracuse",
+   "season": 2025,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Syracuse",
+   "season": 2026,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "TCU",
+   "season": 2021,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "TCU",
+   "season": 2022,
+   "n": 2,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "TCU",
+   "season": 2023,
+   "n": 4,
+   "receive_pct": 25.0
+  },
+  {
+   "team": "TCU",
+   "season": 2024,
+   "n": 5,
+   "receive_pct": 80.0
+  },
+  {
+   "team": "TCU",
+   "season": 2025,
+   "n": 8,
+   "receive_pct": 12.5
+  },
+  {
+   "team": "TCU",
+   "season": 2026,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Tennessee",
+   "season": 2021,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Tennessee",
+   "season": 2022,
+   "n": 1,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "Tennessee",
+   "season": 2023,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Tennessee",
+   "season": 2024,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Tennessee",
+   "season": 2025,
+   "n": 2,
+   "receive_pct": 50.0
+  },
+  {
+   "team": "Tennessee",
+   "season": 2026,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Texas",
+   "season": 2021,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Texas",
+   "season": 2022,
+   "n": 2,
+   "receive_pct": 50.0
+  },
+  {
+   "team": "Texas",
+   "season": 2023,
+   "n": 1,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Texas",
+   "season": 2024,
+   "n": 2,
+   "receive_pct": 50.0
+  },
+  {
+   "team": "Texas",
+   "season": 2025,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Texas",
+   "season": 2026,
+   "n": 3,
+   "receive_pct": 33.3
+  },
+  {
+   "team": "Texas A&M",
+   "season": 2022,
+   "n": 1,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Texas A&M",
+   "season": 2023,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Texas A&M",
+   "season": 2024,
+   "n": 1,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Texas A&M",
+   "season": 2025,
+   "n": 7,
+   "receive_pct": 28.6
+  },
+  {
+   "team": "Texas A&M",
+   "season": 2026,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Texas Tech",
+   "season": 2021,
+   "n": 4,
+   "receive_pct": 50.0
+  },
+  {
+   "team": "Texas Tech",
+   "season": 2022,
+   "n": 1,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "Texas Tech",
+   "season": 2023,
+   "n": 9,
+   "receive_pct": 11.1
+  },
+  {
+   "team": "Texas Tech",
+   "season": 2024,
+   "n": 6,
+   "receive_pct": 50.0
+  },
+  {
+   "team": "Texas Tech",
+   "season": 2025,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Texas Tech",
+   "season": 2026,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "UCF",
+   "season": 2023,
+   "n": 6,
+   "receive_pct": 50.0
+  },
+  {
+   "team": "UCF",
+   "season": 2024,
+   "n": 7,
+   "receive_pct": 57.1
+  },
+  {
+   "team": "UCF",
+   "season": 2025,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "UCF",
+   "season": 2026,
+   "n": 8,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "UCLA",
+   "season": 2021,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "UCLA",
+   "season": 2022,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "UCLA",
+   "season": 2023,
+   "n": 4,
+   "receive_pct": 25.0
+  },
+  {
+   "team": "UCLA",
+   "season": 2024,
+   "n": 7,
+   "receive_pct": 42.9
+  },
+  {
+   "team": "UCLA",
+   "season": 2025,
+   "n": 5,
+   "receive_pct": 20.0
+  },
+  {
+   "team": "UCLA",
+   "season": 2026,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "USC",
+   "season": 2022,
+   "n": 1,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "USC",
+   "season": 2023,
+   "n": 4,
+   "receive_pct": 75.0
+  },
+  {
+   "team": "USC",
+   "season": 2024,
+   "n": 7,
+   "receive_pct": 71.4
+  },
+  {
+   "team": "USC",
+   "season": 2025,
+   "n": 6,
+   "receive_pct": 83.3
+  },
+  {
+   "team": "USC",
+   "season": 2026,
+   "n": 5,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "Utah",
+   "season": 2021,
+   "n": 5,
+   "receive_pct": 60.0
+  },
+  {
+   "team": "Utah",
+   "season": 2022,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Utah",
+   "season": 2023,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Utah",
+   "season": 2024,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Utah",
+   "season": 2025,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Utah",
+   "season": 2026,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Vanderbilt",
+   "season": 2021,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Vanderbilt",
+   "season": 2022,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Vanderbilt",
+   "season": 2023,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Vanderbilt",
+   "season": 2024,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Vanderbilt",
+   "season": 2025,
+   "n": 7,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Vanderbilt",
+   "season": 2026,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Virginia",
+   "season": 2022,
+   "n": 6,
+   "receive_pct": 16.7
+  },
+  {
+   "team": "Virginia",
+   "season": 2023,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Virginia",
+   "season": 2024,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Virginia",
+   "season": 2025,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Virginia",
+   "season": 2026,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Virginia Tech",
+   "season": 2021,
+   "n": 1,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "Virginia Tech",
+   "season": 2022,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Virginia Tech",
+   "season": 2023,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Virginia Tech",
+   "season": 2024,
+   "n": 1,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Virginia Tech",
+   "season": 2025,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Virginia Tech",
+   "season": 2026,
+   "n": 3,
+   "receive_pct": 33.3
+  },
+  {
+   "team": "Wake Forest",
+   "season": 2021,
+   "n": 1,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Wake Forest",
+   "season": 2022,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Wake Forest",
+   "season": 2023,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Wake Forest",
+   "season": 2024,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Wake Forest",
+   "season": 2025,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Wake Forest",
+   "season": 2026,
+   "n": 8,
+   "receive_pct": 12.5
+  },
+  {
+   "team": "Washington",
+   "season": 2021,
+   "n": 3,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Washington",
+   "season": 2022,
+   "n": 6,
+   "receive_pct": 16.7
+  },
+  {
+   "team": "Washington",
+   "season": 2023,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Washington",
+   "season": 2024,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Washington",
+   "season": 2025,
+   "n": 5,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Washington",
+   "season": 2026,
+   "n": 7,
+   "receive_pct": 42.9
+  },
+  {
+   "team": "Washington State",
+   "season": 2021,
+   "n": 3,
+   "receive_pct": 66.7
+  },
+  {
+   "team": "Washington State",
+   "season": 2022,
+   "n": 7,
+   "receive_pct": 42.9
+  },
+  {
+   "team": "Washington State",
+   "season": 2023,
+   "n": 3,
+   "receive_pct": 66.7
+  },
+  {
+   "team": "West Virginia",
+   "season": 2021,
+   "n": 3,
+   "receive_pct": 33.3
+  },
+  {
+   "team": "West Virginia",
+   "season": 2022,
+   "n": 3,
+   "receive_pct": 33.3
+  },
+  {
+   "team": "West Virginia",
+   "season": 2023,
+   "n": 5,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "West Virginia",
+   "season": 2024,
+   "n": 7,
+   "receive_pct": 100.0
+  },
+  {
+   "team": "West Virginia",
+   "season": 2025,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "West Virginia",
+   "season": 2026,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Wisconsin",
+   "season": 2021,
+   "n": 2,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Wisconsin",
+   "season": 2022,
+   "n": 5,
+   "receive_pct": 20.0
+  },
+  {
+   "team": "Wisconsin",
+   "season": 2023,
+   "n": 6,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Wisconsin",
+   "season": 2024,
+   "n": 9,
+   "receive_pct": 11.1
+  },
+  {
+   "team": "Wisconsin",
+   "season": 2025,
+   "n": 4,
+   "receive_pct": 0.0
+  },
+  {
+   "team": "Wisconsin",
+   "season": 2026,
+   "n": 4,
+   "receive_pct": 0.0
+  }
+ ],
+ "strategy_flips": [
+  {
+   "team": "Arkansas",
+   "by_season": {
+    "2021": 25.0,
+    "2023": 0.0,
+    "2025": 83.3
+   }
+  },
+  {
+   "team": "Clemson",
+   "by_season": {
+    "2023": 0.0,
+    "2024": 0.0,
+    "2025": 66.7,
+    "2026": 40.0
+   }
+  },
+  {
+   "team": "Iowa",
+   "by_season": {
+    "2021": 25.0,
+    "2022": 28.6,
+    "2023": 87.5,
+    "2024": 0.0,
+    "2025": 100.0
+   }
+  },
+  {
+   "team": "NC State",
+   "by_season": {
+    "2023": 0.0,
+    "2024": 0.0,
+    "2025": 71.4,
+    "2026": 0.0
+   }
+  },
+  {
+   "team": "Oklahoma",
+   "by_season": {
+    "2022": 75.0,
+    "2023": 16.7,
+    "2025": 0.0,
+    "2026": 0.0
+   }
+  },
+  {
+   "team": "Oklahoma State",
+   "by_season": {
+    "2023": 75.0,
+    "2024": 0.0,
+    "2026": 0.0
+   }
+  },
+  {
+   "team": "Purdue",
+   "by_season": {
+    "2023": 0.0,
+    "2024": 25.0,
+    "2026": 80.0
+   }
+  },
+  {
+   "team": "South Carolina",
+   "by_season": {
+    "2022": 20.0,
+    "2023": 16.7,
+    "2024": 0.0,
+    "2025": 33.3,
+    "2026": 100.0
+   }
+  },
+  {
+   "team": "Syracuse",
+   "by_season": {
+    "2021": 80.0,
+    "2023": 20.0,
+    "2024": 20.0,
+    "2025": 0.0,
+    "2026": 0.0
+   }
+  },
+  {
+   "team": "TCU",
+   "by_season": {
+    "2021": 0.0,
+    "2023": 25.0,
+    "2024": 80.0,
+    "2025": 12.5,
+    "2026": 0.0
+   }
+  },
+  {
+   "team": "Utah",
+   "by_season": {
+    "2021": 60.0,
+    "2023": 0.0,
+    "2024": 0.0,
+    "2025": 0.0,
+    "2026": 0.0
+   }
+  },
+  {
+   "team": "West Virginia",
+   "by_season": {
+    "2023": 100.0,
+    "2024": 100.0,
+    "2025": 0.0,
+    "2026": 0.0
+   }
+  }
+ ],
+ "overtime": {
+  "games_with_ot_toss": 52,
+  "samples": [
+   "Florida State wins the coin toss and elects to take the ball.",
+   "Clemson wins the coin toss and elects to take the ball.",
+   "MISSOURI wins the coin toss and elects to defend.",
+   "STANFORD wins the coin toss and elects to take the ball.",
+   "Syracuse wins the coin toss and elects to take the ball.",
+   "Pittsburgh wins the coin toss and elects to take the ball.",
+   "Matt Coghlin 21 yd FG GOOD",
+   "TENNESSEE wins the coin toss and elects to take the ball."
+  ]
+ }
+}

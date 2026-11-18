@@ -1,0 +1,308 @@
+<title>Taking the Ball First</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: single reading column (~760px) of numbered findings; charts sit full column width, tables scroll in place. */
+:root {
+  --bg: #f6f7f4; --surface: #ffffff; --ink: #14171a; --ink-2: #4c524f; --ink-3: #7b817d;
+  --rule: #dde1dc; --grid: #e8ebe7;
+  --receive: #2a78d6; --defer: #9aa19c; --accent: #1c5cab; --warn-bg: #fff6e0; --warn-ink: #7a5300;
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #141615; --surface: #1c1f1d; --ink: #eef0ec; --ink-2: #c0c5c0; --ink-3: #8d938e;
+  --rule: #2f3431; --grid: #272b29; --receive: #3987e5; --defer: #6e756f; --accent: #86b6ef;
+  --warn-bg: #2e2612; --warn-ink: #f0c56a; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #141615; --surface: #1c1f1d; --ink: #eef0ec; --ink-2: #c0c5c0; --ink-3: #8d938e;
+  --rule: #2f3431; --grid: #272b29; --receive: #3987e5; --defer: #6e756f; --accent: #86b6ef;
+  --warn-bg: #2e2612; --warn-ink: #f0c56a; color-scheme: dark; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15.5px; line-height: 1.6; }
+.wrap { max-width: 780px; margin: 0 auto; padding-block: 40px 72px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1.05; text-wrap: balance; margin: 0; letter-spacing: .01em; }
+h1 { font-size: clamp(2.6rem, 7vw, 3.8rem); text-transform: uppercase; }
+h2 { font-size: 1.9rem; text-transform: uppercase; }
+h3 { font-size: 1.25rem; font-weight: 600; }
+p { margin: 0; max-width: 66ch; }
+.eyebrow { font-family: var(--font-data); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); }
+.lede { font-size: 1.1rem; color: var(--ink-2); }
+header { display: grid; gap: 14px; padding-bottom: 28px; border-bottom: 2px solid var(--ink); }
+section { display: grid; gap: 16px; padding-block: 36px; border-bottom: 1px solid var(--rule); }
+.sec-head { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; align-items: baseline; }
+.sec-num { font-family: var(--font-data); color: var(--accent); font-size: .85rem; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-top: 8px; }
+.tile { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 14px 16px; display: grid; gap: 2px; }
+.tile .v { font-family: var(--font-display); font-weight: 700; font-size: 2.4rem; line-height: 1; font-variant-numeric: tabular-nums; }
+.tile .v.rec { color: var(--receive); }
+.tile .k { font-size: .82rem; color: var(--ink-2); }
+ul.findings { margin: 0; padding-left: 20px; display: grid; gap: 8px; max-width: 66ch; }
+.chart { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 14px 12px 8px; overflow-x: auto; }
+.chart svg { display: block; width: 100%; height: auto; }
+.chart-title { font-weight: 600; font-size: .92rem; margin: 0 4px 6px; }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: .8rem; color: var(--ink-2); margin: 0 4px 6px; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.note { font-size: .82rem; color: var(--ink-3); }
+.tbl { overflow-x: auto; background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; }
+table { border-collapse: collapse; width: 100%; font-size: .86rem; font-variant-numeric: tabular-nums; }
+th, td { padding: 7px 12px; text-align: right; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; }
+th { font-weight: 600; color: var(--ink-2); font-size: .78rem; text-transform: uppercase; letter-spacing: .04em; }
+tr:last-child td { border-bottom: 0; }
+td.num { font-family: var(--font-data); }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }
+.grid2 > * { min-width: 0; }
+.callout { background: var(--warn-bg); color: var(--warn-ink); border-radius: 6px; padding: 12px 16px; font-size: .9rem; }
+.callout b { color: inherit; }
+.strips { display: grid; gap: 10px; }
+.strip { display: grid; grid-template-columns: 150px 1fr; align-items: center; gap: 10px; }
+.strip .name { font-weight: 600; font-size: .9rem; }
+.strip .name small { display: block; font-weight: 400; color: var(--ink-3); font-size: .76rem; line-height: 1.3; }
+.cells { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 4px; }
+.cell { border-radius: 4px; padding: 6px 2px; text-align: center; font-family: var(--font-data); font-size: .74rem; border: 1px solid var(--rule); }
+.cell.empty { color: var(--ink-3); background: transparent; border-style: dashed; }
+.yearhdr .cell { border: 0; color: var(--ink-3); padding: 0; }
+@media (max-width: 520px) { .strip { grid-template-columns: 1fr; gap: 4px; } }
+#tip { position: fixed; pointer-events: none; background: var(--ink); color: var(--bg); font-size: .78rem; padding: 6px 9px; border-radius: 4px; max-width: 260px; z-index: 20; }
+svg text { fill: var(--ink-2); font-family: var(--font-body); font-size: 11px; }
+svg .val { fill: var(--ink); font-family: var(--font-data); font-size: 11px; }
+svg .hit { fill: transparent; cursor: default; }
+svg .hit:hover + .mark, svg .mark:hover { opacity: .8; }
+a { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">College football tendencies · No. 1 · Power-conference games, 2021 – Nov 2026</div>
+  <h1>Taking the ball first</h1>
+  <p class="lede">How often do power-conference teams that win the opening coin toss choose to receive instead of deferring, who does it, and does it change results?</p>
+  <div class="tiles" id="tiles"></div>
+</header>
+
+<section>
+  <div class="sec-head"><span class="sec-num">01</span><h2>The short version</h2></div>
+  <ul class="findings" id="findings"></ul>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">02</span><h2>It has been flat for six seasons</h2></div>
+  <p>Roughly one toss winner in six takes the ball. The rate has held between 16% and 20% every season, including after the 2023 rule change that kept the clock running after first downs.</p>
+  <div class="chart"><div class="chart-title">Share of toss winners choosing to receive, by season</div><svg id="c-season" viewBox="0 0 720 240" role="img" aria-label="Receive rate by season"></svg></div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">03</span><h2>It is a coach decision, and a rare one</h2></div>
+  <p>Most programs almost never receive. A handful do it nearly every time. A team's rate at home and on the road correlates at 0.81, so this follows the head coach, not the stadium or stat crew.</p>
+  <div class="chart"><div class="chart-title">Receive rate when winning the opening toss · teams with 12+ recorded tosses</div>
+    <div class="legend"><span><i style="background:var(--receive)"></i>Chose to receive</span><span class="note">Label shows receives / tosses won</span></div>
+    <svg id="c-teams" role="img" aria-label="Receive rate by team"></svg></div>
+  <p class="note" id="zero-teams"></p>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">04</span><h2>When the coach changes, the tendency changes</h2></div>
+  <p>Season-by-season receives over tosses won. Sample sizes per season are small, but the switches line up with coaching changes.</p>
+  <div class="strips" id="strips"></div>
+  <p class="note">Coaching notes are added for context and are not derived from the data set. Iowa's swings under a single head coach (Kirk Ferentz) suggest some coaches decide game by game.</p>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">05</span><h2>Situations barely move it</h2></div>
+  <p>Home or away, favorite or underdog, the choice rate stays within a few points of 18%. Two modest exceptions are heavy favorites (21+ points) and games against non-power opponents, where teams take the ball a bit more often. The SEC is the only conference noticeably above the rest, driven by Ole Miss and Mississippi State.</p>
+  <div class="grid2" id="situ"></div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">06</span><h2>Does taking the ball help?</h2></div>
+  <p>Not on the scoreboard at the end. Teams that receive are slightly better on average (favored by 7.1 points versus 5.2 for deferrers), so results are measured against the point spread. On that basis neither choice wins more than expected, and both cover about half the time.</p>
+  <div class="tbl"><table id="t-out"></table></div>
+  <p>The choice does shift <em>when</em> the points come. Receivers run about 2 points ahead of expectation at halftime and give about the same back after the break, when the deferring opponent gets the first possession.</p>
+  <div class="chart"><div class="chart-title">Points vs. spread expectation, by half · mean with 95% interval</div>
+    <div class="legend"><span><i style="background:var(--receive)"></i>Toss winner received</span><span><i style="background:var(--defer)"></i>Toss winner deferred</span></div>
+    <svg id="c-half" viewBox="0 0 720 260" role="img" aria-label="Margin versus expectation by half"></svg></div>
+  <div class="tbl"><table id="t-drive"></table></div>
+  <p class="note" id="reg-note"></p>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">07</span><h2>Data and method</h2></div>
+  <p>Source: ESPN's public play-by-play, which logs the referee's coin-toss call as a play (for example, <q>Michigan won the toss and has deferred to the second half</q>). Games involving at least one team from the ACC, Big Ten, Big 12, SEC, Pac-12 (through 2023) or Notre Dame were included, with conference membership assigned season by season. Spreads come from ESPN's betting feed. Each stated decision was checked against which team actually took the opening kickoff.</p>
+  <div class="callout" id="artifact"></div>
+  <div class="tbl"><table id="t-fam"></table></div>
+  <ul class="findings note" id="caveats"></ul>
+</section>
+</div>
+<div id="tip" hidden></div>
+
+<script>
+const D = {"coverage": {"games": 2977, "games_with_toss_text": 2886, "decided": 2882, "consistency_check_pct": 98.9, "inconsistent_games": 32, "seasons": [2021, 2022, 2023, 2024, 2025, 2026], "by_season_games": {"2021": 496, "2022": 497, "2023": 526, "2024": 526, "2025": 524, "2026": 408}, "decision_text_breakdown": {"defer": 1878, "receive": 760, "ambiguous": 179, "no toss record": 91, "endzone": 64, "kick": 5}}, "overall_power_teams": {"n": 1780, "receive_pct": 17.9, "defer_pct": 81.8, "kick_pct": 0.3}, "by_season": [{"season": 2021, "n": 173, "receive_pct": 16.8}, {"season": 2022, "n": 215, "receive_pct": 18.6}, {"season": 2023, "n": 336, "receive_pct": 15.8}, {"season": 2024, "n": 333, "receive_pct": 18.9}, {"season": 2025, "n": 386, "receive_pct": 19.9}, {"season": 2026, "n": 337, "receive_pct": 16.9}], "by_conf": [{"conf": "ACC", "n": 412, "receive_pct": 15.8}, {"conf": "Big 12", "n": 409, "receive_pct": 17.6}, {"conf": "Big Ten", "n": 479, "receive_pct": 16.9}, {"conf": "Notre Dame", "n": 18, "receive_pct": 5.6}, {"conf": "Pac-12", "n": 147, "receive_pct": 17.0}, {"conf": "SEC", "n": 315, "receive_pct": 23.8}], "by_site": [{"site": "Away", "n": 738, "receive_pct": 17.1}, {"site": "Home", "n": 984, "receive_pct": 18.7}, {"site": "Neutral", "n": 58, "receive_pct": 15.5}], "by_spread": [{"fav_bucket": "Fav 21+", "n": 311, "receive_pct": 23.5}, {"fav_bucket": "Fav 10-21", "n": 269, "receive_pct": 14.5}, {"fav_bucket": "Fav 3-10", "n": 358, "receive_pct": 16.8}, {"fav_bucket": "Pick'em (\u00b13)", "n": 279, "receive_pct": 15.8}, {"fav_bucket": "Dog 3-10", "n": 298, "receive_pct": 19.5}, {"fav_bucket": "Dog 10+", "n": 259, "receive_pct": 17.0}], "by_opponent": [{"opp_type": "vs Non-power", "n": 384, "receive_pct": 23.2}, {"opp_type": "vs Power", "n": 1396, "receive_pct": 16.5}], "by_phase": [{"phase": "Bowls / CFP", "n": 35, "receive_pct": 22.9}, {"phase": "Conf. championships", "n": 13, "receive_pct": 0.0}, {"phase": "Regular season", "n": 1732, "receive_pct": 18.0}], "by_family": [{"toss_family": "B", "n": 646, "receive_pct": 0.0}, {"toss_family": "C", "n": 665, "receive_pct": 17.0}, {"toss_family": "D", "n": 159, "receive_pct": 95.0}, {"toss_family": "E", "n": 616, "receive_pct": 18.7}, {"toss_family": "F", "n": 70, "receive_pct": 18.6}, {"toss_family": "other", "n": 1, "receive_pct": 100.0}], "outcomes": [{"decision": "defer", "n": 1433, "win_pct": 56.7, "n_with_spread": 1428, "avg_spread": -5.2, "expected_win_pct": 57.7, "actual_win_pct_with_spread": 56.6, "win_over_expected": -1.1, "avg_ats_margin": -0.68, "cover_pct": 49.6, "avg_ht_margin": 2.24, "avg_2h_margin": 2.35, "h1_vs_exp": -0.43, "h1_vs_exp_se": 0.3, "h2_vs_exp": -0.26, "h2_vs_exp_se": 0.28, "ats_margin_se": 0.4}, {"decision": "receive", "n": 316, "win_pct": 58.9, "n_with_spread": 315, "avg_spread": -7.1, "expected_win_pct": 59.5, "actual_win_pct_with_spread": 58.7, "win_over_expected": -0.7, "avg_ats_margin": -0.05, "cover_pct": 49.8, "avg_ht_margin": 5.63, "avg_2h_margin": 1.59, "h1_vs_exp": 1.93, "h1_vs_exp_se": 0.68, "h2_vs_exp": -1.98, "h2_vs_exp_se": 0.54, "ats_margin_se": 0.84}], "regression": {"ols_receive_coef": 0.62, "ols_receive_ci": [-1.19, 2.43], "ols_receive_p": 0.505, "logit_receive_odds_ratio": 1.023, "logit_receive_p": 0.886, "n": 1743}, "drives": {"Received after opponent deferred": {"n": 1736, "score_pct": 32.5, "td_pct": 24.2, "avg_pts": 1.94}, "Toss winner chose to receive": {"n": 388, "score_pct": 37.4, "td_pct": 27.8, "avg_pts": 2.23}, "second_half_opener_all": {"n": 2123, "score_pct": 34.3, "avg_pts": 2.01}, "first_half_opener_all": {"n": 2124, "score_pct": 33.4, "avg_pts": 1.99}, "second_half_opener_deferrer": {"n": 1730, "score_pct": 34.2, "avg_pts": 1.99}, "double_dip": {"opportunities": 1059, "hits": 39, "pct_of_opportunities": 3.7, "pct_of_all_games": 1.8}}, "teams": [{"team": "Ole Miss", "n": 17, "rec": 15, "conf": "SEC", "pct": 88.2}, {"team": "SMU", "n": 21, "rec": 18, "conf": "ACC", "pct": 85.7}, {"team": "USC", "n": 23, "rec": 19, "conf": "Big Ten", "pct": 82.6}, {"team": "Mississippi State", "n": 24, "rec": 18, "conf": "SEC", "pct": 75.0}, {"team": "Iowa", "n": 37, "rec": 21, "conf": "Big Ten", "pct": 56.8}, {"team": "West Virginia", "n": 26, "rec": 14, "conf": "Big 12", "pct": 53.8}, {"team": "Washington State", "n": 13, "rec": 7, "conf": "Pac-12", "pct": 53.8}, {"team": "Arkansas", "n": 25, "rec": 10, "conf": "SEC", "pct": 40.0}, {"team": "Kansas State", "n": 32, "rec": 11, "conf": "Big 12", "pct": 34.4}, {"team": "South Carolina", "n": 28, "rec": 9, "conf": "SEC", "pct": 32.1}, {"team": "Syracuse", "n": 28, "rec": 9, "conf": "ACC", "pct": 32.1}, {"team": "Cincinnati", "n": 19, "rec": 6, "conf": "Big 12", "pct": 31.6}, {"team": "Georgia Tech", "n": 26, "rec": 8, "conf": "ACC", "pct": 30.8}, {"team": "Clemson", "n": 22, "rec": 6, "conf": "ACC", "pct": 27.3}, {"team": "TCU", "n": 30, "rec": 8, "conf": "Big 12", "pct": 26.7}, {"team": "Arizona", "n": 27, "rec": 7, "conf": "Big 12", "pct": 25.9}, {"team": "Purdue", "n": 24, "rec": 6, "conf": "Big Ten", "pct": 25.0}, {"team": "UCF", "n": 28, "rec": 7, "conf": "Big 12", "pct": 25.0}, {"team": "LSU", "n": 13, "rec": 3, "conf": "SEC", "pct": 23.1}, {"team": "Oklahoma", "n": 22, "rec": 5, "conf": "SEC", "pct": 22.7}, {"team": "Texas Tech", "n": 33, "rec": 7, "conf": "Big 12", "pct": 21.2}, {"team": "Texas", "n": 15, "rec": 3, "conf": "SEC", "pct": 20.0}, {"team": "Oregon", "n": 20, "rec": 4, "conf": "Big Ten", "pct": 20.0}, {"team": "Minnesota", "n": 32, "rec": 6, "conf": "Big Ten", "pct": 18.8}, {"team": "UCLA", "n": 27, "rec": 5, "conf": "Big Ten", "pct": 18.5}, {"team": "NC State", "n": 28, "rec": 5, "conf": "ACC", "pct": 17.9}, {"team": "Ohio State", "n": 23, "rec": 4, "conf": "Big Ten", "pct": 17.4}, {"team": "Kentucky", "n": 23, "rec": 4, "conf": "SEC", "pct": 17.4}, {"team": "California", "n": 30, "rec": 5, "conf": "ACC", "pct": 16.7}, {"team": "Oklahoma State", "n": 18, "rec": 3, "conf": "Big 12", "pct": 16.7}, {"team": "Maryland", "n": 32, "rec": 5, "conf": "Big Ten", "pct": 15.6}, {"team": "Missouri", "n": 26, "rec": 4, "conf": "SEC", "pct": 15.4}, {"team": "Florida State", "n": 21, "rec": 3, "conf": "ACC", "pct": 14.3}, {"team": "Nebraska", "n": 29, "rec": 4, "conf": "Big Ten", "pct": 13.8}, {"team": "Florida", "n": 22, "rec": 3, "conf": "SEC", "pct": 13.6}, {"team": "Washington", "n": 33, "rec": 4, "conf": "Big Ten", "pct": 12.1}, {"team": "Tennessee", "n": 18, "rec": 2, "conf": "SEC", "pct": 11.1}, {"team": "Virginia Tech", "n": 18, "rec": 2, "conf": "ACC", "pct": 11.1}, {"team": "Utah", "n": 29, "rec": 3, "conf": "Big 12", "pct": 10.3}, {"team": "Pittsburgh", "n": 29, "rec": 3, "conf": "ACC", "pct": 10.3}, {"team": "Baylor", "n": 29, "rec": 3, "conf": "Big 12", "pct": 10.3}, {"team": "Auburn", "n": 20, "rec": 2, "conf": "SEC", "pct": 10.0}, {"team": "Michigan State", "n": 30, "rec": 3, "conf": "Big Ten", "pct": 10.0}, {"team": "Texas A&M", "n": 20, "rec": 2, "conf": "SEC", "pct": 10.0}, {"team": "Stanford", "n": 20, "rec": 2, "conf": "ACC", "pct": 10.0}, {"team": "Kansas", "n": 31, "rec": 3, "conf": "Big 12", "pct": 9.7}, {"team": "Illinois", "n": 30, "rec": 2, "conf": "Big Ten", "pct": 6.7}, {"team": "Wisconsin", "n": 30, "rec": 2, "conf": "Big Ten", "pct": 6.7}, {"team": "Georgia", "n": 16, "rec": 1, "conf": "SEC", "pct": 6.2}, {"team": "Duke", "n": 33, "rec": 2, "conf": "ACC", "pct": 6.1}, {"team": "Colorado", "n": 34, "rec": 2, "conf": "Big 12", "pct": 5.9}, {"team": "Notre Dame", "n": 18, "rec": 1, "conf": "Notre Dame", "pct": 5.6}, {"team": "Boston College", "n": 26, "rec": 1, "conf": "ACC", "pct": 3.8}, {"team": "Virginia", "n": 28, "rec": 1, "conf": "ACC", "pct": 3.6}, {"team": "Houston", "n": 29, "rec": 1, "conf": "Big 12", "pct": 3.4}, {"team": "Wake Forest", "n": 29, "rec": 1, "conf": "ACC", "pct": 3.4}, {"team": "Arizona State", "n": 31, "rec": 1, "conf": "Big 12", "pct": 3.2}, {"team": "Rutgers", "n": 32, "rec": 1, "conf": "Big Ten", "pct": 3.1}, {"team": "Iowa State", "n": 32, "rec": 1, "conf": "Big 12", "pct": 3.1}, {"team": "Northwestern", "n": 33, "rec": 1, "conf": "Big Ten", "pct": 3.0}, {"team": "BYU", "n": 19, "rec": 0, "conf": "Big 12", "pct": 0.0}, {"team": "Alabama", "n": 16, "rec": 0, "conf": "SEC", "pct": 0.0}, {"team": "North Carolina", "n": 26, "rec": 0, "conf": "ACC", "pct": 0.0}, {"team": "Louisville", "n": 28, "rec": 0, "conf": "ACC", "pct": 0.0}, {"team": "Miami", "n": 23, "rec": 0, "conf": "ACC", "pct": 0.0}, {"team": "Michigan", "n": 32, "rec": 0, "conf": "Big Ten", "pct": 0.0}, {"team": "Indiana", "n": 25, "rec": 0, "conf": "Big Ten", "pct": 0.0}, {"team": "Penn State", "n": 25, "rec": 0, "conf": "Big Ten", "pct": 0.0}, {"team": "Oregon State", "n": 17, "rec": 0, "conf": "Pac-12", "pct": 0.0}, {"team": "Vanderbilt", "n": 27, "rec": 0, "conf": "SEC", "pct": 0.0}], "team_seasons": {"Iowa": {"2021": [1, 4], "2022": [2, 7], "2023": [7, 8], "2024": [0, 7], "2025": [9, 9], "2026": [2, 2]}, "Mississippi State": {"2021": [1, 3], "2022": [1, 1], "2023": [0, 2], "2024": [5, 5], "2025": [6, 6], "2026": [5, 7]}, "Oklahoma": {"2021": [1, 1], "2022": [3, 4], "2023": [1, 6], "2024": [0, 2], "2025": [0, 5], "2026": [0, 4]}, "Ole Miss": {"2021": [0, 1], "2022": [3, 3], "2023": [2, 2], "2024": [3, 3], "2025": [5, 5], "2026": [2, 3]}, "SMU": {"2024": [8, 9], "2025": [4, 6], "2026": [6, 6]}, "Syracuse": {"2021": [4, 5], "2022": [3, 3], "2023": [1, 5], "2024": [1, 5], "2025": [0, 4], "2026": [0, 6]}, "USC": {"2022": [1, 1], "2023": [3, 4], "2024": [5, 7], "2025": [5, 6], "2026": [5, 5]}, "West Virginia": {"2021": [1, 3], "2022": [1, 3], "2023": [5, 5], "2024": [7, 7], "2025": [0, 4], "2026": [0, 4]}}, "family_counts": {"A": 725, "C": 665, "B": 646, "E": 616, "D": 159, "F": 74, "other": 1}};
+const $ = s => document.querySelector(s);
+const fmt = (x, d = 1) => (x == null || isNaN(x)) ? "–" : Number(x).toFixed(d);
+const sgn = (x, d = 1) => (x > 0 ? "+" : x < 0 ? "−" : "") + Math.abs(x).toFixed(d);
+const NS = "http://www.w3.org/2000/svg";
+function el(tag, attrs, parent, text) { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (text != null) e.textContent = text; parent && parent.appendChild(e); return e; }
+const tip = $("#tip");
+function bindTip(node, html) {
+  node.addEventListener("mousemove", ev => { tip.innerHTML = html; tip.hidden = false;
+    const x = Math.min(ev.clientX + 14, innerWidth - tip.offsetWidth - 8); tip.style.left = x + "px"; tip.style.top = (ev.clientY + 14) + "px"; });
+  node.addEventListener("mouseleave", () => tip.hidden = true);
+}
+// rounded-top bar path anchored at baseline
+function barPath(x, y, w, h, r = 4) { r = Math.min(r, h, w / 2); return `M${x},${y + h}V${y + r}Q${x},${y} ${x + r},${y}H${x + w - r}Q${x + w},${y} ${x + w},${y + r}V${y + h}Z`; }
+function hbarPath(x, y, w, h, r = 4) { r = Math.min(r, w, h / 2); return `M${x},${y}H${x + w - r}Q${x + w},${y} ${x + w},${y + r}V${y + h - r}Q${x + w},${y + h} ${x + w - r},${y + h}H${x}Z`; }
+
+const O = D.overall_power_teams, C = D.coverage;
+const rec = D.outcomes.find(o => o.decision === "receive"), def = D.outcomes.find(o => o.decision === "defer");
+
+// tiles
+[["v rec", fmt(O.receive_pct) + "%", "of power-team toss winners chose to receive"],
+ ["v", fmt(O.defer_pct) + "%", "deferred to the second half"],
+ ["v", O.n.toLocaleString(), "toss decisions with a reliable record"],
+ ["v", C.games.toLocaleString(), "power-conference games scanned"]].forEach(([c, v, k]) => {
+  const t = document.createElement("div"); t.className = "tile"; t.innerHTML = `<span class="${c}">${v}</span><span class="k">${k}</span>`; $("#tiles").appendChild(t); });
+
+// findings
+const conf = Object.fromEntries(D.by_conf.map(r => [r.conf, r]));
+const drv = D.drives;
+[
+  `<b>About 18% receive, 82% defer.</b> Of ${O.n.toLocaleString()} reliable toss records, power-conference toss winners took the ball ${fmt(O.receive_pct)}% of the time. Choosing to kick off, or to pick an end zone, almost never happens (${fmt(O.kick_pct)}%).`,
+  `<b>No trend.</b> Every season from 2021 to 2026 lands between ${fmt(Math.min(...D.by_season.map(s => s.receive_pct)))}% and ${fmt(Math.max(...D.by_season.map(s => s.receive_pct)))}%.`,
+  `<b>A few coaches account for most of it.</b> Ole Miss, SMU, USC and Mississippi State received in 75–88% of their tosses. Ten programs, including Alabama, Michigan, Penn State and Indiana, never chose to receive in the reliable records.`,
+  `<b>The SEC leans toward receiving</b> (${fmt(conf.SEC.receive_pct)}% vs. ${fmt(conf.ACC.receive_pct)}–${fmt(conf["Big 12"].receive_pct)}% elsewhere), almost entirely because of two Mississippi programs.`,
+  `<b>No effect on winning or covering.</b> Measured against the spread, receivers won ${sgn(rec.win_over_expected)} points of win probability vs. expected and deferrers ${sgn(def.win_over_expected)}. Both covered about 50%.`,
+  `<b>It moves points between halves.</b> Receivers are ${sgn(rec.h1_vs_exp)} points vs. expectation at halftime and ${sgn(rec.h2_vs_exp)} in the second half. Bettors on first-half lines may care; final-score bettors should not.`,
+  `<b>Data warning:</b> one stat-crew format (about a quarter of games, common in the SEC and at bowls) names the <em>receiving</em> team as the toss winner. Counting it would inflate the receive rate to about 33% and invent a false decline after 2022, so it is excluded.`,
+].forEach(h => { const li = document.createElement("li"); li.innerHTML = h; $("#findings").appendChild(li); });
+
+// season chart
+(function () {
+  const s = $("#c-season"), W = 720, H = 240, m = { l: 40, r: 10, t: 16, b: 34 }, ymax = 25;
+  const iw = W - m.l - m.r, ih = H - m.t - m.b, y = v => m.t + ih - v / ymax * ih;
+  [0, 5, 10, 15, 20, 25].forEach(v => { el("line", { x1: m.l, x2: W - m.r, y1: y(v), y2: y(v), stroke: "var(--grid)", "stroke-width": 1 }, s);
+    el("text", { x: m.l - 8, y: y(v) + 4, "text-anchor": "end" }, s, v + "%"); });
+  const bw = iw / D.by_season.length;
+  D.by_season.forEach((d, i) => {
+    const x = m.l + i * bw + bw * 0.22, w = bw * 0.56;
+    el("path", { d: barPath(x, y(d.receive_pct), w, y(0) - y(d.receive_pct)), fill: "var(--receive)", class: "mark" }, s);
+    el("text", { x: x + w / 2, y: y(d.receive_pct) - 6, "text-anchor": "middle", class: "val" }, s, fmt(d.receive_pct) + "%");
+    el("text", { x: x + w / 2, y: H - m.b + 18, "text-anchor": "middle" }, s, d.season + (d.season === 2026 ? "*" : ""));
+    bindTip(el("rect", { x: m.l + i * bw, y: m.t, width: bw, height: ih, class: "hit" }, s),
+      `<b>${d.season}</b><br>${fmt(d.receive_pct)}% chose to receive<br>${d.n} toss decisions`);
+  });
+  el("text", { x: W - m.r, y: H - 2, "text-anchor": "end" }, s, "* 2026 through Nov 17");
+})();
+
+// team chart
+(function () {
+  const s = $("#c-teams"), teams = D.teams, row = 20, m = { l: 132, r: 70, t: 22, b: 8 }, W = 720;
+  const H = m.t + teams.length * row + m.b; s.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  const iw = W - m.l - m.r, x = v => m.l + v / 100 * iw;
+  [0, 25, 50, 75, 100].forEach(v => { el("line", { x1: x(v), x2: x(v), y1: m.t - 4, y2: H - m.b, stroke: "var(--grid)" }, s);
+    el("text", { x: x(v), y: 12, "text-anchor": "middle" }, s, v + "%"); });
+  el("line", { x1: x(O.receive_pct), x2: x(O.receive_pct), y1: m.t - 4, y2: H - m.b, stroke: "var(--ink-3)", "stroke-dasharray": "3 3" }, s);
+  teams.forEach((d, i) => {
+    const yy = m.t + i * row;
+    el("text", { x: m.l - 8, y: yy + 14, "text-anchor": "end" }, s, d.team);
+    if (d.pct > 0) el("path", { d: hbarPath(x(0), yy + 4, Math.max(x(d.pct) - x(0), 2), row - 8), fill: "var(--receive)" }, s);
+    el("text", { x: x(d.pct) + 6, y: yy + 14, class: "val" }, s, `${d.rec}/${d.n}`);
+    bindTip(el("rect", { x: 0, y: yy, width: W, height: row, class: "hit" }, s),
+      `<b>${d.team}</b> (${d.conf})<br>${fmt(d.pct)}% receive · ${d.rec} of ${d.n} tosses won`);
+  });
+  el("text", { x: x(O.receive_pct) + 4, y: H - m.b - 2 }, s, "all teams " + fmt(O.receive_pct) + "%");
+  const z = teams.filter(t => t.rec === 0).map(t => t.team);
+  $("#zero-teams").textContent = `Never chose to receive (12+ tosses): ${z.join(", ")}. Dashed line = power-conference average. Counts include only games with a reliable toss record, so totals are below games played.`;
+})();
+
+// strips
+(function () {
+  const notes = {
+    "Mississippi State": "Jeff Lebby hired for 2024",
+    "West Virginia": "Neal Brown → Rich Rodriguez, 2025",
+    "USC": "Lincoln Riley from 2022",
+    "Oklahoma": "Riley left after 2021",
+    "Ole Miss": "Lane Kiffin era",
+    "SMU": "Joined ACC in 2024",
+    "Iowa": "Same coach all six seasons",
+    "Syracuse": "Dino Babers → Fran Brown, 2024",
+  };
+  const order = ["Mississippi State", "West Virginia", "Oklahoma", "USC", "Syracuse", "Ole Miss", "SMU", "Iowa"];
+  const yrs = [2021, 2022, 2023, 2024, 2025, 2026], box = $("#strips");
+  const hdr = document.createElement("div"); hdr.className = "strip yearhdr"; hdr.innerHTML = `<span></span><div class="cells">${yrs.map(y => `<div class="cell">${y}</div>`).join("")}</div>`; box.appendChild(hdr);
+  order.filter(t => D.team_seasons[t]).forEach(t => {
+    const r = document.createElement("div"); r.className = "strip";
+    const cells = yrs.map(y => { const v = D.team_seasons[t][y]; if (!v) return `<div class="cell empty">–</div>`;
+      const p = v[0] / v[1]; const bg = `color-mix(in oklab, var(--receive) ${Math.round(p * 85)}%, var(--surface))`;
+      const ink = p > 0.55 ? "#fff" : "var(--ink)";
+      return `<div class="cell" style="background:${bg};color:${ink}" title="${t} ${y}: ${v[0]} of ${v[1]}">${v[0]}/${v[1]}</div>`; }).join("");
+    r.innerHTML = `<div class="name">${t}<small>${notes[t] || ""}</small></div><div class="cells">${cells}</div>`; box.appendChild(r);
+  });
+})();
+
+// situational tables
+(function () {
+  const blocks = [
+    ["Site", D.by_site, "site"], ["Point spread (toss winner)", D.by_spread, "fav_bucket"],
+    ["Opponent", D.by_opponent, "opp_type"], ["Conference (toss winner)", D.by_conf, "conf"],
+    ["Game type", D.by_phase, "phase"],
+  ];
+  blocks.forEach(([title, rows, key]) => {
+    const w = document.createElement("div"); w.className = "tbl";
+    w.innerHTML = `<table><thead><tr><th>${title}</th><th>Tosses</th><th>Receive</th><th style="width:40%"></th></tr></thead><tbody>${rows.map(r =>
+      `<tr><td>${r[key]}</td><td class="num">${r.n}</td><td class="num">${fmt(r.receive_pct)}%</td><td><svg viewBox="0 0 100 10" preserveAspectRatio="none" style="width:100%;height:10px"><rect x="0" y="1" width="${Math.max(r.receive_pct, 0.5)}" height="8" rx="2" fill="var(--receive)"/></svg></td></tr>`).join("")}</tbody></table>`;
+    $("#situ").appendChild(w);
+  });
+  const n = document.createElement("p"); n.className = "note";
+  n.textContent = "Bars are on a 0–100% scale. Postseason and championship samples are small because many bowl crews use the excluded format.";
+  $("#situ").appendChild(n);
+})();
+
+// outcomes table
+$("#t-out").innerHTML = `<thead><tr><th>Toss winner</th><th>Games</th><th>Avg spread</th><th>Exp. win %</th><th>Actual win %</th><th>Cover %</th><th>Margin vs. spread</th></tr></thead><tbody>${
+  [["Received", rec], ["Deferred", def]].map(([l, o]) => `<tr><td>${l}</td><td class="num">${o.n_with_spread}</td><td class="num">${fmt(o.avg_spread)}</td><td class="num">${fmt(o.expected_win_pct)}%</td><td class="num">${fmt(o.actual_win_pct_with_spread)}%</td><td class="num">${fmt(o.cover_pct)}%</td><td class="num">${sgn(o.avg_ats_margin, 2)} ± ${fmt(1.96 * o.ats_margin_se, 2)}</td></tr>`).join("")}</tbody>`;
+
+// half chart
+(function () {
+  const s = $("#c-half"), W = 720, H = 260, m = { l: 44, r: 10, t: 14, b: 34 }, lo = -4, hi = 4;
+  const iw = W - m.l - m.r, ih = H - m.t - m.b, y = v => m.t + (hi - v) / (hi - lo) * ih;
+  [-4, -2, 0, 2, 4].forEach(v => { el("line", { x1: m.l, x2: W - m.r, y1: y(v), y2: y(v), stroke: v === 0 ? "var(--ink-3)" : "var(--grid)" }, s);
+    el("text", { x: m.l - 8, y: y(v) + 4, "text-anchor": "end" }, s, (v > 0 ? "+" : "") + v); });
+  const groups = [["First half", "h1_vs_exp"], ["Second half", "h2_vs_exp"]], gw = iw / 2;
+  groups.forEach(([lab, k], gi) => {
+    el("text", { x: m.l + gi * gw + gw / 2, y: H - 10, "text-anchor": "middle" }, s, lab);
+    [["Received", rec, "var(--receive)"], ["Deferred", def, "var(--defer)"]].forEach(([nm, o, col], j) => {
+      const v = o[k], se = o[k + "_se"], bw = gw * 0.24, x = m.l + gi * gw + gw / 2 + (j === 0 ? -bw - 3 : 3);
+      const top = Math.min(y(v), y(0)), h = Math.abs(y(v) - y(0));
+      el("rect", { x, y: top, width: bw, height: Math.max(h, 1), rx: 3, fill: col }, s);
+      const cx = x + bw / 2; el("line", { x1: cx, x2: cx, y1: y(v + 1.96 * se), y2: y(v - 1.96 * se), stroke: "var(--ink)", "stroke-width": 1.5 }, s);
+      [v + 1.96 * se, v - 1.96 * se].forEach(e => el("line", { x1: cx - 5, x2: cx + 5, y1: y(e), y2: y(e), stroke: "var(--ink)", "stroke-width": 1.5 }, s));
+      el("text", { x: x + bw + 4, y: y(v) + (v >= 0 ? -4 : 12), class: "val" }, s, sgn(v));
+      bindTip(el("rect", { x, y: m.t, width: bw, height: ih, class: "hit" }, s),
+        `<b>${nm} · ${lab}</b><br>${sgn(v, 2)} pts vs. half of spread-implied margin<br>95% interval ${sgn(v - 1.96 * se, 2)} to ${sgn(v + 1.96 * se, 2)}<br>${o.n_with_spread} games`);
+    });
+  });
+})();
+
+// drives table
+$("#t-drive").innerHTML = `<thead><tr><th>Opening possession</th><th>Drives</th><th>Scored</th><th>TD</th><th>Avg pts</th></tr></thead><tbody>${
+  [["Received by choice (won toss)", drv["Toss winner chose to receive"]], ["Received after opponent deferred", drv["Received after opponent deferred"]]]
+  .map(([l, o]) => `<tr><td>${l}</td><td class="num">${o.n}</td><td class="num">${fmt(o.score_pct)}%</td><td class="num">${fmt(o.td_pct)}%</td><td class="num">${fmt(o.avg_pts, 2)}</td></tr>`).join("")
+}<tr><td>Second-half opener (any team)</td><td class="num">${drv.second_half_opener_all.n}</td><td class="num">${fmt(drv.second_half_opener_all.score_pct)}%</td><td class="num">–</td><td class="num">${fmt(drv.second_half_opener_all.avg_pts, 2)}</td></tr></tbody>`;
+$("#reg-note").innerHTML = `Teams that choose to receive score on their opening drive a little more often (${fmt(drv["Toss winner chose to receive"].score_pct)}% vs. ${fmt(drv["Received after opponent deferred"].score_pct)}%), likely because the coaches who receive tend to run strong offenses. The deferrer's hoped-for "double dip" (scoring at the end of the first half and again on the second-half opener) happened in only ${fmt(drv.double_dip.pct_of_all_games)}% of games. Regression check (n = ${D.regression.n}, controlling for spread and home field): choosing to receive is worth ${sgn(D.regression.ols_receive_coef, 2)} points of final margin (95% interval ${D.regression.ols_receive_ci.map(v => sgn(v, 2)).join(" to ")}, p = ${D.regression.ols_receive_p}), indistinguishable from zero. By half: +2.19 points in the first half (p = 0.003) and −1.48 in the second half after controlling for the halftime score (p = 0.014). Both hold when Ole Miss, USC, SMU and Mississippi State are removed.`;
+
+// data-quality
+const fams = { A: "“X wins the coin toss, and will receive / and defers…”", B: "“X won the toss and has deferred to the second half…”", C: "“X wins toss and defers / will receive; Y will defend…”", D: "“X won the toss. Y will receive…”", E: "“X wins the toss, and defers / will receive…” (2025+)", F: "“X chooses / elects…”" };
+const famR = Object.fromEntries(D.by_family.map(r => [r.toss_family, r]));
+$("#artifact").innerHTML = `<b>Excluded: ${D.family_counts.A} games in one stat-crew format.</b> In games logged as <q>X wins the coin toss, and…</q>, the named “winner” is usually just the team that received. The same teams that never receive elsewhere (Alabama 0 of 16, Michigan 0 of 32) appear to receive about 70% of the time under this format. Every other format agrees with the others.`;
+$("#t-fam").innerHTML = `<thead><tr><th>Toss wording (stat-crew format)</th><th>Games</th><th>Receive rate</th></tr></thead><tbody>${
+  Object.keys(fams).map(k => `<tr><td style="white-space:normal">${k}. ${fams[k]}</td><td class="num">${D.family_counts[k] || 0}</td><td class="num">${k === "A" ? "excluded (~74%)" : famR[k] ? fmt(famR[k].receive_pct) + "%" : "–"}</td></tr>`).join("")}</tbody>`;
+[
+  `Coverage: ${C.games.toLocaleString()} games; ${C.games_with_toss_text.toLocaleString()} have a toss record. Stated decisions match the actual opening kickoff in ${fmt(C.consistency_check_pct)}% of checkable games; the ${C.inconsistent_games} that don't are dropped from outcome analysis.`,
+  `Formats B and D come from the same system: B logs defers, D logs receives. Their combined receive rate (about 19%) matches C and E.`,
+  `Win expectation uses the closing spread with a 15.5-point standard deviation. Half expectations assume the spread splits evenly across halves.`,
+  `2026 runs through games completed November 17, 2026. SMU, BYU, Cincinnati, Houston and UCF count as power teams only from the season they joined; Oregon State and Washington State drop out after 2023.`,
+].forEach(h => { const li = document.createElement("li"); li.innerHTML = h; $("#caveats").appendChild(li); });
+</script>
