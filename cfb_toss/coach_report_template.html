@@ -1,0 +1,202 @@
+<title>Taking the Ball First</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: single reading column (~780px); findings first, then coach tables, transitions, coverage. */
+:root {
+  --bg: #f6f7f4; --surface: #ffffff; --ink: #14171a; --ink-2: #4c524f; --ink-3: #7b817d;
+  --rule: #dde1dc; --grid: #e8ebe7;
+  --receive: #2a78d6; --other: #9aa19c; --accent: #1c5cab; --warn-bg: #fff6e0; --warn-ink: #7a5300;
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #141615; --surface: #1c1f1d; --ink: #eef0ec; --ink-2: #c0c5c0; --ink-3: #8d938e;
+  --rule: #2f3431; --grid: #272b29; --receive: #3987e5; --other: #6e756f; --accent: #86b6ef;
+  --warn-bg: #2e2612; --warn-ink: #f0c56a; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #141615; --surface: #1c1f1d; --ink: #eef0ec; --ink-2: #c0c5c0; --ink-3: #8d938e;
+  --rule: #2f3431; --grid: #272b29; --receive: #3987e5; --other: #6e756f; --accent: #86b6ef;
+  --warn-bg: #2e2612; --warn-ink: #f0c56a; color-scheme: dark; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15.5px; line-height: 1.6; }
+.wrap { max-width: 780px; margin: 0 auto; padding-block: 40px 72px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2 { font-family: var(--font-display); font-weight: 700; line-height: 1.05; text-wrap: balance; margin: 0; letter-spacing: .01em; text-transform: uppercase; }
+h1 { font-size: clamp(2.6rem, 7vw, 3.8rem); }
+h2 { font-size: 1.9rem; }
+p { margin: 0; max-width: 66ch; }
+.eyebrow { font-family: var(--font-data); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); }
+.lede { font-size: 1.1rem; color: var(--ink-2); }
+header { display: grid; gap: 14px; padding-bottom: 28px; border-bottom: 2px solid var(--ink); }
+section { display: grid; gap: 16px; padding-block: 36px; border-bottom: 1px solid var(--rule); }
+.sec-head { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; align-items: baseline; }
+.sec-num { font-family: var(--font-data); color: var(--accent); font-size: .85rem; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-top: 8px; }
+.tile { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 14px 16px; display: grid; gap: 2px; }
+.tile .v { font-family: var(--font-display); font-weight: 700; font-size: 2.4rem; line-height: 1; font-variant-numeric: tabular-nums; }
+.tile .v.rec { color: var(--receive); }
+.tile .k { font-size: .82rem; color: var(--ink-2); }
+ul.findings { margin: 0; padding-left: 20px; display: grid; gap: 8px; max-width: 66ch; }
+.chart { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 14px 12px 8px; overflow-x: auto; }
+.chart svg { display: block; width: 100%; height: auto; }
+.chart-title { font-weight: 600; font-size: .92rem; margin: 0 4px 6px; }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: .8rem; color: var(--ink-2); margin: 0 4px 6px; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.note { font-size: .82rem; color: var(--ink-3); }
+.tbl { overflow-x: auto; background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; }
+table { border-collapse: collapse; width: 100%; font-size: .86rem; font-variant-numeric: tabular-nums; }
+th, td { padding: 7px 12px; text-align: right; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; }
+td.l { text-align: left; }
+th { font-weight: 600; color: var(--ink-2); font-size: .78rem; text-transform: uppercase; letter-spacing: .04em; }
+tr:last-child td { border-bottom: 0; }
+td.num { font-family: var(--font-data); }
+.callout { background: var(--warn-bg); color: var(--warn-ink); border-radius: 6px; padding: 12px 16px; font-size: .9rem; }
+.trans { display: grid; gap: 8px; }
+.tr { display: grid; grid-template-columns: 170px 1fr; gap: 10px; align-items: center; background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 10px 12px; }
+.tr .who { font-weight: 600; font-size: .92rem; }
+.tr .who small { display: block; font-weight: 400; color: var(--ink-3); font-size: .76rem; }
+.steps { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; min-width: 0; }
+.step { border-radius: 4px; padding: 4px 8px; font-size: .78rem; border: 1px solid var(--rule); white-space: nowrap; }
+.step b { font-family: var(--font-data); font-weight: 500; }
+.arrow { color: var(--ink-3); font-size: .8rem; }
+@media (max-width: 560px) { .tr { grid-template-columns: 1fr; } }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font-size: .8rem; border: 1px solid var(--rule); border-radius: 999px; padding: 3px 10px; background: var(--surface); }
+.chip b { font-family: var(--font-data); font-weight: 500; color: var(--ink-3); }
+svg text { fill: var(--ink-2); font-family: var(--font-body); font-size: 11px; }
+svg .val { fill: var(--ink); font-family: var(--font-data); font-size: 11px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">College football tendencies · No. 1 · Every FBS game, 2022 – Nov 17, 2026</div>
+  <h1>Taking the ball first</h1>
+  <p class="lede">When a team wins the opening coin toss, who decides to take the ball instead of deferring: the head coach or the program?</p>
+  <div class="tiles" id="tiles"></div>
+</header>
+
+<section>
+  <div class="sec-head"><span class="sec-num">01</span><h2>The short version</h2></div>
+  <ul class="findings" id="findings"></ul>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">02</span><h2>The coach decides, not the school</h2></div>
+  <p id="h2h-text"></p>
+  <div class="chart"><div class="chart-title">How well each source predicts a toss decision at schools that changed coaches</div>
+    <div class="legend"><span><i style="background:var(--receive)"></i>Coach's own decisions elsewhere in the data</span><span><i style="background:var(--other)"></i>Same school under its other coaches</span></div>
+    <svg id="c-h2h" viewBox="0 0 720 150" role="img" aria-label="Coach versus school predictive strength"></svg></div>
+  <p class="note">Correlation between each decision (receive = 1, defer = 0) and the receive rate from the other source. Log-loss: coach 0.392 vs. school 0.525 (lower is better).</p>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">03</span><h2>The coaches who take the ball</h2></div>
+  <p>Head coaches with at least 12 verified tosses won and a receive rate of 40% or higher. The typical FBS coach takes the ball about one time in six.</p>
+  <div class="tbl"><table id="t-takers"></table></div>
+  <p id="never-head"></p>
+  <div class="chips" id="never"></div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">04</span><h2>Coaches who changed schools</h2></div>
+  <p>Receives over verified tosses won at each stop. Most coaches bring their habit with them. A few, notably Lane Kiffin and Neal Brown, changed it at the new job, at least so far.</p>
+  <div class="trans" id="movers"></div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">05</span><h2>Schools that changed coaches</h2></div>
+  <p>The same program flips when the head coach changes. Interim coaches are included.</p>
+  <div class="trans" id="changes"></div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">06</span><h2>How complete the data is</h2></div>
+  <p>Every toss comes from ESPN's play-by-play, which logs the referee's call, for example <q>Michigan won the toss and has deferred to the second half</q>. Each call is checked against which team actually took the opening kickoff. Head coaches come from CollegeFootballData.com.</p>
+  <div class="tbl"><table id="t-seasons"></table></div>
+  <div class="callout" id="gap-callout"></div>
+  <div class="tbl"><table id="t-lowcov"></table></div>
+  <ul class="findings note" id="method"></ul>
+</section>
+</div>
+
+<script>
+const D = __DATA__;
+const $ = s => document.querySelector(s);
+const fmt = (x, d = 1) => (x == null || isNaN(x)) ? "–" : Number(x).toFixed(d);
+const NS = "http://www.w3.org/2000/svg";
+function el(tag, a, p, t) { const e = document.createElementNS(NS, tag); for (const k in a) e.setAttribute(k, a[k]); if (t != null) e.textContent = t; p && p.appendChild(e); return e; }
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const R = D.res, H = R.head_to_head_within_changed_schools;
+const pct = (r, n) => n ? Math.round(100 * r / n) : 0;
+
+[["v", D.games.toLocaleString(), "FBS games since 2022"],
+ ["v", fmt(100 * D.verified / D.games) + "%", "with a verified toss winner and decision"],
+ ["v rec", fmt(R.receive_pct) + "%", "of FBS toss winners chose to receive"],
+ ["v", R.coaches, "head coaches credited with a decision"]].forEach(([c, v, k]) => {
+  const t = document.createElement("div"); t.className = "tile"; t.innerHTML = `<span class="${c}">${v}</span><span class="k">${k}</span>`; $("#tiles").appendChild(t); });
+
+const never = D.never;
+[
+  `<b>Taking the ball is rare.</b> Across ${R.decisions.toLocaleString()} verified decisions by FBS teams, toss winners chose to receive ${fmt(R.receive_pct)}% of the time. The rate has held between ${fmt(Math.min(...D.by_season.map(s => s.receive_pct)))}% and ${fmt(Math.max(...D.by_season.map(s => s.receive_pct)))}% every season.`,
+  `<b>It is the head coach's call.</b> At the ${R.schools_with_change} schools that changed coaches, a coach's own record predicts his next decision about three times better than the school's record under other coaches (correlation ${fmt(H.corr_coach, 2)} vs. ${fmt(H.corr_school, 2)}).`,
+  `<b>A small group takes the ball almost every time:</b> Jeff Lebby, G.J. Kinne, Rhett Lashlee and Lincoln Riley all receive in 83–89% of tosses won.`,
+  `<b>Many never do.</b> ${never.length} of ${D.coaches_n15} coaches with 15+ decisions never chose to receive, including Curt Cignetti, Kyle Whittingham, Jeff Brohm and Troy Calhoun.`,
+  `<b>Programs flip with the coach.</b> Mississippi State went from 1 of 3 to 16 of 18 when Jeff Lebby arrived. West Virginia went from 12 of 14 under Neal Brown to 0 of 8 under Rich Rodriguez. Texas State went from 2 of 5 to 23 of 26 under G.J. Kinne.`,
+  `<b>Habits mostly travel, but not always.</b> Lane Kiffin took the ball 11 of 11 times at Ole Miss but 1 of 5 so far at LSU. His former defensive coordinator, Pete Golding, kept receiving at Ole Miss after he left (4 of 5).`,
+  `<b>Coverage gap:</b> about 15% of games, mostly 2022–2024 home games at Georgia, Alabama, Texas, Texas A&M, LSU and Tennessee, lack a trustworthy toss record. See section 06.`,
+].forEach(h => { const li = document.createElement("li"); li.innerHTML = h; $("#findings").appendChild(li); });
+
+$("#h2h-text").innerHTML = `For each of ${H.n.toLocaleString()} decisions at schools that changed head coaches, I compared two predictions: the coach's receive rate in his other games, and the school's receive rate under its other coaches. The coach's record is far more predictive. Knowing the coach and the school together adds little beyond knowing the coach.`;
+(function () {
+  const s = $("#c-h2h"), m = { l: 210, r: 70, t: 14 }, W = 720, row = 46, iw = W - m.l - m.r, x = v => m.l + v / 0.5 * iw;
+  [0, .1, .2, .3, .4, .5].forEach(v => { el("line", { x1: x(v), x2: x(v), y1: 6, y2: 120, stroke: "var(--grid)" }, s); el("text", { x: x(v), y: 138, "text-anchor": "middle" }, s, v.toFixed(1)); });
+  [["Coach's own history", H.corr_coach, H.logloss_coach_history, "var(--receive)"],
+   ["School under other coaches", H.corr_school, H.logloss_school_under_other_coaches, "var(--other)"]].forEach(([l, v, ll, c], i) => {
+    const y = m.t + i * row;
+    el("text", { x: m.l - 10, y: y + 18, "text-anchor": "end" }, s, l);
+    el("rect", { x: x(0), y: y + 4, width: Math.max(x(v) - x(0), 2), height: 22, rx: 4, fill: c }, s);
+    el("text", { x: x(v) + 6, y: y + 19, class: "val" }, s, `r = ${fmt(v, 2)}`);
+  });
+})();
+
+$("#t-takers").innerHTML = `<thead><tr><th>Head coach</th><th>School(s)</th><th>Seasons</th><th>Receives</th><th>Rate</th><th>Games verified</th></tr></thead><tbody>${
+  D.takers.map(c => `<tr><td>${esc(c.coach)}</td><td class="l">${esc(c.schools)}</td><td class="num">${c.seasons}</td><td class="num">${c.receives} / ${c.tosses_won}</td><td class="num"><b>${fmt(c.receive_pct, 0)}%</b></td><td class="num">${fmt(c.coverage_pct, 0)}%</td></tr>`).join("")}</tbody>`;
+$("#never-head").innerHTML = `<b>Never received</b> (15+ verified tosses won, 0 receives): ${never.length} coaches. Number = tosses won.`;
+$("#never").innerHTML = never.map(c => `<span class="chip">${esc(c.coach)} <b>${c.tosses_won}</b></span>`).join("");
+
+function stepHtml(label, r, n) {
+  const p = n ? r / n : 0, bg = `color-mix(in oklab, var(--receive) ${Math.round(p * 80)}%, var(--surface))`, ink = p > 0.55 ? "#fff" : "var(--ink)";
+  return `<span class="step" style="background:${bg};color:${ink}">${esc(label)} <b>${r}/${n}</b></span>`;
+}
+function transitions(rows, key, label, box, pick) {
+  const groups = {};
+  rows.forEach(r => (groups[r[key]] ||= []).push(r));
+  pick.filter(k => groups[k]).forEach(k => {
+    const d = document.createElement("div"); d.className = "tr";
+    const steps = groups[k].map(r => stepHtml(r[label], r.receives, r.tosses_won)).join('<span class="arrow">→</span>');
+    d.innerHTML = `<div class="who">${esc(k)}</div><div class="steps">${steps}</div>`; box.appendChild(d);
+  });
+}
+transitions(D.movers, "coach", "team", $("#movers"),
+  ["Lane Kiffin", "Neal Brown", "Ryan Silverfield", "K.C. Keeler", "Barry Odom", "Jedd Fisch", "Scott Satterfield", "Ken Niumatalolo", "Bronco Mendenhall",
+   "Curt Cignetti", "Kalen DeBoer", "Kyle Whittingham", "Jeff Brohm", "Luke Fickell", "Rich Rodriguez", "Jason Candle", "Matt Campbell"]);
+transitions(D.changes, "team", "coach", $("#changes"),
+  ["Mississippi State", "West Virginia", "Texas State", "Ole Miss", "Temple", "Memphis", "Cincinnati", "Arizona", "Purdue", "LSU", "Michigan"]);
+
+$("#t-seasons").innerHTML = `<thead><tr><th>Season</th><th>FBS games</th><th>Verified</th><th>Coverage</th><th>Receive rate</th></tr></thead><tbody>${
+  D.by_season.map(s => `<tr><td>${s.season}${s.season === 2026 ? " (to Nov 17)" : ""}</td><td class="num">${s.games}</td><td class="num">${s.verified}</td><td class="num">${fmt(100 * s.verified / s.games)}%</td><td class="num">${fmt(s.receive_pct)}%</td></tr>`).join("")}</tbody>`;
+const gp = D.gaps;
+$("#gap-callout").innerHTML = `<b>${(D.games - D.verified).toLocaleString()} games lack a verified record.</b> ${gp["unreliable format"] || 0} use a stat-crew format that names the <em>receiving</em> team as the toss winner (the same coaches who never receive elsewhere appear to receive ~70% of the time under it), ${gp["no toss record"] || 0} have no toss logged, and ${(gp["undetermined"] || 0) + (gp["conflicts with kickoff"] || 0)} are ambiguous or conflict with the kickoff. That format is used by a few home stat crews and has nearly disappeared since 2025, so the gaps cluster at specific schools:`;
+$("#t-lowcov").innerHTML = `<thead><tr><th>Lowest coverage</th><th>Games</th><th>Verified</th><th>Coverage</th></tr></thead><tbody>${
+  D.low_cov.map(t => `<tr><td>${esc(t.team)}</td><td class="num">${t.games}</td><td class="num">${t.verified}</td><td class="num">${fmt(t.coverage_pct)}%</td></tr>`).join("")}</tbody>`;
+[
+  `Median team coverage is ${fmt(D.cov_median)}%. Official NCAA stat-crew play-by-play could fill most of the gaps; it was not used here.`,
+  `Head coaches by season come from CollegeFootballData. For the 68 team-seasons with a mid-season change, games are assigned in date order using each coach's game count; ESPN's schedule matched CollegeFootballData's game counts for every team-season.`,
+  `Credit goes to the official head coach. Where a head coach was suspended (for example Jim Harbaugh for six Michigan games in 2023), the decision is still credited to him.`,
+  `Only FBS teams' decisions are counted. Games against FCS opponents are included when the FBS team won the toss.`,
+].forEach(h => { const li = document.createElement("li"); li.innerHTML = h; $("#method").appendChild(li); });
+</script>
