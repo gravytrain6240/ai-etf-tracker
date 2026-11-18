@@ -63,6 +63,11 @@ td.num { font-family: var(--font-data); }
 .step b { font-family: var(--font-data); font-weight: 500; }
 .arrow { color: var(--ink-3); font-size: .8rem; }
 @media (max-width: 560px) { .tr { grid-template-columns: 1fr; } }
+.mx { display: flex; flex-wrap: wrap; gap: 12px; }
+.mx label, .search { display: grid; gap: 4px; font-size: .8rem; color: var(--ink-2); font-weight: 600; }
+select, input[type=search] { font: inherit; font-size: .95rem; padding: 7px 10px; border: 1px solid var(--rule); border-radius: 6px; background: var(--surface); color: var(--ink); min-width: 220px; max-width: 100%; }
+.cc { max-height: 560px; overflow: auto; }
+.cc th { position: sticky; top: 0; background: var(--surface); }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip { font-size: .8rem; border: 1px solid var(--rule); border-radius: 999px; padding: 3px 10px; background: var(--surface); }
 .chip b { font-family: var(--font-data); font-weight: 500; color: var(--ink-3); }
@@ -121,7 +126,35 @@ svg .val { fill: var(--ink); font-family: var(--font-data); font-size: 11px; }
 </section>
 
 <section>
-  <div class="sec-head"><span class="sec-num">07</span><h2>How complete the data is</h2></div>
+  <div class="sec-head"><span class="sec-num">07</span><h2>The first half belongs to whoever gets the ball</h2></div>
+  <p id="half-text"></p>
+  <div class="tbl"><table id="t-after"></table></div>
+  <div class="chart"><div class="chart-title">Cover rate of the team that took the opening kickoff · all FBS games with a betting line</div>
+    <div class="legend"><span><i style="background:var(--receive)"></i>Cover rate</span><span class="note">Dashed line = 50%. Whiskers = 95% range.</span></div>
+    <svg id="c-struct" viewBox="0 0 720 230" role="img" aria-label="Cover rate by half for the opening receiver"></svg></div>
+  <div class="callout" id="half-caveat"></div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">08</span><h2>Matchup estimator</h2></div>
+  <p>Pick two current teams. The estimate uses each head coach's receive rate in this data (pulled toward the FBS average when he has few decisions) and assumes a 50/50 toss.</p>
+  <div class="mx">
+    <label for="mx-a">Team A <select id="mx-a"></select></label>
+    <label for="mx-b">Team B <select id="mx-b"></select></label>
+  </div>
+  <div class="tiles" id="mx-out"></div>
+  <p class="note" id="mx-note"></p>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">09</span><h2>Coach cards</h2></div>
+  <p>Every current (2026) FBS head coach, with his record in this data at any school since 2022. "Opening drive scored" is his own first possession after choosing to receive; "Opp. opening drive" is what the opponent did after he deferred. First-half cover uses the estimated half-spread. Small samples, so read the n columns.</p>
+  <label for="cc-q" class="search">Search coach or team <input id="cc-q" type="search" placeholder="e.g. Kiffin, Georgia"></label>
+  <div class="tbl cc"><table id="t-cards"></table></div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="sec-num">10</span><h2>How complete the data is</h2></div>
   <p>Every toss comes from ESPN's play-by-play, which logs the referee's call, for example <q>Michigan won the toss and has deferred to the second half</q>. Each call is checked against which team actually took the opening kickoff. Head coaches come from CollegeFootballData.com.</p>
   <div class="tbl"><table id="t-seasons"></table></div>
   <div class="callout" id="gap-callout"></div>
@@ -154,8 +187,9 @@ const never = D.never;
   `<b>Many never do.</b> ${never.length} of ${D.coaches_n15} coaches with 15+ decisions never chose to receive, including Curt Cignetti, Kyle Whittingham, Jeff Brohm and Troy Calhoun.`,
   `<b>Programs flip with the coach.</b> Mississippi State went from 1 of 3 to 16 of 18 when Jeff Lebby arrived. West Virginia went from 12 of 14 under Neal Brown to 0 of 8 under Rich Rodriguez. Texas State went from 2 of 5 to 23 of 26 under G.J. Kinne.`,
   `<b>Habits mostly travel, but not always.</b> Lane Kiffin took the ball 11 of 11 times at Ole Miss but 1 of 5 so far at LSU. His former defensive coordinator, Pete Golding, kept receiving at Ole Miss after he left (4 of 5).`,
-  `<b>The point spread doesn't matter.</b> Toss winners take the ball 16–20% of the time whether they are big favorites or big underdogs, and the same coach decides the same way either way.`,
-  `<b>Coverage gap:</b> about 15% of games, mostly 2022–2024 home games at Georgia, Alabama, Texas, Texas A&M, LSU and Tennessee, lack a trustworthy toss record. See section 07.`,
+  `<b>Taking the ball pays off in the first half only.</b> Toss winners who receive cover the estimated first-half spread ${fmt(D.halves.receive.h1_cover_pct)}% of the time vs. ${fmt(D.halves.defer.h1_cover_pct)}% for those who defer. Across all games, the team that takes the opening kickoff covers the first half ${fmt(D.halves.opening_receiver_all_games.first_half.cover_pct)}% of the time, but only ${fmt(D.halves.opening_receiver_all_games.full_game.cover_pct)}% for the full game.`,
+  `<b>The point spread doesn't change the choice.</b> Toss winners take the ball 16–20% of the time whether they are big favorites or big underdogs, and the same coach decides the same way either way.`,
+  `<b>Coverage gap:</b> about 15% of games, mostly 2022–2024 home games at Georgia, Alabama, Texas, Texas A&M, LSU and Tennessee, lack a trustworthy toss record. See section 10.`,
 ].forEach(h => { const li = document.createElement("li"); li.innerHTML = h; $("#findings").appendChild(li); });
 
 $("#h2h-text").innerHTML = `For each of ${H.n.toLocaleString()} decisions at schools that changed head coaches, I compared two predictions: the coach's receive rate in his other games, and the school's receive rate under its other coaches. The coach's record is far more predictive. Knowing the coach and the school together adds little beyond knowing the coach.`;
@@ -209,6 +243,61 @@ transitions(D.changes, "team", "coach", $("#changes"),
   const W2 = S.within_coach_underdog_vs_favorite, M = S.mixed_coaches_fav_vs_dog, PT = S.coach_heterogeneity_permutation;
   $("#spread-text").innerHTML = `Across ${S.with_spread.toLocaleString()} decisions with a betting line, toss winners received ${fmt(S.overall_by_role[0].receive_pct)}% of the time as favorites and ${fmt(S.overall_by_role[2].receive_pct)}% as underdogs. Comparing each coach only with himself gives the same answer: among the ${M.coaches} coaches who sometimes receive and sometimes defer and were both a favorite and an underdog, the receive rate was ${fmt(M.avg_rate_as_favorite)}% as a favorite and ${fmt(M.avg_rate_as_underdog)}% as an underdog.`;
   $("#spread-note").innerHTML = `Within-coach model (coach fixed effects): underdog vs. favorite odds ratio ${fmt(W2.odds_ratio, 2)} (95% interval ${fmt(W2.ci95[0], 2)}–${fmt(W2.ci95[1], 2)}, p = ${W2.p}). Some individual coaches show large favorite/underdog splits, but with 5–20 games per side those are consistent with chance: across ${PT.coaches} coaches, the spread of splits (${fmt(PT.observed)}) is close to what random shuffling produces (${fmt(PT.expected_by_chance)}; p = ${PT.p}). Spreads are ESPN's betting line, available for ${fmt(100 * S.with_spread / S.decisions)}% of decisions.`;
+})();
+
+// 07 after the toss
+(function () {
+  const Hh = D.halves, R1 = Hh.receive, D1 = Hh.defer, A = Hh.opening_receiver_all_games, W = Hh.within_coach_h1_cover;
+  $("#half-text").innerHTML = `The receiving team usually gets one more first-half possession than its opponent. Across ${A.games.toLocaleString()} FBS games, the team that took the opening kickoff beat the estimated first-half spread by ${fmt(A.first_half.avg_vs_line, 2)} points on average and covered ${fmt(A.first_half.cover_pct)}% of the time, every season between ${fmt(Math.min(...Object.values(A.first_half_by_season)))}% and ${fmt(Math.max(...Object.values(A.first_half_by_season)))}%. The edge reverses in the second half, when the other team gets the ball first, and washes out over the full game. Comparing each coach with himself gives the same split: ${fmt(W.receive_pct)}% first-half cover when he received vs. ${fmt(W.defer_pct)}% when he deferred (${W.coaches} coaches).`;
+  $("#t-after").innerHTML = `<thead><tr><th>Toss winner chose to…</th><th>Decisions</th><th>Opening drive scored</th><th>…for a TD</th><th>Led at half</th><th>Covered 1H</th></tr></thead><tbody>
+    <tr><td>Receive</td><td class="num">${R1.n}</td><td class="num">${fmt(R1.open_drive_score_pct)}%</td><td class="num">${fmt(R1.open_drive_td_pct)}%</td><td class="num">${fmt(R1.h1_led_pct)}%</td><td class="num"><b>${fmt(R1.h1_cover_pct)}%</b></td></tr>
+    <tr><td>Defer</td><td class="num">${D1.n}</td><td class="num">${fmt(D1.opp_open_drive_score_pct)}% <span class="note">opp.</span></td><td class="num">${fmt(D1.opp_open_drive_td_pct)}% <span class="note">opp.</span></td><td class="num">${fmt(D1.h1_led_pct)}%</td><td class="num"><b>${fmt(D1.h1_cover_pct)}%</b></td></tr></tbody>`;
+  const s = $("#c-struct"), Wd = 720, Ht = 230, m = { l: 40, r: 10, t: 16, b: 34 }, lo = 40, hi = 60, ih = Ht - m.t - m.b, iw = Wd - m.l - m.r, y = v => m.t + (hi - v) / (hi - lo) * ih;
+  [40, 45, 50, 55, 60].forEach(v => { el("line", { x1: m.l, x2: Wd - m.r, y1: y(v), y2: y(v), stroke: "var(--grid)", "stroke-dasharray": v === 50 ? "4 3" : "" , ...(v === 50 ? { stroke: "var(--ink-3)" } : {}) }, s); el("text", { x: m.l - 8, y: y(v) + 4, "text-anchor": "end" }, s, v + "%"); });
+  const rows = [["First half", A.first_half], ["Second half", A.second_half], ["Full game", A.full_game]], bw = iw / 3;
+  rows.forEach(([lab, r], i) => {
+    const x = m.l + i * bw + bw * 0.3, w = bw * 0.4, top = Math.min(y(r.cover_pct), y(50)), h = Math.abs(y(r.cover_pct) - y(50));
+    el("rect", { x, y: top, width: w, height: Math.max(h, 1), rx: 3, fill: "var(--receive)" }, s);
+    const cx = x + w / 2; el("line", { x1: cx, x2: cx, y1: y(r.ci[1]), y2: y(r.ci[0]), stroke: "var(--ink)", "stroke-width": 1.5 }, s);
+    r.ci.forEach(e => el("line", { x1: cx - 5, x2: cx + 5, y1: y(e), y2: y(e), stroke: "var(--ink)", "stroke-width": 1.5 }, s));
+    el("text", { x: x + w + 6, y: y(r.cover_pct) + 4, class: "val" }, s, fmt(r.cover_pct) + "%");
+    el("text", { x: cx, y: Ht - 12, "text-anchor": "middle" }, s, `${lab} · n=${r.n.toLocaleString()}`);
+  });
+  $("#half-caveat").innerHTML = `<b>Before betting on this:</b> ESPN's feed has no first-half lines, so first- and second-half spreads here are estimated as half the full-game spread. Sportsbooks' real half lines can differ, especially for big favorites, and the toss result isn't known until just before kickoff. Check these rates against actual first-half closing lines before relying on them. At standard −110 pricing, 52.4% is break-even.`;
+})();
+
+// 08 matchup estimator
+(function () {
+  const cards = D.halves.coach_card.slice().sort((a, b) => a.current_team.localeCompare(b.current_team));
+  const A = D.halves.opening_receiver_all_games.first_half.cover_pct, opts = cards.map((c, i) => `<option value="${i}">${esc(c.current_team)} · ${esc(c.coach)}</option>`).join("");
+  $("#mx-a").innerHTML = opts; $("#mx-b").innerHTML = opts;
+  const idx = n => Math.max(0, cards.findIndex(c => c.current_team === n));
+  $("#mx-a").value = idx("Mississippi State"); $("#mx-b").value = idx("Georgia");
+  function run() {
+    const a = cards[$("#mx-a").value], b = cards[$("#mx-b").value];
+    const pa = 0.5 * a.receive_est + 0.5 * (1 - b.receive_est), pb = 1 - pa;
+    const ca = pa * A + pb * (100 - A);
+    $("#mx-out").innerHTML = [
+      ["v rec", fmt(100 * pa, 0) + "%", `chance ${esc(a.current_team)} gets the ball first`],
+      ["v", fmt(100 * pb, 0) + "%", `chance ${esc(b.current_team)} gets the ball first`],
+      ["v", fmt(100 * a.receive_est, 0) + "% · " + fmt(100 * b.receive_est, 0) + "%", `estimated receive rate when winning the toss: ${esc(a.coach)} · ${esc(b.coach)}`],
+      ["v", fmt(ca, 1) + "%", `implied first-half cover rate for ${esc(a.current_team)} from possession order alone`],
+    ].map(([c, v, k]) => `<div class="tile"><span class="${c}">${v}</span><span class="k">${k}</span></div>`).join("");
+    $("#mx-note").textContent = `Raw records: ${a.coach} ${a.tosses_won ? Math.round(a.receive_pct * a.tosses_won / 100) : 0} receives in ${a.tosses_won} tosses won; ${b.coach} ${b.tosses_won ? Math.round(b.receive_pct * b.tosses_won / 100) : 0} in ${b.tosses_won}. Implied cover = P(first possession) × ${fmt(A)}% + P(kicking first) × ${fmt(100 - A)}%, the historical rates for the team taking or giving up the opening kickoff. It ignores everything else about the matchup.`;
+  }
+  $("#mx-a").addEventListener("change", run); $("#mx-b").addEventListener("change", run); run();
+})();
+
+// 09 coach cards
+(function () {
+  const rows = D.halves.coach_card, cell = (v, n) => v == null ? '<td class="num">–</td>' : `<td class="num">${fmt(v, 0)}%</td>`;
+  function draw(q) {
+    q = (q || "").toLowerCase();
+    const r = rows.filter(c => !q || (c.coach + " " + c.current_team + " " + (c.schools_in_data || "")).toLowerCase().includes(q));
+    $("#t-cards").innerHTML = `<thead><tr><th>Coach</th><th>Team (2026)</th><th>Tosses won</th><th>Receive</th><th>Recv n</th><th>Opening drive scored</th><th>Led at half</th><th>1H cover</th><th>Defer n</th><th>Opp. opening drive scored</th><th>Own 2H opener scored</th><th>1H cover</th></tr></thead><tbody>${
+      r.map(c => `<tr><td>${esc(c.coach)}</td><td class="l">${esc(c.current_team)}</td><td class="num">${c.tosses_won}</td>${cell(c.receive_pct)}<td class="num">${c.recv_n}</td>${cell(c.recv_open_score_pct)}${cell(c.recv_h1_led_pct)}${cell(c.recv_h1_cover_pct)}<td class="num">${c.defer_n}</td>${cell(c.defer_opp_open_score_pct)}${cell(c.defer_h2_open_score_pct)}${cell(c.defer_h1_cover_pct)}</tr>`).join("") || '<tr><td colspan="12">No coach or team matches that search.</td></tr>'}</tbody>`;
+  }
+  $("#cc-q").addEventListener("input", e => draw(e.target.value)); draw("");
 })();
 
 $("#t-seasons").innerHTML = `<thead><tr><th>Season</th><th>FBS games</th><th>Verified</th><th>Coverage</th><th>Receive rate</th></tr></thead><tbody>${

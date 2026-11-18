@@ -1,0 +1,139 @@
+current_team,coach,tosses_won,receive_pct,recv_n,recv_open_score_pct,recv_open_td_pct,recv_h1_led_pct,recv_h1_cover_pct,defer_n,defer_opp_open_score_pct,defer_h2_open_score_pct,defer_h1_led_pct,defer_h1_cover_pct,schools_in_data,receive_est
+Mississippi State,Jeff Lebby,18,88.9,16,50.0,37.5,31.2,50.0,2,50.0,0.0,0.0,0.0,Mississippi State,0.671
+Texas State,G.J. Kinne,26,88.5,23,78.3,65.2,69.6,69.6,3,66.7,100.0,66.7,66.7,Texas State,0.719
+SMU,Rhett Lashlee,29,86.2,25,40.0,32.0,76.0,64.0,4,0.0,75.0,25.0,50.0,SMU,0.715
+USC,Lincoln Riley,23,82.6,19,42.1,26.3,52.6,63.2,4,50.0,50.0,50.0,50.0,USC,0.659
+Ole Miss,Pete Golding,5,80.0,4,25.0,25.0,50.0,50.0,1,100.0,100.0,0.0,0.0,Ole Miss,0.418
+LSU,Lane Kiffin,16,75.0,12,66.7,58.3,75.0,58.3,4,50.0,25.0,50.0,50.0,"Ole Miss, LSU",0.56
+Missouri State,Casey Woods,4,75.0,3,33.3,33.3,33.3,66.7,1,0.0,0.0,100.0,100.0,Missouri State,0.37
+Florida Atlantic,Zach Kittley,10,70.0,7,28.6,28.6,28.6,28.6,3,100.0,66.7,0.0,33.3,Florida Atlantic,0.469
+Western Kentucky,Tyson Helton,21,61.9,13,46.2,38.5,53.8,61.5,8,25.0,12.5,50.0,57.1,Western Kentucky,0.498
+Iowa,Kirk Ferentz,32,59.4,19,36.8,26.3,68.4,47.4,13,15.4,46.2,61.5,53.8,Iowa,0.511
+North Texas,Neal Brown,22,59.1,13,30.8,23.1,46.2,50.0,9,22.2,77.8,33.3,33.3,"West Virginia, North Texas",0.481
+East Carolina,Blake Harrell,12,58.3,7,42.9,42.9,57.1,57.1,5,80.0,20.0,40.0,40.0,East Carolina,0.422
+Arkansas,Ryan Silverfield,19,57.9,11,36.4,36.4,72.7,72.7,8,25.0,37.5,50.0,62.5,"Memphis, Arkansas",0.461
+Rice,Scott Abell,14,57.1,8,37.5,25.0,25.0,50.0,6,33.3,50.0,16.7,50.0,Rice,0.429
+California,Tosh Lupoi,6,50.0,3,66.7,66.7,33.3,33.3,3,100.0,0.0,0.0,33.3,California,0.317
+Kansas State,Collin Klein,6,50.0,3,66.7,66.7,33.3,0.0,3,33.3,33.3,66.7,33.3,Kansas State,0.317
+Utah State,Bronco Mendenhall,19,47.4,9,22.2,0.0,44.4,55.6,10,30.0,50.0,30.0,20.0,"New Mexico, Utah State",0.387
+Fresno State,Matt Entz,9,44.4,4,0.0,0.0,25.0,25.0,5,40.0,0.0,40.0,40.0,Fresno State,0.32
+Kent State,Mark Carney,12,41.7,5,0.0,0.0,0.0,20.0,7,42.9,0.0,42.9,28.6,Kent State,0.322
+Miami (OH),Chuck Martin,20,40.0,8,25.0,25.0,37.5,62.5,12,41.7,16.7,33.3,41.7,Miami (OH),0.337
+Troy,Gerad Parker,20,40.0,8,50.0,37.5,50.0,37.5,12,25.0,8.3,33.3,25.0,Troy,0.337
+UAB,Alex Mortensen,8,37.5,3,33.3,0.0,33.3,66.7,5,40.0,20.0,20.0,20.0,UAB,0.277
+San José State,Ken Niumatalolo,22,36.4,8,12.5,12.5,62.5,37.5,14,42.9,42.9,28.6,38.5,"Navy, San José State",0.315
+Middle Tennessee,Derek Mason,17,35.3,6,33.3,16.7,33.3,33.3,11,27.3,30.0,18.2,63.6,Middle Tennessee,0.298
+South Carolina,Shane Beamer,26,34.6,9,33.3,22.2,66.7,55.6,17,5.9,29.4,52.9,26.7,South Carolina,0.307
+Temple,K.C. Keeler,26,34.6,9,11.1,11.1,55.6,55.6,17,52.9,35.3,17.6,29.4,"Sam Houston, Temple",0.307
+Georgia Tech,Brent Key,18,33.3,6,50.0,33.3,33.3,66.7,12,33.3,25.0,41.7,45.5,Georgia Tech,0.286
+North Dakota State,Tim Polasek,3,33.3,1,100.0,100.0,100.0,100.0,2,50.0,50.0,50.0,50.0,North Dakota State,0.222
+TCU,Sonny Dykes,25,32.0,8,50.0,37.5,87.5,87.5,17,23.5,47.1,58.8,52.9,TCU,0.286
+Bowling Green,Eddie George,13,30.8,4,0.0,0.0,50.0,50.0,9,22.2,22.2,44.4,55.6,Bowling Green,0.259
+Western Michigan,Lance Taylor,17,29.4,5,20.0,20.0,40.0,40.0,12,50.0,27.3,33.3,33.3,Western Michigan,0.258
+Washington,Jedd Fisch,28,28.6,8,37.5,25.0,50.0,37.5,20,20.0,45.0,45.0,35.0,"Arizona, Washington",0.262
+Clemson,Dabo Swinney,21,28.6,6,50.0,0.0,83.3,83.3,15,13.3,40.0,60.0,46.7,Clemson,0.256
+Cincinnati,Scott Satterfield,22,27.3,6,16.7,0.0,16.7,0.0,16,37.5,25.0,37.5,43.8,"Louisville, Cincinnati",0.248
+UTEP,Scotty Walden,20,25.0,5,0.0,0.0,40.0,40.0,15,33.3,20.0,13.3,40.0,UTEP,0.23
+New Mexico State,Tony Sanchez,16,25.0,4,0.0,0.0,25.0,75.0,12,33.3,0.0,41.7,41.7,New Mexico State,0.227
+Delaware,Ryan Carty,12,25.0,3,66.7,33.3,100.0,100.0,9,22.2,44.4,55.6,55.6,Delaware,0.222
+Texas,Steve Sarkisian,12,25.0,3,33.3,33.3,100.0,100.0,9,22.2,33.3,88.9,55.6,Texas,0.222
+Northern Illinois,Rob Harley,4,25.0,1,0.0,0.0,0.0,0.0,3,100.0,33.3,0.0,33.3,Northern Illinois,0.203
+Wake Forest,Jake Dickert,25,24.0,6,83.3,66.7,50.0,60.0,19,26.3,47.4,68.4,57.9,"Washington State, Wake Forest",0.225
+Navy,Brian Newberry,21,23.8,5,40.0,40.0,20.0,80.0,16,31.2,50.0,62.5,56.2,Navy,0.222
+Georgia Southern,Clay Helton,26,23.1,6,83.3,50.0,100.0,83.3,20,40.0,35.0,65.0,70.0,Georgia Southern,0.219
+Oklahoma State,Eric Morris,22,22.7,5,20.0,20.0,40.0,40.0,17,41.2,35.3,29.4,35.3,"North Texas, Oklahoma State",0.215
+Louisiana Tech,Sonny Cumbie,31,22.6,7,14.3,14.3,14.3,28.6,24,29.2,13.0,45.8,41.7,Louisiana Tech,0.216
+Oregon,Dan Lanning,19,21.1,4,100.0,100.0,100.0,100.0,15,46.7,60.0,73.3,60.0,Oregon,0.201
+Eastern Michigan,Chris Creighton,24,20.8,5,0.0,0.0,20.0,40.0,19,26.3,10.5,57.9,57.9,Eastern Michigan,0.201
+Purdue,Barry Odom,20,20.0,4,50.0,0.0,50.0,25.0,16,31.2,68.8,37.5,37.5,"UNLV, Purdue",0.194
+NC State,Dave Doeren,26,19.2,5,60.0,60.0,80.0,80.0,21,28.6,47.6,42.9,42.9,NC State,0.189
+Nebraska,Matt Rhule,21,19.0,4,50.0,25.0,75.0,75.0,17,23.5,18.8,58.8,52.9,Nebraska,0.188
+Georgia State,Dell McGee,16,18.8,3,0.0,0.0,0.0,66.7,13,15.4,23.1,30.8,30.8,Georgia State,0.185
+Minnesota,P.J. Fleck,27,18.5,5,40.0,20.0,60.0,80.0,22,36.4,50.0,45.5,50.0,Minnesota,0.184
+Coastal Carolina,Ryan Beard,11,18.2,2,50.0,0.0,0.0,0.0,9,22.2,22.2,22.2,66.7,"Missouri State, Coastal Carolina",0.181
+Missouri,Eli Drinkwitz,23,17.4,4,25.0,25.0,50.0,75.0,19,16.7,61.1,52.6,52.6,Missouri,0.175
+Ohio State,Ryan Day,23,17.4,4,75.0,75.0,100.0,75.0,19,10.5,31.6,84.2,52.6,Ohio State,0.175
+Texas Tech,Joey McGuire,29,17.2,5,20.0,20.0,100.0,100.0,24,33.3,34.8,58.3,34.8,Texas Tech,0.174
+Arizona,Brent Brennan,18,16.7,3,0.0,0.0,33.3,66.7,15,40.0,46.7,40.0,40.0,"San José State, Arizona",0.171
+Florida State,Mike Norvell,18,16.7,3,0.0,0.0,33.3,0.0,15,26.7,30.8,40.0,53.3,Florida State,0.171
+Ohio,John Hauser,6,16.7,1,0.0,0.0,0.0,0.0,5,40.0,60.0,60.0,40.0,Ohio,0.174
+Florida International,Willie Simmons,13,15.4,2,50.0,50.0,100.0,50.0,11,27.3,63.6,36.4,63.6,Florida International,0.164
+Tennessee,Josh Heupel,13,15.4,2,0.0,0.0,100.0,100.0,11,9.1,45.5,63.6,54.5,Tennessee,0.164
+Tulsa,Tre Lamb,13,15.4,2,0.0,0.0,50.0,50.0,11,63.6,50.0,54.5,54.5,Tulsa,0.164
+Oklahoma,Brent Venables,20,15.0,3,33.3,33.3,100.0,100.0,17,29.4,35.3,82.4,68.8,Oklahoma,0.158
+Kennesaw State,Jerry Mack,14,14.3,2,50.0,50.0,50.0,100.0,12,33.3,25.0,58.3,50.0,Kennesaw State,0.156
+Michigan State,Pat Fitzgerald,14,14.3,2,50.0,50.0,0.0,100.0,12,33.3,8.3,25.0,25.0,"Northwestern, Michigan State",0.156
+New Mexico,Jason Eck,7,14.3,1,0.0,0.0,100.0,100.0,6,33.3,33.3,16.7,33.3,New Mexico,0.163
+Akron,Joe Moorhead,30,13.3,4,75.0,75.0,0.0,25.0,26,30.8,26.9,38.5,50.0,Akron,0.143
+Buffalo,Pete Lembo,15,13.3,2,100.0,100.0,50.0,50.0,13,7.7,53.8,38.5,38.5,Buffalo,0.149
+Pittsburgh,Pat Narduzzi,25,12.0,3,33.3,33.3,100.0,100.0,22,18.2,22.7,72.7,63.6,Pittsburgh,0.134
+Baylor,Dave Aranda,27,11.1,3,66.7,66.7,66.7,66.7,24,29.2,37.5,50.0,50.0,Baylor,0.127
+Maryland,Mike Locksley,27,11.1,3,100.0,66.7,66.7,100.0,24,16.7,54.2,25.0,29.2,Maryland,0.127
+Charlotte,Tim Albin,29,10.3,3,66.7,66.7,100.0,66.7,26,19.2,36.0,46.2,38.5,"Ohio, Charlotte",0.12
+Duke,Manny Diaz,20,10.0,2,50.0,50.0,100.0,100.0,18,44.4,50.0,33.3,41.2,Duke,0.123
+Marshall,Tony Gibson,10,10.0,1,0.0,0.0,0.0,0.0,9,22.2,33.3,66.7,44.4,Marshall,0.135
+San Diego State,Sean Lewis,22,9.1,2,50.0,50.0,50.0,100.0,20,45.0,20.0,50.0,60.0,"Kent State, San Diego State",0.115
+Central Michigan,Matt Drinkall,11,9.1,1,100.0,100.0,100.0,0.0,10,30.0,10.0,30.0,30.0,Central Michigan,0.128
+Texas A&M,Mike Elko,23,8.7,2,50.0,50.0,100.0,100.0,21,23.8,33.3,52.4,52.4,"Duke, Texas A&M",0.111
+Hawai'i,Timmy Chang,25,8.0,2,0.0,0.0,0.0,0.0,23,30.4,40.9,39.1,34.8,Hawai'i,0.104
+Illinois,Bret Bielema,25,8.0,2,0.0,0.0,50.0,50.0,23,31.8,54.5,56.5,56.5,Illinois,0.104
+Liberty,Jamey Chadwell,25,8.0,2,0.0,0.0,0.0,50.0,23,39.1,40.9,52.2,56.5,"Coastal Carolina, Liberty",0.104
+Rutgers,Greg Schiano,26,7.7,2,50.0,50.0,50.0,100.0,24,29.2,33.3,54.2,52.2,Rutgers,0.101
+UL Monroe,Bryant Vincent,28,7.1,2,0.0,0.0,50.0,50.0,26,23.1,15.4,34.6,50.0,"UAB, UL Monroe",0.095
+Georgia,Kirby Smart,15,6.7,1,0.0,0.0,100.0,0.0,14,35.7,57.1,78.6,50.0,Georgia,0.106
+Syracuse,Fran Brown,15,6.7,1,100.0,0.0,100.0,100.0,14,35.7,35.7,35.7,57.1,Syracuse,0.106
+Colorado State,Jim Mora,31,6.5,2,0.0,0.0,50.0,0.0,29,37.9,37.9,41.4,37.9,"UConn, Colorado State",0.088
+South Alabama,Major Applewhite,17,5.9,1,0.0,0.0,100.0,100.0,16,37.5,43.8,50.0,31.2,South Alabama,0.098
+Auburn,Alex Golesh,18,5.6,1,0.0,0.0,100.0,100.0,17,41.2,47.1,58.8,62.5,"South Florida, Auburn",0.094
+Virginia Tech,James Franklin,18,5.6,1,0.0,0.0,100.0,0.0,17,17.6,41.2,70.6,41.2,"Penn State, Virginia Tech",0.094
+James Madison,Billy Napier,21,4.8,1,100.0,100.0,0.0,0.0,20,30.0,45.0,65.0,50.0,"Florida, James Madison",0.084
+Alabama,Kalen DeBoer,24,4.2,1,100.0,100.0,100.0,100.0,23,8.7,47.8,60.9,52.2,"Washington, Alabama",0.076
+Colorado,Deion Sanders,25,4.0,1,0.0,0.0,0.0,0.0,24,41.7,37.5,33.3,37.5,Colorado,0.074
+Florida,Jon Sumrall,25,4.0,1,0.0,0.0,0.0,0.0,24,12.5,52.2,79.2,62.5,"Troy, Tulane, Florida",0.074
+Kansas,Lance Leipold,25,4.0,1,0.0,0.0,0.0,100.0,24,29.2,69.6,62.5,54.2,Kansas,0.074
+Memphis,Charles Huff,25,4.0,1,0.0,0.0,100.0,100.0,24,33.3,25.0,50.0,54.2,"Marshall, Southern Miss, Memphis",0.074
+Old Dominion,Ricky Rahne,26,3.8,1,0.0,0.0,0.0,100.0,25,36.0,32.0,24.0,52.0,Old Dominion,0.072
+Virginia,Tony Elliott,26,3.8,1,0.0,0.0,100.0,0.0,25,20.0,36.0,28.0,33.3,Virginia,0.072
+Wisconsin,Luke Fickell,26,3.8,1,0.0,0.0,100.0,100.0,25,24.0,28.0,52.0,44.0,"Cincinnati, Wisconsin",0.072
+Penn State,Matt Campbell,27,3.7,1,0.0,0.0,100.0,0.0,26,19.2,34.6,53.8,42.3,"Iowa State, Penn State",0.07
+Air Force,Troy Calhoun,31,0.0,0,,,,,31,41.9,45.2,41.9,35.5,Air Force,0.037
+Houston,Willie Fritz,29,0.0,0,,,,,29,31.0,28.6,55.2,51.7,"Tulane, Houston",0.039
+Army,Jeff Monken,28,0.0,0,,,,,28,35.7,57.1,71.4,60.7,Army,0.04
+Louisiana,Michael Desormeaux,28,0.0,0,,,,,28,25.0,39.3,60.7,57.1,Louisiana,0.04
+Indiana,Curt Cignetti,27,0.0,0,,,,,27,7.4,55.6,77.8,51.9,"James Madison, Indiana",0.041
+Michigan,Kyle Whittingham,26,0.0,0,,,,,26,15.4,23.1,61.5,46.2,"Utah, Michigan",0.042
+UTSA,Jeff Traylor,25,0.0,0,,,,,25,33.3,29.2,60.0,60.0,UTSA,0.044
+Arizona State,Kenny Dillingham,24,0.0,0,,,,,24,33.3,30.4,54.2,54.2,Arizona State,0.045
+Louisville,Jeff Brohm,24,0.0,0,,,,,24,25.0,47.8,54.2,45.8,"Purdue, Louisville",0.045
+UConn,Jason Candle,23,0.0,0,,,,,23,30.4,30.4,65.2,60.9,"Toledo, UConn",0.046
+West Virginia,Rich Rodriguez,23,0.0,0,,,,,23,43.5,30.4,39.1,34.8,"Jacksonville State, West Virginia",0.046
+Vanderbilt,Clark Lea,22,0.0,0,,,,,22,45.5,47.6,50.0,36.4,Vanderbilt,0.048
+Tulane,Will Hall,21,0.0,0,,,,,21,33.3,4.8,23.8,40.0,"Southern Miss, Tulane",0.05
+Nevada,Jeff Choate,20,0.0,0,,,,,20,50.0,25.0,30.0,35.0,Nevada,0.051
+BYU,Kalani Sitake,19,0.0,0,,,,,19,26.3,23.5,57.9,57.9,BYU,0.053
+Boise State,Spencer Danielson,19,0.0,0,,,,,19,21.1,36.8,78.9,52.6,Boise State,0.053
+Miami,Mario Cristobal,19,0.0,0,,,,,19,15.8,52.6,57.9,47.4,Miami,0.053
+Arkansas State,Butch Jones,18,0.0,0,,,,,18,27.8,27.8,50.0,44.4,Arkansas State,0.055
+Northwestern,David Braun,18,0.0,0,,,,,18,38.9,16.7,38.9,50.0,Northwestern,0.055
+Notre Dame,Marcus Freeman,16,0.0,0,,,,,16,18.8,46.7,87.5,50.0,Notre Dame,0.06
+UCF,Scott Frost,16,0.0,0,,,,,16,12.5,43.8,37.5,43.8,"Nebraska, UCF",0.06
+Southern Miss,Blake Anderson,15,0.0,0,,,,,15,40.0,26.7,26.7,53.3,"Utah State, Southern Miss",0.063
+Iowa State,Jimmy Rogers,14,0.0,0,,,,,14,42.9,42.9,50.0,57.1,"Washington State, Iowa State",0.065
+UCLA,Bob Chesney,14,0.0,0,,,,,14,0.0,30.8,85.7,57.1,"James Madison, UCLA",0.065
+Wyoming,Jay Sawvel,14,0.0,0,,,,,14,64.3,42.9,14.3,21.4,Wyoming,0.065
+App State,Dowell Loggains,13,0.0,0,,,,,13,38.5,38.5,30.8,38.5,App State,0.068
+Jacksonville State,Charles Kelly,13,0.0,0,,,,,13,38.5,23.1,46.2,38.5,Jacksonville State,0.068
+Boston College,Bill O'Brien,12,0.0,0,,,,,12,25.0,33.3,33.3,66.7,Boston College,0.072
+North Carolina,Bill Belichick,12,0.0,0,,,,,12,58.3,18.2,25.0,41.7,North Carolina,0.072
+Ball State,Mike Uremovich,10,0.0,0,,,,,10,20.0,0.0,10.0,40.0,Ball State,0.08
+Sam Houston,Phil Longo,8,0.0,0,,,,,8,37.5,37.5,12.5,25.0,Sam Houston,0.09
+Kentucky,Will Stein,6,0.0,0,,,,,6,33.3,66.7,66.7,50.0,Kentucky,0.103
+Sacramento State,Alonzo Carter,6,0.0,0,,,,,6,16.7,0.0,16.7,16.7,Sacramento State,0.103
+Massachusetts,Joe Harasymiak,5,0.0,0,,,,,5,40.0,40.0,80.0,60.0,Massachusetts,0.111
+Toledo,Mike Jacobs,5,0.0,0,,,,,5,60.0,20.0,80.0,60.0,Toledo,0.111
+Utah,Morgan Scalley,5,0.0,0,,,,,5,60.0,60.0,100.0,100.0,Utah,0.111
+South Florida,Brian Hartline,4,0.0,0,,,,,4,25.0,0.0,50.0,50.0,South Florida,0.12
+UNLV,Dan Mullen,4,0.0,0,,,,,4,25.0,25.0,25.0,50.0,UNLV,0.12
+Washington State,Kirby Moore,4,0.0,0,,,,,4,25.0,25.0,50.0,50.0,Washington State,0.12
+Oregon State,JaMarcus Shephard,3,0.0,0,,,,,3,0.0,33.3,66.7,66.7,Oregon State,0.131
+Stanford,Tavita Pritchard,3,0.0,0,,,,,3,66.7,66.7,33.3,33.3,Stanford,0.131
